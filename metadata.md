@@ -1,0 +1,25 @@
+---
+cloud: Experience Cloud
+solution: CX Enterprise
+type: Documentation
+mini-toc-levels: 2
+usetq: true
+git-repo: https://github.com/AdobeDocs/coworker.en
+index: true
+nudge: true
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
+source-git-commit: 8c140f50c3ca4d2fc26b7d7293f70709e358b431
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 100%
+---
+
+# 供内部使用的元数据
+
+metadata.md 文件包含存储库级别的元数据，这些元数据会被传送到存储库中的用户指南 TOC.md 文件。 如果要更改任何用户指南的 metadata.md 内容，请在任何 TOC.md 文件中进行更改。
+
+查看[元数据](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=zh-hans)以获取&#x200B;**解决方案**、**产品**&#x200B;和&#x200B;**类型**&#x200B;的有效值列表。
