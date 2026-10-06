@@ -25,7 +25,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->可通过右上角的同事图标![同事图标](./assets/icon-coworker.png)访问产品内体验。 沉浸式体验详细信息概述如下[](#immersive)。
+>可通过右上角的同事图标![同事图标](./assets/icon-coworker.png)访问产品内体验。 沉浸式体验详细信息概述如下[&#128279;](#immersive)。
 
 下表捕获这些体验何时可用于每个CX Enterprise应用程序。
 

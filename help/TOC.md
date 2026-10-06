@@ -77,7 +77,7 @@ ht-degree: 10%
   - 快速入门 {#mcp-get-started}
     - {hide-from-toc}[访问CX Coworker网关工具](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/mcp/access)
     - {hide-from-toc}[安装CX Coworker Gateway](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/mcp/install)
-    - CX Coworker Gateway中的{hide-from-toc}[会话上下文工具](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/mcp/context-tools)
+    - {hide-from-toc}[CX Coworker Gateway中的会话上下文工具](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/mcp/context-tools)
   - 产品工具 {#mcp-product-tools}
     - {hide-from-toc}[Real-Time CDP工具](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/mcp/rtcdp-mcp)
     - {hide-from-toc}[Experience Platform工具](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/mcp/aep-mcp)

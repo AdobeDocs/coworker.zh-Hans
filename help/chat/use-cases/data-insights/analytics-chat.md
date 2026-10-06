@@ -146,7 +146,7 @@ Co-worker创建可视化图表后，您可以在Analysis Workspace中打开该�
 
 要在新的Analysis Workspace项目中打开可视化图表，请执行以下操作：
 
-1. 选择“在CJA中分析”[!UICONTROL ****]，位于在同事中创建的任何可视化图表旁边。
+1. 选择“在CJA中分析”[!UICONTROL **&#x200B;**]，位于在同事中创建的任何可视化图表旁边。
 
 1. 在Customer Journey Analytics中打开可视化图表后，您可以使用Analysis Workspace拖放浏览器界面进行修改、进一步构建分析、创建受众等等。 您甚至可以与所选的任何人共享您的Workspace项目。
 
