@@ -8,7 +8,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: dbee38135a5491fd21b65fdbb70ba60d949d7560
+source-git-commit: 12ee914ed944c82694b9373f611e19cf040e2229
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 4%
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 开始使用同事聊天界面。 本指南涵盖方方面面，从访问应用程序、导航工作区到充分利用对话、管理历史记录和定制设置。
 
->[!VIDEO](https://video.tv.adobe.com/v/3498575?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 访问同事聊天
 
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->可通过右上角的同事图标![同事图标](./assets/icon-coworker.png)访问产品内体验。 沉浸式体验详细信息概述如下[&#128279;](#immersive)。
+>可通过右上角的同事图标![同事图标](./assets/icon-coworker.png)访问产品内体验。 沉浸式体验详细信息概述如下[](#immersive)。
 
 下表捕获这些体验何时可用于每个CX Enterprise应用程序。
 
@@ -36,7 +36,7 @@ ht-degree: 4%
 | CJA | 现在可用 | 即将推出 |
 | Workfront | 现在可用 | 即将推出：<br><br>* 2026年9月初在预览实例中为符合条件的Workfront系统管理员推荐<br><br>* 2026年9月中旬在生产实例中为符合条件的快速发布Workfront客户推荐<br><br>* 2026年10月中旬在生产实例中为符合条件的季度发布Workfront客户推荐 |
 | 目标 | 现在可用 | 现在可用 |
-| AEM | 现在可用 | 即将推出 |
+| AEM | 现在可用 | 现在可用 |
 | Marketo Engage | 现在可用 | 即将推出 |
 
 ### 沉浸式体验 {#immersive}
