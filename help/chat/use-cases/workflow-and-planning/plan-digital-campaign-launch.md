@@ -22,7 +22,7 @@ ht-degree: 0%
 
 为新资产规划数字发布通常意味着吸引可能需要几周时间的分析、受众、创意和Web团队参与。 在此视频中，了解Adobe Enterprise Co-worker如何通过一次对话为迈阿密的新资产规划数字发布计划。 同事从第一条消息中了解目标和历史，将第一方Experience Platform数据与Semrush的实时市场情报相结合，然后构建受众、客户历程、内容实验和登陆页面，同时治理、同意和业务规则在需要时通过人工审查保持有效。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503873?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503881?captions=chi_hans&learn=on)
 
 ## 优先考虑您的工作并阐明目标
 

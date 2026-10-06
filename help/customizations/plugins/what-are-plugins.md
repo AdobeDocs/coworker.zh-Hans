@@ -17,7 +17,7 @@ ht-degree: 4%
 
 此视频介绍插件并介绍它们如何通过新功能扩展[!DNL Coworker]。 您将了解什么是插件，它包含哪些组件，插件与技能和MCP服务器有何关系，以及如何从工作区安装、使用和删除插件。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503656/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503665/?captions=chi_hans&learn=on&enablevpops)
 
 ## 什么是插件？
 

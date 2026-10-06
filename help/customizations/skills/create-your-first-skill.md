@@ -31,7 +31,7 @@ ht-degree: 0%
 
 结果是一个可重复的工作流，只需一个简单的提示即可按需执行。
 
->[!VIDEO](https://video.tv.adobe.com/v/3502323/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502340/?captions=chi_hans&learn=on&enablevpops)
 
 ## 将分析变成可重复使用的技能
 

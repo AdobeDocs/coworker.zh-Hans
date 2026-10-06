@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Memory让同事可以在不同会话间传递所选信息，而不是每次开始新对话时重复相同的说明，从而帮助提供更快、更相关的响应。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503657/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503674/?captions=chi_hans&learn=on&enablevpops)
 
 ## 了解内存
 

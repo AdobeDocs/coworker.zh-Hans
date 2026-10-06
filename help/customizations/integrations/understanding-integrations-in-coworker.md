@@ -17,4 +17,4 @@ ht-degree: 0%
 
 快速浏览并概述Co-worker中的集成，包括什么是集成、为何使用集成以及如何使用界面。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503744/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503753/?captions=chi_hans&learn=on&enablevpops)

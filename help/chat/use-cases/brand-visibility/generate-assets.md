@@ -27,4 +27,4 @@ Co-worker简化了为社交媒体和其他渠道创建品牌资产的过程。 �
 
 Co-worker还提供了进一步自定义的灵活性。 您可以修改资源、创建变体或调整内容以适合不同的格式，例如Instagram故事。 通过这种方法，您可以在同事管理技术细节的同时专注于目标。
 
->[!VIDEO](https://video.tv.adobe.com/v/3502692/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502719/?captions=chi_hans&learn=on&enablevpops)

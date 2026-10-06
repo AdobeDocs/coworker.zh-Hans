@@ -21,7 +21,7 @@ ht-degree: 1%
 
 在此视频中，您将了解自定义同事技能如何充当激活门，在受众向下游移动之前根据组织的激活标准自动验证受众。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503162/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503173/?captions=chi_hans&learn=on&enablevpops)
 
 ## 示例激活质量关卡技能
  

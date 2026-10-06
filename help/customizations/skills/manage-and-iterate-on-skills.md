@@ -17,7 +17,7 @@ ht-degree: 0%
 
 可重复使用的AI技能可帮助团队执行一致、可重复的任务。 但是，随着业务要求的发展，这些技能也需要发展。 此视频演示了管理以治理为中心的人工智能技能的整个生命周期的实用方法，从评估和改进到验证和弃用。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503566/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503574/?captions=chi_hans&learn=on)
 
 ## 基线为什么重要
 

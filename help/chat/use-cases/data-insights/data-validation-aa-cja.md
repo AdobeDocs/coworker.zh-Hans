@@ -45,7 +45,7 @@ Co-worker包括验证技能，允许您在从Adobe Analytics升级到Customer Jo
 
 您无需知道如何构建实施。 该技能会自动检测您的Customer Journey Analytics实施是使用Analytics Source Connector，还是使用Experience Platform Web SDK的新实施。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496846/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496865/?captions=chi_hans&learn=on&enablevpops)
 
 ## 启动验证会话
 
