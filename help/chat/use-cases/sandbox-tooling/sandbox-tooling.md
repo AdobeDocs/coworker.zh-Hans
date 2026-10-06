@@ -33,7 +33,7 @@ ht-degree: 1%
 - 访问要发现或迁移的对象。
 - CX Coworker中安装的Adobe CXO插件。
 
-有关安装插件的说明，请参阅[辅助进程UI指南](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)。
+有关安装插件的说明，请参阅[辅助进程UI指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)。
 
 ## 使用沙盒工具代理技能 {#use-sandbox-tooling-agentic-skills}
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 
    ![显示请求状态的“传输完成”页面。](./assets/sandbox-tooling/transfer-complete.png)
 
-有关使用CX Coworker的更多信息，请参阅[同事UI指南](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)。
+有关使用CX Coworker的更多信息，请参阅[同事UI指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)。
 
 ## 支持的用例 {#supported-use-cases}
 
@@ -108,5 +108,5 @@ ht-degree: 1%
 
 阅读本指南后，您应该了解如何使用沙盒工具代理技能在沙盒之间发现、打包和迁移受支持的对象。
 
-有关沙盒工具的详细信息，请参阅[沙盒工具指南](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling)。
+有关沙盒工具的详细信息，请参阅[沙盒工具指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/ui/sandbox-tooling)。
 
