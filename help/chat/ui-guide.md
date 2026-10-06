@@ -17,7 +17,7 @@ ht-degree: 4%
 
 开始使用同事聊天界面。 本指南涵盖方方面面，从访问应用程序、导航工作区到充分利用对话、管理历史记录和定制设置。
 
->[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498575?captions=chi_hans&learn=on)
 
 ## 访问同事聊天
 
