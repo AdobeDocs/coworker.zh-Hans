@@ -31,12 +31,12 @@ CARDS
    {title = Get started with CX Enterprise Coworker Chat}
    {description = Learn the value of CX Enterprise Coworker Chat and start executing use cases.}
    {cta = Watch}
-   {image = https://video.tv.adobe.com/v/3498558?format=jpeg}    
+   {image = https://video.tv.adobe.com/v/3498575?captions=chi_hans&format=jpeg}    
 *  https://experienceleague.adobe.com/zh-hans/playlists/coworker-customize-chat
     {title = Customize CX Enterprise Coworker Chat}
     {description = Learn how Coworker can be customized with reusable skills, enterprise integrations, plugins, and memory to deliver context-aware, personalized, and business-specific AI experiences that fits how your team works.}
     {cta = Watch}
-    {image = https://video.tv.adobe.com/v/3502323?format=jpeg}
+    {image = https://video.tv.adobe.com/v/3502340?captions=chi_hans&format=jpeg}
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
@@ -45,7 +45,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-get-started-with-chat" title="CX Enterprise Coworker Chat入门" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498558?format=jpeg" alt="CX Enterprise Coworker Chat入门"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498575?captions=chi_hans&format=jpeg" alt="CX Enterprise Coworker Chat入门"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -68,7 +68,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-customize-chat" title="自定义CX Enterprise Coworker Chat" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502323?format=jpeg" alt="自定义CX Enterprise Coworker Chat"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502340?captions=chi_hans&format=jpeg" alt="自定义CX Enterprise Coworker Chat"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
