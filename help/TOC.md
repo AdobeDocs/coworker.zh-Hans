@@ -5,11 +5,10 @@ user-guide-description: 了解Adobe CX Enterprise Coworker，它是一个AI支�
 description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中使用AI改善您的产品知识并获得运营见解。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-hide: true
-source-git-commit: e35e97f90153da41a9236a9fa761be65d3bd73c1
+source-git-commit: 8a3d0d693aebf0a40fcece3fde80558f6d02696c
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 19%
+source-wordcount: '228'
+ht-degree: 18%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -29,6 +28,8 @@ ht-degree: 19%
       - [升级时验证AA到CJA的数据](./chat/use-cases/data-insights/data-validation-aa-cja.md)
       - [验证CJA报表的数据集质量](./chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
       - [验证Experience Platform数据](./chat/use-cases/data-insights/data-validation-aep.md)
+    - 数据载入 {#data-onboarding}
+      - {hide-from-toc}[与同事一起载入数据](./agents/data-onboarding-skill.md)
     - 数据管理 {#data-management}
       - [管理数据湖保留](./chat/use-cases/data-management/manage-data-lake-retention.md)
     - 受众 {#audiences}
@@ -39,6 +40,7 @@ ht-degree: 19%
       - [创建忠诚度挑战并显示见解](./chat/use-cases/journeys/create-loyalty-challenge.md)
     - 优化 {#optimization}
       - [启动Target活动](./chat/use-cases/optimization/target.md)
+      - [加速试验](./chat/use-cases/optimization/accelerate-experimentation.md)
     - 沙盒工具 {#sandbox-tooling}
       - [沙盒工具代理技能](./chat/use-cases/sandbox-tooling/sandbox-tooling.md)
     - 警报 {#alerts}
