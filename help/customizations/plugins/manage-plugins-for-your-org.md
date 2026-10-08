@@ -54,7 +54,7 @@ ht-degree: 0%
 
 了解管理员如何使用批准的插件扩展Adobe同事聊天、管理市场以及管理对技能和连接工具的访问，同时保持与现有Adobe权限的一致性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3504182/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3504190/?captions=chi_hans&learn=on&enablevpops)
 
 ## 您将学习的内容
  

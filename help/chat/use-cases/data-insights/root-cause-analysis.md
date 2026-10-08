@@ -26,4 +26,4 @@ ht-degree: 0%
  
 使用自然语言，分析师和营销人员可以就数据提出问题、获得可视化结果、识别有意义的趋势并揭示驱动性能的因素，所有这些都可以在一条对话中完成。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496847/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496860/?captions=chi_hans&learn=on&enablevpops)
