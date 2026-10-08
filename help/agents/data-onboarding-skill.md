@@ -28,7 +28,7 @@ ht-degree: 2%
 - 访问Adobe CX Enterprise Coworker，并为您的组织启用Data Onboarding技能。
 - 在Adobe Experience Platform中创建架构的权限。
 
-有关安装插件的说明，请参阅[辅助进程UI指南](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)。
+有关安装插件的说明，请参阅[辅助进程UI指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)。
 
 ## 使用数据载入技能 {#use-the-data-onboarding-skill}
 
@@ -48,7 +48,7 @@ ht-degree: 2%
 
 1. 通过数据质量审查、语义扩充、架构映射和架构创建继续与同事对话，并随时确认每个步骤。
 
-有关使用CX Coworker的更多信息，请参阅[同事UI指南](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)。
+有关使用CX Coworker的更多信息，请参阅[同事UI指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)。
 
 ## 支持的用例 {#supported-use-cases}
 
@@ -78,4 +78,4 @@ Co-worker建议传入字段的语义含义，从而减少了将原始字段映�
 
 阅读本指南后，您应该了解如何从架构创建开始数据载入技能，以及它有助于您在CX Coworker中完成什么。
 
-有关Experience Platform UI过程和访问/资格方案，请参阅架构UI指南中的[使用AI载入数据](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#data-onboarding-skill)。
+有关Experience Platform UI过程和访问/资格方案，请参阅架构UI指南中的[使用AI载入数据](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/ui/resources/schemas#data-onboarding-skill)。
