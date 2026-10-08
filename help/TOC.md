@@ -6,10 +6,10 @@ description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 hide: true
-source-git-commit: 2d4922c334bcc2ec93dec46098a9c021623034ad
+source-git-commit: e35e97f90153da41a9236a9fa761be65d3bd73c1
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 10%
+source-wordcount: '220'
+ht-degree: 19%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -22,7 +22,9 @@ ht-degree: 10%
   - 用例 {#use-cases}
     - [同事聊天用例](./chat/use-cases/overview.md)
     - 数据分析 {#data-insights}
-      - [分析CJA数据](./chat/use-cases/data-insights/analytics-chat.md)
+      - {hide-from-toc}[概述](./chat/use-cases/data-insights/analytics-overview-v2.md)
+      - {hide-from-toc}[概述](./chat/use-cases/data-insights/analytics-overview.md)
+      - [快速入门](./chat/use-cases/data-insights/analytics-chat.md)
       - [探索趋势和根本原因](./chat/use-cases/data-insights/root-cause-analysis.md)
       - [升级时验证AA到CJA的数据](./chat/use-cases/data-insights/data-validation-aa-cja.md)
       - [验证CJA报表的数据集质量](./chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
@@ -42,9 +44,10 @@ ht-degree: 10%
     - 警报 {#alerts}
       - [客户警报技能](./chat/use-cases/customer-alerts/customer-alerts.md)
     - 品牌可见度 {#brand-visibility}
-      - [生成营销资产](./chat/use-cases/brand-visibility/generate-assets.md)
       - [品牌合规性检查](./chat/use-cases/brand-visibility/brand-compliance.md)
       - [创作AEM Sites页面](./chat/use-cases/brand-visibility/author-web-pages.md)
+      - [载入AEM Assets](./chat/use-cases/brand-visibility/onboard-aem-assets.md)
+      - [生成营销资产](./chat/use-cases/brand-visibility/generate-assets.md)
     - 工作流程和规划 {#workflow-and-planning}
       - [规划数字营销活动发布](./chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
 - 自定义 {#customizations}
@@ -58,9 +61,11 @@ ht-degree: 10%
     - [什么是集成？](./customizations/integrations/understanding-integrations-in-coworker.md)
   - 插件 {#plugins}
     - [什么是插件？](./customizations/plugins/what-are-plugins.md)
+    - [管理组织的插件](./customizations/plugins/manage-plugins-for-your-org.md)
   - 记忆 {#memory}
     - [什么是记忆？](./customizations/memory/what-is-memory.md)
 - 营销活动 {#campaigns}
+  - {hide-from-toc}[新团队体验](./campaigns/new-teams-experience.md)
   - [概述](./campaigns/overview.md)
   - [创建电子邮件营销活动](./campaigns/create-an-email-campaign.md)
   - [启动和管理营销活动](./campaigns/launch-manage-campaign.md)
@@ -71,18 +76,3 @@ ht-degree: 10%
     - [Marketo Engage](./campaigns/connectors/marketo.md)
     - [Hubspot](./campaigns/connectors/hubspot.md)
   - [发行说明](./campaigns/release-notes.md)
-- MCP {#mcp}
-  - {hide-from-toc}[Adobe CX Coworker网关](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/mcp/overview)
-  - {hide-from-toc}[Real-Time CDP MCP测试版](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/mcp/rtcdp-mcp)
-  - 快速入门 {#mcp-get-started}
-    - {hide-from-toc}[访问CX Coworker网关工具](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/mcp/access)
-    - {hide-from-toc}[安装CX Coworker Gateway](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/mcp/install)
-    - {hide-from-toc}[CX Coworker Gateway中的会话上下文工具](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/mcp/context-tools)
-  - 产品工具 {#mcp-product-tools}
-    - {hide-from-toc}[Real-Time CDP工具](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/mcp/rtcdp-mcp)
-    - {hide-from-toc}[Experience Platform工具](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/mcp/aep-mcp)
-    - {hide-from-toc}[Journey Optimizer工具](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/mcp/ajo-mcp)
-    - {hide-from-toc}[Customer Journey Analytics工具](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/mcp/cja-mcp)
-    - {hide-from-toc}[Adobe Analytics工具](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/mcp/analytics-mcp)
-    - [Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [目标](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp)
