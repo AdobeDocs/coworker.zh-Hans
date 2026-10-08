@@ -4,16 +4,16 @@ description: 了解可通过CX Coworker Gateway使用的Adobe Journey Optimizer�
 hide: true
 source-git-commit: 6c126810936bea3e883d74e6ff685991cb40cd4a
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '930'
 ht-degree: 2%
 ---
 # CX Coworker Gateway中的Adobe Journey Optimizer工具 {#ajo-mcp}
 
 使用Adobe Journey Optimizer产品工具从与MCP兼容的客户端检查营销活动、历程和渠道配置。 当您的组织已启用，并且您的用户帐户具有所需的Journey Optimizer权限时，可以通过[CX Coworker网关](overview.md)使用这些工具。
 
-有关详细信息，请参阅Adobe Journey Optimizer文档中的[使用MCP客户端](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/combine/ajo-mcp){target="_blank"}。
+有关详细信息，请参阅Adobe Journey Optimizer文档中的[使用MCP客户端](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/combine/ajo-mcp){target="_blank"}。
 
-如需创建、分析和模拟旅程的对话式代理体验，请改为查看[Journey Agent](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent)。
+如需创建、分析和模拟旅程的对话式代理体验，请改为查看[Journey Agent](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent)。
 
 >[!AVAILABILITY]
 >

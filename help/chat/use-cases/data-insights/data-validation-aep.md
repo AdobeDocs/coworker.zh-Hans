@@ -156,5 +156,5 @@ Adobe CX Enterprise Coworker包括数据验证技能，可检查Experience Platf
 
 * [升级时验证Adobe Analytics到Customer Journey Analytics的数据](./data-validation-aa-cja.md)
 * [使用Co-worker中的数据验证技能验证Customer Journey Analytics数据](./validate-dataset-quality-for-cja.md)
-* [验证数据（AI助手）](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/data-validation)
+* [验证数据（AI助手）](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/data-validation)
 * [信任您的Customer Journey Analytics报告：Adobe CX Enterprise Coworker中的数据验证技能](https://www.youtube.com/watch?v=gCSm_QYSYhk)（视频）

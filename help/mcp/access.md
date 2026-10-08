@@ -25,8 +25,8 @@ Adobe CX Enterprise通过单个MCP公开产品工具。 访问权由产品工具
 | Journey Optimizer | Beta | 有效的Journey Optimizer许可证、Adobe组织的Beta支持，以及查看营销活动、历程和渠道配置的权限。 |
 | Customer Journey Analytics | 可用 | 有效的Customer Journey Analytics许可证和产品配置文件，包括Adobe Admin Console中的&#x200B;**MCP访问**&#x200B;权限项。 产品权限仍可控制您可以访问或修改的数据视图、组件、报表、项目和受众。 |
 | Adobe Analytics | 可用 | 有效的Adobe Analytics许可证和产品配置文件，包括Adobe Admin Console中的&#x200B;**MCP访问**&#x200B;权限项。 产品权限仍可控制您可以访问或修改的报表包、组件、报表、区段、日期范围和项目。 |
-| Workfront | 预览 | 活动的Workfront许可证和Workfront MCP启用。 请参阅[Workfront MCP文档](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)。 |
-| 目标 | Beta | Adobe Experience Platform组织的有效Target许可证。 请参阅[Target MCP文档](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp-get-started)。 |
+| Workfront | 预览 | 活动的Workfront许可证和Workfront MCP启用。 请参阅[Workfront MCP文档](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)。 |
+| 目标 | Beta | Adobe Experience Platform组织的有效Target许可证。 请参阅[Target MCP文档](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp-get-started)。 |
 
 
 
