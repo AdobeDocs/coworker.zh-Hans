@@ -2,15 +2,15 @@
 title: 与同事一起规划Customer Journey Analytics或流媒体实施
 description: 了解同事的实施指南技能如何通过可导出的核对表，将发现对话转换为个性化、有序的实施计划。
 hold: true
-source-git-commit: 94cf399a48d13ee83c702804b50fdccd4baa9d71
+source-git-commit: 2bf31c1348054a16ba7e7c0c26c0ff913634aa27
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1239'
 ht-degree: 1%
 ---
 
 # 与同事一起规划实施
 
-合作者包括五种实施指南技能，每种产品表面各一种：Customer Journey Analytics、Adobe Analytics到Customer Journey Analytics的升级、Content Analytics (ACA)、Marketing Campaign Analytics (MCA)和流媒体。 每项技能都可以将简短的调查对话转变为个性化、依赖性感知的实施计划，并提供交互式核对清单和随时可用的导出，所有这些都可以在一个同事聊天对话中完成。
+Adobe CX Enterprise Coworker包括五种实施指南技能，每种产品表面各一种：Customer Journey Analytics、Adobe Analytics到Customer Journey Analytics的升级、Content Analytics (ACA)、Marketing Campaign Analytics (MCA)和流媒体。 每项技能都可以将简短的调查对话转变为个性化、依赖性感知的实施计划，并提供交互式核对清单和随时可用的导出，所有这些都可以在一个同事聊天对话中完成。
 
 如果您正在站起来或迁移到其中任何产品，则可以使用这些技能获得有序的分步计划，而无需手动研究Adobe的实施要求或从头开始构建项目计划。
 
