@@ -2,15 +2,15 @@
 title: 与同事验证您的流媒体实施
 description: 了解同事的流媒体验证技能如何检查您的配置、会话和日志，以确认您的实施正确跟踪。
 hold: true
-source-git-commit: 94cf399a48d13ee83c702804b50fdccd4baa9d71
+source-git-commit: 2bf31c1348054a16ba7e7c0c26c0ff913634aa27
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1304'
 ht-degree: 0%
 ---
 
 # 与同事验证您的流媒体实施
 
-Co-worker包括“流媒体验证”技能，可检查您在Edge Network上实施的Adobe Streaming Media(Video and Audio Analytics)，以馈送Customer Journey Analytics和/或Adobe Analytics。 您将获得一个验证报告，而不是手动交叉引用Assurance、数据集配置、XDM架构字段组、Customer Journey Analytics数据视图设置和原始网络日志。
+Adobe CX Enterprise Coworker包括“流媒体验证”技能，可检查您在Edge Network上实施的Adobe Streaming Media(Video and Audio Analytics)，以馈送Customer Journey Analytics和/或Adobe Analytics。 您将获得一个验证报告，而不是手动交叉引用Assurance、数据集配置、XDM架构字段组、Customer Journey Analytics数据视图设置和原始网络日志。
 
 如果您要实施流媒体跟踪或排除流媒体跟踪故障，则可以使用此技能确认您的实施已正确配置、按预期收集数据并捕获您打算跟踪的内容，所有这些都可以在一个“同事聊天”对话中完成。
 

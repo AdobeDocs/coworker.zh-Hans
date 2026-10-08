@@ -8,16 +8,16 @@ doc-type: Feature Video
 duration: 330
 last-substantial-update: 2026-09-16
 jira: KT-22622
-source-git-commit: dbee38135a5491fd21b65fdbb70ba60d949d7560
+source-git-commit: 2bf31c1348054a16ba7e7c0c26c0ff913634aa27
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '628'
 ht-degree: 0%
 ---
 # 使用[!DNL Coworker]中的数据验证技能验证Customer Journey Analytics数据
 
 数据质量是Adobe Customer Journey Analytics (CJA)中准确报表的基础。 在构建量度、功能板、区段或客户历程之前，了解底层Adobe Experience Platform (AEP)数据是否可信至关重要。
 
-在本视频中，您将了解如何使用Co-worker **中的**&#x200B;数据验证技能来快速评估为Customer Journey Analytics实施提供支持的数据集的质量，而无需编写查询或手动检查数据。
+在本视频中，您将了解如何使用Adobe CX Enterprise Coworker中的&#x200B;**数据验证技能**&#x200B;快速评估为Customer Journey Analytics实施提供支持的数据集的质量，而无需编写查询或手动检查数据。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3503519/?learn=on&enablevpops)
 

@@ -10,15 +10,15 @@ jira: PLAT-302857
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: dbee38135a5491fd21b65fdbb70ba60d949d7560
+source-git-commit: 2bf31c1348054a16ba7e7c0c26c0ff913634aa27
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1058'
 ht-degree: 0%
 ---
 
 # 与同事验证Experience Platform数据
 
-Co-worker包括数据验证技能，该技能可检查Experience Platform数据集的数据质量。 使用它来对数据集运行统计和语义验证，分析数据集字段，并识别数据质量问题，所有这些操作都通过一个同事聊天对话进行。
+Adobe CX Enterprise Coworker包括数据验证技能，可检查Experience Platform数据集的数据质量。 使用它来对数据集运行统计和语义验证，分析数据集字段，并识别数据质量问题，所有这些操作都通过一个同事聊天对话进行。
 
 数据工程师、数据管理员和实施工程师使用它进行快速质量检查，而无需SQL查询或复杂的架构层次结构。
 
@@ -157,4 +157,4 @@ Co-worker包括数据验证技能，该技能可检查Experience Platform数据�
 * [升级时验证Adobe Analytics到Customer Journey Analytics的数据](./data-validation-aa-cja.md)
 * [使用Co-worker中的数据验证技能验证Customer Journey Analytics数据](./validate-dataset-quality-for-cja.md)
 * [验证数据（AI助手）](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/data-validation)
-* [信任您的Customer Journey Analytics报告：Adobe CX Coworker中的数据验证技能](https://www.youtube.com/watch?v=gCSm_QYSYhk)（视频）
+* [信任您的Customer Journey Analytics报告：Adobe CX Enterprise Coworker中的数据验证技能](https://www.youtube.com/watch?v=gCSm_QYSYhk)（视频）

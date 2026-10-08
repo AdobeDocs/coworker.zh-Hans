@@ -14,9 +14,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: dbee38135a5491fd21b65fdbb70ba60d949d7560
+source-git-commit: 2bf31c1348054a16ba7e7c0c26c0ff913634aa27
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1530'
 ht-degree: 0%
 ---
 # 从Adobe Analytics升级到Customer Journey Analytics时与同事验证数据
@@ -25,7 +25,7 @@ ht-degree: 0%
 > 
 >只有在完成所有先前的升级步骤后，才应执行本页上的步骤。 您可以执行推荐的升级步骤（为大多数组织推荐），也可以使用《Customer Journey Analytics升级指南》执行为您的组织动态生成的步骤。 <ul><li>**建议的升级步骤** （建议大多数组织使用）<p>一组导致实现理想Customer Journey Analytics的步骤。</p><p>有关详细信息，请参阅[从Adobe Analytics升级到Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations)。</p></li><li>**Customer Journey Analytics升级指南** （根据贵组织的特定需求定制的自定义步骤）<p>提供了新的升级指南，可动态生成针对贵组织和独特环境定制的升级步骤。</p><p>要从Customer Journey Analytics访问指南，请选择&#x200B;**[!UICONTROL Workspace]**&#x200B;选项卡，然后在左侧面板中选择&#x200B;**[!UICONTROL 升级到Customer Journey Analytics]**。 按照屏幕上的说明操作。</p></li></ul>
 
-Co-worker包括验证技能，允许您在从Adobe Analytics升级到Customer Journey Analytics时验证数据。 数据验证在单个会话中完成。
+Adobe CX Enterprise Coworker包括验证技能，允许您在从Adobe Analytics升级到Customer Journey Analytics时验证数据。 数据验证在单个会话中完成。
 
 此技能会自动比较：
 
