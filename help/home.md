@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: ee990126b1447f2eb2634761d27358f9d2e4586d
+source-git-commit: 0bdba61cab438bc8e3ad4f7ca04f1df2cd3711b7
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '800'
 ht-degree: 15%
 ---
 # CX Enterprise Coworker概述 {#overview}
@@ -155,9 +155,9 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-## 同事团队（以前称为“营销活动”）
+## 同事营销活动
 
-同事团队是小型敏捷团队的一项模板化功能，可用于站起来执行活动。
+同事营销活动是小型敏捷团队的一项模板化功能，可用于站起来执行营销活动。
 
 * [概述](./campaigns/overview.md)
 * [创建电子邮件营销活动](./campaigns/create-an-email-campaign.md)
