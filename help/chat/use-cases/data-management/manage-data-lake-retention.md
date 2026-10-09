@@ -16,7 +16,7 @@ ht-degree: 1%
 
 使用CX Coworker了解沙盒中Experience Event数据的价值，并确定可能受益于优化的数据。 您可以从广泛的请求开始，例如请求同事优化沙盒数据或清理数据集。 Co-worker使用Data Management Agent公开值得调查的数据集、分析数据集的使用积极性、对保留期的影响进行建模，并在适当时帮助您管理其数据湖保留策略。
 
->[!VIDEO](https://video.tv.adobe.com/v/3504095?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3504104?captions=chi_hans&learn=on)
 
 ## 开始之前 {#before-you-begin}
 
