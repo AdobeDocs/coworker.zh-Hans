@@ -1,7 +1,13 @@
 ---
 title: 管理数据湖保留
 description: 了解如何使用CX Coworker识别值得优化的体验事件数据，分析数据集使用情况和保留影响，以及管理数据湖保留策略。
-source-git-commit: dbee38135a5491fd21b65fdbb70ba60d949d7560
+role: Developer
+level: Beginner, Intermediate
+doc-type: Feature Video
+duration: 160
+last-substantial-update: 2026-10-09
+jira: KT-22762
+source-git-commit: 7ae11e6865d847c6a3c316ffa26b2e4303f7e40d
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 1%
@@ -9,6 +15,8 @@ ht-degree: 1%
 # 管理数据湖保留
 
 使用CX Coworker了解沙盒中Experience Event数据的价值，并确定可能受益于优化的数据。 您可以从广泛的请求开始，例如请求同事优化沙盒数据或清理数据集。 Co-worker使用Data Management Agent公开值得调查的数据集、分析数据集的使用积极性、对保留期的影响进行建模，并在适当时帮助您管理其数据湖保留策略。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504104?captions=chi_hans&learn=on)
 
 ## 开始之前 {#before-you-begin}
 
