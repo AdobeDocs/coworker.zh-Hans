@@ -7,24 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 1071cb1d9d08d89592f14f05ec9e32087ad937f3
+source-git-commit: cd9cf5d6dd6e24274ea814a87509a427b9cfd394
 workflow-type: tm+mt
-source-wordcount: '7196'
+source-wordcount: '7135'
 ht-degree: 6%
 ---
 # 同事聊天用例 {#use-cases}
 
 Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experience Platform]数据，而不是手动导航多个UI或编写查询。 此页面按工作区域整理了从业人员最依赖的用例目录：数据分析、受众、历程、忠诚度、基本元素和沙盒工具。 每个条目都包括它调用的技能、与它一起使用的应用程序以及示例提示，您可以复制、适应自己的数据，并通过对话进行细化。
-
->[!NOTE]
->
->即将推出：
->
->通过CX Enterprise Coworker推出的新AEM代理功能，旨在帮助您更快完成更多工作。
->
->所有符合条件的客户都可以在Co-worker中以滚动方式访问Adobe Experience Manager代理功能。
->
->另请参阅AEM中的[AI - AEM中的代理功能概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)。
 
 ## 品牌体验
 
