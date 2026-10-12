@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: cd9cf5d6dd6e24274ea814a87509a427b9cfd394
+source-git-commit: fca51b8777f14bbfa1469c66f04e297867a96de6
 workflow-type: tm+mt
-source-wordcount: '7135'
+source-wordcount: '7646'
 ht-degree: 6%
 ---
 # 同事聊天用例 {#use-cases}
@@ -221,6 +221,27 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 **相关信息**
 
 * [内容管理的同事](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"}提供了有关Adobe Journey Optimizer中的内容管理工具和可用技能的详细信息。
+
+## Campaign v8
+
+在Adobe Campaign v8中，使用同事聊天查找和更新投放、管理资源、探索数据模型以及检查、验证工作流并进行故障诊断。
+
+| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| --- | --- | --- | --- | --- |
+| 查找和检查投放 | 按名称、文件夹、渠道或状态搜索投放，检索投放的完整详细信息（包括渠道内容和SMTP配置），浏览可重用电子邮件内容模板，以及读取内置投放报告 | `find_delivery`, `describe_delivery`, `find_content_template`, `read_delivery_indicator` | Adobe Campaign v8 | “查找名称中包含‘新闻稿’的电子邮件内容模板。” · “向我显示草稿电子邮件投放。” · “本月有多少投放失败？” · “此投放使用什么主题和发件人？” |
+| 创建和更新投放 | 从渠道模板和命名内容创建投放或模板，并编辑现有投放的标签和每渠道消息内容 | `create_delivery`, `update_delivery` | Adobe Campaign v8 | “使用我的新闻稿内容模板创建电子邮件。” · “更改夏季发布电子邮件的主题。” ·“替换此投放的HTML内容。” |
+| 准备投放而不发送 | 无需广播投放即可解析目标和呈现个性化 | `prepare_delivery` | Adobe Campaign v8 | “准备夏季发布投放。” · “对此投放运行准备，但不发送。” |
+| 配置电子邮件SMTP和Web分析设置 | 设置电子邮件投放的SMTP标头设置、Web分析帐户和跟踪标记 | `update_email_smtp_config`, `update_email_web_analytics` | Adobe Campaign v8 |  |
+| 管理资源和附件 | 将文件作为资源上传，读取其元数据和公共URL，将私有资源设为公共，并将资源作为实际附件链接到投放 | `upload_asset`, `get_asset_url`, `publish_asset`, `attach_asset` | Adobe Campaign v8 | “上传此图像，以便我能够在电子邮件中使用它。” · “给我我上传图像的公共URL。” · “将我上传的PDF附加到Summer Launch投放。” |
+| 检查活动 | 搜索活动和模板，并获取活动的完整详细信息，包括其子工作流和投放 | `find_campaign`, `describe_campaign` | Adobe Campaign v8 |  |
+| 了解和验证工作流 | 搜索工作流、汇总工作流或深入了解其活动和投放接触点，并静态验证工作流定义 | `find_workflow`, `describe_workflow`, `validate_workflow` | Adobe Campaign v8 | “解释欢迎工作流程。” · “此工作流使用了哪些投放？” · “验证欢迎工作流程。” |
+| 控制工作流 | 通过生命周期命令（启动、暂停、停止、恢复或唤醒）驱动工作流，并在工作流中重新配置投放活动 | `control_workflow`, `update_workflow_delivery_activity` | Adobe Campaign v8 | “启动欢迎工作流程。” · “暂停此工作流。” |
+| 工作流疑难解答 | 同时读取多个工作流的运行状况，包括运行工作流时、工作流执行日志、工作流当前任务以及工作流挂起的引擎命令 | `read_workflow_health`, `read_workflow_history`, `read_workflow_logs`, `read_workflow_tasks`, `read_workflow_jobs` | Adobe Campaign v8 |  |
+| 探索和扩展数据模型 | 浏览模式目录，检查模式的结构，从任何模式中读取行，创建新模式，以及创建或更改其物理SQL表 | `find_schema`, `describe_schema`, `read_schema_entity`, `create_schema`, `update_database_structure` | Adobe Campaign v8 | “查找与收件人相关的架构。” · “描述收件人模式。” · “创建忠诚度偏好设置的自定义架构。” |
+
+**相关信息**
+
+* [Adobe Campaign入门](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/new/get-started){target="_blank"}提供了Adobe Campaign v8的概述。
 
 ## 优化
 
