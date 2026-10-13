@@ -7,14 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 2bf31c1348054a16ba7e7c0c26c0ff913634aa27
+source-git-commit: 60669850e4005be01c31d9f7818d1c4ad3ed8f3a
 workflow-type: tm+mt
 source-wordcount: '2094'
 ht-degree: 4%
 ---
 # 开始使用同事聊天分析数据
 
-设置Adobe CX Enterprise Coworker Chat以分析您的Customer Journey Analytics数据视图或Adobe Analytics报表包，然后遵循工作示例。 有关可以使用同事聊天执行的操作的概述，包括用例、技能和最佳实践，请参阅[使用同事聊天分析数据](/help/chat/use-cases/data-insights/analytics-overview-v2.md)。
+设置Adobe CX Enterprise Coworker Chat以分析您的Customer Journey Analytics数据视图或Adobe Analytics报表包，然后遵循工作示例。 有关可以使用同事聊天执行的操作的概述，包括用例、技能和最佳实践，请参阅[使用同事聊天分析数据](/help/chat/use-cases/data-insights/analytics-overview.md)。
 
 在开始之前，请先了解同事聊天界面和配置选项，然后确保同事已连接到Customer Journey Analytics或Adobe Analytics以及相关的数据视图或报表包。
 
@@ -249,11 +249,11 @@ Co-worker Chat包含内存功能，允许您访问跨越所有聊天的信息。
 | --- | --- | --- | --- | --- | --- |
 | 桌面 | 70,172 | 44.9% | 54.8% | 23.2% | 5.70% |
 | 平板电脑 | 13,855 | 44.7% | 55.6% | 14.3% | 3.56% |
-| 移动设备 | 53,449 | 44.9% | 55.3% | 8.1% | 2.02% |
+| 移动 | 53,449 | 44.9% | 55.3% | 8.1% | 2.02% |
 
 **确凿证据**
 
-| 量度 | 桌面 | 移动设备 | 间隙 |
+| 量度 | 桌面 | 移动 | 间隙 |
 | --- | --- | --- | --- |
 | 购物车到购买率 | 23.2% | 8.1% | 15个百分点 |
 | 手机是 | — | 差2.8倍 | — |
@@ -331,4 +331,4 @@ Co-worker创建可视化图表后，您可以在Analysis Workspace中打开该�
 
 ## 后续步骤
 
-有关更多用例、“同事聊天”用于分析数据的技能以及编写提示的最佳实践，请参阅[使用同事聊天分析数据](/help/chat/use-cases/data-insights/analytics-overview-v2.md)。
+有关更多用例、“同事聊天”用于分析数据的技能以及编写提示的最佳实践，请参阅[使用同事聊天分析数据](/help/chat/use-cases/data-insights/analytics-overview.md)。

@@ -6,458 +6,139 @@ product_v2:
   internal-label: CX Enterprise Coworker
 feature_v2:
   internal-label: CX Enterprise Coworker
-source-git-commit: 2bf31c1348054a16ba7e7c0c26c0ff913634aa27
+source-git-commit: d3a78af009a642a516658070d06eaf245fe67e6c
 workflow-type: tm+mt
-source-wordcount: '2354'
-ht-degree: 0%
+source-wordcount: '1915'
+ht-degree: 1%
 ---
 
-Adobe CX Enterprise Coworker Chat使团队能够使用自然语言自动执行Adobe产品任务，通过灵活的规划、可自定义的技能和智能执行快速将想法转化为操作。 有关同事的更多常规信息，请参阅[CX Enterprise Coworker概述](/help/home.md)。
+# 通过同事聊天分析数据
 
-## 通过同事聊天进行数据分析
+本页上的信息概述了Adobe CX Enterprise Coworker Chat，以及它如何帮助您分析组织的数据。
 
-Co-worker Chat可以执行以前仅在Analysis Workspace中才有的高级数据分析。 Co-worker Chat可访问来自Customer Journey Analytics数据视图或Adobe Analytics报表包的数据，从而允许您浏览这些数据并获得自然语言提示的答案。
+Co-worker Chat使团队能够使用自然语言自动执行Adobe产品任务，通过灵活的规划、可自定义的技能和智能的执行快速将想法转化为行动。 有关同事的更多常规信息，请参阅[CX Enterprise Coworker概述](/help/home.md)。
+
+## 数据分析的工作方式
+
+Co-worker Chat可以执行以前仅在Analysis Workspace中才有的高级数据分析。 Co-worker Chat可访问来自Customer Journey Analytics数据视图或Adobe Analytics报表包的数据，从而允许您浏览数据并通过自然语言提示获得答案。
+
+同事聊天从Customer Journey Analytics或Adobe Analytics继承权限。 您只能访问Analysis Workspace中可供您访问的数据视图、报表包、维度、量度和区段。
 
 在同事聊天中创建可视化图表时，您可以随时在Analysis Workspace中打开该可视化图表，以便进行更多手动控制。
 
-以下信息概述了如何在“同事聊天”中分析数据。
+## 快速解答和深思熟虑
+
+您可以通过两种方式使用同事聊天，具体取决于您需要的分析量：
+
+* **快速回答** — 直接问一个纯语言的问题，并立即获得答案。 商业用户通常以这种方式使用同事聊天，而分析师在需要为利益相关者提供快速答案时也会使用这种聊天。
+* **深思熟虑的工作** — 与同事聊天进行多轮次的扩展对话，以调查业务问题、排除原因并得出建议。 分析人员通常使用此方法在提出推荐之前深入浏览数据。
 
 ## 在同事聊天中开始分析
 
 首先以简单的语言描述您想要了解的信息。 Co-worker Chat规划分析，查询您的数据视图或报告包，并创建可视化和摘要。
 
-以下用例是示例。 您可以询问有关您有权访问的任何数据
+以下用例按分析域分组。 每个组都列出了最适合的角色。
 
-### 主要用例
+### 数据治理和验证
 
-<!-- The following cards link to each of the stand-alone articles in this folder -->
+**最适合于：**&#x200B;管理员、分析师
 
-<!--
-CARDS
-
-* https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/analytics-chat
-  {title = Analyze Customer Journey Analytics and Adobe Analytics data}
-  {description = Answers natural-language questions about your data views or report suites, builds funnels and other visualizations, and finds where customers drop off. You can open any visualization in Analysis Workspace for further analysis.}
-  {cta = Read}
-  {image = ../../assets/coworker-funnel-response-card.png}
-
-* https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/root-cause-analysis
-  {title = Explore trends and root causes}
-  {description = Identifies trends in your Customer Journey Analytics and Adobe Analytics data and the factors that drive changes in performance, without manual queries.}
-  {cta = Read}
-  {image = ../../assets/data-validation-aa-cja/trend-line-card.png}
--->
-<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
-<div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Analyze Customer Journey Analytics and Adobe Analytics data">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/analytics-chat" title="分析Customer Journey Analytics和Adobe Analytics数据">
-                        <img class="is-bordered-r-small" src="../../assets/coworker-funnel-response-card.png" alt="分析Customer Journey Analytics和Adobe Analytics数据"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/analytics-chat" title="分析Customer Journey Analytics和Adobe Analytics数据">分析Customer Journey Analytics和Adobe Analytics数据</a>
-                    </p>
-                    <p class="is-size-6">回答有关数据视图或报表包的自然语言问题，构建漏斗和其他可视化图表，并找出客户流失的位置。 您可以在Analysis Workspace中打开任何可视化图表以供进一步分析。</p>
-                </div>
-                <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/analytics-chat" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">读取</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Explore trends and root causes">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/root-cause-analysis" title="探索趋势和根本原因">
-                        <img class="is-bordered-r-small" src="../../assets/data-validation-aa-cja/trend-line-card.png" alt="探索趋势和根本原因"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/root-cause-analysis" title="探索趋势和根本原因">探索趋势和根本原因</a>
-                    </p>
-                    <p class="is-size-6">无需手动查询，即可识别Customer Journey Analytics和Adobe Analytics数据的趋势以及导致性能发生变化的因素。</p>
-                </div>
-                <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/root-cause-analysis" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">读取</span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
-<!--
-CARDS
-
-* https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/implementation-guide
-  {title = Plan your implementation}
-  {description = Creates a personalized, step-by-step plan for implementing Customer Journey Analytics, upgrading from Adobe Analytics, or setting up Content Analytics, Marketing Campaign Analytics, or Streaming Media collection on the Edge. Plans include details such as owners, effort estimates, dependencies, and validation steps.}
-  {cta = Read}
-  {image = ../../assets/ui-guide-6.png}
-
-* https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/intelligent-checklist
-  {title = Generate an implementation checklist}
-  {description = Turns your Customer Journey Analytics implementation plan into a checklist in Coworker Projects, where your team can assign steps, track status, and add approval gates.}
-  {cta = Read}
-  {image = ../../assets/data-validation-aa-cja/date-detail.png}
--->
-<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
-<div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Plan your implementation">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/implementation-guide" title="规划实施">
-                        <img class="is-bordered-r-small" src="../../assets/ui-guide-6.png" alt="规划实施"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/implementation-guide" title="规划实施">计划您的实施</a>
-                    </p>
-                    <p class="is-size-6">创建个性化的分步计划，以在Edge上实施Customer Journey Analytics、从Adobe Analytics升级或设置Content Analytics、Marketing Campaign Analytics或流媒体收集。 计划包括所有者、工作量估计、依赖项和验证步骤等详细信息。</p>
-                </div>
-                <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/implementation-guide" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">读取</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Generate an implementation checklist">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/intelligent-checklist" title="生成实施核对清单">
-                        <img class="is-bordered-r-small" src="../../assets/data-validation-aa-cja/date-detail.png" alt="生成实施核对清单"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/intelligent-checklist" title="生成实施核对清单">生成实施核对清单</a>
-                    </p>
-                    <p class="is-size-6">将您的Customer Journey Analytics实施计划转换为同事项目中的核对清单，团队可以在其中分配步骤、跟踪状态和添加批准审核。</p>
-                </div>
-                <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/intelligent-checklist" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">读取</span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
-<!--
-CARDS
-
-* https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja
-  {title = Validate data when upgrading from Adobe Analytics to Customer Journey Analytics}
-  {description = Compares dimensions, metrics, and trends between your Adobe Analytics report suites and Customer Journey Analytics data views, then recommends fixes to support your upgrade.}
-  {cta = Read}
-  {image = ../../assets/data-validation-aa-cja/trend-bar-card.png}
-
-* https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/streaming-media-validation
-  {title = Validate your Streaming Media implementation}
-  {description = Checks your datastream, schema, dataset, data view, and session data to confirm that streaming media tracking is configured and collecting data correctly.}
-  {cta = Read}
-  {image = ../../assets/ui-guide-8.png}
--->
-<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
-<div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Validate data when upgrading from Adobe Analytics to Customer Journey Analytics">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja" title="从Adobe Analytics升级到Customer Journey Analytics时验证数据">
-                        <img class="is-bordered-r-small" src="../../assets/data-validation-aa-cja/trend-bar-card.png" alt="从Adobe Analytics升级到Customer Journey Analytics时验证数据"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja" title="从Adobe Analytics升级到Customer Journey Analytics时验证数据">从Adobe Analytics升级到Customer Journey Analytics时验证数据</a>
-                    </p>
-                    <p class="is-size-6">比较Adobe Analytics报表包和Customer Journey Analytics数据视图之间的维度、量度和趋势，然后建议进行修复以支持您的升级。</p>
-                </div>
-                <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">读取</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Validate your Streaming Media implementation">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/streaming-media-validation" title="验证您的流媒体实施">
-                        <img class="is-bordered-r-small" src="../../assets/ui-guide-8.png" alt="验证您的流媒体实施"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/streaming-media-validation" title="验证您的流媒体实施">验证您的流媒体实施</a>
-                    </p>
-                    <p class="is-size-6">检查您的数据流、架构、数据集、数据视图和会话数据，以确认流媒体跟踪已配置并正确收集数据。</p>
-                </div>
-                <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/streaming-media-validation" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">读取</span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
-<!--
-CARDS
-
-* https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja
-  {title = Validate dataset quality for Customer Journey Analytics}
-  {description = Identifies the datasets that feed your Customer Journey Analytics reporting, then checks schemas, identity quality, and field quality so you can resolve issues before you build dashboards.}
-  {cta = Read}
-  {image = ../../assets/data-validation-aep/dataset-validation.png}
-
-* https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aep
-  {title = Validate data after ingestion into Experience Platform}
-  {description = Runs statistical and semantic checks on Experience Platform datasets and fields to find data quality issues, such as invalid values or mapping problems.}
-  {cta = Read}
-  {image = ../../assets/data-validation-aep/null-values.png}
--->
-<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
-<div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Validate dataset quality for Customer Journey Analytics">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja" title="验证Customer Journey Analytics的数据集质量">
-                        <img class="is-bordered-r-small" src="../../assets/data-validation-aep/dataset-validation.png" alt="验证Customer Journey Analytics的数据集质量"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja" title="验证Customer Journey Analytics的数据集质量">验证Customer Journey Analytics的数据集质量</a>
-                    </p>
-                    <p class="is-size-6">识别用于提供Customer Journey Analytics报表的数据集，然后检查架构、身份质量和字段质量，以便在构建功能板之前解决问题。</p>
-                </div>
-                <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">读取</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Validate data after ingestion into Experience Platform">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aep" title="将数据摄取到Experience Platform后验证数据">
-                        <img class="is-bordered-r-small" src="../../assets/data-validation-aep/null-values.png" alt="将数据摄取到Experience Platform后验证数据"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aep" title="将数据摄取到Experience Platform后验证数据">将数据摄取到Experience Platform后验证数据</a>
-                    </p>
-                    <p class="is-size-6">对Experience Platform数据集和字段运行统计和语义检查以查找数据质量问题，例如无效值或映射问题。</p>
-                </div>
-                <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aep" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">读取</span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
-有关这些用例的更多信息，包括它们使用的技能和示例提示，请参阅[数据分析用例](/help/chat/use-cases/overview.md#data-insights)。
-
-### 快速入门
-
-同事聊天还可以帮助您：
-
-* **比较性能**：并排比较跨渠道、时间段或区段的量度。
-* **衡量促销活动效果**：了解在给定时间段内促销活动、渠道和Web属性的执行情况。
-* **分析漏斗**：浏览多步转化漏斗并查看每个阶段的流失情况。
-* **预测量度**：预测来自历史Customer Journey Analytics或Adobe Analytics数据的未来量度值，例如您是否走上了实现收入目标的道路。
-* **创建执行摘要和KPI摘要**：制作适用于利益相关者的绩效摘要、建议和幻灯片组概述。
-* **分析运行趋势和原因**：查询受众、数据集和历程的历史时间序列数据，并确定导致更改的原因。
-* **创建自定义Customer Journey Analytics技能**：将您重复的分析转换为可重复使用的技能，该技能会跨会话持续存在。
-
-<!--
-CARDS
-
-* https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/analytics-chat
-  {title = Analyze data with Coworker Chat}
-  {description = Ask questions in natural language to build funnels, create visualizations, and find where customers drop off in the journey.}
-  {cta = Read}
-  {image = ../../assets/coworker-funnel-response-card.png}
-
-* https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/root-cause-analysis
-  {title = Explore trends and root causes}
-  {description = Investigate changes in your Customer Journey Analytics data and uncover what drives them, without writing manual queries.}
-  {cta = Read}
-  {image = ../../assets/data-validation-aa-cja/trend-line-card.png}
--->
-<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
-<div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Analyze data with Coworker Chat">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/analytics-chat" title="通过同事聊天分析数据">
-                        <img class="is-bordered-r-small" src="../../assets/coworker-funnel-response-card.png" alt="通过同事聊天分析数据"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/analytics-chat" title="通过同事聊天分析数据">使用同事聊天分析数据</a>
-                    </p>
-                    <p class="is-size-6">用自然语言提出问题以构建漏斗、创建可视化图表并查找客户在历程中的流失位置。</p>
-                </div>
-                <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/analytics-chat" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">读取</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Explore trends and root causes">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/root-cause-analysis" title="探索趋势和根本原因">
-                        <img class="is-bordered-r-small" src="../../assets/data-validation-aa-cja/trend-line-card.png" alt="探索趋势和根本原因"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/root-cause-analysis" title="探索趋势和根本原因">探索趋势和根本原因</a>
-                    </p>
-                    <p class="is-size-6">调查Customer Journey Analytics数据中的更改，找出驱动这些更改的因素，而无需编写手动查询。</p>
-                </div>
-                <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/root-cause-analysis" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">读取</span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
-<!--
-CARDS
-
-* https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja
-  {title = Validate Customer Journey Analytics data}
-  {description = Check dataset quality with the data validation skill and resolve issues before you build dashboards.}
-  {cta = Read}
-  {image = ../../assets/data-validation-aep/dataset-validation.png}
-
-* https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja
-  {title = Validate data during your upgrade}
-  {description = Compare Adobe Analytics and Customer Journey Analytics data to confirm that your upgrade is on track.}
-  {cta = Read}
-  {image = ../../assets/data-validation-aa-cja/trend-bar-card.png}
--->
-<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
-<div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Validate Customer Journey Analytics data">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja" title="验证Customer Journey Analytics数据">
-                        <img class="is-bordered-r-small" src="../../assets/data-validation-aep/dataset-validation.png" alt="验证Customer Journey Analytics数据"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja" title="验证Customer Journey Analytics数据">验证Customer Journey Analytics数据</a>
-                    </p>
-                    <p class="is-size-6">使用数据验证技能检查数据集质量，并在构建功能板之前解决问题。</p>
-                </div>
-                <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">读取</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Validate data during your upgrade">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja" title="在升级期间验证数据">
-                        <img class="is-bordered-r-small" src="../../assets/data-validation-aa-cja/trend-bar-card.png" alt="在升级期间验证数据"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja" title="在升级期间验证数据">在升级期间验证数据</a>
-                    </p>
-                    <p class="is-size-6">比较Adobe Analytics和Customer Journey Analytics数据，确认升级按计划进行。</p>
-                </div>
-                <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">读取</span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
-
-
-## 主要用例的表布局
-
-<!-- The following table are links to each of the stand-alone articles in this folder -->
-
-| 用例 | 说明 |
+| 用例 | 函数 |
 | --- | --- |
-| [分析Customer Journey Analytics和Adobe Analytics数据](/help/chat/use-cases/data-insights/analytics-chat.md) | 回答有关数据视图或报表包的自然语言问题，构建漏斗和其他可视化图表，并找出客户流失的位置。 您可以在Analysis Workspace中打开任何可视化图表以供进一步分析。 |
-| [探索趋势和根本原因](/help/chat/use-cases/data-insights/root-cause-analysis.md) | 无需手动查询，即可识别Customer Journey Analytics和Adobe Analytics数据的趋势以及导致性能发生变化的因素。 |
-| [计划您的实施](/help/chat/use-cases/data-insights/implementation-guide.md) | 创建个性化的分步计划，以在Edge上实施Customer Journey Analytics、从Adobe Analytics升级或设置Content Analytics、Marketing Campaign Analytics或流媒体收集。 计划包括所有者、工作量估计、依赖项和验证步骤等详细信息。 |
-| [生成实施核对清单](/help/chat/use-cases/data-insights/intelligent-checklist.md) | 将您的Customer Journey Analytics实施计划转换为同事项目中的核对清单，团队可以在其中分配步骤、跟踪状态和添加批准审核。 |
-| [从Adobe Analytics升级到Customer Journey Analytics时验证数据](/help/chat/use-cases/data-insights/data-validation-aa-cja.md) | 比较Adobe Analytics报表包和Customer Journey Analytics数据视图之间的维度、量度和趋势，然后建议进行修复以支持您的升级。 |
-| [验证您的流媒体实施](/help/chat/use-cases/data-insights/streaming-media-validation.md) | 检查您的数据流、架构、数据集、数据视图和会话数据，以确认流媒体跟踪已配置并正确收集数据。 |
-| [验证Customer Journey Analytics的数据集质量](/help/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md) | 识别用于提供Customer Journey Analytics报表的数据集，然后检查架构、身份质量和字段质量，以便在构建功能板之前解决问题。 |
-| [将数据摄取到Experience Platform后验证数据](/help/chat/use-cases/data-insights/data-validation-aep.md) | 对Experience Platform数据集和字段运行统计和语义检查以查找数据质量问题，例如无效值或映射问题。 |
+| [计划您的实施](/help/chat/use-cases/data-insights/implementation-guide.md)<p>![计划您的实施](../../assets/ui-guide-6.png)</p> | 创建个性化的分步计划，以在Edge上实施Customer Journey Analytics、从Adobe Analytics升级或设置Content Analytics、Marketing Campaign Analytics或流媒体收集。 计划包括所有者、工作量估计、依赖项和验证步骤等详细信息。<p>**示例提示：** “帮助我规划Customer Journey Analytics的实施”</p><p>有关详细信息，请参阅[与同事一起规划实施](/help/chat/use-cases/data-insights/implementation-guide.md)。</p> |
+| [生成实施核对清单](/help/chat/use-cases/data-insights/intelligent-checklist.md)<p>![生成实施核对清单](../../assets/data-validation-aa-cja/date-detail.png)</p> <p>实验性</p> | 将您的Customer Journey Analytics实施计划转换为同事项目中的核对清单，团队可以在其中分配步骤、跟踪状态和添加批准审核。<p>有关详细信息，请参阅[生成同事项目的实施核对清单](/help/chat/use-cases/data-insights/intelligent-checklist.md)。</p> |
+| [从Adobe Analytics升级到Customer Journey Analytics时验证数据](/help/chat/use-cases/data-insights/data-validation-aa-cja.md)<p>![从Adobe Analytics升级到Customer Journey Analytics时验证数据](../../assets/data-validation-aa-cja/trend-bar-card.png)</p> | 比较Adobe Analytics报表包和Customer Journey Analytics数据视图之间的维度、量度和趋势，然后建议进行修复以支持您的升级。<p>**示例提示：**“将我的AA报表包与我的CJA数据视图进行比较”</p><p>有关详细信息，请参阅[从Adobe Analytics升级到Customer Journey Analytics时，与同事验证数据](/help/chat/use-cases/data-insights/data-validation-aa-cja.md)。</p> |
+| [验证您的流媒体实施](/help/chat/use-cases/data-insights/streaming-media-validation.md)<p>![验证您的流媒体实施](../../assets/ui-guide-8.png)</p> <p>实验性</p> | 检查您的数据流、架构、数据集、数据视图和会话数据，以确认流媒体跟踪已配置并正确收集数据。<p>**示例提示：**“我的流媒体实施总体运行状况如何？”</p><p>有关详细信息，请参阅[与同事验证您的流媒体实施](/help/chat/use-cases/data-insights/streaming-media-validation.md)。</p> |
+| [验证Customer Journey Analytics的数据集质量](/help/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)<p>![验证Customer Journey Analytics的数据集质量](../../assets/data-validation-aep/dataset-validation.png)</p> <p>实验性（下周）</p> | 识别用于提供Customer Journey Analytics报表的数据集，然后检查架构、身份质量和字段质量，以便在构建功能板之前解决问题。<p>有关详细信息，请参阅[使用协同工作进程中的数据验证技能验证Customer Journey Analytics数据](/help/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)。</p> |
+| [将数据摄取到Experience Platform后验证数据](/help/chat/use-cases/data-insights/data-validation-aep.md)<p>![将数据摄取到Experience Platform后验证数据](../../assets/data-validation-aep/null-values.png)</p> | 对Experience Platform数据集和字段运行统计和语义检查以查找数据质量问题，例如无效值或映射问题。<p>**示例提示：**“验证数据集电子示例1000”</p><p>有关详细信息，请参阅[与同事验证Experience Platform数据](/help/chat/use-cases/data-insights/data-validation-aep.md)。</p> |
 
-有关这些用例的更多信息，包括它们使用的技能和示例提示，请参阅[数据分析用例](/help/chat/use-cases/overview.md#data-insights)。
+### 历程分析
+
+**最适合：**&#x200B;分析师、商业用户
+
+| 用例 | 函数 |
+| --- | --- |
+| [分析Customer Journey Analytics和Adobe Analytics数据](/help/chat/use-cases/data-insights/analytics-chat.md)<p>![分析Customer Journey Analytics和Adobe Analytics数据](../../assets/coworker-funnel-response-card.png)</p> | 回答有关数据视图或报表包的自然语言问题，构建漏斗和其他可视化图表，并找出客户流失的位置。 您可以在Analysis Workspace中打开任何可视化图表以供进一步分析。<p>**示例提示：**“显示过去30天的页面查看次数”</p><p>有关详细信息，请参阅[开始使用同事聊天分析数据](/help/chat/use-cases/data-insights/analytics-chat.md)。</p> |
+| [分析漏斗](#skills-and-limitations) | 浏览多步转化漏斗，并查看每个阶段的流失情况。<p>**示例提示符：** &quot;引导我完成结帐funnel&quot;</p><p>有关详细信息，请参阅[技能和限制](#skills-and-limitations)。</p> |
+
+### 受众和区段分析
+
+**最适合：**&#x200B;分析师、商业用户、管理员
+
+| 用例 | 函数 |
+| --- | --- |
+| [比较性能](#skills-and-limitations) | 并排比较各个渠道、时间段或区段之间的量度。<p>**示例提示：**“按渠道比较每月的收入”</p><p>有关详细信息，请参阅[技能和限制](#skills-and-limitations)。</p> |
+| [分析运行趋势和原因](/help/chat/use-cases/overview.md#data-insights) | 查询受众、数据集和历程的历史时间序列数据，并确定导致更改的原因。<p>**示例提示：**“向我显示过去90天的受众规模趋势”</p><p>有关详细信息，请参阅同事聊天用例中的[数据分析](/help/chat/use-cases/overview.md#data-insights)。</p> |
+
+### 业务绩效
+
+**最适合：**&#x200B;分析师、商业用户
+
+| 用例 | 函数 |
+| --- | --- |
+| [探索趋势和根本原因](/help/chat/use-cases/data-insights/root-cause-analysis.md)<p>![探索趋势和根本原因](../../assets/data-validation-aa-cja/trend-line-card.png)</p> | 无需手动查询，即可识别Customer Journey Analytics和Adobe Analytics数据的趋势以及导致性能发生变化的因素。<p>**示例提示：**“上周为什么转化率下降？”</p><p>有关详细信息，请参阅[Customer Journey Analytics和同事](/help/chat/use-cases/data-insights/root-cause-analysis.md)。</p> |
+| [预测指标](#skills-and-limitations) | 根据历史Customer Journey Analytics或Adobe Analytics数据预测未来的量度值，例如您是否有望实现收入目标。<p>**示例提示：**“预测未来30天的会话”</p><p>有关详细信息，请参阅[技能和限制](#skills-and-limitations)。</p> |
+| [创建执行摘要和KPI摘要](#skills-and-limitations) | 制作适用于利益相关者的性能摘要、建议和幻灯片组概述。<p>**示例提示：**“给我上个月的执行摘要”</p><p>有关详细信息，请参阅[技能和限制](#skills-and-limitations)。</p> |
+| [创建自定义Customer Journey Analytics技能](#skills-and-limitations) | 将您重复的分析转换为可重复使用的技能，该技能会在各个会话中持续存在。<p>**示例提示：**“将此每周收入分析转换为可重复使用的技能”</p><p>有关详细信息，请参阅[技能和限制](#skills-and-limitations)。</p> |
+
+### 营销衡量和归因
+
+**最适合：**&#x200B;分析师、商业用户
+
+| 用例 | 函数 |
+| --- | --- |
+| [衡量促销活动效果](/help/chat/use-cases/overview.md#data-insights) | 了解在给定时间段内营销活动、渠道和Web属性的执行情况。<p>**示例提示：**“上个月我们的Acrobat Web营销活动表现如何？”</p><p>有关详细信息，请参阅同事聊天用例中的[数据分析](/help/chat/use-cases/overview.md#data-insights)。</p> |
+
+有关这些用例的更多信息，包括它们使用的技能和更多示例提示，请参阅[数据分析用例](/help/chat/use-cases/overview.md#data-insights)。
+
+## 技能和限制
+
+具备以下技能以分析Customer Journey Analytics或Adobe Analytics数据。
+
+| 技能 | 使用它可以 | 所需的权限 | 超出范围 |
+| --- | --- | --- | --- |
+| `cja`, `aa` | 实时查询Customer Journey Analytics数据视图(`cja`)或Adobe Analytics报表包(`aa`)：<ul><li>提取量度、维度、区段、数据视图和报表包</li><li>并排比较渠道、时间段或区段</li><li>运行多步骤funnel和流失分析</li><li>基于历史趋势的预测指标</li></ul> | 查看对要查询的数据视图或报表包的访问权限 | <ul><li>创建或编辑数据视图或报表包组件</li><li>您有权访问的数据视图或报表包以外的数据</li><li>超出量度预测的预测建模</li></ul> |
+| `cja-root-cause-analysis`, `aa-root-cause-analysis` | 调查量度发生更改而非仅报告其更改的原因：<ul><li>调查某个已知量度在已知时段内的变化</li><li>显示促成更改的维度和区段</li></ul> | 查看对正在分析的数据视图或报表包的访问权限 | <ul><li>检测您未询问的异常（无自动或实时警报）</li><li>针对您有权访问的数据视图或报表包外部的量度进行根本原因分析</li></ul> |
+| `cja-executive-summary` | 生成适用于利益相关者的数据摘要：<ul><li>汇总指定期间的性能</li><li>根据数据生成规范性建议</li><li>幻灯片演示或利益相关者阅读的概要内容</li></ul> | 查看对摘要中涵盖的数据视图或报表包的访问权限 | <ul><li>构建最终幻灯片幻灯片或演示文件</li><li>跨您无权访问的数据视图或报表包的摘要</li></ul> |
+| `aa-cja-validation` | 比较、审核和协调[!DNL Adobe Analytics]与Customer Journey Analytics之间的数据：<ul><li>比较报表包和数据视图之间的量度值</li><li>标记两个数据源之间的差异</li></ul> | 查看对正在比较的[!DNL Adobe Analytics]报表包和Customer Journey Analytics数据视图的访问权限 | <ul><li>解决数据差异的根本原因</li><li>验证[!DNL Adobe Analytics]和Customer Journey Analytics以外的数据源</li></ul> |
+| `cja-skill-creator` | 将您已经掌握的分析变成一项可重复使用的技能：<ul><li>将完成的分析转换为已命名的、可重用的技能</li><li>使已保存的技能在未来的聊天会话中可用</li></ul> | 管理技能 | <ul><li>自动与其他用户共享保存的技能（组织级别的技能库需要管理员设置）</li><li>编辑技能引用的数据视图或报告包组件</li></ul> |
+
+## 使用同事聊天分析数据时的最佳实践
+
+### 组织级别的最佳实践
+
+* 指定贵组织的分析师作为同事冠军。
+
+* 创建一个经过审核的提示和技能库，这些提示和技能与用户可用的数据和组件相关联。
+
+* 创建一个或多个技能，指导同事聊天仅使用您要在分析中使用的组件。 这有助于同事聊天为您的组织中的用户提供最相关的数据。
+
+* 教育用户何时请求同事聊天以获得快速答案以及何时使用它进行深入思考工作。
+
+### 用户级别的最佳实践
+
+* 使用计划模式。
+
+  此模式对于复杂任务特别有用，但也可以为简单任务产生更好的结果，因为它允许同事在采取行动之前提出后续问题。 有关详细信息，请参阅[计划模式](/help/chat/ui-guide.md#plan-mode)。
+
+* 创建提示时，请尽可能具体一些：
+
+  * 命名要分析的维度、量度和日期范围。
+  * 按元件的确切名称引用元件。
+  * 指定要包含、排除或比较的任何区段、受众、渠道或设备。
+  * 指明您是要获取特定的可视化图表类型，如funnel、趋势表还是同类群组表。
+  * 如果您希望同事聊天提供后续问题建议，请咨询建议的后续步骤。
+  * 在预测指标时要求提供预测时限，例如“未来30天”。
+  * 提及您已有的任何假设，这样同事聊天即可验证或排除该假设。
+  * 如果您希望划分量度更改，请询问参与维度。
+  * 指定摘要的受众，如领导力或营销团队，如果您计划展示调查结果，请要求幻灯片组概述。
+  * 命名验证数据时要比较的特定报表包和数据视图。
+  * 首先完成分析，然后让同事聊天将分析保存为技能，为分析提供一个清楚的描述性名称，并指出您计划重复使用分析的频率。
+
+* 将标准方向添加到“同事聊天”内存。 例如，如果始终使用来自相同数据视图或报表包的数据，请将其添加到内存中。 有关详细信息，请参阅使用同事聊天开始分析数据中的[在内存中添加数据视图或报告包首选项](/help/chat/use-cases/data-insights/analytics-chat.md#add-a-data-view-or-report-suite-preference-in-memory)。
+
+## 后续步骤
+
+若要设置同事聊天并浏览工作示例，请参阅[开始使用同事聊天分析数据](/help/chat/use-cases/data-insights/analytics-chat.md)。
+
 

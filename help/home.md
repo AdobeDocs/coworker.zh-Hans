@@ -1,16 +1,15 @@
 ---
 title: Adobe CX Enterprise Coworker指南
 description: 了解Adobe CX Enterprise Coworker，它是一个AI支持的团队成员，可自动执行整个组织的客户体验和营销工作流。
-dummy: true
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 662ac793f7838834f84cddc5d78859dae97930aa
+source-git-commit: f0ca8fc373cae1697ac28a4f555e8c096ff6fbca
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '843'
 ht-degree: 14%
 ---
 # CX Enterprise Coworker概述 {#overview}
@@ -23,7 +22,7 @@ Co-worker是一个由AI提供支持的团队成员，它重新构想了组织、
 * **[同事[!UICONTROL 营销活动]](./campaigns/overview.md)：**&#x200B;旨在将敏捷营销团队从营销活动目标提升到协调的活动执行。
 * **合作者[!UICONTROL 项目]（即将推出）：**&#x200B;专为运行时间更长、跨职能的企业工作流而设计，在该工作流中，团队定义流程、审批和合作者的自主级别。
 
-## [!DNL Coworker] [!UICONTROL 聊天]的要点
+## [!DNL Coworker]的Essentials [!UICONTROL 聊天]
 
 无论您是刚刚入门还是希望加深您的专业技能，这些播放列表都提供了在[!DNL Coworker]中使用[!UICONTROL 聊天]功能的指导性介绍。 了解如何导航关键功能、制作有效的提示并查看同事如何帮助团队在Adobe Experience Cloud产品中更高效地工作的实际示例。
 
@@ -101,7 +100,7 @@ CARDS
   {title = Transforming CX Workflows with Adobe CX Enterprise Coworker}
   {description = Explore real-world use cases that demonstrate how organizations can put Coworker to work to uncover insights, create audiences, optimize journeys, and deliver customer experiences faster and more efficiently.}
   {cta = Watch}
-*  https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008
+*  https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26
   {title = Audience and Journey B2C capabilities in Coworker}
   {description = See how Coworker can execute end-to-end workflows for customer experience orchestration, increasing productivity and simplifying otherwise technical or complex tasks.}
   {cta = Register}
@@ -113,7 +112,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-09-24-26" title="用Adobe CX Enterprise Coworker转换CX工作流" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="./assets/exl-live-20260924.png" alt="用Adobe CX Enterprise Coworker转换CX工作流"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3503884/?format=jpeg&nocache=1791907736815" alt="用Adobe CX Enterprise Coworker转换CX工作流"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -135,8 +134,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008" title="Co-worker中的受众和历程B2C功能" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="./assets/exl-live-20261008.png" alt="Co-worker中的受众和历程B2C功能"
+                    <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26" title="Co-worker中的受众和历程B2C功能" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3504278/?format=jpeg&nocache=1791907736813" alt="Co-worker中的受众和历程B2C功能"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -144,11 +143,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008" target="_blank" rel="referrer" title="Co-worker中的受众和历程B2C功能">同事中的受众和历程B2C功能</a>
+                        <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26" target="_blank" rel="referrer" title="Co-worker中的受众和历程B2C功能">同事中的受众和历程B2C功能</a>
                     </p>
                     <p class="is-size-6">了解同事如何执行端到端工作流程以实现客户体验编排，从而提高生产效率并简化其他技术性或复杂的任务。</p>
                 </div>
-                <a href="https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">注册</span>
                 </a>
             </div>
@@ -156,6 +155,7 @@ CARDS
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+
 
 ## 同事营销活动
 
