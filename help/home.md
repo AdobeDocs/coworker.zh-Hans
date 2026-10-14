@@ -7,41 +7,53 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 8cefb410e43dfb295d72ff5284348fdfb604093f
+source-git-commit: 161506b712f3a5f39cb584d0491795a3db6faa95
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '936'
 ht-degree: 18%
 ---
 # CX Enterprise Coworker指南 {#overview}
 
-[!DNL Coworker]是Adobe的代理AI团队成员，负责客户体验和营销工作。 它不仅仅旨在解答问题或建议操作：它可以跨Adobe和其他企业系统编排和执行复杂的多步营销工作流，同时通过定义的批准和治理让您保持控制。 了解有关[Adobe for Business](https://business.adobe.com/cn/products/cx-enterprise-coworker.html)的更多信息。
+[!DNL Coworker]是Adobe的代理AI团队成员，负责客户体验和营销工作。 它不仅仅是回答问题或建议操作：它跨Adobe和其他企业系统运行多步骤营销工作流，而批准和治理可让您进行控制。 了解有关[Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker.html)的更多信息。
 
 ## 如何使用[!DNL Coworker]
 
-使用[!DNL Coworker]，您可以创建和验证受众、从目标构建客户历程、分析跨渠道性能、诊断营销活动性能发生更改的原因、执行运行状况检查、维护始终运行程序、处理操作异常以及协调营销活动启动。
+同事将AI从&#x200B;_辅助_&#x200B;转移到&#x200B;_操作_。 您无需在应用程序之间切换并自行协调每个步骤，而是定义一个目标，[!DNL Coworker]将开始并执行这些步骤。 它适用于受众、历程、内容、见解、诊断和营销操作。
 
 [!DNL Coworker]通过三个体验交付：
 
-* **[同事[!UICONTROL 聊天]](./chat/overview.md)：**&#x200B;使用自然语言处理跨Adobe应用程序的复杂请求、见解、内容生成和操作。
-* **[同事[!UICONTROL 营销活动]](./campaigns/overview.md)：**&#x200B;旨在将敏捷营销团队从营销活动目标提升到协调的活动执行。
-* **合作者[!UICONTROL 项目]（即将推出）：**&#x200B;专为运行时间更长、跨职能的企业工作流而设计，在该工作流中，团队定义流程、审批和合作者的自主级别。
+* **[同事[!UICONTROL 聊天]](./chat/overview.md)：**&#x200B;以自然语言跨多个Adobe应用程序询问见解、内容和操作。
+* **[同事[!UICONTROL 营销活动]](./campaigns/overview.md)：**&#x200B;帮助Agile营销团队从营销活动目标转为协调执行。
+* **合作者[!UICONTROL 项目]（即将推出）：**&#x200B;对于长期运行的跨职能企业工作流，团队在其中设置流程、审批和合作者的自主级别。
 
-## [!DNL Coworker]的Essentials [!UICONTROL 聊天]
+## 如何启用同事
 
-无论您是刚刚入门还是希望加深您的专业技能，这些播放列表都提供了在[!DNL Coworker]中使用[!UICONTROL 聊天]功能的指导性介绍。 了解如何导航关键功能、制作有效的提示并查看同事如何帮助团队在Adobe Experience Cloud产品中更高效地工作的实际示例。
+要启用同事（包括同事聊天），您的组织需要访问Adobe CX Enterprise Coworker。 启用通常包括：
+
+* **许可：**&#x200B;请联系您的Adobe客户代表或销售团队，以确认您拥有正确的许可证和权利。
+
+* **入门：** Adobe的企业支持或专业服务团队为您的环境配置同事，设置与Adobe应用程序的集成，并定义治理和审批工作流。
+
+* **访问：**&#x200B;在Adobe [Admin Console](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/administration/admin-console)中为您的团队分配角色并分配对同事功能的访问权限。
+
+* **开始：**&#x200B;启用同事后，请参阅[UI指南](./chat/ui-guide.md)以了解您如何使用同事聊天界面，包括输入框、响应、聊天历史记录和技能、MCP服务器和内存设置。
+
+## 有关使用同事聊天功能的视频
+
+这些视频播放列表涵盖关键[!UICONTROL 聊天]功能以及如何编写有效的提示，并提供[!DNL Coworker]如何帮助团队在[!DNL CX Enterprise]产品中更高效地工作的实际示例。
 
 <!--
 CARDS
-* https://experienceleague.adobe.com/zh-hans/playlists/coworker-get-started-with-chat
+* https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat
    {title = Get started with CX Enterprise Coworker Chat}
    {description = Learn the value of CX Enterprise Coworker Chat and start executing use cases.}
    {cta = Watch}
-   {image = https://video.tv.adobe.com/v/3498575?captions=chi_hans&format=jpeg}    
-*  https://experienceleague.adobe.com/zh-hans/playlists/coworker-customize-chat
+   {image = https://video.tv.adobe.com/v/3498558?format=jpeg}    
+*  https://experienceleague.adobe.com/en/playlists/coworker-customize-chat
     {title = Customize CX Enterprise Coworker Chat}
     {description = Learn how Coworker can be customized with reusable skills, enterprise integrations, plugins, and memory to deliver context-aware, personalized, and business-specific AI experiences that fits how your team works.}
     {cta = Watch}
-    {image = https://video.tv.adobe.com/v/3502340?captions=chi_hans&format=jpeg}
+    {image = https://video.tv.adobe.com/v/3502323?format=jpeg}
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
@@ -49,8 +61,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-get-started-with-chat" title="CX Enterprise Coworker Chat入门" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498575?captions=chi_hans&format=jpeg" alt="CX Enterprise Coworker Chat入门"
+                    <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" title="CX Enterprise Coworker Chat入门" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498558?format=jpeg" alt="CX Enterprise Coworker Chat入门"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -58,11 +70,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker Chat入门">开始使用CX Enterprise Coworker Chat</a>
+                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker Chat入门">开始使用CX Enterprise Coworker Chat</a>
                     </p>
                     <p class="is-size-6">了解CX Enterprise Coworker Chat的价值并开始执行用例。</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">观看</span>
                 </a>
             </div>
@@ -72,8 +84,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-customize-chat" title="自定义CX Enterprise Coworker Chat" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502340?captions=chi_hans&format=jpeg" alt="自定义CX Enterprise Coworker Chat"
+                    <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" title="自定义CX Enterprise Coworker Chat" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502323?format=jpeg" alt="自定义CX Enterprise Coworker Chat"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -81,11 +93,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="自定义CX Enterprise Coworker Chat">自定义CX Enterprise Coworker Chat</a>
+                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="自定义CX Enterprise Coworker Chat">自定义CX Enterprise Coworker Chat</a>
                     </p>
                     <p class="is-size-6">了解如何使用可重用技能、企业集成、插件和内存自定义同事，以提供适合您团队工作方式的上下文感知、个性化和特定于业务的AI体验。</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">观看</span>
                 </a>
             </div>
@@ -94,9 +106,24 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
+## 同事营销活动
+
+同事营销活动是小型敏捷团队的一项模板化功能，可用于站起来执行营销活动。
+
+* [概述](./campaigns/overview.md)
+* [创建电子邮件营销活动](./campaigns/create-an-email-campaign.md)
+* [用例](./campaigns/use-cases.md)
+* [提示最佳实践](./campaigns/prompting-best-practices.md)
+* [连接到Marketo Engage](./campaigns/connectors/marketo.md)
+* [连接到Hubspot](./campaigns/connectors/hubspot.md)
+
+## 项目（即将推出）
+
+同事项目是一个共享工作区，用于自动化从战略到交付的客户体验工作流。 团队使用它来协调任务、批准和执行。
+
 ## Experience League LIVE：同事已解锁系列
 
-加入CX Enterprise Coworker Unlocked系列，了解组织如何使用AI支持的协助来简化客户体验工作。 每个课程都探究了实用用例、实时演示和专家指南，可帮助团队跨Adobe Experience Cloud应用程序加速工作流、揭示见解和自动化任务。 浏览以前的直播或注册即将举办的活动，了解提高生产力和改善客户体验成果的新方法。
+加入CX Enterprise Coworker Unlocked系列，了解组织如何使用AI简化客户体验工作。 每个课程都提供了有关在Adobe Experience Cloud应用程序中加快工作流程、揭示见解和自动化任务的实用用例、实时演示和专家指导。 浏览以前的直播或注册即将举行的活动。
 
 <!--
 CARDS
@@ -159,19 +186,3 @@ CARDS
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
-
-## 同事营销活动
-
-同事营销活动是小型敏捷团队的一项模板化功能，可用于站起来执行营销活动。
-
-* [概述](./campaigns/overview.md)
-* [创建电子邮件营销活动](./campaigns/create-an-email-campaign.md)
-* [用例](./campaigns/use-cases.md)
-* [提示最佳实践](./campaigns/prompting-best-practices.md)
-* [连接到Marketo Engage](./campaigns/connectors/marketo.md)
-* [连接到Hubspot](./campaigns/connectors/hubspot.md)
-
-## 项目（即将推出）
-
-Co-worker Projects是一个统一的工作区，用于自动化端到端客户体验编排工作流，帮助团队协调任务、批准和执行以推动从战略到交付的成果。
