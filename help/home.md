@@ -14,7 +14,7 @@ ht-degree: 18%
 ---
 # CX Enterprise Coworker指南 {#overview}
 
-[!DNL Coworker]是Adobe的代理AI团队成员，负责客户体验和营销工作。 它不仅仅旨在解答问题或建议操作：它可以跨Adobe和其他企业系统编排和执行复杂的多步营销工作流，同时通过定义的批准和治理让您保持控制。 了解有关[Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker.html)的更多信息。
+[!DNL Coworker]是Adobe的代理AI团队成员，负责客户体验和营销工作。 它不仅仅旨在解答问题或建议操作：它可以跨Adobe和其他企业系统编排和执行复杂的多步营销工作流，同时通过定义的批准和治理让您保持控制。 了解有关[Adobe for Business](https://business.adobe.com/cn/products/cx-enterprise-coworker.html)的更多信息。
 
 ## 如何使用[!DNL Coworker]
 
@@ -32,12 +32,12 @@ ht-degree: 18%
 
 <!--
 CARDS
-* https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat
+* https://experienceleague.adobe.com/zh-hans/playlists/coworker-get-started-with-chat
    {title = Get started with CX Enterprise Coworker Chat}
    {description = Learn the value of CX Enterprise Coworker Chat and start executing use cases.}
    {cta = Watch}
    {image = https://video.tv.adobe.com/v/3498558?format=jpeg}    
-*  https://experienceleague.adobe.com/en/playlists/coworker-customize-chat
+*  https://experienceleague.adobe.com/zh-hans/playlists/coworker-customize-chat
     {title = Customize CX Enterprise Coworker Chat}
     {description = Learn how Coworker can be customized with reusable skills, enterprise integrations, plugins, and memory to deliver context-aware, personalized, and business-specific AI experiences that fits how your team works.}
     {cta = Watch}
@@ -49,7 +49,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" title="CX Enterprise Coworker Chat入门" target="_blank" rel="referrer">
+                    <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-get-started-with-chat" title="CX Enterprise Coworker Chat入门" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498558?format=jpeg" alt="CX Enterprise Coworker Chat入门"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -58,11 +58,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker Chat入门">开始使用CX Enterprise Coworker Chat</a>
+                        <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker Chat入门">开始使用CX Enterprise Coworker Chat</a>
                     </p>
                     <p class="is-size-6">了解CX Enterprise Coworker Chat的价值并开始执行用例。</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">观看</span>
                 </a>
             </div>
@@ -72,7 +72,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" title="自定义CX Enterprise Coworker Chat" target="_blank" rel="referrer">
+                    <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-customize-chat" title="自定义CX Enterprise Coworker Chat" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502323?format=jpeg" alt="自定义CX Enterprise Coworker Chat"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -81,11 +81,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="自定义CX Enterprise Coworker Chat">自定义CX Enterprise Coworker Chat</a>
+                        <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="自定义CX Enterprise Coworker Chat">自定义CX Enterprise Coworker Chat</a>
                     </p>
                     <p class="is-size-6">了解如何使用可重用技能、企业集成、插件和内存自定义同事，以提供适合您团队工作方式的上下文感知、个性化和特定于业务的AI体验。</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">观看</span>
                 </a>
             </div>
