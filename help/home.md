@@ -7,16 +7,20 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: f0ca8fc373cae1697ac28a4f555e8c096ff6fbca
+source-git-commit: 8cefb410e43dfb295d72ff5284348fdfb604093f
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 14%
+source-wordcount: '863'
+ht-degree: 18%
 ---
-# CX Enterprise Coworker概述 {#overview}
+# CX Enterprise Coworker指南 {#overview}
 
-Co-worker是一个由AI提供支持的团队成员，它重新构想了组织、团队和个人的工作性质。 Co-worker优雅地自动化了客户体验和营销工作流，因此组织可以专注于实现业务目标和转变成果，而不是协调任务。 作为代理引擎， Co-worker采用了一种新的创新方法来自动化业务流程。 它通过将数据、智能、协作和代理技能执行与内置的企业上下文、治理和人为监督整合在一起，提高了AI模型的性能和准确性。
+[!DNL Coworker]是Adobe的代理AI团队成员，负责客户体验和营销工作。 它不仅仅旨在解答问题或建议操作：它可以跨Adobe和其他企业系统编排和执行复杂的多步营销工作流，同时通过定义的批准和治理让您保持控制。 了解有关[Adobe for Business](https://business.adobe.com/cn/products/cx-enterprise-coworker.html)的更多信息。
 
-通过三种体验来提供同事：
+## 如何使用[!DNL Coworker]
+
+使用[!DNL Coworker]，您可以创建和验证受众、从目标构建客户历程、分析跨渠道性能、诊断营销活动性能发生更改的原因、执行运行状况检查、维护始终运行程序、处理操作异常以及协调营销活动启动。
+
+[!DNL Coworker]通过三个体验交付：
 
 * **[同事[!UICONTROL 聊天]](./chat/overview.md)：**&#x200B;使用自然语言处理跨Adobe应用程序的复杂请求、见解、内容生成和操作。
 * **[同事[!UICONTROL 营销活动]](./campaigns/overview.md)：**&#x200B;旨在将敏捷营销团队从营销活动目标提升到协调的活动执行。
@@ -103,7 +107,7 @@ CARDS
 *  https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26
   {title = Audience and Journey B2C capabilities in Coworker}
   {description = See how Coworker can execute end-to-end workflows for customer experience orchestration, increasing productivity and simplifying otherwise technical or complex tasks.}
-  {cta = Register}
+  {cta = Watch}
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
@@ -148,7 +152,7 @@ CARDS
                     <p class="is-size-6">了解同事如何执行端到端工作流程以实现客户体验编排，从而提高生产效率并简化其他技术性或复杂的任务。</p>
                 </div>
                 <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">注册</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">观看</span>
                 </a>
             </div>
         </div>

@@ -1,30 +1,30 @@
 ---
-description: 浏览同事聊天用例和示例提示，按区域在数据见解、受众、历程和平台操作之间组织。
-title: 同事聊天用例
+description: 浏览同事聊天工作流和示例提示，按区域在数据见解、受众、历程和平台操作之间组织。
+title: 同事聊天工作流
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: fca51b8777f14bbfa1469c66f04e297867a96de6
+source-git-commit: 0ccc8faed069b726a28a39042047d1e66200181e
 workflow-type: tm+mt
-source-wordcount: '7646'
+source-wordcount: '7618'
 ht-degree: 6%
 ---
-# 同事聊天用例 {#use-cases}
+# 同事聊天工作流 {#use-cases}
 
-Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experience Platform]数据，而不是手动导航多个UI或编写查询。 此页面按工作区域整理了从业人员最依赖的用例目录：数据分析、受众、历程、忠诚度、基本元素和沙盒工具。 每个条目都包括它调用的技能、与它一起使用的应用程序以及示例提示，您可以复制、适应自己的数据，并通过对话进行细化。
+Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experience Platform]数据，而不是手动导航多个UI或编写查询。 此页面按工作区域组织了从业人员最依赖的工作流目录：数据分析、受众、历程、忠诚度、基本元素和沙盒工具。 每个条目都包括它调用的技能、与它一起使用的应用程序以及示例提示，您可以复制、适应自己的数据，并通过对话进行细化。
 
 ## 品牌体验
 
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | [更新AEM页面](brand-visibility/author-web-pages.md) | 执行更新、删除、替换或添加内容元素等操作，以保持体验准确且最新。 输入内容可以是自然语言或可视批注，如PDF或屏幕截图。 | `aem-sites-pages-update` | Adobe Experience Manager (AEM) - AEM Sites | 在&lt;URL>上将标题更新为Hello World<br><br>在&lt;URL>上将“参加我们的咖啡测验”按钮更改为更吸引人的版本<br><br>根据附加的<br><br>在&lt;URL>上更新&lt;URL>我想在页面底部添加一个新的Teaser部分，介绍我们在8月份举行的促销活动，购买咖啡机并免费获得2袋咖啡。 还可以找到朋友喝咖啡的图像，并在Teaser中使用 |
 | 批量更新AEM | 同时跨多个页面执行批量操作，例如删除、替换或添加内容元素，以保持体验准确且最新。 | `aem-sites-pages-bulkreplace` | Adobe Experience Manager (AEM) - AEM Sites | 在&lt;aem path>上，将包含副本“MyBarista\”的所有页面更新为“BrewPass” |
 | 从图转到可视内容片段 | 使用自然语言将设计直接从Figma导入Adobe Experience Manager。 该技能会自动创建所需的内容模型、内容片段、资源和可视化模板，使业务用户能够在几分钟内从设计转移到支持Web的内容，而无需手动设置。 | `aem-sites-visualcontentfragments-create` | Adobe Experience Manager (AEM) - AEM Sites | 从&lt;Figma_URL>导入 |
 
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | 创建表单 | 从纯语言描述、附加的摘要、图像或PDF生成新的自适应表单 | `aem-forms-adaptiveform-create` | Adobe Experience Manager (AEM) - AEM Forms | “创建员工入门培训表单”<br><br>“使用附加的摘要（图像或PDF）创建表单”<br><br>“创建&lt;form type>自适应表单” |
 | 编辑/更新表单 | 修改现有表单 — 添加/编辑字段、调整简单布局、配置提交操作或应用附加准则文档的更改 | `aem-forms-adaptiveform-edit` | Adobe Experience Manager (AEM) - AEM Forms | “在名字字段下添加中间名字段”<br><br>“将名字和姓氏字段置于2列布局中，50/50”<br><br>“配置表单以将数据发送到REST端点”<br><br>“更新此表单以匹配附加的准则文档”<br><br>“在&lt;现有字段>字段下添加&lt;字段名称>字段” |
@@ -39,7 +39,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 ### 开发
 
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | 管理Cloud Manager管道 | 创建、运行和监控AEM Cloud Manager管道，包括日志、工件、变量和设置 | `cloud-manager-pipeline-management` | Adobe Experience Manager (AEM) | “列出项目12345的管道”<br><br>“我最近管道的状态是什么？” |
 | 管理Cloud Manager环境 | 创建、配置和维护AEM Cloud Manager环境，包括RDE、环境变量、日志和备份 | `cloud-manager-environment-management` | Adobe Experience Manager (AEM) | 为程序12345列出我的环境&quot;<br><br>&quot;重置我的RDE&quot; |
@@ -52,7 +52,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 ### 入门
 
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | 引导式端到端载入 | 协调完整的入门培训生命周期、存储库选择、文件夹委派、标记、元数据、导入和搜索子技能（如果您不知道需要的特定入门培训任务）。 | `aem-onboarding-workflow` | Adobe Experience Manager (AEM) - AEM Assets | “将我们的团队载入AEM Assets”<br><br>“带我了解AEM DAM载入” |
 | 设计和创建文件夹层次结构 | 根据业务需求或CSV输入，在AEM Assets中（在`/content/dam`下）建议和创建可伸缩的文件夹结构。 | `aem-folder-management` | Adobe Experience Manager (AEM) - AEM Assets | “推荐生活方式营销资产的文件夹结构”<br><br>“根据此CSV文件创建文件夹” |
@@ -67,7 +67,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 ### 内容发现
 
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | 按语义主题搜索 | 使用AI支持的语义匹配功能，按概念、情绪或视觉主题查找资产。 | `aem-assets-discovery` | Adobe Experience Manager (AEM) - AEM Assets | “给我找一副晨间咖啡生活方式图片” |
 | 按自定义元数据搜索 | 按自定义元数据字段筛选资源（例如，Coffee Blend、品牌、Roast级别）。 | `aem-assets-discovery` | Adobe Experience Manager (AEM) - AEM Assets | “查找`Coffee Blend`为`Morning Muse`的资源”<br><br>“获取许可证未过期的资源”<br><br>“查找营销活动名称未设置的资源（必须为属性编制索引以获取相应的结果）。” |
@@ -80,7 +80,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 ### 内容优化
 
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | 高分辨率演绎版创建和通道优化的演绎版 | 以指定的分辨率和质量级别生成资产的新演绎版，从而无需手动编辑即可轻松准备渠道就绪的变体。 您还可以根据平台特定要求制作演绎版，如Instagram故事，确保资产自动满足格式、比例和质量准则。 | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) - AEM Assets | 使用`80% quality`创建`2000px`演绎版作为`JPEG`&quot;<br><br>&quot;为Instagram故事创建演绎版&quot; |
 | 标记叠加和复合生成 | 通过精确放置将促销图形、叠加或徽章应用于现有资源，支持快速创建营销活动就绪的合成内容。 | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) - AEM Assets | “在促销横幅上叠加带有`30%`折扣图表的图像，从中心放置`100px`” |
@@ -92,7 +92,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 ## 品牌治理
 
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | 准则和区段查找 | 检索详细的品牌指南，按区段、市场或类别划分范围 | 企业上下文 | Adobe Experience Manager (AEM) | “这个品牌的声调准则是什么？”<br>“列出垂直健康领域使用的索赔类别” |
 | 根据品牌指南评估内容 | 根据配置的品牌检查评估已发布/创作的页面、文本块或图像 | aem-governance | Adobe Experience Manager (AEM) | “根据SecurBank准则评估此登陆页面”<br>“此标语是否通过我们的语调检查？” |
@@ -104,7 +104,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 ## 数据分析
 
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | [提取CJA和AA报告与指标](data-insights/analytics-chat.md) | 实时查询CJA或AA以提取量度、维度、区段、数据视图和报表包 | `cja`, `aa` | Customer Journey Analytics (CJA)、Adobe Analytics (AA) | “显示过去30天的页面查看次数”<br>“列出主数据视图中的热门区段” |
 | 比较分析 | 并排比较各个渠道、时间段或区段之间的量度 | `cja-root-cause-analysis`, `cja`, `aa-root-cause-analysis`, `aa`, `dx-api`, `knowledge-graph` | Customer Journey Analytics (CJA)、Adobe Analytics (AA) | “按渠道逐月比较收入”<br>“本季度移动与桌面转化情况如何？” |
@@ -120,7 +120,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 ## 受众
 
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | [从自然语言创建受众](audiences/create-audience-from-natural-language.md) | 在每个阶段都通过用户批准来编排受众创建的分步过程 | `audience-creation-flow` | Real-Time CDP (RTCDP) | “创建过去30天内购买的用户受众”<br>“为加利福尼亚州的高价值忠诚度会员构建区段” |
 | 构建PQL定义 | 从XDM属性、行为事件或现有受众收集受众定义；支持聚合和时间窗口 | `segment-definition-assembly` | Real-Time CDP (RTCDP) | “为查看了3个以上产品但未购买的用户创建PQL”<br>“向我的事件条件添加7天时间范围” |
@@ -132,7 +132,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 ## 历程
 
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | [从自然语言创建历程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-create){target="_blank"} | 在AJO中通过文本提示或上传的图像/流程图编排旅程创建 | `journey-create` | Adobe Journey Optimizer (AJO) | “创建一个欢迎历程，注册后发送电子邮件，等待3天，然后发送跟进”<br>“从此上传的流程图图像构建历程” |
 | [分析历程冲突](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 检测活动历程之间的受众重叠、计划冲突和重复数据删除问题 | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | “我的购物车放弃历程是否与任何其他历程冲突？” <br> “检查我的活动历程之间的受众重叠” |
@@ -149,7 +149,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 ## Journey Optimizer内容管理
 
 
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | [应用品牌指南](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 查找、选择并应用适用于营销活动语音、书写、图像、术语和法律指南的已批准品牌指南。 | `brand-lookup` | Adobe Journey Optimizer (AJO) | “拉出我们Acme品牌的文字和视觉指南。” |
 | [检查内容准备情况](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 审查营销活动内容，了解品牌声音、编辑质量、参与度、清晰度和准备情况。 | `check-content-readiness` | Adobe Journey Optimizer (AJO) | “此电子邮件副本是否已准备就绪，可以发送？ 检查品牌声音、清晰度、可访问性和合规性。” |
@@ -169,7 +169,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 ## 营销计划
 
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | 构建项目 | 将现有项目模板调整为新项目，其中的Smart Campaigns、计划和占位符电子邮件由纯语言描述或上传的简介生成 | `build-programs` | Adobe Marketo Engage | “为我们8月份的产品演示创建一个网络研讨会注册计划”<br><br>“构建一个程序，当潜在客户点击得分为50分时触发该程序”<br><br>“为未活动的潜在客户创建3封电子邮件的重新参与系列90天” |
 | 从简短的节目中站出来 | 将纯语言简报或上传的活动文档转换为工作程序：克隆最接近的匹配模板，结转智能营销活动和令牌，并更新事件详细信息。 新的智能营销活动保持停用以供您审阅 | `build-programs` | Adobe Marketo Engage | “我将于9月10日在芝加哥举办一次网络研讨会。 为我设置计划“<br><br>”从此简介设置下个月的路演计划并更新活动令牌“ |
@@ -178,7 +178,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 ## 忠诚度
 
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | [创建、编辑和管理忠诚度挑战](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-challenge-management){target="_blank"} | 简化并加快忠诚度计划管理 | `loyalty` | Adobe Journey Optimizer (AJO) | “创建挑战，鼓励会员尝试新的季节性饮品”<br>“向我展示会员流失率最高的忠诚度挑战。” |
 | [分析忠诚度计划绩效](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-data-insight){target="_blank"} | 使用自然语言查询和分析忠诚度积分、成员层、赎回和收入指标 | `loyalty-insights` | Adobe Journey Optimizer (AJO) | “2026年8月期间授予了多少忠诚度积分？” <br> “显示2026年8月按天划分的忠诚度计划总收入。” |
@@ -193,7 +193,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 ### 消息复制
 
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | [捕获营销简报](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 捕获营销活动策略并播种创意摘要。 | `capture-marketing-brief` | Adobe Journey Optimizer (AJO) | “为季节性产品发布创建营销简报”<br>“将此营销活动策略转变为营销简报” |
 | [捕获创意摘要](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 构建复制执行规范并构建内容计划矩阵。 | `capture-creative-brief` | Adobe Journey Optimizer (AJO) | “根据此批准的营销简报创建创意简报”<br>“为我们的电子邮件和短信营销活动构建内容计划矩阵” |
@@ -208,7 +208,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 ### 电子邮件设计
 
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | [撰写电子邮件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 计划从营销目标和品牌投入中阻止结构和样式。 | `compose-email` | Adobe Journey Optimizer (AJO) | “使用我们的品牌指南为我们的产品发布计划电子邮件布局”<br>“使用主页部分、产品亮点和call to action撰写欢迎电子邮件” |
 | [生成电子邮件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 从布局计划、屏幕快照或Figma设计链接构建、调整、编辑和优化电子邮件HTML。 | `build-email` | Adobe Journey Optimizer (AJO) | “从此批准的布局计划生成电子邮件HTML”<br>“从此Figma设计链接创建电子邮件” |
@@ -226,7 +226,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 在Adobe Campaign v8中，使用同事聊天查找和更新投放、管理资源、探索数据模型以及检查、验证工作流并进行故障诊断。
 
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | 查找和检查投放 | 按名称、文件夹、渠道或状态搜索投放，检索投放的完整详细信息（包括渠道内容和SMTP配置），浏览可重用电子邮件内容模板，以及读取内置投放报告 | `find_delivery`, `describe_delivery`, `find_content_template`, `read_delivery_indicator` | Adobe Campaign v8 | “查找名称中包含‘新闻稿’的电子邮件内容模板。” · “向我显示草稿电子邮件投放。” · “本月有多少投放失败？” · “此投放使用什么主题和发件人？” |
 | 创建和更新投放 | 从渠道模板和命名内容创建投放或模板，并编辑现有投放的标签和每渠道消息内容 | `create_delivery`, `update_delivery` | Adobe Campaign v8 | “使用我的新闻稿内容模板创建电子邮件。” · “更改夏季发布电子邮件的主题。” ·“替换此投放的HTML内容。” |
@@ -249,7 +249,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 ### 实验分析和策略
 
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | 浏览和浏览试验 | 查找试验概述、列表、计数、原始结果、见解和机会 | `experiment-explorer` | ADOBE TARGET / ADOBE JOURNEY OPTIMIZER | “显示我的实验” · “列出活动的测试” · “有多少实验正在运行？” |
 | 分析实验性能 | 使用量度获取项目组合细分、单次试验运行状况检查、执行简报和跨试验报告，并可以选择使用CJA数据丰富这些数据 | `experiment-analysis` | ADOBE TARGET / ADOBE JOURNEY OPTIMIZER | “我的A/B测试表现如何？” · “使用CJA指标生成活动报表” · “此测试是否正常？” |
@@ -258,7 +258,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 ### Target活动和受众
 
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | 浏览目标实体 | 发现、检查和计数活动、选件、受众、mbox、属性、工作区、AT.js配置、响应令牌和修订历史记录。 还可以捕获活动强制体验的屏幕截图 | `target-browse` | Adobe Target | “列出我的A/B测试” · “本月启动的活动有多少？” · “显示活动12345的详细信息” |
 | 分析活动绩效 | 获取单个活动的转化率、提升度、置信区间、收入和风险计数。 只陈述事实，从不宣布赢家 | `target-analyze` | Adobe Target | “活动X的性能如何？” · “显示转化提升” · “什么是结账测试的AOV？” |
@@ -274,7 +274,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 ### 推荐
 
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | 浏览推荐实体 | 浏览并检查推荐标准、收藏集、设计、促销活动、排除项、目录和信息源，并获取清理建议和目录属性指导 | `target-recs` | Adobe Target | “列出我的推荐标准” · “我有哪些设计？” · “我们可以清理哪些记录？” |
 | 诊断推荐问题 | 跟踪活动、标准、信息源、收藏集和设计链，以解释为何推荐为空、过时或无法显示 | `target-recs-diagnose` | Adobe Target | “我的推荐为何为空？” · “为什么我的推荐活动在48小时内一直是‘结果未准备就绪’？” |
@@ -282,7 +282,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 ## 基本元素
 
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | 产品知识和文档 | 从官方Adobe文档中回答操作方法、概念、故障排除和最佳实践问题 | `product-knowledge` | 所有符合条件的应用程序 | “如何设置流目标？”<br> “批量分段与流式分段之间有何区别？” |
 | 查询Experience Platform/Journey Optimizer实体 | 作为有关平台实体的问题的主要入口点；根据需要路由到KG 、字段发现或API | `operational-insights` | 所有符合条件的应用程序 | “我有多少数据集？” <br> “显示所有活动的历程”<br>“列出我的目标” |
@@ -296,20 +296,20 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 ## 数据管理
 
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | [查找值得优化或清理的数据](./data-management/manage-data-lake-retention.md#find-data-worth-optimizing) | 了解是否可以通过将最大、使用率最低或遗忘的数据集显示为候选清理或数据湖保留策略而优化Experience Event数据 | `List datasets` | Adobe Experience Platform | “我感觉我的数据可以优化”<br> “帮助我了解我的数据的价值”<br> “优化我的沙盒数据”<br> “清理我的沙盒数据集” |
 | [调查数据集的使用情况并管理保留](./data-management/manage-data-lake-retention.md#check-how-actively-a-dataset-is-used) | 找到值得仔细研究的数据集后，可了解其使用积极性，对潜在数据湖保留策略的影响进行建模，并在准备就绪时设置、更改或删除该策略，并在进行任何更改之前进行审核和批准 | `Analyze dataset usage`, `Analyze dataset retention`, `Manage dataset retention` | Adobe Experience Platform | “我的Web事件数据集的使用情况如何？” <br> “如果在此数据集中设置60天的保留期，将会产生什么影响？” |
 
 ## 沙盒工具
 
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | [跨沙盒移动对象](/help/chat/use-cases/sandbox-tooling/sandbox-tooling.md) | 通过自动解析依赖关系，跨沙盒无缝迁移架构、受众和其他对象配置 | `sandbox-tooling-workflow` | Adobe Experience Platform | “将架构Luma忠诚度会员白金从当前沙盒移动到生产沙盒”<br>“将美国黄金忠诚度会员受众提升到暂存环境” |
 
 ## 客户警报
 
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | 管理警报订阅 | 通过自然语言对话查看和管理警报订阅。 | `alerts-subscribe` | Adobe Experience Platform | “我订阅了哪些警报？”<br><br>“为我订阅此警报。”<br><br>“删除此警报的订阅。” |
 | 查看警报活动 | 查看指定时间段内的当前警报状态和历史警报活动。 | `alerts-list` | Adobe Experience Platform | “过去24小时内发生了什么？”<br><br>“过去24小时内触发了哪些警报？”<br><br>“显示过去七天的活动警报。” |
@@ -321,7 +321,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 ## 工作流和规划
 
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | 管理规划工作区 | 构建和改进Workfront Planning工作区、部分、记录类型和字段，以组织项目和跟踪工作 | `manage-workfront-planning`, `wf-planning-solution-architect` | Workfront规划 | “创建一个名为MKG Hub的工作区并设置记录类型以按地区跟踪程序”<br>“设置跨渠道和区域跟踪MKG程序所需的记录类型和关系” |
 | 管理规划记录 | 在工作区中创建和更新规划记录（营销活动、摘要）及其字段值 | `manage-workfront-planning` | Workfront规划 | “为秋季品牌发布活动创建简报，包括目标、目标受众和关键消息”<br>“使用预算和主要渠道更新秋季品牌发布简报” |
