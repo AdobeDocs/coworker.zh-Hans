@@ -5,7 +5,7 @@ product_v2:
   internal-label: CX Enterprise Coworker
 feature_v2:
   internal-label: CX Enterprise Coworker
-source-git-commit: 1406a6258a8f7ad3a7e5268a01c8ab2b449505b6
+source-git-commit: b6a05e2fdc16830fd69ac1b5ea68ed1d4c5d5c5f
 workflow-type: tm+mt
 source-wordcount: '1915'
 ht-degree: 1%
@@ -67,7 +67,7 @@ Co-worker Chat可以执行以前仅在Analysis Workspace中才有的高级数据
 | 用例 | 函数 |
 | --- | --- |
 | [比较性能](#skills-and-limitations) | 并排比较各个渠道、时间段或区段之间的量度。<p>**示例提示：**“按渠道比较每月的收入”</p><p>有关详细信息，请参阅[技能和限制](#skills-and-limitations)。</p> |
-| [分析运行趋势和原因](/help/chat/use-cases/overview.md#data-insights) | 查询受众、数据集和历程的历史时间序列数据，并确定导致更改的原因。<p>**示例提示：**“向我显示过去90天的受众规模趋势”</p><p>有关详细信息，请参阅同事聊天用例中的[数据分析](/help/chat/use-cases/overview.md#data-insights)。</p> |
+| [分析运行趋势和原因](/help/chat/use-cases/workflows.md#data-insights) | 查询受众、数据集和历程的历史时间序列数据，并确定导致更改的原因。<p>**示例提示：**“向我显示过去90天的受众规模趋势”</p><p>有关详细信息，请参阅同事聊天用例中的[数据分析](/help/chat/use-cases/workflows.md#data-insights)。</p> |
 
 ### 业务绩效
 
@@ -86,9 +86,9 @@ Co-worker Chat可以执行以前仅在Analysis Workspace中才有的高级数据
 
 | 用例 | 函数 |
 | --- | --- |
-| [衡量促销活动效果](/help/chat/use-cases/overview.md#data-insights) | 了解在给定时间段内营销活动、渠道和Web属性的执行情况。<p>**示例提示：**“上个月我们的Acrobat Web营销活动表现如何？”</p><p>有关详细信息，请参阅同事聊天用例中的[数据分析](/help/chat/use-cases/overview.md#data-insights)。</p> |
+| [衡量促销活动效果](/help/chat/use-cases/workflows.md#data-insights) | 了解在给定时间段内营销活动、渠道和Web属性的执行情况。<p>**示例提示：**“上个月我们的Acrobat Web营销活动表现如何？”</p><p>有关详细信息，请参阅同事聊天用例中的[数据分析](/help/chat/use-cases/workflows.md#data-insights)。</p> |
 
-有关这些用例的更多信息，包括它们使用的技能和更多示例提示，请参阅[数据分析用例](/help/chat/use-cases/overview.md#data-insights)。
+有关这些用例的更多信息，包括它们使用的技能和更多示例提示，请参阅[数据分析用例](/help/chat/use-cases/workflows.md#data-insights)。
 
 ## 技能和限制
 
