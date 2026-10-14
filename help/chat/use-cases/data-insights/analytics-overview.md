@@ -1,12 +1,11 @@
 ---
 title: 通过同事聊天分析Customer Journey Analytics数据
 description: 了解如何使用Adobe CX Enterprise Coworker Chat分析Customer Journey Analytics数据、构建漏斗并查找客户在旅程中的流失位置。
-hold: true
 product_v2:
   internal-label: CX Enterprise Coworker
 feature_v2:
   internal-label: CX Enterprise Coworker
-source-git-commit: d3a78af009a642a516658070d06eaf245fe67e6c
+source-git-commit: 1406a6258a8f7ad3a7e5268a01c8ab2b449505b6
 workflow-type: tm+mt
 source-wordcount: '1915'
 ht-degree: 1%
