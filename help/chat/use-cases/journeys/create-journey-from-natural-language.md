@@ -26,7 +26,7 @@ ht-degree: 1%
  
 通过自动化初始设置过程，团队可以花更少的时间从头开始构建历程，花更多时间优化客户体验和业务成果。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496884/?captions=chi_hans&learn=on&enablevpops)
 
 ## 另请参阅
 

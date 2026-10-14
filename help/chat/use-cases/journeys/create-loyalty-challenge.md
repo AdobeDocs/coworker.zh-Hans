@@ -25,7 +25,7 @@ ht-degree: 1%
  
 此视频展示了忠诚度插件及其挑战管理技能，这是一项AI支持的功能，可帮助营销人员使用自然语言而不是手动配置用户界面中的每个设置来创建、编辑和管理忠诚度挑战。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496528/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496546/?captions=chi_hans&learn=on&enablevpops)
 
 ## 另请参阅
 
