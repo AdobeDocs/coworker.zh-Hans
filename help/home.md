@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 161506b712f3a5f39cb584d0491795a3db6faa95
+source-git-commit: d87a189293dcc367e5fdfd80e6b59615fdbe9a2d
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '938'
 ht-degree: 18%
 ---
 # CX Enterprise Coworker指南 {#overview}
@@ -36,7 +36,7 @@ ht-degree: 18%
 
 * **访问：**&#x200B;在Adobe [Admin Console](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/administration/admin-console)中为您的团队分配角色并分配对同事功能的访问权限。
 
-* **开始：**&#x200B;启用同事后，请参阅[UI指南](./chat/ui-guide.md)以了解您如何使用同事聊天界面，包括输入框、响应、聊天历史记录和技能、MCP服务器和内存设置。
+* **开始使用：**&#x200B;启用同事后，请参阅[开始同事聊天](./chat/ui-guide.md)，了解您如何通过同事聊天界面，包括输入框、响应、聊天历史记录和技能、MCP服务器和内存设置。
 
 ## 有关使用同事聊天功能的视频
 

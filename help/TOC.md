@@ -5,9 +5,9 @@ user-guide-description: 了解Adobe CX Enterprise Coworker，它是一个AI支�
 description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中使用AI改善您的产品知识并获得运营见解。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 69cf9eca65b61d4eb86ea3365013d8553a81e6e3
+source-git-commit: d87a189293dcc367e5fdfd80e6b59615fdbe9a2d
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '231'
 ht-degree: 17%
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 17%
 - [同事概述](home.md)
 - 聊天 {#chat}
   - [概述](./chat/overview.md)
-  - [UI指南](./chat/ui-guide.md)
+  - [聊天入门](./chat/ui-guide.md)
   - {hide-from-toc}[在游乐场中的同事聊天](./playground-coworker-chat.md)
   - 用例 {#use-cases}
     - [同事聊天工作流](./chat/use-cases/workflows.md)
