@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 74f8413fcb9bb0ab6c257a56c38e5e374414e2d5
+source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '751'
 ht-degree: 3%
 ---
 # Adobe CX Enterprise Coworker Chat概述 {#overview}
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->同事聊天是Adobe CX Enterprise Coworker的一个模块。 其他两个模块扩展了同一个基础：同事营销活动（从一个对话中站起来启动一个完整的营销活动）和同事项目（用于端到端、多团队工作流的始终在线工作区）。 本页介绍“同事聊天”。
+>同事聊天是Adobe CX Enterprise Coworker的一个模块。 其他两个模块扩展了同一个基础：团队协作（从一个对话中站起来启动一个完整的营销活动）和团队协作（用于端到端、多团队工作流的始终在线工作区）。 本页介绍“同事聊天”。
 
 ## AI助理的演变
 
@@ -72,4 +72,4 @@ ht-degree: 3%
 
 ## 视频概述
 
->[!VIDEO](https://video.tv.adobe.com/v/3495975?captions=chi_hans&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}
