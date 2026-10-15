@@ -8,7 +8,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 216699c5b1bd34ffea0884083599fb51609762d1
+source-git-commit: 9dbf1eb9bf7b975af633b67ea2af812392932ec3
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 同事聊天功能允许您以简单的语言询问所需的内容，从而使用Adobe CX Enterprise数据和工具。 使用此页面打开“同事聊天”，发送您的第一条消息，并设置您的工作方式。
 
->[!VIDEO](https://video.tv.adobe.com/v/3498575?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 可用性
 
@@ -132,7 +132,7 @@ CX Enterprise应用程序选择器中的![同事](./assets/ui-guide-1.png)
 
 ![附加菜单](./assets/ui-guide-5.png)
 
-### 在同事聊天采取行动之前查看计划
+### 在同事聊天采取行动之前查看计划 {#plan-mode}
 
 对于更改数据的复杂任务或任务，请使用“计划”模式。 当“计划”模式打开时，“同事聊天”会提出计划并等待您的批准，然后才执行计划。 当“计划”模式关闭时，“同事聊天”会立即开始工作。
 
@@ -233,7 +233,7 @@ Chat同事会实时显示其工作，然后返回答案。 响应可能包括其
 
 模型上下文协议(MCP)服务器将同事聊天与外部工具和服务（如Adobe Journey Optimizer、Real-Time CDP、Target和Workfront）连接。 **[!UICONTROL MCP服务器]**&#x200B;选项卡列出了已连接的服务器和活动连接数。 每个信息卡都会显示服务器名称、其端点，以及描述其所提供内容的标记。
 
-要连接服务器，请单击“添加服务器”**&#x200B;**&#x200B;并按照提示操作。
+要连接服务器，请单击“添加服务器”****&#x200B;并按照提示操作。
 
 ![MCP服务器选项卡](./assets/ui-guide-15.png)
 
