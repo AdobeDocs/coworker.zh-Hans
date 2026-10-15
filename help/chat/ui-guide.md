@@ -8,16 +8,16 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 9dbf1eb9bf7b975af633b67ea2af812392932ec3
+source-git-commit: e3d44db4695911c1b72f47fb66bd75e24acfc2e2
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1809'
 ht-degree: 2%
 ---
 # 同事聊天入门 {#ui-guide}
 
 同事聊天功能允许您以简单的语言询问所需的内容，从而使用Adobe CX Enterprise数据和工具。 使用此页面打开“同事聊天”，发送您的第一条消息，并设置您的工作方式。
 
->[!VIDEO](https://video.tv.adobe.com/v/3498575?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 可用性
 
@@ -46,9 +46,9 @@ ht-degree: 2%
 
 CX Enterprise应用程序选择器中的![同事](./assets/ui-guide-1.png)
 
-## 设置上下文
+## 选择您的组织
 
-您的组织和沙盒决定了对话可以接触的数据、技能和连接的工具。 开始前请检查。 当前上下文显示在左侧导航器边栏的底部，且位于您的名称下方。
+您的[组织](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/administration/organizations)和沙盒决定了对话可以联系的数据、技能和连接工具。 开始前请检查。 当前上下文显示在左侧导航器边栏的底部，且位于您的名称下方。
 
 要更改上下文，请执行以下操作：
 
@@ -89,7 +89,7 @@ CX Enterprise应用程序选择器中的![同事](./assets/ui-guide-1.png)
 
 ## 发送您的第一条消息
 
-主屏幕根据同事聊天在沙盒中可以执行的操作，显示问候语、输入框和建议提示。 您可以从建议开始，也可以编写您自己的消息。
+主屏幕显示问候语、输入（[!UICONTROL 聊天]）框以及根据同事聊天在沙盒中可以执行的操作而建议的提示。 您可以从建议开始，也可以编写您自己的消息。
 
 要发送消息：
 
@@ -233,7 +233,7 @@ Chat同事会实时显示其工作，然后返回答案。 响应可能包括其
 
 模型上下文协议(MCP)服务器将同事聊天与外部工具和服务（如Adobe Journey Optimizer、Real-Time CDP、Target和Workfront）连接。 **[!UICONTROL MCP服务器]**&#x200B;选项卡列出了已连接的服务器和活动连接数。 每个信息卡都会显示服务器名称、其端点，以及描述其所提供内容的标记。
 
-要连接服务器，请单击“添加服务器”**&#x200B;**&#x200B;并按照提示操作。
+要连接服务器，请单击“添加服务器”****&#x200B;并按照提示操作。
 
 ![MCP服务器选项卡](./assets/ui-guide-15.png)
 
