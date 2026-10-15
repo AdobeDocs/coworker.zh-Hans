@@ -5,10 +5,10 @@ user-guide-description: 了解Adobe CX Enterprise Coworker，它是一个AI支�
 description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中使用AI改善您的产品知识并获得运营见解。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 0ccc8faed069b726a28a39042047d1e66200181e
+source-git-commit: 69cf9eca65b61d4eb86ea3365013d8553a81e6e3
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 18%
+source-wordcount: '228'
+ht-degree: 17%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -27,6 +27,7 @@ ht-degree: 18%
       - [升级时验证AA到CJA的数据](./chat/use-cases/data-insights/data-validation-aa-cja.md)
       - [验证CJA报表的数据集质量](./chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
       - [验证Experience Platform数据](./chat/use-cases/data-insights/data-validation-aep.md)
+      - [加速数据洞察](./chat/use-cases/data-insights/accelerate-data-insights.md)
     - 数据载入 {#data-onboarding}
       - {hide-from-toc}[与同事一起载入数据](./agents/data-onboarding-skill.md)
     - 数据管理 {#data-management}
