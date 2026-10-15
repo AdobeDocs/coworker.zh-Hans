@@ -17,7 +17,7 @@ ht-degree: 2%
 
 同事聊天功能允许您以简单的语言询问所需的内容，从而使用Adobe CX Enterprise数据和工具。 使用此页面打开“同事聊天”，发送您的第一条消息，并设置您的工作方式。
 
->[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498575?captions=chi_hans&learn=on)
 
 ## 可用性
 
