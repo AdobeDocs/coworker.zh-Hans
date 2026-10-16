@@ -1,8 +1,7 @@
 ---
 title: 与同事一起规划Customer Journey Analytics或流媒体实施
 description: 了解同事的实施指南技能如何通过可导出的核对表，将发现对话转换为个性化、有序的实施计划。
-hold: true
-source-git-commit: 2bf31c1348054a16ba7e7c0c26c0ff913634aa27
+source-git-commit: 4d91397c769a76fba4f0ec1c3e86938a01fe2c6a
 workflow-type: tm+mt
 source-wordcount: '1239'
 ht-degree: 1%

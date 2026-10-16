@@ -5,9 +5,9 @@ product_v2:
   internal-label: CX Enterprise Coworker
 feature_v2:
   internal-label: CX Enterprise Coworker
-source-git-commit: b6a05e2fdc16830fd69ac1b5ea68ed1d4c5d5c5f
+source-git-commit: 4d91397c769a76fba4f0ec1c3e86938a01fe2c6a
 workflow-type: tm+mt
-source-wordcount: '1915'
+source-wordcount: '1969'
 ht-degree: 1%
 ---
 
@@ -50,6 +50,7 @@ Co-worker Chat可以执行以前仅在Analysis Workspace中才有的高级数据
 | [验证您的流媒体实施](/help/chat/use-cases/data-insights/streaming-media-validation.md)<p>![验证您的流媒体实施](../../assets/ui-guide-8.png)</p> <p>实验性</p> | 检查您的数据流、架构、数据集、数据视图和会话数据，以确认流媒体跟踪已配置并正确收集数据。<p>**示例提示：**“我的流媒体实施总体运行状况如何？”</p><p>有关详细信息，请参阅[与同事验证您的流媒体实施](/help/chat/use-cases/data-insights/streaming-media-validation.md)。</p> |
 | [验证Customer Journey Analytics的数据集质量](/help/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)<p>![验证Customer Journey Analytics的数据集质量](../../assets/data-validation-aep/dataset-validation.png)</p> <p>实验性（下周）</p> | 识别用于提供Customer Journey Analytics报表的数据集，然后检查架构、身份质量和字段质量，以便在构建功能板之前解决问题。<p>有关详细信息，请参阅[使用协同工作进程中的数据验证技能验证Customer Journey Analytics数据](/help/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)。</p> |
 | [将数据摄取到Experience Platform后验证数据](/help/chat/use-cases/data-insights/data-validation-aep.md)<p>![将数据摄取到Experience Platform后验证数据](../../assets/data-validation-aep/null-values.png)</p> | 对Experience Platform数据集和字段运行统计和语义检查以查找数据质量问题，例如无效值或映射问题。<p>**示例提示：**“验证数据集电子示例1000”</p><p>有关详细信息，请参阅[与同事验证Experience Platform数据](/help/chat/use-cases/data-insights/data-validation-aep.md)。</p> |
+| [加速数据分析](/help/chat/use-cases/data-insights/accelerate-data-insights.md) | 在视频中展示同事如何规划您的实施、运行支持的操作以及指导跨Adobe Experience Manager、Experience Platform、Web SDK和Customer Journey Analytics的产品和开发步骤，直到您的网站参与数据准备好分析为止。<p>有关详细信息，请参阅[使用同事、AEM和CJA加速数据洞察](/help/chat/use-cases/data-insights/accelerate-data-insights.md)。</p> |
 
 ### 历程分析
 

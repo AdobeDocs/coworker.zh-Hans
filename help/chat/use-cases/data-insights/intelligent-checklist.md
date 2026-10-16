@@ -1,8 +1,7 @@
 ---
 title: 在同事项目中生成实施核对清单
 description: 了解同事项目如何根据您的《实施指南》计划生成预填充的实施核对清单，以及您可以分配和跟踪的步骤。
-hold: true
-source-git-commit: 2bf31c1348054a16ba7e7c0c26c0ff913634aa27
+source-git-commit: 4d91397c769a76fba4f0ec1c3e86938a01fe2c6a
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
