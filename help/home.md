@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: d87a189293dcc367e5fdfd80e6b59615fdbe9a2d
+source-git-commit: 53e769c5478f46ec9240c62534994d8c30ce8380
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '936'
 ht-degree: 18%
 ---
 # CX Enterprise Coworker指南 {#overview}
@@ -23,7 +23,7 @@ ht-degree: 18%
 [!DNL Coworker]通过三个体验交付：
 
 * **[同事[!UICONTROL 聊天]](./chat/overview.md)：**&#x200B;以自然语言跨多个Adobe应用程序询问见解、内容和操作。
-* **[同事[!UICONTROL 营销活动]](./campaigns/overview.md)：**&#x200B;帮助Agile营销团队从营销活动目标转为协调执行。
+* **[团队的协作者](./coworker-for-teams/overview.md)：**&#x200B;帮助Agile营销团队从营销活动目标转为协调执行。
 * **合作者[!UICONTROL 项目]（即将推出）：**&#x200B;对于长期运行的跨职能企业工作流，团队在其中设置流程、审批和合作者的自主级别。
 
 ## 如何启用同事
@@ -106,20 +106,20 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-## 同事营销活动
-
-同事营销活动是小型敏捷团队的一项模板化功能，可用于站起来执行营销活动。
-
-* [概述](./campaigns/overview.md)
-* [创建电子邮件营销活动](./campaigns/create-an-email-campaign.md)
-* [用例](./campaigns/use-cases.md)
-* [提示最佳实践](./campaigns/prompting-best-practices.md)
-* [连接到Marketo Engage](./campaigns/connectors/marketo.md)
-* [连接到Hubspot](./campaigns/connectors/hubspot.md)
-
 ## 项目（即将推出）
 
 同事项目是一个共享工作区，用于自动化从战略到交付的客户体验工作流。 团队使用它来协调任务、批准和执行。
+
+## 团队同事
+
+团队合作是一项模板化的功能，适用于站起来执行营销活动的小型敏捷团队。
+
+**受欢迎的文章**
+
+* [概述](./coworker-for-teams/overview.md)
+* [创建电子邮件营销活动](./coworker-for-teams/create-an-email-campaign.md)
+* [用例](./coworker-for-teams/use-cases.md)
+* [提示最佳实践](./coworker-for-teams/prompting-best-practices.md)
 
 ## Experience League LIVE：同事已解锁系列
 

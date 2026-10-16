@@ -1,24 +1,24 @@
 ---
-description: 浏览Adobe CX Enterprise Coworker促销活动的实际提示模式，按用例组织，包括客户获取、参与、事件、转化和保留促销活动。
-title: 同事营销活动用例
+description: 浏览团队的Adobe CX Enterprise Coworker真实提示模式，按跨客户获取、参与、事件、转化和保留促销活动的用例进行整理。
+title: 团队协作用例
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: dbee38135a5491fd21b65fdbb70ba60d949d7560
+source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '512'
 ht-degree: 0%
 ---
 # 用例 {#use-cases}
 
-以下是生命周期和增长营销人员在Adobe CX Enterprise Coworker促销活动中使用的真实提示模式。 每个报表包都设计为可复制、与自己的受众和品牌详细信息交换并在对话中进行优化。
+以下是生命周期和增长营销人员在Adobe CX Enterprise Coworker中为团队使用的真实提示模式。 每个报表包都设计为可复制、与自己的受众和品牌详细信息交换并在对话中进行优化。
 
 ## 使用方法
 
-选择符合您目标的用例，复制示例提示并将其粘贴到同事营销活动中，将占位符替换为您的具体内容，然后通过聊天优化输出。 要获取完整的分步信息，请直接构建和生成营销活动。
+选择符合您目标的用例，复制示例提示并将其粘贴到团队合作者中，将占位符替换为您的具体内容，然后通过聊天优化输出。 要获取完整的分步信息，请直接构建和生成营销活动。
 
 ## 客户获取和入门
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 最适合：零售业季节性推送、系列骤减、刷新时刻。
 
-`"Build a 2-touch email campaign, 3 days apart, announcing our new seasonal catalog. Highlight what’s new and relevant for buyers in my CSV list. Personalize content to each person’s first name, product interest category, and region."`
+`"Build a 2-touch email campaign, 3 days apart, announcing our new seasonal catalog. Highlight what's new and relevant for buyers in my CSV list. Personalize content to each person's first name, product interest category, and region."`
 
 ## 事件和时刻驱动
 

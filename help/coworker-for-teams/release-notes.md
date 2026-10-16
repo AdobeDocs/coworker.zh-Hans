@@ -1,20 +1,20 @@
 ---
-description: 了解Adobe CX Enterprise Coworker Campaigns发行说明中的功能增强和修复。
-title: CX Enterprise Coworker Campaigns发行说明
+description: 了解Adobe CX Enterprise Coworker for Teams发行说明中的功能增强和修复。
+title: CX Enterprise Coworker for teams发行说明
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: ee66c1cc95ef1dd8c5e45c1fcb699547e63b9c8a
+source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
 workflow-type: tm+mt
-source-wordcount: '3590'
+source-wordcount: '3597'
 ht-degree: 0%
 ---
-# Adobe CX Enterprise Coworker Campaigns发行说明 {#release-notes}
+# Adobe CX Enterprise Coworker for teams发行说明 {#release-notes}
 
-协作营销活动版本在持续交付模型上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。
+团队版本的同事在持续交付模型上运行，该模型允许采用更具可扩展性、分阶段的方法部署功能。
 
 ## 2026 年 9 月 {#sep-2026}
 
@@ -173,7 +173,7 @@ ht-degree: 0%
 * 营销活动见解显示哪些数据源支持每个量度
 * 现在，品牌编辑器已内置到载入中，以实现更顺畅的首次设置
 * 在提交到营销活动之前预览示例受众
-* 同事营销活动现在位于统一的Experience Cloud导航外壳程序中
+* 团队同事现在位于统一的Experience Cloud导航外壳程序中
 * 已移除用于清洁器活动板的浮动反馈提示栏
 * 整个过程中的各种性能和可靠性改进
 
@@ -276,7 +276,7 @@ ht-degree: 0%
 
 **发行日期： 2026年6月10日**
 
-* 该应用程序现在更名为“同事营销活动”，其命名在整个过程中进行了更新
+* 该应用程序现在是团队的协作者，在整个过程中都进行了更新的命名
 * 首次入门导览将指导您构建演示品牌
 * 在您的计划准备就绪后，从专用对话框启动营销活动
 * 使用集成目录中的API密钥连接HubSpot
@@ -370,7 +370,7 @@ ht-degree: 0%
 
 * 当您工作时，营销活动展示板和列表会与最新详细信息保持一致
 * Campaign聊天和Agent Builder中会显示明确的创作AI免责声明
-* 支持联系人详细信息现在使用专用的CX Coworker促销活动电子邮件地址
+* 支持联系人详细信息现在使用专门的CX Coworker团队电子邮件地址
 * 营销主页删除了轮候表部分，并更清楚地显示了主页视频
 * 更多屏幕会自动采用您的语言和本地日期格式
 * 整个过程中的各种性能和可靠性改进

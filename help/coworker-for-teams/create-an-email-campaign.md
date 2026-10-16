@@ -1,5 +1,5 @@
 ---
-description: 在Adobe CX Enterprise Coworker促销活动中生成电子邮件促销活动的分步指南，从编写提示到查看和导出促销活动。
+description: 在Adobe CX Enterprise Coworker中为团队生成电子邮件促销活动的分步指南，从编写提示到查看和导出促销活动。
 title: 创建电子邮件营销活动
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 2d4922c334bcc2ec93dec46098a9c021623034ad
+source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '983'
 ht-degree: 0%
 ---
 # 创建电子邮件营销活动 {#create-an-email-campaign}
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 确保您拥有：
 
-* 有效的Adobe CX Enterprise Coworker促销活动帐户([在此注册](https://coworker-campaigns.experience.adobe.com/){target="_blank"}（如果尚未注册）。
+* 适用于团队的有效Adobe CX Enterprise Coworker帐户([在此注册](https://coworker-campaigns.experience.adobe.com/){target="_blank"}（如果尚未注册）。
 
 * 您的品牌已添加在&#x200B;**您的资料** > **品牌**&#x200B;下。
 
@@ -46,7 +46,7 @@ _使用时间：您确切知道自己需要什么时。_
 
 _使用时间：当您不确定所需内容时。_
 
-**选项三**：使用提示栏中的下拉列表中的“帮助我提示”选项，让同事营销活动指导您撰写提示。
+**选项三**：使用提示栏中的下拉列表中的“帮助我提示”选项，让Co-worker for teams指导您编写提示。
 
 _何时使用：您可能知道自己想要什么，但希望得到一点帮助（或者，使用“惊喜我”来让我吃惊）时。_
 
@@ -54,7 +54,7 @@ _何时使用：您可能知道自己想要什么，但希望得到一点帮助�
 
 ## 第2步：创建提示
 
-强有力的同事活动提示包括：
+团队的强大同事提示包括：
 
 * 营销活动目标（您正在尝试实现的目标）。
 * 受众（面向谁或受众数据来自何处）。
@@ -75,7 +75,7 @@ _何时使用：您可能知道自己想要什么，但希望得到一点帮助�
 
 ![输入您自己的提示](./assets/create-an-email-campaign-2.png)
 
-提示就绪后，单击&#x200B;**生成营销活动**。 然后，同事营销活动将：
+提示就绪后，单击&#x200B;**生成营销活动**。 然后，团队的同事将：
 
 * 生成结构化的活动计划。
 * 请求您的目标受众，该受众还将用于内容个性化。
@@ -115,7 +115,7 @@ _何时使用：您可能知道自己想要什么，但希望得到一点帮助�
 
  — 或 — 
 
-* 使用对话式界面，通过与同事营销活动直接对话来进行更改。 一些示例包括：
+* 使用对话式界面，通过与团队同事直接沟通来进行更改。 一些示例包括：
 
   * “让主题更加紧迫。”
   * “缩短正文。”
@@ -149,7 +149,7 @@ Launch功能（发送电子邮件促销活动）即将推出。 在此之前，�
 
 它可以为您生成整个营销活动，包括策略、所需受众、工作流等。生成内容后首次响应的平均时间通常约为1分钟。
 
-**如果同事营销活动输出不太正确，我该怎么做？**
+**如果Teams的协同工作输出不太正确，我该怎么做？**
 
 单击标题中的反馈图标，通知我们，以便我们改进平台。
 

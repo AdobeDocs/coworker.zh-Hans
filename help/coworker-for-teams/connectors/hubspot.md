@@ -1,5 +1,5 @@
 ---
-description: 使用Service Key将您的HubSpot帐户连接到Co-worker Campaigns以同步联系人列表，然后随时管理或断开集成。
+description: 使用服务密钥将您的HubSpot帐户连接到团队的同事以同步联系人列表，然后随时管理或断开集成。
 title: 连接到HubSpot
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -7,14 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: dbee38135a5491fd21b65fdbb70ba60d949d7560
+source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '261'
 ht-degree: 0%
 ---
 # 连接到HubSpot {#hubspot}
 
-Adobe同事营销活动允许您连接HubSpot帐户以拉入联系人列表。
+Adobe Co-worker for teams允许您连接您的HubSpot帐户以拉入联系人列表。
 
 >[!PREREQUISITES]
 >
@@ -25,7 +25,7 @@ Adobe同事营销活动允许您连接HubSpot帐户以拉入联系人列表。
 
 ## 如何连接
 
-1. 在[同事营销活动主页](https://coworker-campaigns.experience.adobe.com/)上，单击&#x200B;**自定义**&#x200B;并选择&#x200B;**连接器**。
+1. 在[Co-worker for teams主页](https://coworker-campaigns.experience.adobe.com/)上，单击&#x200B;**自定义**&#x200B;并选择&#x200B;**连接器**。
 
    ![在侧栏中展开自定义菜单，并选择了连接器](./assets/hubspot-1.png)
 

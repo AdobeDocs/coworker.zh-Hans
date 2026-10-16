@@ -1,5 +1,5 @@
 ---
-description: 了解同事营销活动以提示最佳实践 — 联合启动框架、有无、不支持的内容以及提示的质量核对清单。
+description: 了解团队的同事以提示最佳实践 — CO-STAR框架、有有无、不支持的内容以及提示的质量核对清单。
 title: 提示最佳实践
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -7,18 +7,18 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: b6a05e2fdc16830fd69ac1b5ea68ed1d4c5d5c5f
+source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '785'
 ht-degree: 1%
 ---
 # 提示最佳实践 {#best-practices}
 
-要充分利用同事营销活动，首先需要您提供提示。 了解产生最佳结果的实践：用于构建提示的共星框架、要包含的内容和要避免的内容，以及基于情景的示例，这些示例为人工智能提供生成相关的目标内容所需的上下文。
+让团队的同事发挥最大作用始于您的提示方式。 了解产生最佳结果的实践：用于构建提示的共星框架、要包含的内容和要避免的内容，以及基于情景的示例，这些示例为人工智能提供生成相关的目标内容所需的上下文。
 
 >[!NOTE]
 >
->目前，您只能连接到同事营销活动支持的集成。 如果您有任何现有的Adobe Enterprise应用程序（用于存储受众或构建历程），我们建议您改用[CX Enterprise Coworker](/help/chat/use-cases/workflows.md)。
+>目前，对于团队支持的集成，您只能连接到同事。 如果您有任何现有的Adobe Enterprise应用程序（用于存储受众或构建历程），我们建议您改用[CX Enterprise Coworker](/help/chat/use-cases/workflows.md)。
 
 ## 使用CO-STAR框架
 
@@ -179,4 +179,4 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->浏览更多[协同工作营销活动的提示模式](use-cases.md)。
+>浏览更多[提示模式](use-cases.md)以查找团队的协作者。

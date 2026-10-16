@@ -1,5 +1,5 @@
 ---
-description: 了解如何将您的Marketo Engage帐户关联到同事营销活动，以便同步Marketo智能列表和静态列表。
+description: 了解如何将您的Marketo Engage帐户关联到团队的协作者，以便您能够同步Marketo智能列表和静态列表。
 title: 连接到Marketo Engage
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -7,14 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: dbee38135a5491fd21b65fdbb70ba60d949d7560
+source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '316'
 ht-degree: 0%
 ---
 # 连接到Marketo Engage {#marketo}
 
-Adobe同事营销活动允许您连接Marketo Engage帐户以拉入智能和静态列表。
+Adobe Co-worker for Teams允许您连接您的Marketo Engage帐户以拉入智能和静态列表。
 
 >[!PREREQUISITES]
 >
@@ -22,13 +22,13 @@ Adobe同事营销活动允许您连接Marketo Engage帐户以拉入智能和静�
 >
 >* 有效的Marketo Engage帐户
 >* 您的Marketo **实例URL**
->* 为Marketo中的同事营销活动创建的[自定义服务](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/rest/custom-services#custom-services-1)，它有[客户端ID和客户端密钥](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token)
+>* 为Marketo中的团队的同事创建的[自定义服务](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/rest/custom-services#custom-services-1)，它有[客户端ID和客户端密钥](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token)
 
 ## 如何连接
 
-1. 在[同事营销活动主页](https://coworker-campaigns.experience.adobe.com/)上，单击&#x200B;**自定义**&#x200B;并选择&#x200B;**连接器**。
+1. 在[Co-worker for teams主页](https://coworker-campaigns.experience.adobe.com/)上，单击&#x200B;**自定义**&#x200B;并选择&#x200B;**连接器**。
 
-   ![同事营销活动左导航，已展开自定义并突出显示连接器](./assets/marketo-1.png)
+   ![团队的同事已展开自定义并突出显示连接器左侧导航](./assets/marketo-1.png)
 
 1. 单击&#x200B;**添加集成**。
 

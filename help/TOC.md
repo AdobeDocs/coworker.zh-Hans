@@ -5,9 +5,9 @@ user-guide-description: 了解Adobe CX Enterprise Coworker，它是一个AI支�
 description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中使用AI改善您的产品知识并获得运营见解。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: d87a189293dcc367e5fdfd80e6b59615fdbe9a2d
+source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 17%
 ---
 
@@ -66,15 +66,15 @@ ht-degree: 17%
     - [管理组织的插件](./customizations/plugins/manage-plugins-for-your-org.md)
   - 记忆 {#memory}
     - [什么是记忆？](./customizations/memory/what-is-memory.md)
-- 营销活动 {#campaigns}
-  - {hide-from-toc}[新团队体验](./campaigns/new-teams-experience.md)
-  - [概述](./campaigns/overview.md)
-  - [创建电子邮件营销活动](./campaigns/create-an-email-campaign.md)
-  - [启动和管理营销活动](./campaigns/launch-manage-campaign.md)
-  - [用例](./campaigns/use-cases.md)
-  - [提示最佳实践](./campaigns/prompting-best-practices.md)
-  - [C2PA 元数据](./campaigns/c2pa-metadata.md)
+- 团队同事 {#coworker-for-teams}
+  - {hide-from-toc}[新团队体验](./coworker-for-teams/new-teams-experience.md)
+  - [概述](./coworker-for-teams/overview.md)
+  - [创建电子邮件营销活动](./coworker-for-teams/create-an-email-campaign.md)
+  - [启动和管理营销活动](./coworker-for-teams/launch-manage-campaign.md)
+  - [用例](./coworker-for-teams/use-cases.md)
+  - [提示最佳实践](./coworker-for-teams/prompting-best-practices.md)
+  - [C2PA 元数据](./coworker-for-teams/c2pa-metadata.md)
   - 连接器 {#connectors}
-    - [Marketo Engage](./campaigns/connectors/marketo.md)
-    - [Hubspot](./campaigns/connectors/hubspot.md)
-  - [发行说明](./campaigns/release-notes.md)
+    - [Marketo Engage](./coworker-for-teams/connectors/marketo.md)
+    - [Hubspot](./coworker-for-teams/connectors/hubspot.md)
+  - [发行说明](./coworker-for-teams/release-notes.md)
