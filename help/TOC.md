@@ -5,10 +5,10 @@ user-guide-description: 了解Adobe CX Enterprise Coworker，它是一个AI支�
 description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中使用AI改善您的产品知识并获得运营见解。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
+source-git-commit: 4d91397c769a76fba4f0ec1c3e86938a01fe2c6a
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 17%
+source-wordcount: '250'
+ht-degree: 16%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -21,13 +21,18 @@ ht-degree: 17%
   - 用例 {#use-cases}
     - [同事聊天工作流](./chat/use-cases/workflows.md)
     - 数据分析 {#data-insights}
-      - {hide-from-toc}[概述](./chat/use-cases/data-insights/analytics-overview.md)
+      - [概述](./chat/use-cases/data-insights/analytics-overview.md)
       - [快速入门](./chat/use-cases/data-insights/analytics-chat.md)
-      - [探索趋势和根本原因](./chat/use-cases/data-insights/root-cause-analysis.md)
-      - [升级时验证AA到CJA的数据](./chat/use-cases/data-insights/data-validation-aa-cja.md)
-      - [验证CJA报表的数据集质量](./chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
-      - [验证Experience Platform数据](./chat/use-cases/data-insights/data-validation-aep.md)
-      - [加速数据洞察](./chat/use-cases/data-insights/accelerate-data-insights.md)
+      - 数据治理和验证 {#data-governance-and-validation}
+        - [规划实施](./chat/use-cases/data-insights/implementation-guide.md)
+        - [生成实施核对清单](./chat/use-cases/data-insights/intelligent-checklist.md)
+        - [升级时验证AA到CJA的数据](./chat/use-cases/data-insights/data-validation-aa-cja.md)
+        - [验证流媒体实施](./chat/use-cases/data-insights/streaming-media-validation.md)
+        - [验证CJA报表的数据集质量](./chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
+        - [验证Experience Platform数据](./chat/use-cases/data-insights/data-validation-aep.md)
+        - [加速数据洞察](./chat/use-cases/data-insights/accelerate-data-insights.md)
+      - 业务绩效 {#business-performance}
+        - [探索趋势和根本原因](./chat/use-cases/data-insights/root-cause-analysis.md)
     - 数据载入 {#data-onboarding}
       - {hide-from-toc}[与同事一起载入数据](./agents/data-onboarding-skill.md)
     - 数据管理 {#data-management}
