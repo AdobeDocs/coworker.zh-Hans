@@ -5,7 +5,7 @@ product_v2:
   internal-label: CX Enterprise Coworker
 feature_v2:
   internal-label: CX Enterprise Coworker
-source-git-commit: f914f4a123216985ae9b562413f26e7b8c29eb0f
+source-git-commit: 4bbaf3021be6518ce3aa811efec7b4d0d2746199
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 1%
@@ -40,7 +40,7 @@ Co-worker Chat可以执行以前仅在Analysis Workspace中才有的高级数据
 
 | 域 | 您可以做什么 | 最适合 |
 | --- | --- | --- |
-| [数据治理和验证](/help/chat/use-cases/data-insights/data-governance-and-validation.md) | 设置、迁移和管理您的实施，并确保您可以信任每个答案背后的数据。 | 管理员 |
+| [智能实施和管理](/help/chat/use-cases/data-insights/data-governance-and-validation.md) | 设置、迁移和管理您的实施，并确保您可以信任每个答案背后的数据。 | 管理员 |
 | [历程分析](/help/chat/use-cases/data-insights/journey-analysis.md) | 跨渠道、设备和区段了解客户从历程中退出的位置以及原因。 | 分析师、商业用户 |
 | [受众和区段分析](/help/chat/use-cases/data-insights/audience-and-segment-analysis.md) | 了解哪些客户组表现不同以及具体方式，以便您能够专注于最重要的客户组。 | 分析师、商业用户 |
 | [业务绩效](/help/chat/use-cases/data-insights/business-performance.md) | 了解业务开展情况、量度移动的原因、移动方向，以及下一步要做什么。 | 分析师、商业用户 |
