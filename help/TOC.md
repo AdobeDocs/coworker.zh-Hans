@@ -5,9 +5,9 @@ user-guide-description: 了解Adobe CX Enterprise Coworker，它是一个AI支�
 description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中使用AI改善您的产品知识并获得运营见解。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 4d91397c769a76fba4f0ec1c3e86938a01fe2c6a
+source-git-commit: 4bbaf3021be6518ce3aa811efec7b4d0d2746199
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '275'
 ht-degree: 16%
 ---
 
@@ -23,7 +23,8 @@ ht-degree: 16%
     - 数据分析 {#data-insights}
       - [概述](./chat/use-cases/data-insights/analytics-overview.md)
       - [快速入门](./chat/use-cases/data-insights/analytics-chat.md)
-      - 数据治理和验证 {#data-governance-and-validation}
+      - 智能实施和管理 {#intelligent-implementation-and-administration}
+        - [概述](./chat/use-cases/data-insights/data-governance-and-validation.md)
         - [规划实施](./chat/use-cases/data-insights/implementation-guide.md)
         - [生成实施核对清单](./chat/use-cases/data-insights/intelligent-checklist.md)
         - [升级时验证AA到CJA的数据](./chat/use-cases/data-insights/data-validation-aa-cja.md)
@@ -31,8 +32,17 @@ ht-degree: 16%
         - [验证CJA报表的数据集质量](./chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
         - [验证Experience Platform数据](./chat/use-cases/data-insights/data-validation-aep.md)
         - [加速数据洞察](./chat/use-cases/data-insights/accelerate-data-insights.md)
+      - 历程分析 {#journey-analysis}
+        - [概述](./chat/use-cases/data-insights/journey-analysis.md)
+      - 受众和区段分析 {#audience-and-segment-analysis}
+        - [概述](./chat/use-cases/data-insights/audience-and-segment-analysis.md)
       - 业务绩效 {#business-performance}
+        - [概述](./chat/use-cases/data-insights/business-performance.md)
         - [探索趋势和根本原因](./chat/use-cases/data-insights/root-cause-analysis.md)
+      - 内容性能 {#content-performance}
+        - [概述](./chat/use-cases/data-insights/content-performance.md)
+      - 营销衡量和归因 {#marketing-measurement-and-attribution}
+        - [概述](./chat/use-cases/data-insights/marketing-measurement-and-attribution.md)
     - 数据载入 {#data-onboarding}
       - {hide-from-toc}[与同事一起载入数据](./agents/data-onboarding-skill.md)
     - 数据管理 {#data-management}
@@ -41,6 +51,7 @@ ht-degree: 16%
       - [评估平台运行状况并构建受众](./chat/use-cases/audiences/create-audience-from-natural-language.md)
     - 历程 {#journeys}
       - [使用自然语言创建历程](./chat/use-cases/journeys/create-journey-from-natural-language.md)
+      - [创建、模拟和分析跨渠道历程](./chat/use-cases/journeys/create-simulate-and-analyze-a-cross-channel-journey-with-cx-enterprise-coworker-feature-video.md)
     - 忠诚度 {#loyalty}
       - [创建忠诚度挑战并显示见解](./chat/use-cases/journeys/create-loyalty-challenge.md)
     - 优化 {#optimization}
