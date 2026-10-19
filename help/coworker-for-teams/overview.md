@@ -7,12 +7,12 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
+source-git-commit: 68132acaa3dfbefa1e9cda9fad724f17c7e5f065
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '983'
 ht-degree: 0%
 ---
-# 适用于团队的Adobe CX Enterprise Coworker概述 {#overview}
+# 团队同事概述 {#overview}
 
 Co-worker for Teams专为具有更加敏捷的营销团队的小型组织而设计，这些团队需要在单个工具中进行内容生成、历程构建和分析。
 
@@ -114,7 +114,7 @@ Co-worker for teams界面是围绕左侧导航来组织的。
 
 ## 视频概述
 
->[!VIDEO](https://video.tv.adobe.com/v/3492815?captions=chi_hans&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3492807?learn=on){transcript=true}
 
 
 新功能将在试用期间提供。 您的反馈有助于形成后续内容。 通过标题中的产品内反馈图标提交反馈。
