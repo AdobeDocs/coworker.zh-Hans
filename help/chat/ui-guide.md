@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 74f8413fcb9bb0ab6c257a56c38e5e374414e2d5
+source-git-commit: 80f7bf9003e360b9ca6d0e1868c056447d35b763
 workflow-type: tm+mt
-source-wordcount: '1802'
+source-wordcount: '1801'
 ht-degree: 2%
 ---
 # 同事聊天入门 {#ui-guide}
@@ -213,7 +213,7 @@ Chat同事会实时显示其工作，然后返回答案。 响应可能包括其
 
 ## 自定义同事聊天
 
-在配置中，您可以控制同事聊天的作用。 单击导航边栏中的&#x200B;**[!UICONTROL 配置]**，然后选择选项卡： **[!UICONTROL 技能]**、**[!UICONTROL MCP服务器]**、**[!UICONTROL 市场]**、**[!UICONTROL 插件]**&#x200B;或&#x200B;**[!UICONTROL 内存]**。
+[!UICONTROL 自定义项]是您控制[!UICONTROL 同事聊天]功能的地方。 单击导航边栏中的&#x200B;**[!UICONTROL 自定义项]**，然后选择选项卡： **[!UICONTROL 技能]**、**[!UICONTROL 集成]**、**[!UICONTROL 市场]**、**[!UICONTROL 插件]**&#x200B;或&#x200B;**[!UICONTROL 内存]**。
 
 ### 添加和查看技能
 
@@ -221,8 +221,9 @@ Chat同事会实时显示其工作，然后返回答案。 响应可能包括其
 
 ![技能选项卡](./assets/ui-guide-12.png)
 
-1. 在&#x200B;**[!UICONTROL 技能]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL 添加Source]**&#x200B;以从新来源安装技能。
-1. 在&#x200B;**[!UICONTROL 搜索]**&#x200B;中输入名称以查找技能。 使用视图切换可在网格和列表布局之间切换。
+1. 在&#x200B;**[!UICONTROL 技能]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL 添加技能]**&#x200B;以从新来源安装技能。
+1. 在&#x200B;**[!UICONTROL 搜索]**&#x200B;中输入名称以查找技能。
+使用视图切换可在网格和列表布局之间切换。
 1. 选择一种技能，以查看Co-worker Chat使用插件时该插件所属的插件及其包含的文件。
 
    ![显示支持文件的技能详细信息视图](./assets/ui-guide-13.png)

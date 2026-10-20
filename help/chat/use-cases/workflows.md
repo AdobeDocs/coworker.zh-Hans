@@ -7,14 +7,20 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 0ccc8faed069b726a28a39042047d1e66200181e
+source-git-commit: be1be18a25c57eafa07b326b1bf5800527cb1c7d
 workflow-type: tm+mt
-source-wordcount: '7618'
+source-wordcount: '7712'
 ht-degree: 6%
 ---
 # 同事聊天工作流 {#use-cases}
 
 Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experience Platform]数据，而不是手动导航多个UI或编写查询。 此页面按工作区域组织了从业人员最依赖的工作流目录：数据分析、受众、历程、忠诚度、基本元素和沙盒工具。 每个条目都包括它调用的技能、与它一起使用的应用程序以及示例提示，您可以复制、适应自己的数据，并通过对话进行细化。
+
+## 关于技能和工作流
+
+**技能：** _技能_&#x200B;是同事可以执行的单个、特定功能或操作。 例如，创建受众、发送电子邮件、生成报告或分析营销活动结果。 每项技能都侧重于一项特定功能。
+
+**Worfkow：** _工作流_&#x200B;是旨在实现更广泛业务目标的一系列步骤或操作（通常涉及多种技能）。 工作流会按逻辑顺序协调多种技能，以完成复杂的多步骤流程，例如启动营销活动、加入新的客户区段，或诊断营销活动效果下降的问题。
 
 ## 品牌体验
 

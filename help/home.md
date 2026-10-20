@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 53e769c5478f46ec9240c62534994d8c30ce8380
+source-git-commit: ebe0bd0f8e420b007e1b99ec2e15fd3b249305e6
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 18%
+source-wordcount: '979'
+ht-degree: 17%
 ---
 # CX Enterprise Coworker指南 {#overview}
 
@@ -22,13 +22,13 @@ ht-degree: 18%
 
 [!DNL Coworker]通过三个体验交付：
 
-* **[同事[!UICONTROL 聊天]](./chat/overview.md)：**&#x200B;以自然语言跨多个Adobe应用程序询问见解、内容和操作。
-* **[团队的协作者](./coworker-for-teams/overview.md)：**&#x200B;帮助Agile营销团队从营销活动目标转为协调执行。
+* **[同事[!UICONTROL 聊天]](./chat/overview.md)：**&#x200B;以自然语言跨多个Adobe应用程序询问见解、内容和操作。 聊天已通过您的帐户团队获得许可并启用。
+* **[团队的协作者](./coworker-for-teams/overview.md)：**&#x200B;帮助Agile营销团队从营销活动目标转为协调执行。 Co-worker for teams是位于其自身URL的自助免费试用，截止日期为2026年12月31日，仅限北美。
 * **合作者[!UICONTROL 项目]（即将推出）：**&#x200B;对于长期运行的跨职能企业工作流，团队在其中设置流程、审批和合作者的自主级别。
 
-## 如何启用同事
+## 如何启用同事聊天
 
-要启用同事（包括同事聊天），您的组织需要访问Adobe CX Enterprise Coworker。 启用通常包括：
+要启用同事聊天，您的组织需要访问Adobe CX Enterprise Coworker。 启用通常包括：
 
 * **许可：**&#x200B;请联系您的Adobe客户代表或销售团队，以确认您拥有正确的许可证和权利。
 
@@ -36,7 +36,9 @@ ht-degree: 18%
 
 * **访问：**&#x200B;在Adobe [Admin Console](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/administration/admin-console)中为您的团队分配角色并分配对同事功能的访问权限。
 
-* **开始使用：**&#x200B;启用同事后，请参阅[开始同事聊天](./chat/ui-guide.md)，了解您如何通过同事聊天界面，包括输入框、响应、聊天历史记录和技能、MCP服务器和内存设置。
+* **开始：**&#x200B;启用同事后，请参阅[开始同事聊天](./chat/ui-guide.md)，了解您如何了解同事聊天界面，包括输入框、响应和聊天历史记录。
+
+若要与团队进行同事聊天，请参阅[技能](./customizations/skills/what-are-skills.md)、[集成](./customizations/integrations/understanding-integrations-in-coworker.md)、[插件](./customizations/plugins/what-are-plugins.md)和[内存](./customizations/memory/what-is-memory.md)，或从[自定义概述](./customizations/overview.md)开始。
 
 ## 有关使用同事聊天功能的视频
 

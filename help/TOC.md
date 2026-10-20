@@ -5,24 +5,24 @@ user-guide-description: 了解Adobe CX Enterprise Coworker，它是一个AI支�
 description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中使用AI改善您的产品知识并获得运营见解。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 4bbaf3021be6518ce3aa811efec7b4d0d2746199
+source-git-commit: 2b61bbc29954e10515b5bbdbd7bafe48c7cbfdbd
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 16%
+source-wordcount: '282'
+ht-degree: 14%
 ---
 
 # CX Enterprise Coworker {#content}
 
-- [同事概述](home.md)
+- [同事指南](home.md)
 - 聊天 {#chat}
-  - [概述](./chat/overview.md)
-  - [聊天入门](./chat/ui-guide.md)
+  - [关于同事聊天](./chat/overview.md)
+  - [开始使用同事聊天](./chat/ui-guide.md)
   - {hide-from-toc}[在游乐场中的同事聊天](./playground-coworker-chat.md)
-  - 用例 {#use-cases}
+  - 工作流 {#use-cases}
     - [同事聊天工作流](./chat/use-cases/workflows.md)
     - 数据分析 {#data-insights}
-      - [概述](./chat/use-cases/data-insights/analytics-overview.md)
-      - [快速入门](./chat/use-cases/data-insights/analytics-chat.md)
+      - [关于分析数据](./chat/use-cases/data-insights/analytics-overview.md)
+      - [开始分析数据](./chat/use-cases/data-insights/analytics-chat.md)
       - 智能实施和管理 {#intelligent-implementation-and-administration}
         - [概述](./chat/use-cases/data-insights/data-governance-and-validation.md)
         - [规划实施](./chat/use-cases/data-insights/implementation-guide.md)
@@ -69,7 +69,7 @@ ht-degree: 16%
     - 工作流程和规划 {#workflow-and-planning}
       - [规划数字营销活动发布](./chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
 - 自定义 {#customizations}
-  - [概述](./customizations/overview.md)
+  - [自定义概述](./customizations/overview.md)
   - 技能 {#skills}
     - [什么是技能？](./customizations/skills/what-are-skills.md)
     - [创建您的第一个技能](./customizations/skills/create-your-first-skill.md)
