@@ -4,10 +4,7 @@ title: Adobe CX Enterprise Coworker概述
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 68132acaa3dfbefa1e9cda9fad724f17c7e5f065
+source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 0%
@@ -114,7 +111,7 @@ Co-worker for teams界面是围绕左侧导航来组织的。
 
 ## 视频概述
 
->[!VIDEO](https://video.tv.adobe.com/v/3492815?captions=chi_hans&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3492807?learn=on){transcript=true}
 
 
 新功能将在试用期间提供。 您的反馈有助于形成后续内容。 通过标题中的产品内反馈图标提交反馈。

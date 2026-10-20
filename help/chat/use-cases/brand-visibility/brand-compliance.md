@@ -11,10 +11,7 @@ jira: KT-22501
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 2d4922c334bcc2ec93dec46098a9c021623034ad
+source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -28,4 +25,4 @@ Co-worker简化了营销工作流中品牌一致性的维护。 它无缝集成�
 
 同事不仅能够发现问题，还能提供切实可行的建议。 例如，如果字幕过于宽泛或缺少call to action，它将提供符合您的品牌标准的修订版本，并包含相关标记。 此过程可简化内容创建，并确保以最少的工作量实现品牌合规性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3502713/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502691/?learn=on&enablevpops)

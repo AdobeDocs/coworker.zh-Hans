@@ -5,10 +5,7 @@ jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 80f7bf9003e360b9ca6d0e1868c056447d35b763
+source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
 workflow-type: tm+mt
 source-wordcount: '1801'
 ht-degree: 2%
@@ -46,7 +43,7 @@ CX Enterprise应用程序选择器中的![同事](./assets/ui-guide-1.png)
 
 ## 视频 — [!DNL Coworker]聊天界面的基础知识
 
->[!VIDEO](https://video.tv.adobe.com/v/3498575?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 选择您的组织
 
@@ -222,7 +219,7 @@ Chat同事会实时显示其工作，然后返回答案。 响应可能包括其
 ![技能选项卡](./assets/ui-guide-12.png)
 
 1. 在&#x200B;**[!UICONTROL 技能]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL 添加技能]**&#x200B;以从新来源安装技能。
-1. 在&#x200B;**[!UICONTROL 搜索]**&#x200B;中输入名称以查找技能。
+1. 在&#x200B;**[!UICONTROL 搜索]**中输入名称以查找技能。
 使用视图切换可在网格和列表布局之间切换。
 1. 选择一种技能，以查看Co-worker Chat使用插件时该插件所属的插件及其包含的文件。
 
@@ -236,7 +233,7 @@ Chat同事会实时显示其工作，然后返回答案。 响应可能包括其
 
 模型上下文协议(MCP)服务器将同事聊天与外部工具和服务（如Adobe Journey Optimizer、Real-Time CDP、Target和Workfront）连接。 **[!UICONTROL MCP服务器]**&#x200B;选项卡列出了已连接的服务器和活动连接数。 每个信息卡都会显示服务器名称、其端点，以及描述其所提供内容的标记。
 
-要连接服务器，请单击“添加服务器”**&#x200B;**&#x200B;并按照提示操作。
+要连接服务器，请单击“添加服务器”****&#x200B;并按照提示操作。
 
 ![MCP服务器选项卡](./assets/ui-guide-15.png)
 
