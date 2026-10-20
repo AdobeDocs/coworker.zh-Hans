@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: be1be18a25c57eafa07b326b1bf5800527cb1c7d
+source-git-commit: ee4016ae71de6eadc7b38d434a6aeefde74b124b
 workflow-type: tm+mt
-source-wordcount: '7712'
+source-wordcount: '7768'
 ht-degree: 6%
 ---
 # 同事聊天工作流 {#use-cases}
@@ -188,6 +188,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | --- | --- | --- | --- | --- |
 | [创建、编辑和管理忠诚度挑战](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-challenge-management){target="_blank"} | 简化并加快忠诚度计划管理 | `loyalty` | Adobe Journey Optimizer (AJO) | “创建挑战，鼓励会员尝试新的季节性饮品”<br>“向我展示会员流失率最高的忠诚度挑战。” |
 | [分析忠诚度计划绩效](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-data-insight){target="_blank"} | 使用自然语言查询和分析忠诚度积分、成员层、赎回和收入指标 | `loyalty-insights` | Adobe Journey Optimizer (AJO) | “2026年8月期间授予了多少忠诚度积分？” <br> “显示2026年8月按天划分的忠诚度计划总收入。” |
+| [查找忠诚度机会](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-opportunities){target="_blank"} | 根据忠诚度计划趋势和绩效数据请求基于具体情况的挑战机会，然后将其转化为实时挑战 | 待定 | Adobe Journey Optimizer (AJO) | “哪些忠诚度机会可能会增加成员支出？”<br> “向我展示赢回非活跃成员的机会。” |
 
 **相关信息**
 
