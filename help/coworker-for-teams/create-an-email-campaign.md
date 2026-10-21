@@ -4,21 +4,14 @@ title: 创建电子邮件营销活动
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
+source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '964'
 ht-degree: 0%
 ---
 # 创建电子邮件营销活动 {#create-an-email-campaign}
 
 了解如何在几分钟内生成并查看完整的电子邮件营销活动。
-
->[!IMPORTANT]
->
->此时，您只能生成营销活动，但尚未能发送（启动）它们。 Launch功能即将推出。
 
 ## 开始之前
 

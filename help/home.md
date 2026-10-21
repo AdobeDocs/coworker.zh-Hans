@@ -4,45 +4,84 @@ description: 了解Adobe CX Enterprise Coworker，它是一个AI支持的团队�
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: ebe0bd0f8e420b007e1b99ec2e15fd3b249305e6
+source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1094'
 ht-degree: 17%
 ---
 # CX Enterprise Coworker指南 {#overview}
 
-[!DNL Coworker]是Adobe的代理AI团队成员，负责客户体验和营销工作。 它不仅仅是回答问题或建议操作：它跨Adobe和其他企业系统运行多步骤营销工作流，而批准和治理可让您进行控制。 了解有关[Adobe for Business](https://business.adobe.com/cn/products/cx-enterprise-coworker.html)的更多信息。
+[!DNL Coworker]是Adobe的代理AI团队成员，负责客户体验和营销工作。 它不仅解答问题或建议操作， 它可以跨Adobe和其他企业系统运行多步骤营销工作流，而批准和治理可让您进行控制。 了解有关[Adobe for Business](https://business.adobe.com/cn/products/cx-enterprise-coworker.html)的更多信息。
 
-## 如何使用[!DNL Coworker]
+## 选择体验
 
-同事将AI从&#x200B;_辅助_&#x200B;转移到&#x200B;_操作_。 您无需在应用程序之间切换并自行协调每个步骤，而是定义一个目标，[!DNL Coworker]将开始并执行这些步骤。 它适用于受众、历程、内容、见解、诊断和营销操作。
+您定义了一个目标，然后由同事工作并执行这些步骤。 选择适合您团队工作方式的体验。
 
-[!DNL Coworker]通过三个体验交付：
+| 体验 | 使用它可以 | 可用性 |
+| --- | --- | --- |
+| [同事[!UICONTROL 聊天]](./chat/overview.md) | 用自然语言跨多个Adobe应用程序询问见解、内容和操作。 | 通过您的Adobe客户团队授予许可。 请参阅[检查可用性](#chat-availability)。 |
+| 团队的[同事](./coworker-for-teams/overview.md) | 作为一支灵活的小型营销团队，从营销活动目标转向协调执行。 | 免费试用至2026年12月31日。 仅限北美。 |
+| 同事[!UICONTROL 项目] | 运行长期运行的跨职能工作流，其中您的团队设置流程、审批和同事的自主级别。 | 即将推出。 |
 
-* **[同事[!UICONTROL 聊天]](./chat/overview.md)：**&#x200B;以自然语言跨多个Adobe应用程序询问见解、内容和操作。 聊天已通过您的帐户团队获得许可并启用。
-* **[团队的协作者](./coworker-for-teams/overview.md)：**&#x200B;帮助Agile营销团队从营销活动目标转为协调执行。 Co-worker for teams是位于其自身URL的自助免费试用，截止日期为2026年12月31日，仅限北美。
-* **合作者[!UICONTROL 项目]（即将推出）：**&#x200B;对于长期运行的跨职能企业工作流，团队在其中设置流程、审批和合作者的自主级别。
+## 同事聊天
 
-## 如何启用同事聊天
+同事聊天是一种用于完成客户体验工作的对话界面。 Co-worker Chat会以简单的语言描述您需要的内容，从而规划工作，在您的Adobe和联网系统中运行，并返回结果以供您审批。 有关详细信息，请参阅[同事聊天概述](./chat/overview.md)。
 
-要启用同事聊天，您的组织需要访问Adobe CX Enterprise Coworker。 启用通常包括：
+### 检查可用性 {#chat-availability}
+
+现在在以下应用程序中提供了同事聊天：
+
+* Real-Time CDP
+* Adobe Journey Optimizer
+* Customer Journey Analytics
+* Adobe Target
+* AEM
+* Workfront
+* Marketo Engage
+
+Real-Time CDP、Adobe Journey Optimizer和Customer Journey Analytics的B2B版本即将推出。
+
+有关应用程序提供的沉浸式体验和产品内体验，请参阅[开始使用同事聊天](./chat/ui-guide.md#availability)。 有关兼容应用程序的完整列表，请参阅[兼容的CX Enterprise应用程序](./chat/overview.md#compatible-cx-enterprise-applications)。
+
+### 启用同事聊天
+
+要启用同事聊天，您的组织需要访问Adobe CX Enterprise Coworker。 启用通常涉及以下内容：
 
 * **许可：**&#x200B;请联系您的Adobe客户代表或销售团队，以确认您拥有正确的许可证和权利。
-
 * **入门：** Adobe的企业支持或专业服务团队为您的环境配置同事，设置与Adobe应用程序的集成，并定义治理和审批工作流。
+* **访问：**&#x200B;在[Admin Console](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/administration/admin-console)中为您的团队分配角色并分配对同事功能的访问权限。
 
-* **访问：**&#x200B;在Adobe [Admin Console](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/administration/admin-console)中为您的团队分配角色并分配对同事功能的访问权限。
+启用同事后，请参阅[开始使用同事聊天](./chat/ui-guide.md)以打开同事聊天，发送您的第一条消息并查看响应。
 
-* **开始：**&#x200B;启用同事后，请参阅[开始同事聊天](./chat/ui-guide.md)，了解您如何了解同事聊天界面，包括输入框、响应和聊天历史记录。
+### 自定义同事聊天
 
-若要与团队进行同事聊天，请参阅[技能](./customizations/skills/what-are-skills.md)、[集成](./customizations/integrations/understanding-integrations-in-coworker.md)、[插件](./customizations/plugins/what-are-plugins.md)和[内存](./customizations/memory/what-is-memory.md)，或从[自定义概述](./customizations/overview.md)开始。
+根据团队的工作方式定制同事聊天。 从[自定义概述](./customizations/overview.md)开始，或直接转到以下主题之一：
 
-## 有关使用同事聊天功能的视频
+* [技能](./customizations/skills/what-are-skills.md)
+* [集成](./customizations/integrations/understanding-integrations-in-coworker.md)
+* [插件](./customizations/plugins/what-are-plugins.md)
+* [记忆](./customizations/memory/what-is-memory.md)
 
-这些视频播放列表涵盖关键[!UICONTROL 聊天]功能以及如何编写有效的提示，并提供[!DNL Coworker]如何帮助团队在[!DNL CX Enterprise]产品中更高效地工作的实际示例。
+## 团队同事
+
+Co-worker for Teams是一款独立的应用程序，适用于希望快速站起来运行营销活动的小型、敏捷营销团队。 它不是其他CX Enterprise应用程序的一部分。 该版本提供免费试用，直至2026年12月31日，仅在北美提供。 有关访问步骤，请参阅[如何访问](./coworker-for-teams/overview.md#how-to-access)。
+
+团队的同事包括[Marketo Engage](./coworker-for-teams/connectors/marketo.md)和[HubSpot](./coworker-for-teams/connectors/hubspot.md)的连接器。
+
+要开始配置，请参阅以下文章：
+
+* [团队同事概述](./coworker-for-teams/overview.md)
+* [创建电子邮件营销活动](./coworker-for-teams/create-an-email-campaign.md)
+* [用例](./coworker-for-teams/use-cases.md)
+* [提示最佳实践](./coworker-for-teams/prompting-best-practices.md)
+
+## 了解详情
+
+观看视频并参加实时讲座，以培养您的同事技能。
+
+### 观看同事聊天视频
+
+观看这些播放列表，了解同事聊天的基础知识以及如何通过技能、集成、插件和内存对其进行自定义。
 
 <!--
 CARDS
@@ -108,24 +147,9 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-## 项目（即将推出）
+### 加入Experience League LIVE
 
-同事项目是一个共享工作区，用于自动化从战略到交付的客户体验工作流。 团队使用它来协调任务、批准和执行。
-
-## 团队同事
-
-团队合作是一项模板化的功能，适用于站起来执行营销活动的小型敏捷团队。
-
-**受欢迎的文章**
-
-* [概述](./coworker-for-teams/overview.md)
-* [创建电子邮件营销活动](./coworker-for-teams/create-an-email-campaign.md)
-* [用例](./coworker-for-teams/use-cases.md)
-* [提示最佳实践](./coworker-for-teams/prompting-best-practices.md)
-
-## Experience League LIVE：同事已解锁系列
-
-加入CX Enterprise Coworker Unlocked系列，了解组织如何使用AI简化客户体验工作。 每个课程都提供了有关在Adobe Experience Cloud应用程序中加快工作流程、揭示见解和自动化任务的实用用例、实时演示和专家指导。 浏览以前的直播或注册即将举行的活动。
+观看“同事解锁”系列的按需视频，了解组织如何使用同事简化客户体验工作。 每个会议都包括关于加速工作流、寻找见解和自动化任务的实用用例、实时演示和专家指导。
 
 <!--
 CARDS
