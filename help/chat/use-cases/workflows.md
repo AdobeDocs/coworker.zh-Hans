@@ -4,9 +4,9 @@ title: 同事聊天工作流
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+source-git-commit: 3194d97a10b97403b6a1103e49d833fabf016548
 workflow-type: tm+mt
-source-wordcount: '7768'
+source-wordcount: '7843'
 ht-degree: 6%
 ---
 # 同事聊天工作流 {#use-cases}
@@ -143,6 +143,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | [分析自定义操作错误](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 识别历程中自定义操作何时失败或错误率激增，并在故障升级为更广泛中断之前诊断根本原因 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | “为什么自定义操作在我的忠诚度注册历程中失败？” <br> “在我的欢迎历程中向我显示自定义操作ExternalPush的错误率。” |
 | [检测历程异常](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 检测并确认历程的进入、退出或发送计数中相对于历史基线的意外尖峰、下降或扁平化，并揭示可能的根本原因 | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | “为什么昨天我的欢迎历程的条目减少了？” <br> “本周购物车放弃历程的退出次数是否激增？” |
 | [业务绩效分析](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 分析历程表现并识别表现不佳的历程的具体优化机会。 显示趋势、瓶颈和可能驱动因素导致结果降低，这样您就可以提高参与度和转化率。 获取可操作的建议，以根据业务绩效见解调整历程设计、定位或消息传递策略。 | 历程分析 | Adobe Journey Optimizer (AJO) | “分析历程[历程名称]的性能并建议优化。”<br> “为什么历程[历程名称]与上个月相比表现不佳？” <br> “我应更改哪些内容以提高历程[历程名称]的性能？”<br> “历程[历程名称]的哪些部分可能会限制转化或参与？” |
+| [分析历程卫生](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 审核历程清单，以查找具有缺失或通用名称、过时的草稿或实时历程、超大历程、长期存在的已关闭历程以及类似的操作和事件名称的历程，并提供清理和稳定配置的建议 | 历程分析 | Adobe Journey Optimizer (AJO) | “审核我的历程配置。”<br> “我的哪些旅程已经过时或需要清理？” |
 | [比较历程版本](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 比较两个历程版本并查看节点、连接和历程级别属性更改的结构化差异 | `journey-analyze-version-comparison` | Adobe Journey Optimizer (AJO) | “比较我的欢迎历程的版本2和3”<br>“这两个历程版本之间发生了什么变化？” |
 
 **相关信息**
