@@ -11,9 +11,9 @@ jira: KT-22083
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+source-git-commit: b54085a497ca4bbf0003d5837d816206a4d40396
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1528'
 ht-degree: 0%
 ---
 # 从Adobe Analytics升级到Customer Journey Analytics时与同事验证数据
@@ -32,7 +32,7 @@ Adobe CX Enterprise Coworker包括验证技能，允许您在从Adobe Analytics�
 
 进行这些比较后，该技能会生成人工智能驱动的洞察和建议，您可以实施这些洞察和建议来帮助您升级到Customer Journey Analytics。
 
-## 开始之前
+## 先决条件
 
 要在升级过程中验证数据，您需要：
 
@@ -48,7 +48,7 @@ Adobe CX Enterprise Coworker包括验证技能，允许您在从Adobe Analytics�
 
 1. 登录到同事。
 
-1. 选择&#x200B;[!UICONTROL **新建聊天**]。
+1. 选择&#x200B;**[!UICONTROL 新聊天]**。
 
 1. 在文本字段中，提示代理验证从Adobe Analytics到Customer Journey Analytics的升级：
 

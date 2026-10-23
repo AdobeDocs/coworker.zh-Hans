@@ -4,10 +4,10 @@ description: 使用同事聊天功能查找入选内容的共同之处，将收�
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+source-git-commit: b54085a497ca4bbf0003d5837d816206a4d40396
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 1%
+source-wordcount: '566'
+ht-degree: 2%
 ---
 
 # 内容性能概述
@@ -22,13 +22,13 @@ ht-degree: 1%
 
 ## 先决条件
 
-<!-- FLAG: Confidence: High for the first two bullets (sourced from analytics-chat.md and the Skills and limitations table). Low for the third bullet: the attribute-level and image exposure descriptions suggest that these use cases rely on Content Analytics data in Customer Journey Analytics, and implementation-guide.md lists Content Analytics as an implementation path, but no source confirms this. It's a shared bullet rather than a table row because it would apply to every use case on this page. The paid channel row ("Compare Meta ad creative to our web banners") may need an additional data source, which would become an "Additional prerequisite" note on that row in the Use cases table. Confirm with the PM. -->
+<!-- FLAG: Confidence: High for the first two bullets (sourced from analytics-chat.md and the Skills and limitations table). High for the third bullet: attribute-level and asset analysis needs Content Analytics components, which are available only in data views that are configured for Content Analytics (report/report.md in analytics-platform.en). This applies whichever skill runs the analysis. It's a shared bullet rather than a table row because it applies to every use case on this page. The paid channel row ("Compare Meta ad creative to our web banners") also needs the Paid Media channel enabled in Content Analytics through an Experience Platform paid media source connector, such as Meta Ads or Google Ads. Comparing paid creative with on-site revenue needs custom tracking-key mapping, because enabling paid media doesn't connect paid media data to site orders or revenue (config/paid-media.md). Add an "Additional prerequisite" note on that row after the PM confirms. -->
 
 要使用此页面上的用例，您需要：
 
 * 同事聊天已连接到您的Customer Journey Analytics数据视图或Adobe Analytics报表包。 查看[开始使用同事聊天](/help/chat/use-cases/data-insights/analytics-chat.md)分析数据。
 * 查看对要分析的数据视图或报表包的访问权限。 同事聊天从Customer Journey Analytics或Adobe Analytics继承您的权限。
-* 在Customer Journey Analytics中设置Content Analytics，以便同事聊天可以分析内容属性和图像曝光。 要计划Content Analytics实施，请参阅[与同事一起计划实施](/help/chat/use-cases/data-insights/implementation-guide.md)。
+* 为Content Analytics配置的数据视图。 请参阅Customer Journey Analytics指南中的[配置Content Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/content-analytics/configuration/configuration)。
 
 ## 用例
 
@@ -39,20 +39,15 @@ ht-degree: 1%
 | 跨付费和自有渠道比较创意内容 | 显示哪些可视化图表和主题在一个视图中跨Web、移动和付费渠道获胜。<p>**示例提示：**</p><ul><li>“在我们的网站上，哪些创意主题在付费广告中获胜？”</li><li>“比较Meta广告创意与我们的网络横幅”</li></ul> |
 | 了解哪些可视化图表会移动每个受众 | 显示哪些可视化图表适合每个受众以指导个性化和创意摘要。<p>**示例提示：**</p><ul><li>“哪些视觉效果最适合每个区段？”</li><li>“哪些图像适合首次来访的访客？”</li></ul> |
 
-<!--
-HIDDEN until the skills are confirmed. To publish, remove this comment wrapper.
+## 使用的技能
 
-## Skills used
+<!-- FLAG: Confidence: Medium. The `analyze-content` skill is a foundational skill for content questions, so it's listed for every use case on this page. Confirm with the PM that it covers all four. -->
 
-FLAG: Confidence: Low. No source in the repo (workflows.md, the Skills and limitations table, or any data insights article) names the skills behind these use cases. Get the skill IDs from the PM, replace the placeholder rows, and add the skills to the Skills and limitations table on analytics-overview.md so that the link above the table covers them. When you unhide this section, wrap this FLAG note in its own HTML comment.
+对于本文中介绍的用例，Co-worker使用以下技能。 有关所有分析技能的列表，包括所需权限以及未涵盖的内容，请参阅使用同事聊天分析数据中的[技能和限制](/help/chat/use-cases/data-insights/analytics-overview.md#skills-and-limitations)。
 
-Coworker uses the following skills for the use cases described in this article. For a list of all analytics skills, including the permissions they require and what they don't cover, see [Skills and limitations](/help/chat/use-cases/data-insights/analytics-overview.md#skills-and-limitations) in Analyze data with Coworker Chat.
-
-| Skill | Used for |
+| 技能 | 用于 |
 | --- | --- |
-| *[Skill to be confirmed]* | Find what winning content has in common<br>Attribute revenue to the content customers see<br>Compare creative across paid and owned channels<br>Know which visuals move each audience |
-
--->
+| `analyze-content`, `cja` | 查找获胜内容共有的内容<br>将收入归因于客户看到的内容<br>跨付费和拥有的渠道比较创意<br>了解哪些视觉效果可移动每个受众<p>有关详细信息，请参阅[询问有关您内容的问题](/help/chat/use-cases/data-insights/ask-content-questions.md)。</p> |
 
 ## 获得更好结果的提示
 
@@ -64,5 +59,6 @@ Coworker uses the following skills for the use cases described in this article. 
 
 ## 后续步骤
 
+* 要了解同事如何回答内容问题，请参阅[询问有关您内容的问题](/help/chat/use-cases/data-insights/ask-content-questions.md)。
 * 有关使用同事聊天进行数据分析的概述，包括其他分析域和最佳实践，请参阅[使用同事聊天分析数据](/help/chat/use-cases/data-insights/analytics-overview.md)。
 * 若要设置同事聊天并浏览工作示例，请参阅[开始使用同事聊天分析数据](/help/chat/use-cases/data-insights/analytics-chat.md)。

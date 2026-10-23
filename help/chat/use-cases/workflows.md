@@ -4,9 +4,9 @@ title: 同事聊天工作流
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 3194d97a10b97403b6a1103e49d833fabf016548
+source-git-commit: b85f470f860795f9a3960f5a4e36d0584e2b6a81
 workflow-type: tm+mt
-source-wordcount: '7843'
+source-wordcount: '8358'
 ht-degree: 6%
 ---
 # 同事聊天工作流 {#use-cases}
@@ -116,6 +116,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | 预测 | 基于历史CJA或AA数据预测未来量度值 | `cja`, `aa` | Customer Journey Analytics (CJA)、Adobe Analytics (AA) | “未来30天的预测会话”<br>“我们是否即将实现收入目标？” |
 | [根本原因分析](data-insights/root-cause-analysis.md) | 调查量度发生更改的原因：诊断下降、尖峰和异常 | `cja-root-cause-analysis`, `aa-root-cause-analysis` | Customer Journey Analytics (CJA)、Adobe Analytics (AA) | “上周为什么转化率下降？” <br> “是什么导致了1月15日的收入激增？” |
 | 执行摘要和KPI摘要 | 制作为利益相关者准备的性能摘要、规范性建议和幻灯片组概述 | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `aa`, `dx-api` | Customer Journey Analytics (CJA)、Adobe Analytics (AA) | “给我上个月的执行摘要”<br>“根据本季度的数据创建一个幻灯片组大纲” |
+| [内容分析](data-insights/ask-content-questions.md) | 使用Content Analytics数据回答有关您的内容的一般或特定问题：要优先考虑哪些内容、哪些属性可促进参与，以及哪些资源和体验可促进收入 | `analyze-content`, `cja` | Customer Journey Analytics (CJA) | “我应该优先处理哪种内容？”<br> “我们表现最好的图像有哪些共同点？” |
 | [AA ↔ CJA数据验证](data-insights/data-validation-aa-cja.md) | 在Adobe Analytics和Customer Journey Analytics之间比较、审核和协调数据，尤其是在从Adobe Analytics升级到Customer Journey Analytics时 | `aa-cja-validation`, `cja`, `aa`, `dx-api` | ADOBE ANALYTICS + CJA | “将我的AA报表包与CJA数据视图进行比较”<br>“验证AA和CJA之间的页面视图” |
 | [验证数据集和字段质量](data-insights/data-validation-aep.md) | 对Experience Platform数据集和字段运行统计和语义验证，以在执行后或持续进行<!--TODO: confirm skill ID(s) with engineering before publishing-->时捕获数据质量问题 | `data-validation` | Adobe Experience Platform | “验证数据集Electronics Sample 1000” <br>“验证Customers_2024数据集中的电子邮件字段” |
 | 运行时间序列和因果分析 | 查询和分析受众、数据集和具有因果归因的历程的历史时间序列数据 | `operational-stats-causal-analysis` | 所有符合条件的应用程序 | “显示过去90天的受众规模趋势” <br>“为什么我的数据集行数在3月3日激增？” |
@@ -145,6 +146,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | [业务绩效分析](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 分析历程表现并识别表现不佳的历程的具体优化机会。 显示趋势、瓶颈和可能驱动因素导致结果降低，这样您就可以提高参与度和转化率。 获取可操作的建议，以根据业务绩效见解调整历程设计、定位或消息传递策略。 | 历程分析 | Adobe Journey Optimizer (AJO) | “分析历程[历程名称]的性能并建议优化。”<br> “为什么历程[历程名称]与上个月相比表现不佳？” <br> “我应更改哪些内容以提高历程[历程名称]的性能？”<br> “历程[历程名称]的哪些部分可能会限制转化或参与？” |
 | [分析历程卫生](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 审核历程清单，以查找具有缺失或通用名称、过时的草稿或实时历程、超大历程、长期存在的已关闭历程以及类似的操作和事件名称的历程，并提供清理和稳定配置的建议 | 历程分析 | Adobe Journey Optimizer (AJO) | “审核我的历程配置。”<br> “我的哪些旅程已经过时或需要清理？” |
 | [比较历程版本](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 比较两个历程版本并查看节点、连接和历程级别属性更改的结构化差异 | `journey-analyze-version-comparison` | Adobe Journey Optimizer (AJO) | “比较我的欢迎历程的版本2和3”<br>“这两个历程版本之间发生了什么变化？” |
+| [通过历程跟踪用户档案](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#trace-journey-profile){target="_blank"} | 获取已发布历程的只读、配置文件级别的执行数据：查看进入每个节点的用户档案数量以及它们在分支中的拆分，查找哪些配置文件出错以及原因，或遵循单个配置文件在历程中的逐节点路径 | 跟踪历程配置文件 | Adobe Journey Optimizer (AJO) | “通过[历程名称]跟踪配置文件。”<br> “过去7天内[历程名称]中哪些配置文件出错？在哪个节点？为什么？” <br> “通过[历程名称]显示配置文件[ID或电子邮件]的路径。” |
 
 **相关信息**
 
@@ -191,6 +193,27 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 **相关信息**
 
 * [使用AI](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}概述Adobe Journey Optimizer中的同事和可用技能。
+
+## 决策
+
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
+| --- | --- | --- | --- | --- |
+| [生成、解释、模拟和优化决策规则](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills#rules-ranking){target="_blank"} | 使用自然语言创建资格规则和排名公式，获得纯英语解释，针对最多三个配置文件测试这些规则，并重写它们以适应PQL大小限制，而无需手动编写PQL语法 | 决策规则工作流程 | Adobe Journey Optimizer (AJO) | “创建针对第2层或以上忠诚度会员的资格规则。”<br><br>“用自然语言向我说明此规则。”<br><br>“使用测试配置文件模拟此规则。”<br><br>“为我优化此PQL规则。” |
+
+**相关信息**
+
+* [Co-worker for Decisioning](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills){target="_blank"}针对Adobe Journey Optimizer中的决策技能提供了详细的指南、用例和提示最佳实践。
+
+## 渠道
+
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
+| --- | --- | --- | --- | --- |
+| [检查通道配置](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/channels-coworker-skills#channel-operation){target="_blank"} | 查看、列表、搜索和检查标准渠道（如电子邮件、短信、推送、直邮、应用程序内和Web）的渠道配置（预设）和凭据，包括相关资源（如推送凭据、电子邮件子域、短信和WhatsApp凭据、文件路由、LINE渠道设置和Live Activity注册表）。 只读 | 渠道操作 | Adobe Journey Optimizer (AJO) | “我的沙盒中有哪些渠道预设可用？” <br> “显示我的所有电子邮件渠道配置。”<br> “我的营销电子邮件配置配置了哪些发件人地址和回复？” |
+| [创建和管理自定义渠道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/channels-coworker-skills#channel-builder){target="_blank"} | 通过手动设置、curl命令或API文档链接创建、测试、更新、列出、获取和删除自定义出站渠道。 引导您完成渠道配置、身份验证、限制和有效负载定义 | 渠道生成器 | Adobe Journey Optimizer (AJO) | “帮助我为短信提供商创建新的自定义渠道。”<br> “从此API引用创建自定义渠道：[链接]。”<br> “列出我的自定义渠道。” |
+
+**相关信息**
+
+* [渠道的协作者](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/channels-coworker-skills){target="_blank"}提供了有关Adobe Journey Optimizer中的渠道操作和渠道生成器技能的详细指导、用例和示例提示。
 
 ## Journey Optimizer中的内容创建
 
