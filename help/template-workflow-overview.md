@@ -13,9 +13,9 @@ level: Beginner
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 7536fb875db4118f150cc1e83135c16ec4ac257c
+source-git-commit: 951c534c04e9d431b4db71e3d999685629821194
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '337'
 ht-degree: 4%
 ---
 <!--
@@ -72,6 +72,8 @@ CONSISTENCY RULES
 **最佳匹配：** [角色一，角色二]
 
 ## 先决条件 {#prerequisites}
+
+[如果没有适用的先决条件，则删除此部分。]
 
 要在此组中使用用例，您需要满足以下条件：
 
