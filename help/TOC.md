@@ -5,10 +5,10 @@ user-guide-description: 了解Adobe CX Enterprise Coworker，它是一个AI支�
 description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中使用AI改善您的产品知识并获得运营见解。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: f4682967f0bed2f9a538c41903a32555fe2abbb1
+source-git-commit: ab3fd688f3a83afb0a4d058cc86d5ac8ec5f5977
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 13%
+source-wordcount: '305'
+ht-degree: 12%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -65,6 +65,7 @@ ht-degree: 13%
     - 警报 {#alerts}
       - [客户警报技能](./chat/use-cases/customer-alerts/customer-alerts.md)
     - 品牌可见度 {#brand-visibility}
+      - [创建和优化AEM登录页面](./chat/use-cases/brand-visibility/create-and-refine-aem-landing-page.md)
       - [品牌合规性检查](./chat/use-cases/brand-visibility/brand-compliance.md)
       - [创作AEM Sites页面](./chat/use-cases/brand-visibility/author-web-pages.md)
       - [载入AEM Assets](./chat/use-cases/brand-visibility/onboard-aem-assets.md)
