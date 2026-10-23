@@ -1,7 +1,7 @@
 ---
 title: 与同事一起规划Customer Journey Analytics或流媒体实施
 description: 了解同事的实施指南技能如何通过可导出的核对表，将发现对话转换为个性化、有序的实施计划。
-source-git-commit: 4d91397c769a76fba4f0ec1c3e86938a01fe2c6a
+source-git-commit: b54085a497ca4bbf0003d5837d816206a4d40396
 workflow-type: tm+mt
 source-wordcount: '1239'
 ht-degree: 1%
@@ -56,7 +56,7 @@ Adobe CX Enterprise Coworker包括五种实施指南技能，每种产品表面�
 
 1. 登录到同事。
 
-1. 选择&#x200B;[!UICONTROL **新聊天**]。
+1. 选择&#x200B;**[!UICONTROL 新聊天]**。
 
 1. 在文本字段中，描述要计划的实施或迁移。 例如：
 

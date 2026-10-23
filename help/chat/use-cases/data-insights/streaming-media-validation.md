@@ -1,7 +1,7 @@
 ---
 title: 与同事验证您的流媒体实施
 description: 了解同事的流媒体验证技能如何检查您的配置、会话和日志，以确认您的实施正确跟踪。
-source-git-commit: 4d91397c769a76fba4f0ec1c3e86938a01fe2c6a
+source-git-commit: b54085a497ca4bbf0003d5837d816206a4d40396
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Adobe CX Enterprise Coworker包括“流媒体验证”技能，可检查您在E
 
 1. 登录到同事。
 
-1. 选择&#x200B;[!UICONTROL **新聊天**]。
+1. 选择&#x200B;**[!UICONTROL 新聊天]**。
 
 1. 在文本字段中，说明要验证的内容。 例如：
 
