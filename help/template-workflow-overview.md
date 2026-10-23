@@ -3,7 +3,7 @@
 hide: true
 
 # TITLE AND DESCRIPTION
-# Title: title case, 60 characters or fewer, no product name. Start with a verb that names the work, for example "Analyze Customer Journeys with Coworker Chat".
+# Title: title case, 60 characters or fewer. Start with a verb that names the work, for example "Analyze Customer Journeys with Coworker Chat".
 # Description: one or two sentences, about 150-160 characters. Start with "Use Coworker Chat to..." and name two or three things the reader can do.
 title: 动词描述您与同事聊天时的工作
 description: 使用“同事聊天”来查看[第一件事]、[第二件事]和[第三件事]。 [可选的第二句，要求采取行动。]
@@ -13,7 +13,7 @@ level: Beginner
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 14c937d61b7cd41ed1455e72a211ea1f8c0b158a
+source-git-commit: 7536fb875db4118f150cc1e83135c16ec4ac257c
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 4%

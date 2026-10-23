@@ -3,7 +3,7 @@
 hide: true
 
 # TITLE AND DESCRIPTION (shared)
-# Title: title case, 60 characters or fewer, no product name.
+# Title: title case, 60 characters or fewer.
 # Description: one or two sentences, about 150-160 characters. Start with "Learn how to..." for tasks or "Learn about..." for concepts.
 title: 用大写字母表示的页面标题
 description: 了解如何使用Adobe CX Enterprise Coworker [执行任务]。 [要求采取行动的第二句。]
@@ -21,7 +21,7 @@ level: Beginner
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 1c6c045a70d7b6d00a88a32c39216c05478d8029
+source-git-commit: 7536fb875db4118f150cc1e83135c16ec4ac257c
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 1%
