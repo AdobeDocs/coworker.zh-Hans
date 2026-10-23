@@ -1,12 +1,12 @@
 ---
 title: 通过同事聊天开始分析数据
-description: 了解如何使用Adobe CX Enterprise Coworker Chat分析Customer Journey Analytics数据、构建漏斗并查找客户在旅程中的流失位置。
+description: 设置Adobe CX Enterprise Coworker Chat以分析Customer Journey Analytics或Adobe Analytics数据，然后按照某个示例查找客户流失情况。
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+source-git-commit: a9f620ee74eeec0f4a838b7bae7a6189226fecc3
 workflow-type: tm+mt
-source-wordcount: '2094'
+source-wordcount: '2184'
 ht-degree: 4%
 ---
 # 开始使用同事聊天分析数据
@@ -36,15 +36,17 @@ ht-degree: 4%
 
 有关详细信息，请参阅[同事聊天用户界面指南](/help/chat/ui-guide.md)。
 
-## 验证同事聊天是否已连接到Customer Journey Analytics
+## 验证Analytics集成
 
-在同事聊天中，验证同事是否已连接到Customer Journey Analytics：
+同事Chat通过集成连接到Customer Journey Analytics和Adobe Analytics。 在开始之前，请确保已连接产品的集成。
 
-1. 选择左边栏中的MCP图标，然后确保&#x200B;[!UICONTROL **cja-mcp**]&#x200B;在连接的MCP服务器列表中可用。
+1. 在Co-worker中，在左边栏中选择&#x200B;[!UICONTROL **自定义**]。
 
-   ![同事左边栏中突出显示的MCP图标](../../assets/coworker-mcp-cja.png)
+1. 选择&#x200B;[!UICONTROL **集成**]&#x200B;选项卡，然后确保&#x200B;[!UICONTROL **cja-mcp**]&#x200B;和&#x200B;[!UICONTROL **aa-mcp**]&#x200B;在连接的MCP服务器列表中可用。 使用搜索字段可快速筛选可用集成的列表。
 
-1. （视情况而定）如果尚未连接&#x200B;[!UICONTROL **cja-mcp**]，请选择&#x200B;[!UICONTROL **添加MCP服务器**]，在&#x200B;[!UICONTROL **服务器名称**]&#x200B;字段中指定cja并在其出现时将其选定，然后选择&#x200B;[!UICONTROL **添加服务器**]。
+   ![自定义页面上的“集成”选项卡，已筛选以显示aa-mcp](assets/coworker-mcp-aa.png)
+
+1. （视情况而定）如果未列出该集成，请选择&#x200B;[!UICONTROL **添加服务器**]&#x200B;以添加它。 有关详细信息，请参阅《同事聊天UI指南》中的[连接MCP服务器](/help/chat/ui-guide.md#connect-mcp-servers)。
 
 ## 连接到正确的数据视图或报表包
 
@@ -305,7 +307,7 @@ Co-worker Chat包含内存功能，允许您访问跨越所有聊天的信息。
 
 >[!ENDSHADEBOX]
 
-### 发生了什么
+### 发生的操作
 
 在四个直白的问题中，同事帮助我们：
 
@@ -314,17 +316,22 @@ Co-worker Chat包含内存功能，允许您访问跨越所有聊天的信息。
 * 将实际问题隔离到移动结账中，并以购买量增加35%来量化修复
 * 放弃进行特定的修复以确定优先级：移动支付和表单摩擦。 以台式机的23.2%转化率为基准
 
-## 在Customer Journey Analytics中分析
+## 在Analysis Workspace中打开可视化图表
 
-Co-worker创建可视化图表后，您可以在Analysis Workspace中打开该可视化图表，以便进行更深入的分析并更精细地控制。 该可视化图表在Customer Journey Analytics的新Analysis Workspace项目中打开。
+Co-worker创建可视化图表后，您可以在Analysis Workspace中打开该可视化图表，以便进行更深入的分析并更精细地控制。 该可视化图表会在Customer Journey Analytics或Adobe Analytics的新Analysis Workspace项目中打开，具体取决于数据源。
 
 要在新的Analysis Workspace项目中打开可视化图表，请执行以下操作：
 
-1. 选择“在CJA中分析”[!UICONTROL **&#x200B;**]，位于在同事中创建的任何可视化图表旁边。
+1. 在Co-worker中创建的任何可视化图表旁边，选择下列选项之一：
 
-1. 在Customer Journey Analytics中打开可视化图表后，您可以使用Analysis Workspace拖放浏览器界面进行修改、进一步构建分析、创建受众等等。 您甚至可以与所选的任何人共享您的Workspace项目。
+   * [!UICONTROL **在CJA中分析**]&#x200B;以基于Customer Journey Analytics数据视图的可视化图表
+   * [!UICONTROL **在Analysis Workspace中分析**]&#x200B;以了解基于Adobe Analytics报表包的可视化图表
 
-   有关Analysis Workspace的更多信息，请参阅[Analysis Workspace概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)。
+1. 在Analysis Workspace中打开可视化图表后，您可以使用拖放浏览器界面进行修改、进一步构建分析等。 在Customer Journey Analytics中，您还可以创建受众。
+
+1. （可选）与您选择的任何人共享您的Workspace项目。
+
+   有关Analysis Workspace的更多信息，请参阅Customer Journey Analytics文档中的[Analysis Workspace概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)或Adobe Analytics文档中的[Analysis Workspace概述](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/home)。
 
 ## 后续步骤
 
