@@ -4,9 +4,9 @@ title: Adobe CX Enterprise Coworker概述
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+source-git-commit: 2c08a164e3f127eb01271b31e1150f1d815e5b27
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1030'
 ht-degree: 0%
 ---
 # 团队同事概述 {#overview}
@@ -21,7 +21,7 @@ Co-worker for Teams专为具有更加敏捷的营销团队的小型组织而设�
 >
 >团队合作功能可通过免费试用获得，有效期至2026年12月31日。 在试用期间，所有资产和活动均特定于用户。
 
-1. 转到coworker-campaigns.experience.adobe.com 。
+1. 转到coworker-teams.adobe.com 。
 
 1. 如果您现有Adobe帐户，请单击&#x200B;**登录**。 如果不包含，请单击&#x200B;**加入免费试用**，然后使用您的业务电子邮件创建帐户。
 
@@ -35,7 +35,7 @@ Co-worker for Teams专为具有更加敏捷的营销团队的小型组织而设�
 
 1. （可选）在&#x200B;**电子邮件模板**&#x200B;下上传HTML电子邮件模板，以供同事在生成内容时应用您的设计。
 
-   ![Coworker for Teams试用版的欢迎屏幕](./assets/overview-1.png){width="800" zoomable="yes"}
+   ![Coworker for Teams试用版的欢迎屏幕](./assets/overview-1.gif)
 
 您已准备好生成您的第一个营销活动。
 
@@ -45,14 +45,49 @@ Co-worker for teams界面是围绕左侧导航来组织的。
 
 ![主屏幕](./assets/overview-2.gif)
 
-| 左侧导航菜单 | 用途 |
-|---|---|
-| 新建聊天 | 开始新对话以生成营销活动。 |
-| 主页 | 您的起点：提示栏、最近的营销活动和现成的营销活动模板。 |
-| 聊天 | 您启动的每个对话尚未生成到营销活动讨论区。 |
-| 营销活动 | 您所有草稿和实时营销活动的库存。 |
-| 你的东西 | 您的品牌套件和电子邮件模板（团队协作人员用来将所有内容保持在品牌上的资产）。 |
-| 自定义 | Connectors （启动时的Marketo Engage）和Skills （可以跨营销活动应用的自定义行为）。 |
+<table>
+  <thead>
+    <tr>
+      <th>左侧导航菜单</th>
+      <th>用途</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>新建聊天</td>
+      <td>开始新对话以生成营销活动。</td>
+    </tr>
+    <tr>
+      <td>主页</td>
+      <td>您的起点：提示栏、最近的营销活动和现成的营销活动模板。</td>
+    </tr>
+    <tr>
+      <td>聊天</td>
+      <td>您启动的每个对话尚未生成到营销活动讨论区。</td>
+    </tr>
+    <tr>
+      <td>营销活动</td>
+      <td>您所有草稿和实时营销活动的库存。</td>
+    </tr>
+    <tr>
+      <td>联系人列表</td>
+      <td>管理受众和禁止列表。</td>
+    </tr>
+    <tr>
+      <td>洞察</td>
+      <td>查看所有活动营销活动中的量度，并在选定的日期范围内进行跟踪。</td>
+    </tr>
+    <tr>
+      <td>上下文</td>
+      <td>单击<i>上下文</i>以显示其子菜单：<br><br>
+      <li><b>品牌</b> — 管理和添加品牌套件并为您的工作区设置默认值。</li>
+      <li><b>电子邮件模板</b> — 管理和上传自定义HTML模板，并告知同事何时使用这些模板。</li>
+      <li><b>连接器</b> — 外部集成，如Databricks和Salesforce，用于引入受众或上下文。</li>
+      <li><b>技能</b> — 可重复使用的说明，这些说明可塑造同事如何构建和个性化您的营销活动。</li></td>
+    </tr>
+  </tbody>
+</table>
+
 
 >[!NOTE]
 >
@@ -111,7 +146,7 @@ Co-worker for teams界面是围绕左侧导航来组织的。
 
 ## 视频概述
 
->[!VIDEO](https://video.tv.adobe.com/v/3492815?captions=chi_hans&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3492807?learn=on){transcript=true}
 
 
 新功能将在试用期间提供。 您的反馈有助于形成后续内容。 通过标题中的产品内反馈图标提交反馈。
