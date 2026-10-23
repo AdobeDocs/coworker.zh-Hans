@@ -5,9 +5,9 @@ jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+source-git-commit: b91e8dcdacf57bdbc4fb6cf7d6fe92920e7fbb6e
 workflow-type: tm+mt
-source-wordcount: '1801'
+source-wordcount: '1765'
 ht-degree: 2%
 ---
 # 同事聊天入门 {#ui-guide}
@@ -25,7 +25,7 @@ ht-degree: 2%
 | Real-Time CDP | 现在可用 | 即将推出 |
 | Adobe Journey Optimizer | 现在可用 | 即将推出 |
 | Customer Journey Analytics | 现在可用 | 即将推出 |
-| Workfront | 现在可用 | 即将推出：<br><br>* 2026年9月初在预览实例中，面向有资格的Workfront系统管理员<br><br>* 2026年9月中旬在生产实例中，面向有资格的快速发布Workfront客户<br><br>* 2026年10月中旬在生产实例中，面向有资格的Workfront季度发布客户 |
+| Workfront | 现在可用 | 现在可用 |
 | 目标 | 现在可用 | 现在可用 |
 | AEM | 现在可用 | 现在可用 |
 | Marketo Engage | 现在可用 | 即将推出 |
