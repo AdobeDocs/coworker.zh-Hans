@@ -19,5 +19,5 @@ ht-degree: 0%
 
 了解如何使用Adobe CX Enterprise Coworker将营销活动简报转换为草稿登陆页面。 按照工作流使用现有Adobe Experience Manager页面作为模板，确认目标，应用促销活动内容和SEO元数据，并在通用编辑器中优化图像和副本。
 
->[!VIDEO](https://video.tv.adobe.com/v/3504682/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3504690/?captions=chi_hans&learn=on)
 
