@@ -208,12 +208,12 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 | 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| [检查通道配置](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/channels-coworker-skills#channel-operation){target="_blank"} | 查看、列表、搜索和检查标准渠道（如电子邮件、短信、推送、直邮、应用程序内和Web）的渠道配置（预设）和凭据，包括相关资源（如推送凭据、电子邮件子域、短信和WhatsApp凭据、文件路由、LINE渠道设置和Live Activity注册表）。 只读 | 渠道操作 | Adobe Journey Optimizer (AJO) | “我的沙盒中有哪些渠道预设可用？” <br> “显示我的所有电子邮件渠道配置。”<br> “我的营销电子邮件配置配置了哪些发件人地址和回复？” |
-| [创建和管理自定义渠道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/channels-coworker-skills#channel-builder){target="_blank"} | 通过手动设置、curl命令或API文档链接创建、测试、更新、列出、获取和删除自定义出站渠道。 引导您完成渠道配置、身份验证、限制和有效负载定义 | 渠道生成器 | Adobe Journey Optimizer (AJO) | “帮助我为短信提供商创建新的自定义渠道。”<br> “从此API引用创建自定义渠道：[链接]。”<br> “列出我的自定义渠道。” |
+| [检查通道配置](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/channels-coworker-skills#channel-operation){target="_blank"} | 查看、列表、搜索和检查标准渠道（如电子邮件、短信、推送、直邮、应用程序内和Web）的渠道配置（预设）和凭据，包括相关资源（如推送凭据、电子邮件子域、短信和WhatsApp凭据、文件路由、LINE渠道设置和Live Activity注册表）。 只读 | 渠道操作 | Adobe Journey Optimizer (AJO) | “我的沙盒中有哪些渠道预设可用？” <br> “显示我的所有电子邮件渠道配置。”<br> “我的营销电子邮件配置配置了哪些发件人地址和回复？” |
+| [创建和管理自定义渠道](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/channels-coworker-skills#channel-builder){target="_blank"} | 通过手动设置、curl命令或API文档链接创建、测试、更新、列出、获取和删除自定义出站渠道。 引导您完成渠道配置、身份验证、限制和有效负载定义 | 渠道生成器 | Adobe Journey Optimizer (AJO) | “帮助我为短信提供商创建新的自定义渠道。”<br> “从此API引用创建自定义渠道：[链接]。”<br> “列出我的自定义渠道。” |
 
 **相关信息**
 
-* [渠道的协作者](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/channels-coworker-skills){target="_blank"}提供了有关Adobe Journey Optimizer中的渠道操作和渠道生成器技能的详细指导、用例和示例提示。
+* [渠道的协作者](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/channels-coworker-skills){target="_blank"}提供了有关Adobe Journey Optimizer中的渠道操作和渠道生成器技能的详细指导、用例和示例提示。
 
 ## Journey Optimizer中的内容创建
 
