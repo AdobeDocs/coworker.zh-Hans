@@ -4,9 +4,9 @@ description: 以简单的语言（从一般到具体）咨询同事讨论您的�
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: b54085a497ca4bbf0003d5837d816206a4d40396
+source-git-commit: f1ffc050071fc0ca48ae36c7aea8bc66eff2a147
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1009'
 ht-degree: 2%
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 2%
 
 1. 查看结果。
 
-1. （可选）在同一次对话中提出后续问题以更深入地探讨，或在Analysis Workspace中打开可视化图表以进行更多手动控制。 请参阅[在Customer Journey Analytics中分析](/help/chat/use-cases/data-insights/analytics-chat.md#analyze-in-customer-journey-analytics)。
+1. （可选）在同一次对话中提出后续问题以更深入地探讨，或在Analysis Workspace中打开可视化图表以进行更多手动控制。 请参阅[在Analysis Workspace中打开可视化图表](/help/chat/use-cases/data-insights/analytics-chat.md#open-a-visualization-in-analysis-workspace)。
 
 ## 示例提示
 

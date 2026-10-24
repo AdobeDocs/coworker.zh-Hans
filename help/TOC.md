@@ -5,10 +5,11 @@ user-guide-description: 了解Adobe CX Enterprise Coworker，它是一个AI支�
 description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中使用AI改善您的产品知识并获得运营见解。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: b54085a497ca4bbf0003d5837d816206a4d40396
+nudge: true
+source-git-commit: 6022fafc0e0213cbc887f5b38267cb65fd8d4326
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 15%
+source-wordcount: '305'
+ht-degree: 12%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -52,7 +53,8 @@ ht-degree: 15%
     - 受众 {#audiences}
       - [评估平台运行状况并构建受众](./chat/use-cases/audiences/create-audience-from-natural-language.md)
     - 历程 {#journeys}
-      - [使用自然语言创建历程](./chat/use-cases/journeys/create-journey-from-natural-language.md)
+      - [使用自然语言创建旅程](./chat/use-cases/journeys/create-journey-from-natural-language.md)
+      - [从图像创建历程](./chat/use-cases/journeys/create-journey-from-image.md)
       - [创建、模拟和分析跨渠道历程](./chat/use-cases/journeys/create-simulate-and-analyze-a-cross-channel-journey-with-cx-enterprise-coworker-feature-video.md)
     - 忠诚度 {#loyalty}
       - [创建忠诚度挑战并显示见解](./chat/use-cases/journeys/create-loyalty-challenge.md)
@@ -64,6 +66,7 @@ ht-degree: 15%
     - 警报 {#alerts}
       - [客户警报技能](./chat/use-cases/customer-alerts/customer-alerts.md)
     - 品牌可见度 {#brand-visibility}
+      - [创建和优化AEM登录页面](./chat/use-cases/brand-visibility/create-and-refine-aem-landing-page.md)
       - [品牌合规性检查](./chat/use-cases/brand-visibility/brand-compliance.md)
       - [创作AEM Sites页面](./chat/use-cases/brand-visibility/author-web-pages.md)
       - [载入AEM Assets](./chat/use-cases/brand-visibility/onboard-aem-assets.md)

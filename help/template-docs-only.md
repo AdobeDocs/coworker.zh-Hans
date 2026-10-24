@@ -13,9 +13,9 @@ level: Beginner
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 7536fb875db4118f150cc1e83135c16ec4ac257c
+source-git-commit: 951c534c04e9d431b4db71e3d999685629821194
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '304'
 ht-degree: 1%
 ---
 <!--
@@ -58,7 +58,7 @@ WRITING RULES THAT MATTER MOST HERE
 
 ## 开始之前 {#before-you-begin}
 
-[在开始之前列出读者需要的：权限、许可证、对应用程序或沙盒的访问权限或相关页面优先读取。 删除概念页的此部分。]
+[在开始之前列出读者需要的：权限、许可证、对应用程序或沙盒的访问权限或相关页面优先读取。 如果没有适用的先决条件，则删除此部分。]
 
 * [先决条件一个。]
 * [先决条件二。]
