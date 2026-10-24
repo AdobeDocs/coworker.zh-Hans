@@ -4,9 +4,9 @@ description: 以简单的语言（从一般到具体）咨询同事讨论您的�
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: b54085a497ca4bbf0003d5837d816206a4d40396
+source-git-commit: f1ffc050071fc0ca48ae36c7aea8bc66eff2a147
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1009'
 ht-degree: 2%
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 * 同事聊天已连接到您的Customer Journey Analytics数据视图。 查看[开始使用同事聊天](/help/chat/use-cases/data-insights/analytics-chat.md)分析数据。
 * 查看对要分析的数据视图的访问权限。 同事聊天从Customer Journey Analytics继承您的权限。
-* 为Content Analytics配置的数据视图。 请参阅Customer Journey Analytics指南中的[配置Content Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/content-analytics/configuration/configuration)。
+* 为Content Analytics配置的数据视图。 请参阅Customer Journey Analytics指南中的[配置Content Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/configuration/configuration)。
 
 ## 提出内容问题
 
@@ -52,7 +52,7 @@ ht-degree: 2%
 
 1. 查看结果。
 
-1. （可选）在同一次对话中提出后续问题以更深入地探讨，或在Analysis Workspace中打开可视化图表以进行更多手动控制。 请参阅[在Customer Journey Analytics中分析](/help/chat/use-cases/data-insights/analytics-chat.md#analyze-in-customer-journey-analytics)。
+1. （可选）在同一次对话中提出后续问题以更深入地探讨，或在Analysis Workspace中打开可视化图表以进行更多手动控制。 请参阅[在Analysis Workspace中打开可视化图表](/help/chat/use-cases/data-insights/analytics-chat.md#open-a-visualization-in-analysis-workspace)。
 
 ## 示例提示
 
@@ -93,11 +93,11 @@ Content Analytics跟踪两种类型的内容：资源和体验。 每个报表�
 * **体验ID：**&#x200B;当您询问有关特定页面的问题时，技能会按标识该页面的内容体验ID进行过滤。
 * **AI生成的属性：**&#x200B;每个资源和体验都由诸如摄影样式、颜色、色调和说服策略等属性进行描述。 该技能使用这些属性来解释内容性能良好的原因，而不仅仅是哪些内容性能良好。
 
-有关组件的完整列表，请参阅Customer Journey Analytics指南中的[Content Analytics组件](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/content-analytics/report/components)。
+有关组件的完整列表，请参阅Customer Journey Analytics指南中的[Content Analytics组件](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/components)。
 
 ### 归因
 
-技能会选择适合您问题的归因模型。 例如，有关图像点击量的问题与有关图像对收入贡献多少的问题答案不同。 有关详细信息，请参阅Customer Journey Analytics指南中的[归因模型](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/attribution/models#attribution-models)。
+技能会选择适合您问题的归因模型。 例如，有关图像点击量的问题与有关图像对收入贡献多少的问题答案不同。 有关详细信息，请参阅Customer Journey Analytics指南中的[归因模型](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/attribution/models#attribution-models)。
 
 ### 常见分析和工作流
 
