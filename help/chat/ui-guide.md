@@ -5,9 +5,9 @@ jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: fe2c27fd27bfebe17f31078cea769e6a1e4c71f1
+source-git-commit: d611ce2398cba72cf21c766f3b25225765c1675b
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1902'
 ht-degree: 2%
 ---
 # 同事聊天入门 {#ui-guide}
@@ -43,7 +43,7 @@ CX Enterprise应用程序选择器中的![同事](./assets/ui-guide-1.png)
 
 ## 视频 — [!DNL Coworker]聊天界面的基础知识
 
->[!VIDEO](https://video.tv.adobe.com/v/3498575?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 选择您的组织
 
@@ -82,7 +82,7 @@ CX Enterprise应用程序选择器中的![同事](./assets/ui-guide-1.png)
 | **[!UICONTROL 新聊天]** | 开始对话。 同事聊天会将您当前的聊天保存到历史记录中。 |
 | **[!UICONTROL 主页]** | 返回问候语、输入框和建议的提示。 |
 | **[!UICONTROL 聊天]** | 搜索、固定、存档或删除过去的对话。 |
-| **[!UICONTROL 配置]** | 管理技能、 MCP服务器、市场、插件和内存。 |
+| **[!UICONTROL 自定义项]** | 管理技能、集成、市场、插件和内存。 |
 | **[!UICONTROL 已固定]** | 打开你主演的对话。 单击&#x200B;**[!UICONTROL 查看全部]**&#x200B;可在“聊天”页面上查看它们。 |
 | **[!UICONTROL 最近访问]** | 打开您的最新对话。 单击&#x200B;**[!UICONTROL 查看全部]**&#x200B;以打开“聊天”页面。 |
 
@@ -219,7 +219,7 @@ Chat同事会实时显示其工作，然后返回答案。 响应可能包括其
 ![技能选项卡](./assets/ui-guide-12.png)
 
 1. 在&#x200B;**[!UICONTROL 技能]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL 添加技能]**&#x200B;以从新来源安装技能。
-1. 在&#x200B;**[!UICONTROL 搜索]**&#x200B;中输入名称以查找技能。
+1. 在&#x200B;**[!UICONTROL 搜索]**中输入名称以查找技能。
 使用视图切换可在网格和列表布局之间切换。
 1. 选择一种技能，以查看Co-worker Chat使用插件时该插件所属的插件及其包含的文件。
 
@@ -229,7 +229,7 @@ Chat同事会实时显示其工作，然后返回答案。 响应可能包括其
 
    ![SKILL.md查看器](./assets/ui-guide-14.png)
 
-### 连接服务器
+### 连接服务器 {#server}
 
 Server A集成将同事聊天连接到外部工具和服务，例如Adobe Journey Optimizer、Real-Time CDP、Target和Workfront。 **[!UICONTROL 自定义项]** > **[!UICONTROL 用户]** > **[!UICONTROL 集成]**&#x200B;选项卡列出了已连接的服务器和活动连接数。 每个信息卡都会显示服务器名称、其端点，以及描述其所提供内容的标记。
 
@@ -272,7 +272,7 @@ Marketplace是插件的注册表，您可以从中浏览和安装。 在&#x200B;
 
 内存让同事聊天可以记住您在不同对话中的首选项，因此随着时间的流逝，响应将保持相关性。 使用&#x200B;**[!UICONTROL 内存]**&#x200B;选项卡控制保留的内容。
 
-1. 单击“配置”页面上的&#x200B;**[!UICONTROL 内存]**。
+1. 在“自定义项”页面上单击&#x200B;**[!UICONTROL 内存]**。
 1. 打开&#x200B;**[!UICONTROL 启用内存]**。 将其关闭以阻止跨会话记住同事聊天。
 1. 在&#x200B;**[!UICONTROL 存储的首选项]**&#x200B;下，查看保存了哪些同事聊天。 您可以编辑、删除或检查每个条目，并按类别筛选条目。
 1. 使用&#x200B;**[!UICONTROL 保存的记忆历史记录]**&#x200B;查看记忆更改的时间表。

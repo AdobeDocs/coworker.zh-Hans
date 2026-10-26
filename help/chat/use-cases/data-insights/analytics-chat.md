@@ -4,16 +4,16 @@ description: 设置Adobe CX Enterprise Coworker Chat以分析Customer Journey An
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: a9f620ee74eeec0f4a838b7bae7a6189226fecc3
+source-git-commit: d611ce2398cba72cf21c766f3b25225765c1675b
 workflow-type: tm+mt
-source-wordcount: '2184'
+source-wordcount: '2182'
 ht-degree: 4%
 ---
 # 开始使用同事聊天分析数据
 
 设置Adobe CX Enterprise Coworker Chat以分析您的Customer Journey Analytics数据视图或Adobe Analytics报表包，然后遵循工作示例。 有关可以使用同事聊天执行的操作的概述，包括用例、技能和最佳实践，请参阅[使用同事聊天分析数据](/help/chat/use-cases/data-insights/analytics-overview.md)。
 
-在开始之前，请先了解同事聊天界面和配置选项，然后确保同事已连接到Customer Journey Analytics或Adobe Analytics以及相关的数据视图或报表包。
+在开始之前，请先了解同事聊天界面和自定义选项，然后确保同事已连接到Customer Journey Analytics或Adobe Analytics以及相关的数据视图或报表包。
 
 ## 开始之前
 
@@ -28,7 +28,7 @@ ht-degree: 4%
 * 聊天输入
 * 对话
 * 市场
-* MCP 服务器
+* 集成服务器
 * 记忆
 * 插件
 * 技能
@@ -42,11 +42,15 @@ ht-degree: 4%
 
 1. 在Co-worker中，在左边栏中选择&#x200B;[!UICONTROL **自定义**]。
 
-1. 选择&#x200B;[!UICONTROL **集成**]&#x200B;选项卡，然后确保&#x200B;[!UICONTROL **cja-mcp**]&#x200B;和&#x200B;[!UICONTROL **aa-mcp**]&#x200B;在连接的MCP服务器列表中可用。 使用搜索字段可快速筛选可用集成的列表。
+1. 选择&#x200B;[!UICONTROL **集成**]&#x200B;选项卡，然后确保已连接的服务器列表中有&#x200B;[!UICONTROL **cja-mcp**]&#x200B;和&#x200B;[!UICONTROL **aa-mcp**]。
+
+   使用搜索字段可快速筛选可用集成的列表。
 
    ![自定义页面上的“集成”选项卡，已筛选以显示aa-mcp](assets/coworker-mcp-aa.png)
 
-1. （视情况而定）如果未列出该集成，请选择&#x200B;[!UICONTROL **添加服务器**]&#x200B;以添加它。 有关详细信息，请参阅《同事聊天UI指南》中的[连接MCP服务器](/help/chat/ui-guide.md#connect-mcp-servers)。
+1. （视情况而定）如果未列出该集成，请选择&#x200B;[!UICONTROL **添加服务器**]&#x200B;以添加它。
+
+   有关详细信息，请参阅入门指南中的[连接服务器](/help/chat/ui-guide.md#server)。
 
 ## 连接到正确的数据视图或报表包
 
@@ -331,7 +335,7 @@ Co-worker创建可视化图表后，您可以在Analysis Workspace中打开该�
 
 1. （可选）与您选择的任何人共享您的Workspace项目。
 
-   有关Analysis Workspace的更多信息，请参阅Customer Journey Analytics文档中的[Analysis Workspace概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)或Adobe Analytics文档中的[Analysis Workspace概述](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/home)。
+   有关Analysis Workspace的更多信息，请参阅Customer Journey Analytics文档中的[Analysis Workspace概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)或Adobe Analytics文档中的[Analysis Workspace概述](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/home)。
 
 ## 后续步骤
 
