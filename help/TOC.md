@@ -6,10 +6,10 @@ description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 nudge: true
-source-git-commit: fd69d41fa38c993fce1f32815f5badfd4714a270
+source-git-commit: a0a02aaf4048f13954a1018499204cab05c27023
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 14%
+source-wordcount: '312'
+ht-degree: 15%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -90,7 +90,6 @@ ht-degree: 14%
   - 记忆 {#memory}
     - [什么是记忆？](./customizations/memory/what-is-memory.md)
 - 团队同事 {#coworker-for-teams}
-  - {hide-from-toc}[新团队体验](./coworker-for-teams/new-teams-experience.md)
   - [概述](./coworker-for-teams/overview.md)
   - [创建电子邮件营销活动](./coworker-for-teams/create-an-email-campaign.md)
   - [启动和管理营销活动](./coworker-for-teams/launch-manage-campaign.md)
@@ -100,6 +99,7 @@ ht-degree: 14%
   - 连接器 {#connectors}
     - [Marketo Engage](./coworker-for-teams/connectors/marketo.md)
     - [Hubspot](./coworker-for-teams/connectors/hubspot.md)
+    - [Salesforce](./coworker-for-teams/connectors/salesforce.md)
   - [发行说明](./coworker-for-teams/release-notes.md)
 - 更多资源 {#more-resources}
   - [文档更新](./more-resources/documentation-updates.md)

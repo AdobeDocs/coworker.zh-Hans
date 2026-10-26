@@ -1,12 +1,12 @@
 ---
-description: 描述。
+description: 了解如何将团队的同事连接到您的Salesforce帐户以访问您的潜在客户和联系人。
 title: 连接到Salesforce
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+source-git-commit: a0a02aaf4048f13954a1018499204cab05c27023
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '240'
 ht-degree: 0%
 ---
 # 连接到Salesforce {#salesforce}
