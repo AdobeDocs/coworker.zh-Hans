@@ -4,9 +4,9 @@ title: 创建电子邮件营销活动
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: f25492704c73fc42d54bf44aa8d59ab73f811f1b
+source-git-commit: bf3751af83dd8d40021fb2459743aec66c53209c
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '935'
 ht-degree: 0%
 ---
 # 创建电子邮件营销活动 {#create-an-email-campaign}
@@ -80,15 +80,13 @@ _何时使用：您可能知道自己想要什么，但希望得到一点帮助�
 
 通过CSV上传受众。 所有受众均特定于其各自的营销活动（此时，它们不会存储在您环境中的任何其他位置）。
 
-1. 提交提示后，查看同事将执行的任务，然后单击&#x200B;**生成**。
+1. 提交提示后， Co-worker for teams （通常）会为您生成一个示例受众。 如果不适用，将提示您导入受众。
 
-1. 在左侧的&#x200B;_促销活动转化_&#x200B;窗格中，单击&#x200B;**上传CSV**。
-
-   ![](./assets/create-an-email-campaign-3.png)
+1. 通过上传CSV文件或从可用连接器引入数据来导入您自己的受众。
 
    >[!NOTE]
    >
-   >* 电子邮件地址是必填字段、名字、上次购买日期以及任何其他可用于个性化的字段。
+   >虽然团队同事允许您使用示例受众继续构建营销活动，但您必须添加真实受众来启动营销活动。
 
 1. 导入CSV文件。
 
@@ -132,9 +130,9 @@ _何时使用：您可能知道自己想要什么，但希望得到一点帮助�
 
 ![](./assets/create-an-email-campaign-6.png)
 
-## 步骤6：后续步骤
+## 步骤6：启动营销活动
 
-Launch功能（发送电子邮件促销活动）即将推出。 在此之前，您可以与团队一起查看内容，并开始您的下一个营销活动。
+您现在已准备好[启动您的营销活动](/help/coworker-for-teams/launch-manage-campaign.md#launch-a-campaign)。
 
 ## 常见问题
 
