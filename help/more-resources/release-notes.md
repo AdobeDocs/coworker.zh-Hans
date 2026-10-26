@@ -15,7 +15,7 @@ ht-degree: 11%
 
 ## 同事发行说明 {#coworker-release-notes}
 
-* [CX Enterprise Coworker发行说明](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest#cx-enterprise-coworker)： Experience Platform发行说明中列出的同事聊天功能增强和修复。
+* [CX Enterprise Coworker发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/latest#cx-enterprise-coworker)： Experience Platform发行说明中列出的同事聊天功能增强和修复。
 * [[!UICONTROL Co-worker for teams]发行说明](../coworker-for-teams/release-notes.md)： Co-worker for teams的功能增强和修复。 发行版本将持续交付。
 
 ## CX Enterprise 集中发行说明 {#cx-enterprise-release-notes}
