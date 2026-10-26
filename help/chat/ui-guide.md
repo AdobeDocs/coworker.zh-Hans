@@ -1,13 +1,13 @@
 ---
-description: 了解如何打开同事聊天、设置组织和沙盒、发送第一条消息以及自定义技能、MCP服务器和内存。 几分钟后开始对话。
+description: 了解如何打开同事聊天、设置组织和沙盒、发送第一条消息以及自定义技能、集成服务器和内存。
 title: 同事聊天入门
 jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: b91e8dcdacf57bdbc4fb6cf7d6fe92920e7fbb6e
+source-git-commit: fe2c27fd27bfebe17f31078cea769e6a1e4c71f1
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1903'
 ht-degree: 2%
 ---
 # 同事聊天入门 {#ui-guide}
@@ -43,7 +43,7 @@ CX Enterprise应用程序选择器中的![同事](./assets/ui-guide-1.png)
 
 ## 视频 — [!DNL Coworker]聊天界面的基础知识
 
->[!VIDEO](https://video.tv.adobe.com/v/3498575?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 选择您的组织
 
@@ -219,7 +219,7 @@ Chat同事会实时显示其工作，然后返回答案。 响应可能包括其
 ![技能选项卡](./assets/ui-guide-12.png)
 
 1. 在&#x200B;**[!UICONTROL 技能]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL 添加技能]**&#x200B;以从新来源安装技能。
-1. 在&#x200B;**[!UICONTROL 搜索]**&#x200B;中输入名称以查找技能。
+1. 在&#x200B;**[!UICONTROL 搜索]**中输入名称以查找技能。
 使用视图切换可在网格和列表布局之间切换。
 1. 选择一种技能，以查看Co-worker Chat使用插件时该插件所属的插件及其包含的文件。
 
@@ -229,13 +229,28 @@ Chat同事会实时显示其工作，然后返回答案。 响应可能包括其
 
    ![SKILL.md查看器](./assets/ui-guide-14.png)
 
-### 连接MCP服务器
+### 连接服务器
 
-模型上下文协议(MCP)服务器将同事聊天与外部工具和服务（如Adobe Journey Optimizer、Real-Time CDP、Target和Workfront）连接。 **[!UICONTROL MCP服务器]**&#x200B;选项卡列出了已连接的服务器和活动连接数。 每个信息卡都会显示服务器名称、其端点，以及描述其所提供内容的标记。
+Server A集成将同事聊天连接到外部工具和服务，例如Adobe Journey Optimizer、Real-Time CDP、Target和Workfront。 **[!UICONTROL 自定义项]** > **[!UICONTROL 用户]** > **[!UICONTROL 集成]**&#x200B;选项卡列出了已连接的服务器和活动连接数。 每个信息卡都会显示服务器名称、其端点，以及描述其所提供内容的标记。
 
-要连接服务器，请单击“添加服务器”**&#x200B;**&#x200B;并按照提示操作。
+1. 导航到&#x200B;**[!UICONTROL 自定义项]** > **[!UICONTROL 用户]** > **[!UICONTROL 集成]**
 
-![MCP服务器选项卡](./assets/ui-guide-15.png)
+   ![服务器选项卡](./assets/get-started-customizations.png)
+
+1. 在自定义项上，单击&#x200B;**[!UICONTROL 添加服务器]**。
+
+   ![添加集成](./assets/get-started-add-integrations.png)
+
+1. 填写以下字段和选项：
+
+   * **[!UICONTROL 服务器名称]**（必需）：输入可在集成列表中标识该服务器的名称，例如`github`或`slack`。
+   * **[!UICONTROL Source URL或命令]**（必需）：输入同事聊天连接的地址，例如`https://mcp.example.com/sse`。
+   * **[!UICONTROL 连接类型]**：选择服务器用于与同事聊天进行通信的协议： **[!UICONTROL SSE]**（服务器发送的事件）或&#x200B;**[!UICONTROL HTTP]**。 默认值为&#x200B;**[!UICONTROL SSE]**。
+   * **[!UICONTROL 工具超时（秒）]**：设置同事聊天在此服务器上等待工具响应的时间，然后停止请求。 默认值为60秒。
+   * **[!UICONTROL 身份验证]**：选择Co-worker Chat向服务器证明其身份的方式。 默认值为&#x200B;**[!UICONTROL 无]**，它不发送任何凭据。 如果服务器需要凭据，请选择其他方法。
+   * **[!UICONTROL 标头]**：单击&#x200B;**[!UICONTROL 添加标头]**&#x200B;将每个请求都发送到服务器时额外的HTTP标头（如API密钥）。 此选项是可选的。
+
+1. 单击&#x200B;**[!UICONTROL 添加]**。
 
 ### 添加市场
 
@@ -245,7 +260,7 @@ Marketplace是插件的注册表，您可以从中浏览和安装。 在&#x200B;
 
 ### 管理插件
 
-插件将技能和MCP服务器捆绑在一起，以便您可以一起安装和管理它们。 **[!UICONTROL 插件]**&#x200B;选项卡显示已安装的插件。
+插件将技能和服务器捆绑在一起，以便您能够一起安装和管理它们。 **[!UICONTROL 插件]**&#x200B;选项卡显示已安装的插件。
 
 * 单击&#x200B;**[!UICONTROL 浏览市场]**&#x200B;以查找新插件。
 * 按市场筛选，以查看每个插件的来源。

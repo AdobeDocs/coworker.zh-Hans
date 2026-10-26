@@ -19,9 +19,9 @@ level: Beginner
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 7536fb875db4118f150cc1e83135c16ec4ac257c
+source-git-commit: a4755ee1df166cc6efd4ffddca90d395d9e8287c
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '117'
 ht-degree: 0%
 ---
 <!--
@@ -80,18 +80,3 @@ Add {transcript=true} after the closing parenthesis if a transcript is available
 
 [可选。 如果视频不需要设置，请删除此部分。 提及显示的界面版本、使用的应用程序或沙盒，或提及要先观看的较早视频。]
 
-## 章节 {#chapters}
-
-[可选。 删除短视频的此部分。 带有时间戳的列表主题更改。]
-
-* 0:00 [简介]
-* 1:30 [主题一]
-* 3:00 [主题二]
-
-## 有关此主题的更多帮助 {#more-help}
-
-[指向具有书面步骤的文档页面的链接。 此部分为必填项。 使用描述性链接文本，并使项目保持平行。]
-
-* [文档页面标题，用于编写步骤]
-* [描述相关页面的链接文本]
-* [描述相关视频的链接文本]

@@ -21,9 +21,9 @@ level: Beginner
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 951c534c04e9d431b4db71e3d999685629821194
+source-git-commit: a4755ee1df166cc6efd4ffddca90d395d9e8287c
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '243'
 ht-degree: 1%
 ---
 <!--
@@ -123,10 +123,3 @@ Add {transcript=true} after the closing parenthesis if a transcript is available
 <!-- Owner: Documentation. Delete this section if it does not apply. -->
 
 [描述读者可能会看到的问题，然后描述如何解决该问题。]
-
-## 有关此主题的更多帮助 {#more-help}
-
-<!-- Owner: Documentation -->
-
-* [描述目标页面的链接文本]
-* [描述其他目标页面的链接文本]
