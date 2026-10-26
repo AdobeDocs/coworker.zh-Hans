@@ -6,9 +6,9 @@ description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 nudge: true
-source-git-commit: 43080128c8b3eeaa712334c3fff2fa89c157efea
+source-git-commit: fd69d41fa38c993fce1f32815f5badfd4714a270
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '314'
 ht-degree: 14%
 ---
 
@@ -103,3 +103,4 @@ ht-degree: 14%
   - [发行说明](./coworker-for-teams/release-notes.md)
 - 更多资源 {#more-resources}
   - [文档更新](./more-resources/documentation-updates.md)
+  - [发行说明](./more-resources/release-notes.md)
