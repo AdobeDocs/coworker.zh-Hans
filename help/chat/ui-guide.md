@@ -5,9 +5,9 @@ jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: d2526c349e6015d754e3379d7208e0e24fa23dd1
+source-git-commit: 6f3146fafcfd39c349f43f961e065b86ed304421
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '2088'
 ht-degree: 3%
 ---
 # 同事聊天入门 {#ui-guide}
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 使用您的Adobe凭据登录到[!DNL Coworker]。
 
-1. 使用您的Adobe ID [登录](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/experience-cloud#sign-in-to-cx-enterprise)到CX Enterprise。
+1. 使用您的Adobe ID [登录](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud#sign-in-to-cx-enterprise)到CX Enterprise。
 
    登录后，您可以从[!DNL CX Enterprise]应用程序菜单或使用直接链接打开[!DNL Coworker]：
 
@@ -46,7 +46,7 @@ ht-degree: 3%
 
 ## 了解同事聊天的基础知识
 
->[!VIDEO](https://video.tv.adobe.com/v/3498575?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 指定您的同事首选项 {#preferences}
 
@@ -57,7 +57,7 @@ ht-degree: 3%
 | 设置/选项 | 使用它可以 |
 | --- | --- |
 | 帐户名称和电子邮件 | 确认用于登录的Adobe帐户。 |
-| **[!UICONTROL 通知]** （铃铛图标） | 查看您的[通知](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/account-preferences#subscribe-to-notifications-in-experience-cloud)。 |
+| **[!UICONTROL 通知]** （铃铛图标） | 查看您的[通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-notifications-in-experience-cloud)。 |
 | **[!UICONTROL 主题]** | 在浅色和深色主题之间切换。 |
 | **[!UICONTROL 应用设置]** | 查看帐户详细信息和工作区设置。 |
 | **[!UICONTROL 首选项]** | 打开您的帐户[首选项](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/account-preferences)。 箭头指示页面在Co-worker外部打开。 |
@@ -86,7 +86,7 @@ ht-degree: 3%
 | **[!UICONTROL 主页]** | 返回问候语、输入框和建议的提示。 |
 | **[!UICONTROL 聊天]** | 搜索、固定、存档或删除过去的对话。 |
 | **[!UICONTROL 项目]** | 打开“同事聊天”在对话中创建的工件。 |
-| **[!UICONTROL 体验上下文]** | <!-- TODO: describe Experience Context --> |
+| **[!UICONTROL 体验上下文]** | 将同事连接到您现有的Adobe应用程序（如Marketo Engage）和其他企业系统，以便他们能够访问所有相关的客户和帐户数据并对其进行推理。 |
 | **[!UICONTROL 自定义项]** | 管理技能、集成、市场、插件和内存。 |
 | **[!UICONTROL 最近访问]** | 打开您的最新对话。 单击&#x200B;**[!UICONTROL 查看全部]**&#x200B;以打开“聊天”页面。 |
 | **[!UICONTROL 已固定]** | 打开你主演的对话。 单击&#x200B;**[!UICONTROL 查看全部]**&#x200B;可在“聊天”页面上查看它们。 |
@@ -212,7 +212,7 @@ Chat同事会实时显示其工作，然后返回答案。 响应可能包括其
 技能是“同事聊天”在应用时自动使用的专用功能。 您也可以在聊天中键入&#x200B;**/**&#x200B;以自己开始一项技能。 “**[!UICONTROL 技能]**”选项卡列出了所有已安装的技能。
 
 1. 在&#x200B;**[!UICONTROL 技能]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL 添加技能]**&#x200B;以从新来源安装技能。
-1. 在&#x200B;**[!UICONTROL 搜索]**&#x200B;中输入名称以查找技能。
+1. 在&#x200B;**[!UICONTROL 搜索]**中输入名称以查找技能。
 使用视图切换可在网格和列表布局之间切换。
 1. 选择一种技能，以查看Co-worker Chat使用插件时该插件所属的插件及其包含的文件。
 
