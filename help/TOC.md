@@ -6,10 +6,10 @@ description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 nudge: true
-source-git-commit: 6ccaaf8cd5976c21119d800ada44101b11c65eb6
+source-git-commit: 43080128c8b3eeaa712334c3fff2fa89c157efea
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 13%
+source-wordcount: '312'
+ht-degree: 14%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -65,6 +65,8 @@ ht-degree: 13%
       - [沙盒工具代理技能](./chat/use-cases/sandbox-tooling/sandbox-tooling.md)
     - 警报 {#alerts}
       - [客户警报技能](./chat/use-cases/customer-alerts/customer-alerts.md)
+    - 通知 {#notifications}
+      - [通知技能](./chat/use-cases/notifications/notification-skills.md)
     - 品牌可见度 {#brand-visibility}
       - [创建和优化AEM登录页面](./chat/use-cases/brand-visibility/create-and-refine-aem-landing-page.md)
       - [品牌合规性检查](./chat/use-cases/brand-visibility/brand-compliance.md)
