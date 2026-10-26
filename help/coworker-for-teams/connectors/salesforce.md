@@ -4,7 +4,7 @@ title: 连接到Salesforce
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: a0a02aaf4048f13954a1018499204cab05c27023
+source-git-commit: 6d121c60fbf41dc2b27844854078f8f4f48d1944
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
@@ -23,9 +23,9 @@ Adobe Co-worker for Teams允许您连接您的Salesforce帐户以访问潜在客
 
 ## 如何连接
 
-1. 在[Co-worker for teams主页](https://coworker-campaigns.experience.adobe.com/)上，单击&#x200B;**自定义**&#x200B;并选择&#x200B;**连接器**。
+1. 在[Co-worker for teams主页](https://coworker-campaigns.experience.adobe.com/)上，单击&#x200B;**上下文**&#x200B;并选择&#x200B;**连接器**。
 
-   ![团队的同事已展开自定义并突出显示连接器左侧导航](./assets/salesforce-1.png)
+   ![团队的同事左侧导航，上下文已展开，连接器已突出显示](./assets/salesforce-1.png)
 
 1. 单击&#x200B;**添加集成**。
 
