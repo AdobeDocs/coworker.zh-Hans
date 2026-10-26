@@ -43,7 +43,7 @@ CX Enterprise应用程序选择器中的![同事](./assets/ui-guide-1.png)
 
 ## 视频 — [!DNL Coworker]聊天界面的基础知识
 
->[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498575?captions=chi_hans&learn=on)
 
 ## 选择您的组织
 
