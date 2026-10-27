@@ -4,14 +4,14 @@ title: 连接到数据库
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 6d121c60fbf41dc2b27844854078f8f4f48d1944
+source-git-commit: 395e6f64210aedd90fa4f6655860cf4c9bf19f7b
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '140'
 ht-degree: 0%
 ---
 # 连接到数据库 {#databricks}
 
-Adobe Co-worker for teams允许您将数据库连接到...........
+Adobe Co-worker for Teams允许您连接和查询数据库工作区中的Unity Catalog表，以构建和激活活动受众。
 
 >[!PREREQUISITES]
 >
@@ -19,7 +19,7 @@ Adobe Co-worker for teams允许您将数据库连接到...........
 
 ## 如何连接
 
-1. 在[Co-worker for teams主页](https://coworker-campaigns.experience.adobe.com/)上，单击&#x200B;**自定义**&#x200B;并选择&#x200B;**连接器**。
+1. 在[Co-worker for teams主页](https://coworker-campaigns.experience.adobe.com/)上，单击&#x200B;**上下文**&#x200B;并选择&#x200B;**连接器**。
 
    屏幕快照
 
@@ -39,7 +39,7 @@ Adobe Co-worker for teams允许您将数据库连接到...........
 
    屏幕快照
 
-连接后，Databricks将显示在Connectors列表中...................
+连接后，Databricks将显示在Connectors列表中。
 
 **断开连接：**
 
