@@ -4,9 +4,9 @@ title: 同事聊天工作流
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 5acb9a62c94486e0487cc7805ebc9ef6e25e2079
+source-git-commit: 5a5642bf7d8b6f4d2aa14321fa9a06249440e998
 workflow-type: tm+mt
-source-wordcount: '8465'
+source-wordcount: '8508'
 ht-degree: 6%
 ---
 # 同事聊天工作流 {#use-cases}
@@ -100,6 +100,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | 准则和区段查找 | 检索详细的品牌指南，按区段、市场或类别划分范围 | 企业上下文 | Adobe Experience Manager (AEM) | “这个品牌的声调准则是什么？”<br>“列出垂直健康领域使用的索赔类别” |
 | 根据品牌指南评估内容 | 根据配置的品牌检查评估已发布/创作的页面、文本块或图像 | aem-governance | Adobe Experience Manager (AEM) | “根据SecurBank准则评估此登陆页面”<br>“此标语是否通过我们的语调检查？” |
 | 调试AEM权限 | 调试/了解权限策略、ACL和继承规则。 | aem-governance | Adobe Experience Manager (AEM) | “为什么主体管理员可以在`https://author/`上写`/content/folder/us`？”<br>“为什么无法在`https://author`上的`/content/dam`中采样作者写” |
+| 列出跨实例的漏洞 | 检索一个或多个AEM实例的已知漏洞的整合列表，包括严重性和受影响的组件 | aem-governance | Adobe Experience Manager (AEM) | “列出我的创作实例和发布实例中的所有漏洞。”<br>“显示`https://author-xxx.adobeaemcloud.com`的关键漏洞和高漏洞。” |
 
 **相关信息**
 
@@ -141,13 +142,13 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | [从自然语言创建历程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-create){target="_blank"} | 在AJO中通过文本提示或上传的图像/流程图编排旅程创建 | `journey-create` | Adobe Journey Optimizer (AJO) | “创建一个欢迎历程，注册后发送电子邮件，等待3天，然后发送跟进”<br>“从此上传的流程图图像构建历程” |
 | [分析历程冲突](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 检测活动历程之间的受众重叠、计划冲突和重复数据删除问题 | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | “我的购物车放弃历程是否与任何其他历程冲突？” <br> “检查我的活动历程之间的受众重叠” |
 | [分析历程流失](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 识别客户在旅程中的流失位置和原因，并检测导致脱离接触的行为模式 | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | “在我的重新参与历程中，客户从哪里流失？”<br> “历程X中的哪些节点的流失率最高？” |
-| [分析自定义操作错误](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 识别历程中自定义操作何时失败或错误率激增，并在故障升级为更广泛中断之前诊断根本原因 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | “为什么自定义操作在我的忠诚度注册历程中失败？” <br> “在我的欢迎历程中向我显示自定义操作ExternalPush的错误率。” |
-| [检测历程异常](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 检测并确认历程的进入、退出或发送计数中相对于历史基线的意外尖峰、下降或扁平化，并揭示可能的根本原因 | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | “为什么昨天我的欢迎历程的条目减少了？” <br> “本周购物车放弃历程的退出次数是否激增？” |
-| [业务绩效分析](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 分析历程表现并识别表现不佳的历程的具体优化机会。 显示趋势、瓶颈和可能驱动因素导致结果降低，这样您就可以提高参与度和转化率。 获取可操作的建议，以根据业务绩效见解调整历程设计、定位或消息传递策略。 | 历程分析 | Adobe Journey Optimizer (AJO) | “分析历程[历程名称]的性能并建议优化。”<br> “为什么历程[历程名称]与上个月相比表现不佳？” <br> “我应更改哪些内容以提高历程[历程名称]的性能？”<br> “历程[历程名称]的哪些部分可能会限制转化或参与？” |
-| [分析历程卫生](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 审核历程清单，以查找具有缺失或通用名称、过时的草稿或实时历程、超大历程、长期存在的已关闭历程以及类似的操作和事件名称的历程，并提供清理和稳定配置的建议 | 历程分析 | Adobe Journey Optimizer (AJO) | “审核我的历程配置。”<br> “我的哪些旅程已经过时或需要清理？” |
+| [分析自定义操作错误](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 识别历程中的自定义操作何时失败或错误率何时激增。<br> 在故障导致更广泛中断之前诊断根本原因。 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | “为什么自定义操作在我的忠诚度注册历程中失败？” <br> “在我的欢迎历程中向我显示自定义操作ExternalPush的错误率。” |
+| [检测历程异常](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 检测并确认历程的进入、退出或发送计数中相对于历史基线的意外峰值、下降或平线。<br> 揭示可能的根本原因。 | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | “为什么昨天我的欢迎历程的条目减少了？” <br> “本周购物车放弃历程的退出次数是否激增？” |
+| [业务绩效分析](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 分析历程表现并识别表现不佳的历程的具体优化机会。<br> 显示趋势、瓶颈和可能驱动因素导致结果降低，这样您就可以提高参与度和转化率。<br> 获取可操作的建议，以根据业务绩效见解调整历程设计、定位或消息传递策略。 | 历程分析 | Adobe Journey Optimizer (AJO) | “分析历程[历程名称]的性能并建议优化。”<br> “为什么历程[历程名称]与上个月相比表现不佳？” <br> “我应更改哪些内容以提高历程[历程名称]的性能？”<br> “历程[历程名称]的哪些部分可能会限制转化或参与？” |
+| [分析历程卫生](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 审核历程清单中的配置卫生问题。<br> 查找缺失或通用名称、过时的草稿或实时历程、超大历程、长期存在的已关闭历程以及类似的操作和事件名称。<br> 获取有关清理和稳定配置的建议。 | 历程分析 | Adobe Journey Optimizer (AJO) | “审核我的历程配置。”<br> “我的哪些旅程已经过时或需要清理？” |
 | [比较历程版本](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 比较两个历程版本并查看节点、连接和历程级别属性更改的结构化差异 | `journey-analyze-version-comparison` | Adobe Journey Optimizer (AJO) | “比较我的欢迎历程的版本2和3”<br>“这两个历程版本之间发生了什么变化？” |
-| [通过历程跟踪用户档案](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#trace-journey-profile){target="_blank"} | 获取已发布历程的只读、配置文件级别的执行数据：查看进入每个节点的用户档案数量以及它们在分支中的拆分，查找哪些配置文件出错以及原因，或遵循单个配置文件在历程中的逐节点路径 | 跟踪历程配置文件 | Adobe Journey Optimizer (AJO) | “通过[历程名称]跟踪配置文件。”<br> “过去7天内[历程名称]中哪些配置文件出错？在哪个节点？为什么？” <br> “通过[历程名称]显示配置文件[ID或电子邮件]的路径。” |
-| [分析历程执行时间线](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-execution-timeline){target="_blank"} | 获取读取受众历程批次的端到端时间线：了解所用时间、受众导出、历程执行和投放的开始和结束时间以及用户档案级别的P95和P99的进入、退出或执行时间 | 历程执行时间线 | Adobe Journey Optimizer (AJO) | “读取受众历程[历程名称]执行了多长时间？”<br> “按批次显示[历程名称]的受众导出、历程执行和投放时间线。”<br> “哪批[历程名称]耗时最长，哪个阶段导致了延迟？” |
+| [通过历程跟踪用户档案](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#trace-journey-profile){target="_blank"} | 获取已发布历程的个人资料级只读执行数据。<br> 查看进入每个节点的用户档案数以及它们在分支中的拆分。<br> 查找哪些配置文件出错及原因，或遵循单个配置文件的逐节点路径。 | 跟踪历程配置文件 | Adobe Journey Optimizer (AJO) | “通过[历程名称]跟踪配置文件。”<br> “过去7天内[历程名称]中哪些配置文件出错？在哪个节点？为什么？” <br> “通过[历程名称]显示配置文件[ID或电子邮件]的路径。” |
+| [分析历程执行时间线](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-execution-timeline){target="_blank"} | 获取读取受众历程批次的端到端时间线。<br> 查看受众导出、历程执行和交付开始和结束的时间。<br> 获取配置文件级别的P95和P99的进入、退出或执行时间。 | 历程执行时间线 | Adobe Journey Optimizer (AJO) | “读取受众历程[历程名称]执行了多长时间？”<br> “按批次显示[历程名称]的受众导出、历程执行和投放时间线。”<br> “哪批[历程名称]耗时最长，哪个阶段导致了延迟？” |
 
 **相关信息**
 
@@ -189,7 +190,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | --- | --- | --- | --- | --- |
 | [创建、编辑和管理忠诚度挑战](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-challenge-management){target="_blank"} | 简化并加快忠诚度计划管理 | `loyalty` | Adobe Journey Optimizer (AJO) | “创建挑战，鼓励会员尝试新的季节性饮品”<br>“向我展示会员流失率最高的忠诚度挑战。” |
 | [分析忠诚度计划绩效](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-data-insight){target="_blank"} | 使用自然语言查询和分析忠诚度积分、成员层、赎回和收入指标 | `loyalty-insights` | Adobe Journey Optimizer (AJO) | “2026年8月期间授予了多少忠诚度积分？” <br> “显示2026年8月按天划分的忠诚度计划总收入。” |
-| [查找忠诚度机会](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-opportunities){target="_blank"} | 根据忠诚度计划趋势和绩效数据请求基于具体情况的挑战机会，然后将其转化为实时挑战 | 待定 | Adobe Journey Optimizer (AJO) | “哪些忠诚度机会可能会增加成员支出？”<br> “向我展示赢回非活跃成员的机会。” |
+| [查找忠诚度机会](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-opportunities){target="_blank"} | 根据忠诚度计划趋势和绩效数据请求基于具体情况的挑战机会，然后将其转化为实时挑战 | 忠诚度机会 | Adobe Journey Optimizer (AJO) | “哪些忠诚度机会可能会增加成员支出？”<br> “向我展示赢回非活跃成员的机会。” |
 
 **相关信息**
 
@@ -199,7 +200,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 | 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| [生成、解释、模拟和优化决策规则](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills#rules-ranking){target="_blank"} | 使用自然语言创建资格规则和排名公式，获得纯英语解释，针对最多三个配置文件测试这些规则，并重写它们以适应PQL大小限制，而无需手动编写PQL语法 | 决策规则工作流程 | Adobe Journey Optimizer (AJO) | “创建针对第2层或以上忠诚度会员的资格规则。”<br><br>“用自然语言向我说明此规则。”<br><br>“使用测试配置文件模拟此规则。”<br><br>“为我优化此PQL规则。” |
+| [生成、解释、模拟和优化决策规则](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills#rules-ranking){target="_blank"} | 使用自然语言创建资格规则和排名公式，并获取简单的英语解释。<br> 针对最多三个配置文件对其进行测试。<br> 重写它们以符合PQL大小限制，而无需手动编写PQL语法。 | 决策规则工作流程 | Adobe Journey Optimizer (AJO) | “创建针对第2层或以上忠诚度会员的资格规则。”<br><br>“用自然语言向我说明此规则。”<br><br>“使用测试配置文件模拟此规则。”<br><br>“为我优化此PQL规则。” |
 
 **相关信息**
 
@@ -209,8 +210,8 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 | 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| [检查通道配置](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/channels-coworker-skills#channel-operation){target="_blank"} | 查看、列表、搜索和检查标准渠道（如电子邮件、短信、推送、直邮、应用程序内和Web）的渠道配置（预设）和凭据，包括相关资源（如推送凭据、电子邮件子域、短信和WhatsApp凭据、文件路由、LINE渠道设置和Live Activity注册表）。 只读 | 渠道操作 | Adobe Journey Optimizer (AJO) | “我的沙盒中有哪些渠道预设可用？” <br> “显示我的所有电子邮件渠道配置。”<br> “我的营销电子邮件配置配置了哪些发件人地址和回复？” |
-| [创建和管理自定义渠道](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/channels-coworker-skills#channel-builder){target="_blank"} | 通过手动设置、curl命令或API文档链接创建、测试、更新、列出、获取和删除自定义出站渠道。 引导您完成渠道配置、身份验证、限制和有效负载定义 | 渠道生成器 | Adobe Journey Optimizer (AJO) | “帮助我为短信提供商创建新的自定义渠道。”<br> “从此API引用创建自定义渠道：[链接]。”<br> “列出我的自定义渠道。” |
+| [检查通道配置](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/channels-coworker-skills#channel-operation){target="_blank"} | 查看、列出、搜索和检查标准渠道（如电子邮件、短信、推送、直邮、应用程序内和Web）的只读渠道配置（预设）和凭据。<br> 还可浏览相关资源，例如推送凭据、电子邮件子域、短信和WhatsApp凭据、文件路由、LINE渠道设置以及Live Activity注册表。 | 渠道操作 | Adobe Journey Optimizer (AJO) | “我的沙盒中有哪些渠道预设可用？” <br> “显示我的所有电子邮件渠道配置。”<br> “我的营销电子邮件配置配置了哪些发件人地址和回复？” |
+| [创建和管理自定义渠道](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/channels-coworker-skills#channel-builder){target="_blank"} | 通过手动设置、curl命令或API文档链接创建、测试、更新、列出、获取和删除自定义出站渠道。<br> 引导您完成渠道配置、身份验证、限制和有效负载定义 | 渠道生成器 | Adobe Journey Optimizer (AJO) | “帮助我为短信提供商创建新的自定义渠道。”<br> “从此API引用创建自定义渠道：[链接]。”<br> “列出我的自定义渠道。” |
 
 **相关信息**
 
