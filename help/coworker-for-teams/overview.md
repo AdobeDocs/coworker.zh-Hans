@@ -4,9 +4,9 @@ title: 适用于团队的Adobe CX Enterprise Coworker概述
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 6e7f80445232b5762eb93b82a604d8036c5a78e1
+source-git-commit: bf3751af83dd8d40021fb2459743aec66c53209c
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1100'
 ht-degree: 0%
 ---
 # 适用于团队的Adobe CX Enterprise Coworker概述 {#overview}
@@ -144,6 +144,7 @@ Co-worker for teams界面是围绕左侧导航来组织的。
 - **数据指导**：不上载敏感或受管制的数据。 团队合作目前不适用于HIPAA管制的行业。
 - **合规性**：您负责以下电子邮件法规（取消订阅链接、隐私政策等）。
 - **发送限制**：您每月最多可发送5,000封电子邮件。 如果您需要增加此限制，请通过屏幕左下角的&#x200B;**帮助和反馈**&#x200B;菜单联系产品团队。
+- **免费子域**：此试用版包括工作区的一个默认子域，因此您可以更快地启动营销活动。
 
 ![帮助和反馈菜单](./assets/overview-3.png)
 

@@ -6,10 +6,10 @@ description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 nudge: true
-source-git-commit: 6022fafc0e0213cbc887f5b38267cb65fd8d4326
+source-git-commit: a0a02aaf4048f13954a1018499204cab05c27023
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 12%
+source-wordcount: '312'
+ht-degree: 15%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -65,6 +65,8 @@ ht-degree: 12%
       - [沙盒工具代理技能](./chat/use-cases/sandbox-tooling/sandbox-tooling.md)
     - 警报 {#alerts}
       - [客户警报技能](./chat/use-cases/customer-alerts/customer-alerts.md)
+    - 通知 {#notifications}
+      - [通知技能](./chat/use-cases/notifications/notification-skills.md)
     - 品牌可见度 {#brand-visibility}
       - [创建和优化AEM登录页面](./chat/use-cases/brand-visibility/create-and-refine-aem-landing-page.md)
       - [品牌合规性检查](./chat/use-cases/brand-visibility/brand-compliance.md)
@@ -88,7 +90,6 @@ ht-degree: 12%
   - 记忆 {#memory}
     - [什么是记忆？](./customizations/memory/what-is-memory.md)
 - 团队同事 {#coworker-for-teams}
-  - {hide-from-toc}[新团队体验](./coworker-for-teams/new-teams-experience.md)
   - [概述](./coworker-for-teams/overview.md)
   - [创建电子邮件营销活动](./coworker-for-teams/create-an-email-campaign.md)
   - [启动和管理营销活动](./coworker-for-teams/launch-manage-campaign.md)
@@ -98,4 +99,8 @@ ht-degree: 12%
   - 连接器 {#connectors}
     - [Marketo Engage](./coworker-for-teams/connectors/marketo.md)
     - [Hubspot](./coworker-for-teams/connectors/hubspot.md)
+    - [Salesforce](./coworker-for-teams/connectors/salesforce.md)
   - [发行说明](./coworker-for-teams/release-notes.md)
+- 更多资源 {#more-resources}
+  - [文档更新](./more-resources/documentation-updates.md)
+  - [发行说明](./more-resources/release-notes.md)

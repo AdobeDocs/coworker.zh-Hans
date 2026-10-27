@@ -4,7 +4,7 @@ title: 连接到HubSpot
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+source-git-commit: 6d121c60fbf41dc2b27844854078f8f4f48d1944
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Adobe Co-worker for teams允许您连接您的HubSpot帐户以拉入联系人列
 
 ## 如何连接
 
-1. 在[Co-worker for teams主页](https://coworker-campaigns.experience.adobe.com/)上，单击&#x200B;**自定义**&#x200B;并选择&#x200B;**连接器**。
+1. 在[Co-worker for teams主页](https://coworker-campaigns.experience.adobe.com/)上，单击&#x200B;**上下文**&#x200B;并选择&#x200B;**连接器**。
 
    ![在侧栏中展开自定义菜单，并选择了连接器](./assets/hubspot-1.png)
 

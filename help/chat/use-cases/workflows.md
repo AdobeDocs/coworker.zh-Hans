@@ -4,9 +4,9 @@ title: 同事聊天工作流
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: b85f470f860795f9a3960f5a4e36d0584e2b6a81
+source-git-commit: 5acb9a62c94486e0487cc7805ebc9ef6e25e2079
 workflow-type: tm+mt
-source-wordcount: '8358'
+source-wordcount: '8465'
 ht-degree: 6%
 ---
 # 同事聊天工作流 {#use-cases}
@@ -147,6 +147,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | [分析历程卫生](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 审核历程清单，以查找具有缺失或通用名称、过时的草稿或实时历程、超大历程、长期存在的已关闭历程以及类似的操作和事件名称的历程，并提供清理和稳定配置的建议 | 历程分析 | Adobe Journey Optimizer (AJO) | “审核我的历程配置。”<br> “我的哪些旅程已经过时或需要清理？” |
 | [比较历程版本](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 比较两个历程版本并查看节点、连接和历程级别属性更改的结构化差异 | `journey-analyze-version-comparison` | Adobe Journey Optimizer (AJO) | “比较我的欢迎历程的版本2和3”<br>“这两个历程版本之间发生了什么变化？” |
 | [通过历程跟踪用户档案](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#trace-journey-profile){target="_blank"} | 获取已发布历程的只读、配置文件级别的执行数据：查看进入每个节点的用户档案数量以及它们在分支中的拆分，查找哪些配置文件出错以及原因，或遵循单个配置文件在历程中的逐节点路径 | 跟踪历程配置文件 | Adobe Journey Optimizer (AJO) | “通过[历程名称]跟踪配置文件。”<br> “过去7天内[历程名称]中哪些配置文件出错？在哪个节点？为什么？” <br> “通过[历程名称]显示配置文件[ID或电子邮件]的路径。” |
+| [分析历程执行时间线](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-execution-timeline){target="_blank"} | 获取读取受众历程批次的端到端时间线：了解所用时间、受众导出、历程执行和投放的开始和结束时间以及用户档案级别的P95和P99的进入、退出或执行时间 | 历程执行时间线 | Adobe Journey Optimizer (AJO) | “读取受众历程[历程名称]执行了多长时间？”<br> “按批次显示[历程名称]的受众导出、历程执行和投放时间线。”<br> “哪批[历程名称]耗时最长，哪个阶段导致了延迟？” |
 
 **相关信息**
 
