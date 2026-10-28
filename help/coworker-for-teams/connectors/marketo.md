@@ -19,7 +19,7 @@ Adobe Co-worker for Teams允许您连接您的Marketo Engage帐户以拉入智�
 >
 >* 有效的Marketo Engage帐户
 >* 您的Marketo **实例URL**
->* 为Marketo中的团队的同事创建的[自定义服务](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#custom-services-1){target="_blank"}，它有[客户端ID和客户端密钥](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token){target="_blank"}
+>* 为Marketo中的团队的同事创建的[自定义服务](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/rest/custom-services#custom-services-1){target="_blank"}，它有[客户端ID和客户端密钥](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token){target="_blank"}
 
 ## 如何连接
 
