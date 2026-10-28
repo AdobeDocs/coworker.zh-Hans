@@ -39,7 +39,7 @@ ht-degree: 4%
 
 “客户警报技能”可帮助您从警报信号转变为切实可行的洞察信息，而无需手动查看警报视图或在多个界面上关联信息。 先从有关最近警报活动的广泛问题开始，然后使用跟进问题识别定期警报模式、分析受影响的对象并关注您拥有的警报。
 
->[!VIDEO](https://video.tv.adobe.com/v/3504716?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3504724?captions=chi_hans&learn=on)
 
 有关客户警报的信息，请参阅[客户警报概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/alerts/overview)。
 

@@ -22,4 +22,4 @@ ht-degree: 0%
 
 在此视频中，了解如何模拟历程的分支路径和分析诊断以识别配置问题。
 
->[!VIDEO](https://video.tv.adobe.com/v/3504706?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3504714?captions=chi_hans&learn=on)
