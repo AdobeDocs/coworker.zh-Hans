@@ -10,8 +10,8 @@ last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22081
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+    internal-label: Coworker
+source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 1%
@@ -23,9 +23,9 @@ ht-degree: 1%
  
 通过自动化初始设置过程，团队可以花更少的时间从头开始构建历程，花更多时间优化客户体验和业务成果。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496884/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
 
 ## 另请参阅
 
-- [Journey Agent](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent#journey-create)，在同事聊天中支持历程创建的基础AI功能。
+- [Journey Agent](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent#journey-create)，在同事聊天中支持历程创建的基础AI功能。
 - [更多同事聊天工作流](../workflows.md#journeys)

@@ -3,8 +3,8 @@ description: Co-worker for Teams允许您连接Shopify帐户以拉入客户和�
 title: 连接到Shopify
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: bd7454ee46cb1ee4ca8b7ae6ab07348a23854979
+    internal-label: Coworker
+source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%

@@ -3,8 +3,8 @@ title: 通过同事聊天分析内容和Creative性能
 description: 使用同事聊天功能查找入选内容的共同之处，将收入归因于客户看到的图像，并在各个渠道和受众之间比较创意内容。
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 8e88ec793bd4ae6fe4692c1d5107fe01fe14bf7f
+    internal-label: Coworker
+source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 1%
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 * 同事聊天已连接到您的Customer Journey Analytics数据视图或Adobe Analytics报表包。 查看[开始使用同事聊天](/help/chat/use-cases/data-insights/analytics-chat.md)分析数据。
 * 查看对要分析的数据视图或报表包的访问权限。 同事聊天从Customer Journey Analytics或Adobe Analytics继承您的权限。
-* 为Content Analytics配置的数据视图。 请参阅Customer Journey Analytics指南中的[配置Content Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/content-analytics/configuration/configuration)。
+* 为Content Analytics配置的数据视图。 请参阅Customer Journey Analytics指南中的[配置Content Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/configuration/configuration)。
 
 ## 用例
 

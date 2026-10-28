@@ -3,8 +3,8 @@ description: 浏览团队的Adobe CX Enterprise Coworker真实提示模式，按
 title: 团队协作用例
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+    internal-label: Coworker
+source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -159,4 +159,4 @@ ht-degree: 0%
 
 ## 准备好进行构建了吗？
 
-选择上面的用例，访问[创建电子邮件促销活动] (./)以进行完整的分步说明，然后再试一次。
+选择上面的用例，访问[创建电子邮件促销活动](./)以进行完整的分步说明，然后再试一次。

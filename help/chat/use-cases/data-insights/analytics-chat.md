@@ -3,8 +3,8 @@ title: 通过同事聊天开始分析数据
 description: 设置Adobe CX Enterprise Coworker Chat以分析Customer Journey Analytics或Adobe Analytics数据，然后按照某个示例查找客户流失情况。
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: d92dcaa94d6fe5577c11db62928f5c4c5e124ed5
+    internal-label: Coworker
+source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
 workflow-type: tm+mt
 source-wordcount: '2182'
 ht-degree: 4%
@@ -335,7 +335,7 @@ Co-worker创建可视化图表后，您可以在Analysis Workspace中打开该�
 
 1. （可选）与您选择的任何人共享您的Workspace项目。
 
-   有关Analysis Workspace的更多信息，请参阅Customer Journey Analytics文档中的[Analysis Workspace概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)或Adobe Analytics文档中的[Analysis Workspace概述](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/home)。
+   有关Analysis Workspace的更多信息，请参阅Customer Journey Analytics文档中的[Analysis Workspace概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)或Adobe Analytics文档中的[Analysis Workspace概述](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/home)。
 
 ## 后续步骤
 

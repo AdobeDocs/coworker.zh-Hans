@@ -3,8 +3,8 @@ title: 通过同事聊天分析业务绩效和KPI
 description: 使用同事聊天来解释量度移动的原因、预测量度的发展方向、准备绩效评估并将重复分析转化为可重复使用的技能。
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+    internal-label: Coworker
+source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 2%
