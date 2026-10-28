@@ -38,4 +38,4 @@ ht-degree: 0%
 
 了解CX Enterprise Coworker如何在Adobe Journey Optimizer中将流程图图像（例如营销团队的PowerPoint幻灯片）转换为准备编辑历程。 您将看到Co-worker如何从图像中提取提示，允许您查看和调整提示，请求触发事件，并将结果保存为与原始设计匹配的草稿。
 
->[!VIDEO](https://video.tv.adobe.com/v/3504865/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3504873/?captions=chi_hans&learn=on&enablevpops)

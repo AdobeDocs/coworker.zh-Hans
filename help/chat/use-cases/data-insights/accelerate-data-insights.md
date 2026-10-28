@@ -19,5 +19,5 @@ ht-degree: 0%
 了解Adobe CX Enterprise Coworker如何跨Adobe Experience Manager (AEM)、Adobe Experience Platform (AEP)、Web SDK和Customer Journey Analytics (CJA)帮助将数据洞察目标转换为连接的实施工作流。 了解同事如何帮助规划实施、执行支持的操作、指导产品和开发步骤以及维护整个工作流的上下文，直到WKND网站参与数据可用于CJA中的分析为止。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3504567/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3504575/?captions=chi_hans&learn=on&enablevpops)
 
