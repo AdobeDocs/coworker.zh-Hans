@@ -4,7 +4,7 @@ description: 设置Adobe CX Enterprise Coworker Chat以分析Customer Journey An
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: d611ce2398cba72cf21c766f3b25225765c1675b
+source-git-commit: d92dcaa94d6fe5577c11db62928f5c4c5e124ed5
 workflow-type: tm+mt
 source-wordcount: '2182'
 ht-degree: 4%
@@ -42,7 +42,7 @@ ht-degree: 4%
 
 1. 在Co-worker中，在左边栏中选择&#x200B;[!UICONTROL **自定义**]。
 
-1. 选择&#x200B;[!UICONTROL **集成**]&#x200B;选项卡，然后确保已连接的服务器列表中有&#x200B;[!UICONTROL **cja-mcp**]&#x200B;和&#x200B;[!UICONTROL **aa-mcp**]。
+1. 选择&#x200B;[!UICONTROL **集成**]&#x200B;选项卡，然后确保&#x200B;[!UICONTROL **cja-mcp**]&#x200B;和&#x200B;[!UICONTROL **aa-mcp**]&#x200B;在已连接的服务器列表中可用。
 
    使用搜索字段可快速筛选可用集成的列表。
 
@@ -335,7 +335,7 @@ Co-worker创建可视化图表后，您可以在Analysis Workspace中打开该�
 
 1. （可选）与您选择的任何人共享您的Workspace项目。
 
-   有关Analysis Workspace的更多信息，请参阅Customer Journey Analytics文档中的[Analysis Workspace概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)或Adobe Analytics文档中的[Analysis Workspace概述](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/home)。
+   有关Analysis Workspace的更多信息，请参阅Customer Journey Analytics文档中的[Analysis Workspace概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)或Adobe Analytics文档中的[Analysis Workspace概述](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/home)。
 
 ## 后续步骤
 
