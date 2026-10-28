@@ -10,7 +10,7 @@ jira: KT-22378
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
+source-git-commit: 0ef1f562174f53393bab97a0d0c91c666810aa20
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 结果是一个可重复的工作流，只需一个简单的提示即可按需执行。
 
->[!VIDEO](https://video.tv.adobe.com/v/3502340/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502323/?learn=on&enablevpops)
 
 ## 将分析变成可重复使用的技能
 

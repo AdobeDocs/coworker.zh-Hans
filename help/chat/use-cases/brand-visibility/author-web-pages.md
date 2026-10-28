@@ -13,7 +13,7 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 2d4922c334bcc2ec93dec46098a9c021623034ad
+source-git-commit: 0ef1f562174f53393bab97a0d0c91c666810aa20
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 使用Adobe CX Enterprise Coworker通过以纯语言描述所需内容来创作AEM Sites页面。 在此视频中，Co-worker使用聊天提示向WKND主页添加了新的促销活动，该主页从可视化内容片段构建。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503871/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503863/?learn=on)
 
 >[!NOTE]
 >

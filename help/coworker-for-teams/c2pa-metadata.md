@@ -4,7 +4,7 @@ title: Co-worker for teams中的C2PA元数据
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
+source-git-commit: 0ef1f562174f53393bab97a0d0c91c666810aa20
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 4%
@@ -38,6 +38,6 @@ Co-worker for teams保留与支持的图像资产关联的C2PA元数据。 如�
 
 ## 其他资源 {#resources}
 
-* [创作AI内容透明度](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}
+* [创作AI内容透明度](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}
 * [Adobe Experience Cloud创作AI用户准则](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
-* [护栏和限制](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [护栏和限制](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
