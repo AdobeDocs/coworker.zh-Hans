@@ -6,15 +6,16 @@ description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 nudge: true
-source-git-commit: a0a02aaf4048f13954a1018499204cab05c27023
+source-git-commit: 67936a948c0e985619e3ae72dffa443a016611bb
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 15%
+source-wordcount: '319'
+ht-degree: 14%
 ---
 
 # CX Enterprise Coworker {#content}
 
 - [同事指南](home.md)
+- [适用于AI平台的Adobe CX Enterprise Coworker](/help/ai-platforms.md)
 - 同事聊天 {#chat}
   - [关于同事聊天](./chat/overview.md)
   - [开始使用同事聊天](./chat/ui-guide.md)

@@ -4,9 +4,9 @@ title: 创建电子邮件营销活动
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: bf3751af83dd8d40021fb2459743aec66c53209c
+source-git-commit: a456bf55f7004304df7ad9ea6d6bc3410faffaba
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '933'
 ht-degree: 0%
 ---
 # 创建电子邮件营销活动 {#create-an-email-campaign}
@@ -68,7 +68,7 @@ _何时使用：您可能知道自己想要什么，但希望得到一点帮助�
 
 ![输入您自己的提示](./assets/create-an-email-campaign-2.png)
 
-提示就绪后，单击&#x200B;**生成营销活动**。 然后，团队的同事将：
+提示就绪后，单击向上箭头图标。 然后，团队的同事将：
 
 * 生成结构化营销活动策略。
 * 请求您的目标受众，该受众还将用于内容个性化。
@@ -88,8 +88,6 @@ _何时使用：您可能知道自己想要什么，但希望得到一点帮助�
    >
    >虽然团队同事允许您使用示例受众继续构建营销活动，但您必须添加真实受众来启动营销活动。
 
-1. 导入CSV文件。
-
    >[!IMPORTANT]
    >
    >在上传之前，排除您不希望通过电子邮件发送的任何联系人（已取消订阅的用户、内部地址、测试帐户）。 虽然我们将在试用期间逐步启用排除特定用户或添加属性的功能，但从发布日期起将无法立即使用。
@@ -98,7 +96,7 @@ _何时使用：您可能知道自己想要什么，但希望得到一点帮助�
 
 要对电子邮件进行更改，请向右滚动。 在&#x200B;_促销活动Assets_&#x200B;下，单击&#x200B;**打开编辑器**。
 
-![](./assets/create-an-email-campaign-4.png)
+![](./assets/create-an-email-campaign-3.png)
 
 可通过两种方式更新您的内容。
 
@@ -114,7 +112,7 @@ _何时使用：您可能知道自己想要什么，但希望得到一点帮助�
 
 您还可以使用AI按钮帮助优化主题或预编译标头。
 
-![](./assets/create-an-email-campaign-5.png)
+![](./assets/create-an-email-campaign-4.png)
 
 >[!TIP]
 >
@@ -128,7 +126,7 @@ _何时使用：您可能知道自己想要什么，但希望得到一点帮助�
 >
 >此时，您只能向自己发送测试电子邮件，一次只能发送一封电子邮件。
 
-![](./assets/create-an-email-campaign-6.png)
+![](./assets/create-an-email-campaign-5.png)
 
 ## 步骤6：启动营销活动
 

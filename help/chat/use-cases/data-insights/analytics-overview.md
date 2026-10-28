@@ -4,9 +4,9 @@ description: 使用Adobe CX Enterprise Coworker Chat分析Customer Journey Analy
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: f1ffc050071fc0ca48ae36c7aea8bc66eff2a147
+source-git-commit: 8e88ec793bd4ae6fe4692c1d5107fe01fe14bf7f
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1363'
 ht-degree: 1%
 ---
 
@@ -55,7 +55,7 @@ Co-worker Chat可以执行以前仅在Analysis Workspace中才有的高级数据
 | `cja`, `aa` | 实时查询Customer Journey Analytics数据视图(`cja`)或Adobe Analytics报表包(`aa`)：<ul><li>提取量度、维度、区段、数据视图和报表包</li><li>并排比较渠道、时间段或区段</li><li>运行多步骤funnel和流失分析</li><li>基于历史趋势的预测指标</li></ul> | 查看对要查询的数据视图或报表包的访问权限 | <ul><li>创建或编辑数据视图或报表包组件</li><li>您有权访问的数据视图或报表包以外的数据</li><li>超出量度预测的预测建模</li></ul> |
 | `cja-root-cause-analysis`, `aa-root-cause-analysis` | 调查量度发生更改而非仅报告其更改的原因：<ul><li>调查某个已知量度在已知时段内的变化</li><li>显示促成更改的维度和区段</li></ul> | 查看对正在分析的数据视图或报表包的访问权限 | <ul><li>检测您未询问的异常（无自动或实时警报）</li><li>针对您有权访问的数据视图或报表包外部的量度进行根本原因分析</li></ul> |
 | `cja-executive-summary` | 生成适用于利益相关者的数据摘要：<ul><li>汇总指定期间的性能</li><li>根据数据生成规范性建议</li><li>幻灯片演示或利益相关者阅读的概要内容</li></ul> | 查看对摘要中涵盖的数据视图或报表包的访问权限 | <ul><li>构建最终幻灯片幻灯片或演示文件</li><li>跨您无权访问的数据视图或报表包的摘要</li></ul> |
-| `analyze-content`<!-- FLAG: Confirm the Out of scope items with the PM. --> | 在Customer Journey Analytics中使用Content Analytics数据回答有关您内容的一般或特定问题：<ul><li>找出性能最佳的资源和体验的共同点</li><li>将内容风险与转化和收入联系起来</li><li>跨渠道和受众比较内容</li></ul>有关详细信息，请参阅[询问有关您内容的问题](/help/chat/use-cases/data-insights/ask-content-questions.md)。 | 查看对为Content Analytics配置的数据视图的访问权限 | <ul><li>设置或配置Content Analytics</li><li>Content Analytics未收集的内容</li></ul> |
+| `analyze-content`<br/>（有限可用性）<!-- FLAG: Confirm the Out of scope items with the PM. --> | 在Customer Journey Analytics中使用Content Analytics数据回答有关您内容的一般或特定问题：<ul><li>找出性能最佳的资源和体验的共同点</li><li>将内容风险与转化和收入联系起来</li><li>跨渠道和受众比较内容</li></ul>有关详细信息，请参阅[询问有关您内容的问题](/help/chat/use-cases/data-insights/ask-content-questions.md)。 | 查看对为Content Analytics配置的数据视图的访问权限 | <ul><li>设置或配置Content Analytics</li><li>Content Analytics未收集的内容</li><li>付费媒体内容</li></ul> |
 | `aa-cja-validation` | 比较、审核和协调[!DNL Adobe Analytics]与Customer Journey Analytics之间的数据：<ul><li>比较报表包和数据视图之间的量度值</li><li>标记两个数据源之间的差异</li></ul> | 查看对正在比较的[!DNL Adobe Analytics]报表包和Customer Journey Analytics数据视图的访问权限 | <ul><li>解决数据差异的根本原因</li><li>验证[!DNL Adobe Analytics]和Customer Journey Analytics以外的数据源</li></ul> |
 | `cja-skill-creator` | 将您已经掌握的分析变成一项可重复使用的技能：<ul><li>将完成的分析转换为已命名的、可重用的技能</li><li>使已保存的技能在未来的聊天会话中可用</li></ul> | 管理技能 | <ul><li>自动与其他用户共享保存的技能（组织级别的技能库需要管理员设置）</li><li>编辑技能引用的数据视图或报告包组件</li></ul> |
 
