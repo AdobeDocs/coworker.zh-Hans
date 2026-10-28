@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ## 开始之前 {#before-you-begin}
 
-确保您使用的沙盒包含要审查的数据集。 您还需要访问Data Management Agent和所需的Adobe Experience Platform权限。 请参阅[数据管理代理先决条件](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/data-management#prerequisites)。
+确保您使用的沙盒包含要审查的数据集。 您还需要访问Data Management Agent和所需的Adobe Experience Platform权限。 请参阅[数据管理代理先决条件](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/data-management#prerequisites)。
 
 ## 优化沙盒中的数据 {#optimize-data-in-your-sandbox}
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 在缩小列表范围后，使用分析数据集使用技能来了解特定数据集的使用活动。
 
-并非所有通过这项技能发现的未使用或放弃的数据集都是数据湖保留策略的理想候选对象。 如果您需要删除整个数据集或管理其他Experience Platform存储中的数据，请参阅[选择正确的数据生命周期管理功能](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/choose-a-capability)。 在设置数据湖保留策略之前，请确认该数据集是体验事件数据集。
+并非所有通过这项技能发现的未使用或放弃的数据集都是数据湖保留策略的理想候选对象。 如果您需要删除整个数据集或管理其他Experience Platform存储中的数据，请参阅[选择正确的数据生命周期管理功能](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-lifecycle/choose-a-capability)。 在设置数据湖保留策略之前，请确认该数据集是体验事件数据集。
 
 示例提示：
 
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 ![同事显示建议的数据湖保留策略、其影响以及在应用更改之前所需的确认。](../../assets/data-management/retention-impact-preview.png)
 
-确认保留策略后，可能需要一段时间才能将更改显示在Adobe Experience Platform UI中。 保留策略不会立即删除过期的数据。 初始保留作业在应用策略后的24小时内开始。 初次运行后，计划作业每30天会评估和删除一次过期的记录。 有关保留和清除的详细信息，请参阅[Experience Event数据集保留(TTL)指南](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide)。
+确认保留策略后，可能需要一段时间才能将更改显示在Adobe Experience Platform UI中。 保留策略不会立即删除过期的数据。 初始保留作业在应用策略后的24小时内开始。 初次运行后，计划作业每30天会评估和删除一次过期的记录。 有关保留和清除的详细信息，请参阅[Experience Event数据集保留(TTL)指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide)。
 
 每次保留策略更改都记录在审核跟踪中，包括策略设置、更改或删除的时间。 审核记录可记录每次更改的人员、更改发生的时间以及更改的内容。 您可以单击同事提供的链接，在Adobe Experience Platform的数据集“审核日志”选项卡中查看这些事件。 有关详细信息，请参阅[审核日志概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview)。
 
@@ -107,4 +107,4 @@ ht-degree: 1%
 
 ## 后续步骤 {#next-steps}
 
-要了解有关数据管理代理的技能、范围、行为和限制的更多信息，请参阅[数据管理代理概述](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/data-management)。 有关Adobe Experience Platform中数据湖保留策略如何工作的更多信息，请参阅[Experience Event数据集保留(TTL)指南](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide)。
+要了解有关数据管理代理的技能、范围、行为和限制的更多信息，请参阅[数据管理代理概述](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/data-management)。 有关Adobe Experience Platform中数据湖保留策略如何工作的更多信息，请参阅[Experience Event数据集保留(TTL)指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide)。
