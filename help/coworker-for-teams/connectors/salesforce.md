@@ -4,14 +4,14 @@ title: 连接到Salesforce
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 55ee8ef8f43e03720e75c9e68fccf12da8595f9c
+source-git-commit: bd7454ee46cb1ee4ca8b7ae6ab07348a23854979
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '286'
 ht-degree: 0%
 ---
 # 连接到Salesforce {#salesforce}
 
-Adobe Co-worker for Teams允许您连接您的Salesforce帐户以访问潜在客户和联系人。
+Co-worker for teams允许您连接您的Salesforce帐户以访问潜在客户和联系人。
 
 >[!PREREQUISITES]
 >
