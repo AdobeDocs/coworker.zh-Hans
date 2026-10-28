@@ -6,9 +6,9 @@ description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 nudge: true
-source-git-commit: 67936a948c0e985619e3ae72dffa443a016611bb
+source-git-commit: 3c7f31930e1c742d81ca0c9fee731f6edd6b6952
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '326'
 ht-degree: 14%
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 14%
         - [规划实施](./chat/use-cases/data-insights/implementation-guide.md)
         - [生成实施核对清单](./chat/use-cases/data-insights/intelligent-checklist.md)
         - [升级时验证AA到CJA的数据](./chat/use-cases/data-insights/data-validation-aa-cja.md)
+        - [将AA项目迁移到CJA](./chat/use-cases/data-insights/migrate-projects-aa-cja.md)
         - [验证流媒体实施](./chat/use-cases/data-insights/streaming-media-validation.md)
         - [验证CJA报表的数据集质量](./chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
         - [验证Experience Platform数据](./chat/use-cases/data-insights/data-validation-aep.md)
@@ -98,9 +99,11 @@ ht-degree: 14%
   - [提示最佳实践](./coworker-for-teams/prompting-best-practices.md)
   - [C2PA 元数据](./coworker-for-teams/c2pa-metadata.md)
   - 连接器 {#connectors}
-    - [Marketo Engage](./coworker-for-teams/connectors/marketo.md)
+    - {hide-from-toc}[数据库](./coworker-for-teams/connectors/databricks.md)
     - [Hubspot](./coworker-for-teams/connectors/hubspot.md)
+    - [Marketo Engage](./coworker-for-teams/connectors/marketo.md)
     - [Salesforce](./coworker-for-teams/connectors/salesforce.md)
+    - {hide-from-toc}[购物](./coworker-for-teams/connectors/shopify.md)
   - [发行说明](./coworker-for-teams/release-notes.md)
 - 更多资源 {#more-resources}
   - [文档更新](./more-resources/documentation-updates.md)

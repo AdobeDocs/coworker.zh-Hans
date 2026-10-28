@@ -4,7 +4,7 @@ title: 连接到Marketo Engage
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 6d121c60fbf41dc2b27844854078f8f4f48d1944
+source-git-commit: 5394a34858c6480dec74f4fdf8b9a26e28bcac68
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -19,11 +19,11 @@ Adobe Co-worker for Teams允许您连接您的Marketo Engage帐户以拉入智�
 >
 >* 有效的Marketo Engage帐户
 >* 您的Marketo **实例URL**
->* 为Marketo中的团队的同事创建的[自定义服务](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/rest/custom-services#custom-services-1)，它有[客户端ID和客户端密钥](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token)
+>* 为Marketo中的团队的同事创建的[自定义服务](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/rest/custom-services#custom-services-1){target="_blank"}，它有[客户端ID和客户端密钥](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token){target="_blank"}
 
 ## 如何连接
 
-1. 在[Co-worker for teams主页](https://coworker-campaigns.experience.adobe.com/)上，单击&#x200B;**上下文**&#x200B;并选择&#x200B;**连接器**。
+1. 在[Co-worker for teams主页](https://coworker-campaigns.experience.adobe.com/){target="_blank"}上，单击&#x200B;**上下文**&#x200B;并选择&#x200B;**连接器**。
 
    ![团队的同事左侧导航，上下文已展开，连接器已突出显示](./assets/marketo-1.png)
 

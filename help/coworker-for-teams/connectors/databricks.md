@@ -1,12 +1,12 @@
 ---
-description: 描述。
+description: Adobe Co-worker for Teams允许您连接和查询数据库工作区中的Unity Catalog表，以构建和激活活动受众。
 title: 连接到数据库
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 395e6f64210aedd90fa4f6655860cf4c9bf19f7b
+source-git-commit: 55ee8ef8f43e03720e75c9e68fccf12da8595f9c
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '275'
 ht-degree: 0%
 ---
 # 连接到数据库 {#databricks}
@@ -16,16 +16,19 @@ Adobe Co-worker for Teams允许您连接和查询数据库工作区中的Unity C
 >[!PREREQUISITES]
 >
 >要使用此连接器，您必须首先具有：
+>
+>* 活动数据库帐户
+>* 您的Databricks Workspace主机、[SQL仓库路径](https://docs.databricks.com/aws/en/compute/sql-warehouse/create){target="_blank"}、[个人访问令牌](https://learn.microsoft.com/en-us/azure/databricks/dev-tools/auth/pat){target="_blank"}和[Unity目录](https://learn.microsoft.com/en-us/azure/databricks/discover/database-objects){target="_blank"}很方便。
 
 ## 如何连接
 
-1. 在[Co-worker for teams主页](https://coworker-campaigns.experience.adobe.com/)上，单击&#x200B;**上下文**&#x200B;并选择&#x200B;**连接器**。
+1. 在[Co-worker for teams主页](https://coworker-campaigns.experience.adobe.com/){target="_blank"}上，单击&#x200B;**上下文**&#x200B;并选择&#x200B;**连接器**。
 
-   屏幕快照
+   ![团队的同事左侧导航，上下文已展开，连接器已突出显示](./assets/databricks-1.png)
 
 1. 单击&#x200B;**添加集成**。
 
-   屏幕快照
+   在Connectors屏幕中![添加集成按钮](./assets/databricks-2.png)
 
    >[!NOTE]
    >
@@ -33,11 +36,15 @@ Adobe Co-worker for Teams允许您连接和查询数据库工作区中的Unity C
 
 1. 在“数据库”行中，单击&#x200B;**连接**。
 
-   屏幕快照
+   ![带有“连接”按钮的“数据库连接器”拼贴](./assets/databricks-3.png)
 
 1. 输入您的数据库&#x200B;**Workspace主机**、**SQL仓库路径**、**个人访问令牌**&#x200B;和&#x200B;**Unity目录**。 单击&#x200B;**连接**。
 
-   屏幕快照
+   >[!NOTE]
+   >
+   >在数据库主页上，可以直接在浏览器的地址栏中找到Workspace主机。 要找到所有其他凭据，请参阅本文顶部的&#x200B;**先决条件**&#x200B;中的链接。
+
+   ![使用Workspace主机、SQL仓库路径、个人访问令牌和Unity目录的字段连接数据库对话框](./assets/databricks-4.png)
 
 连接后，Databricks将显示在Connectors列表中。
 
@@ -45,12 +52,6 @@ Adobe Co-worker for Teams允许您连接和查询数据库工作区中的Unity C
 
 1. 在Connectors屏幕中，找到Databricks拼贴，然后单击&#x200B;**管理**。
 
-   屏幕快照
-
 1. 单击&#x200B;**断开连接**（此时无需重新输入您的个人访问令牌）。
 
-   屏幕快照
-
 1. 再次单击&#x200B;**断开连接**&#x200B;以确认。
-
-   屏幕快照
