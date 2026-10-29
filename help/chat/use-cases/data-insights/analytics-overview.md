@@ -24,7 +24,7 @@ Co-worker Chat可以执行以前仅在Analysis Workspace中才有的高级数据
 
 在同事聊天中创建可视化图表时，您可以随时在Analysis Workspace中打开该可视化图表，以便进行更多手动控制。 请参阅[在Analysis Workspace中打开可视化图表](/help/chat/use-cases/data-insights/analytics-chat.md#open-a-visualization-in-analysis-workspace)。
 
-在Customer Journey Analytics中，您还可以在Analysis Workspace的聊天面板中使用同事。 在那里，Co-worker使用打开的项目作为上下文，并可以将面板、表格和组件直接添加到项目中。 要决定使用哪个应用程序，请参阅Customer Journey Analytics指南中的[在Workspace中的同事和同事应用程序之间选择](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/coworker#choose-between-coworker-in-workspace-and-the-coworker-application)。
+在Customer Journey Analytics中，您还可以在Analysis Workspace的聊天面板中使用同事。 在那里，Co-worker使用打开的项目作为上下文，并可以将面板、表格和组件直接添加到项目中。 要决定使用哪个应用程序，请参阅Customer Journey Analytics指南中的[在Workspace中的同事和同事应用程序之间选择](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/coworker#choose-between-coworker-in-workspace-and-the-coworker-application)。
 
 ## 快速解答和深思熟虑
 
