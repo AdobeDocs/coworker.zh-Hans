@@ -11,7 +11,7 @@ jira: KT-22082
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -23,4 +23,4 @@ ht-degree: 0%
  
 使用自然语言，分析师和营销人员可以就数据提出问题、获得可视化结果、识别有意义的趋势并揭示驱动性能的因素，所有这些都可以在一条对话中完成。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496860/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496847/?learn=on&enablevpops)

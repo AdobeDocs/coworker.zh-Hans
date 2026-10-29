@@ -4,7 +4,7 @@ title: 连接到Marketo Engage
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Co-worker for Teams允许您连接Marketo Engage帐户以拉入智能和静态�
 >
 >* 有效的Marketo Engage帐户
 >* 您的Marketo **实例URL**
->* 为Marketo中的团队的同事创建的[自定义服务](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/rest/custom-services#custom-services-1){target="_blank"}，它有[客户端ID和客户端密钥](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token){target="_blank"}
+>* 为Marketo中的团队的同事创建的[自定义服务](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#custom-services-1){target="_blank"}，它有[客户端ID和客户端密钥](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token){target="_blank"}
 
 ## 如何连接
 

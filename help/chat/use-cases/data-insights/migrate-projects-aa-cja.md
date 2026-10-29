@@ -7,7 +7,7 @@ level: Intermediate
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
 source-wordcount: '1785'
 ht-degree: 1%
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->在迁移任何项目之前，请阅读Adobe Analytics文档中的[准备将组件和项目从Adobe Analytics迁移到Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration)。 它介绍了如何准备迁移、包含的内容、哪些元素会导致错误以及映射如何影响整个组织。 此信息适用于协同工作中的迁移。
+>在迁移任何项目之前，请阅读Adobe Analytics文档中的[准备将组件和项目从Adobe Analytics迁移到Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration)。 它介绍了如何准备迁移、包含的内容、哪些元素会导致错误以及映射如何影响整个组织。 此信息适用于协同工作中的迁移。
 
 ## 与Adobe Analytics用户界面中迁移的区别
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 * Adobe Analytics管理员权限，或Admin Console中的&#x200B;[!UICONTROL **组件迁移**]&#x200B;权限。 您无需成为管理员。
 
-* Adobe Analytics文档中的组件迁移的[先决条件](https://experienceleague.adobe.com/zh-hans/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration#prerequisites)。
+* Adobe Analytics文档中的组件迁移的[先决条件](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration#prerequisites)。
 
 * 使用基本报表包的项目。 无法迁移虚拟报表包。<!-- FLAG: Sourced from Coworker's response in the UI. The Adobe Analytics component migration docs don't mention virtual report suites. Confirm, and consider adding it to those docs. -->
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 <!-- FLAG: Confidence: Medium. The recommendation to review mappings before the first migration from a report suite is inferred from the Adobe Analytics guidance to decide mappings as an organization; Coworker also validates mappings during each migration. Confirm with Scott. -->
 
-在首次从该报表包迁移之前，请考虑查看报表包的维度和量度是如何进行映射的。 映射将应用于您的组织迁移的每个项目，因此先处理它们有助于后续项目通过验证。 有关选择映射的指导，请参阅Adobe Analytics文档中的[决定作为组织如何映射组件](https://experienceleague.adobe.com/zh-hans/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration#decide-as-an-organization-how-you-will-map-components)。
+在首次从该报表包迁移之前，请考虑查看报表包的维度和量度是如何进行映射的。 映射将应用于您的组织迁移的每个项目，因此先处理它们有助于后续项目通过验证。 有关选择映射的指导，请参阅Adobe Analytics文档中的[决定作为组织如何映射组件](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration#decide-as-an-organization-how-you-will-map-components)。
 
 若要查看映射，请在&#x200B;[!UICONTROL **作用域**]&#x200B;选项卡上选择&#x200B;[!UICONTROL **仅查看映射**]，或直接询问同事：
 
@@ -109,7 +109,7 @@ ht-degree: 1%
    | 选项 | 说明 |
    | --- | --- |
    | [!UICONTROL **特定AA项目**] | 迁移您命名的项目。 执行本节中的其余步骤。 |
-   | [!UICONTROL **仅查看映射**] | 检查报表包的量度和维度如何映射到数据视图，而不迁移任何内容。 在迁移[&#128279;](#review-report-suite-mappings-before-you-migrate)之前，请参阅查看报表包映射。 |
+   | [!UICONTROL **仅查看映射**] | 检查报表包的量度和维度如何映射到数据视图，而不迁移任何内容。 在迁移](#review-report-suite-mappings-before-you-migrate)之前，请参阅[查看报表包映射。 |
    | [!UICONTROL **计划完全升级**] | 获取从Adobe Analytics迁移到Customer Journey Analytics的端到端计划。 请参阅[与同事一起规划实施](/help/chat/use-cases/data-insights/implementation-guide.md)。 |
 
 1. （可选）回答&#x200B;[!UICONTROL **Source &amp; target**]&#x200B;选项卡上的问题，然后选择&#x200B;[!UICONTROL **下一步**]。
@@ -157,13 +157,13 @@ ht-degree: 1%
 * **量度：**&#x200B;发生次数成为事件
 * **Dimension：**&#x200B;小时将保留
 
-有关迁移的组件和项目元素，请参阅Adobe Analytics文档中的[了解迁移中包含的内容](https://experienceleague.adobe.com/zh-hans/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration#understand-what-is-included-in-a-migration)。
+有关迁移的组件和项目元素，请参阅Adobe Analytics文档中的[了解迁移中包含的内容](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration#understand-what-is-included-in-a-migration)。
 
 如果验证未通过：
 
 * **无法自动映射的维度或量度：**&#x200B;同事在数据视图中建议将每个维度或量度映射到，更新映射，然后再次验证项目。 您还可以告诉同事要将它映射到哪个维度或量度，例如“将页面查看映射到web.webPageDetails.pageViews.value”。
 
-* **不支持的元素：**&#x200B;从Adobe Analytics的项目中删除任何不支持的元素。 例如，确保每个面板都使用基本报表包，而不是虚拟报表包。 然后要求同事再次检查项目。 有关不支持的元素列表，请参阅Adobe Analytics文档中的[了解导致错误的不支持的元素](https://experienceleague.adobe.com/zh-hans/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration#understand-unsupported-elements-that-cause-errors)。
+* **不支持的元素：**&#x200B;从Adobe Analytics的项目中删除任何不支持的元素。 例如，确保每个面板都使用基本报表包，而不是虚拟报表包。 然后要求同事再次检查项目。 有关不支持的元素列表，请参阅Adobe Analytics文档中的[了解导致错误的不支持的元素](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration#understand-unsupported-elements-that-cause-errors)。
 
 若要在迁移之前检查整个报表包的映射，请参阅[在迁移之前查看报表包映射](#review-report-suite-mappings-before-you-migrate)。
 
@@ -196,11 +196,11 @@ ht-degree: 1%
    | 已排队 | 迁移正在等待开始。 |
    | 已开始 | 迁移正在进行中。 |
    | 已完成 | 迁移已完成。 Co-worker提供了迁移内容的摘要，包括项目名称和数据视图。 |
-   | 失败 | 迁移失败。 您可以重试迁移。 请参阅Adobe Analytics文档中的[重试失败的迁移](https://experienceleague.adobe.com/zh-hans/docs/analytics/admin/admin-tools/component-migration/component-migration#retry-a-failed-migration)。 |
+   | 失败 | 迁移失败。 您可以重试迁移。 请参阅Adobe Analytics文档中的[重试失败的迁移](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/component-migration#retry-a-failed-migration)。 |
 
 1. 迁移完成后，在Customer Journey Analytics Workspace中从项目列表中打开新项目。
 
-1. （可选）将项目的所有权转移给Customer Journey Analytics中的任何用户。 有关详细信息，请参阅[转移资产](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/tools/asset-transfer/transfer-assets)。
+1. （可选）将项目的所有权转移给Customer Journey Analytics中的任何用户。 有关详细信息，请参阅[转移资产](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets)。
 
 迁移完成后，同事可以建议另一个项目以便下次迁移。
 
@@ -211,5 +211,5 @@ ht-degree: 1%
 
 ## 后续步骤
 
-* 要改为在Adobe Analytics用户界面中迁移项目，请参阅Adobe Analytics文档中的[将组件和项目从Adobe Analytics迁移到Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics/admin/admin-tools/component-migration/component-migration)。
+* 要改为在Adobe Analytics用户界面中迁移项目，请参阅Adobe Analytics文档中的[将组件和项目从Adobe Analytics迁移到Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/component-migration)。
 * 有关其他实施和管理用例，请参阅[智能实施和管理概述](/help/chat/use-cases/data-insights/data-governance-and-validation.md)。

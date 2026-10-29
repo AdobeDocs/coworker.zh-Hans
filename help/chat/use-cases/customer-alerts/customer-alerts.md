@@ -21,7 +21,7 @@ level_v2:
     internal-label: Experienced
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 4%
@@ -39,7 +39,7 @@ ht-degree: 4%
 
 “客户警报技能”可帮助您从警报信号转变为切实可行的洞察信息，而无需手动查看警报视图或在多个界面上关联信息。 先从有关最近警报活动的广泛问题开始，然后使用跟进问题识别定期警报模式、分析受影响的对象并关注您拥有的警报。
 
->[!VIDEO](https://video.tv.adobe.com/v/3504724?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3504716?learn=on)
 
 有关客户警报的信息，请参阅[客户警报概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/alerts/overview)。
 
