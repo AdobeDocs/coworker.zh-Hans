@@ -109,7 +109,7 @@ ht-degree: 1%
    | 选项 | 说明 |
    | --- | --- |
    | [!UICONTROL **特定AA项目**] | 迁移您命名的项目。 执行本节中的其余步骤。 |
-   | [!UICONTROL **仅查看映射**] | 检查报表包的量度和维度如何映射到数据视图，而不迁移任何内容。 在迁移](#review-report-suite-mappings-before-you-migrate)之前，请参阅[查看报表包映射。 |
+   | [!UICONTROL **仅查看映射**] | 检查报表包的量度和维度如何映射到数据视图，而不迁移任何内容。 在迁移[&#128279;](#review-report-suite-mappings-before-you-migrate)之前，请参阅查看报表包映射。 |
    | [!UICONTROL **计划完全升级**] | 获取从Adobe Analytics迁移到Customer Journey Analytics的端到端计划。 请参阅[与同事一起规划实施](/help/chat/use-cases/data-insights/implementation-guide.md)。 |
 
 1. （可选）回答&#x200B;[!UICONTROL **Source &amp; target**]&#x200B;选项卡上的问题，然后选择&#x200B;[!UICONTROL **下一步**]。
