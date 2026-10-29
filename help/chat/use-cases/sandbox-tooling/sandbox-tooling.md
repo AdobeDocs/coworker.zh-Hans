@@ -19,7 +19,7 @@ ht-degree: 1%
 
 使用沙盒工具代理技能，通过以自然语言描述要完成的任务来跨Adobe Experience Platform环境移动支持的对象类型。 使用协同工作，您可以发现所需的元数据、自动识别依赖项、创建迁移包以及通过对话体验迁移对象。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496706?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3496716?captions=chi_hans&learn=on)
 
 ## 先决条件 {#prerequisites}
 
