@@ -46,7 +46,7 @@ ht-degree: 2%
 
 ## 了解同事聊天的基础知识
 
->[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498575?captions=chi_hans&learn=on)
 
 ## 指定您的同事首选项 {#preferences}
 
