@@ -3,8 +3,8 @@ title: 通过同事聊天询问有关您内容的问题
 description: 以简单的语言（从一般到具体）咨询同事讨论您的内容，并在没有分析师专业知识的情况下获得准确的Content Analytics答案。
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 8e88ec793bd4ae6fe4692c1d5107fe01fe14bf7f
+    internal-label: Coworker
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
 source-wordcount: '1076'
 ht-degree: 2%

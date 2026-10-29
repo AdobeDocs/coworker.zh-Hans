@@ -3,8 +3,8 @@ title: 通过同事聊天实施和管理Analytics
 description: 规划您的实施，在核对清单中跟踪该实施，并通过同事聊天验证Adobe Analytics、Customer Journey Analytics和Experience Platform数据。
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: decc8d209d4c9c177c6329a30668f0bbb8bd2c00
+    internal-label: Coworker
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 0%

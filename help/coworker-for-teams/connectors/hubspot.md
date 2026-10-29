@@ -3,15 +3,15 @@ description: 使用服务密钥将您的HubSpot帐户连接到团队的同事以
 title: 连接到HubSpot
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 5394a34858c6480dec74f4fdf8b9a26e28bcac68
+    internal-label: Coworker
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '260'
 ht-degree: 0%
 ---
 # 连接到HubSpot {#hubspot}
 
-Adobe Co-worker for teams允许您连接您的HubSpot帐户以拉入联系人列表。
+团队同事允许您连接HubSpot帐户以拉入联系人列表。
 
 >[!PREREQUISITES]
 >

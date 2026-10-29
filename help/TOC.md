@@ -6,10 +6,10 @@ description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 nudge: true
-source-git-commit: 3c7f31930e1c742d81ca0c9fee731f6edd6b6952
+source-git-commit: bd7454ee46cb1ee4ca8b7ae6ab07348a23854979
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 14%
+ht-degree: 15%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -99,11 +99,11 @@ ht-degree: 14%
   - [提示最佳实践](./coworker-for-teams/prompting-best-practices.md)
   - [C2PA 元数据](./coworker-for-teams/c2pa-metadata.md)
   - 连接器 {#connectors}
-    - {hide-from-toc}[数据库](./coworker-for-teams/connectors/databricks.md)
+    - [数据块](./coworker-for-teams/connectors/databricks.md)
     - [Hubspot](./coworker-for-teams/connectors/hubspot.md)
     - [Marketo Engage](./coworker-for-teams/connectors/marketo.md)
     - [Salesforce](./coworker-for-teams/connectors/salesforce.md)
-    - {hide-from-toc}[购物](./coworker-for-teams/connectors/shopify.md)
+    - [Shopify](./coworker-for-teams/connectors/shopify.md)
   - [发行说明](./coworker-for-teams/release-notes.md)
 - 更多资源 {#more-resources}
   - [文档更新](./more-resources/documentation-updates.md)

@@ -1,17 +1,17 @@
 ---
-description: Adobe Co-worker for Teams允许您连接Shopify帐户以拉入客户和区段。
+description: Co-worker for Teams允许您连接Shopify帐户以拉入客户和区段。
 title: 连接到Shopify
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 55ee8ef8f43e03720e75c9e68fccf12da8595f9c
+    internal-label: Coworker
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '241'
 ht-degree: 0%
 ---
 # 连接到Shopify {#shopify}
 
-Adobe Co-worker for Teams允许您连接Shopify帐户以拉入客户和区段。
+Co-worker for Teams允许您连接Shopify帐户以拉入客户和区段。
 
 >[!PREREQUISITES]
 >

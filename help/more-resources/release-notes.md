@@ -3,8 +3,8 @@ title: CX Enterprise Coworker发行说明
 description: 查找Adobe CX Enterprise Coworker的发行说明，包括团队同事和Experience Cloud发行说明。
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: fd69d41fa38c993fce1f32815f5badfd4714a270
+    internal-label: Coworker
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 11%

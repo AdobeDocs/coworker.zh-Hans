@@ -1,5 +1,5 @@
 ---
-title: 利用同事、AEM和CJA加速数据洞察
+title: 与同事、AEM和CJA一起加速数据洞察
 description: 了解Adobe CX Enterprise Coworker如何跨Adobe Experience Manager、Adobe Experience Platform、Web SDK和Customer Journey Analytics加速数据分析，例如页面查看次数和CTA单击次数。
 feature: AI Tools
 role: Leader, User, Developer
@@ -8,7 +8,7 @@ doc-type: Feature Video
 duration: 340
 last-substantial-update: 2026-10-14
 jira: KT-22878
-source-git-commit: 8ccd9aec018923f7198c027773a3dabb6ee37b1f
+source-git-commit: 0ef1f562174f53393bab97a0d0c91c666810aa20
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%

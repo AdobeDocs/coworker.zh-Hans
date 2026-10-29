@@ -3,8 +3,8 @@ description: 浏览团队的Adobe CX Enterprise Coworker真实提示模式，按
 title: 团队协作用例
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+    internal-label: Coworker
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%

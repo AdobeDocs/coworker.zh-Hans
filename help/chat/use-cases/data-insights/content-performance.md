@@ -3,8 +3,8 @@ title: 通过同事聊天分析内容和Creative性能
 description: 使用同事聊天功能查找入选内容的共同之处，将收入归因于客户看到的图像，并在各个渠道和受众之间比较创意内容。
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 8e88ec793bd4ae6fe4692c1d5107fe01fe14bf7f
+    internal-label: Coworker
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 1%

@@ -3,8 +3,8 @@ title: Adobe CX Enterprise Coworker自定义概述
 description: 了解Adobe CX Enterprise Coworker中的自定义设置，包括技能、集成、插件和内存，以及它们如何扩展和个性化您的体验。
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+    internal-label: Coworker
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 28%

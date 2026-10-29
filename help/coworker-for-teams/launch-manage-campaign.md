@@ -3,8 +3,8 @@ description: 了解如何启动营销活动、安排活动推出时间和频率�
 title: 启动和管理营销活动
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: a456bf55f7004304df7ad9ea6d6bc3410faffaba
+    internal-label: Coworker
+source-git-commit: 0ef1f562174f53393bab97a0d0c91c666810aa20
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 1%
