@@ -4,9 +4,9 @@ description: 请参阅CX Enterprise Coworker文档中的新增文章和更新视
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
+source-git-commit: 1ab2ef6014d3e64e264b46e5a0c43653fe36bbea
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '266'
 ht-degree: 0%
 ---
 # 文档更新 {#documentation-updates}
@@ -15,7 +15,9 @@ ht-degree: 0%
 
 ## 2026年10 {#oct-2026}
 
-<!-- FLAG: Update the date to the publish date of the migration article. Rollout and GA dates are TBD. -->
+**2026年10月29日**
+
+* 已更新：[开始使用同事聊天](../chat/ui-guide.md)。 可用性表现在显示产品内体验在Customer Journey Analytics中可用。
 
 **2026年10月28日**
 

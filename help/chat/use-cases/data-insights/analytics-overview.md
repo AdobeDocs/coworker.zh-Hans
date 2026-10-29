@@ -4,9 +4,9 @@ description: 使用Adobe CX Enterprise Coworker Chat分析Customer Journey Analy
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
+source-git-commit: 1ab2ef6014d3e64e264b46e5a0c43653fe36bbea
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1438'
 ht-degree: 1%
 ---
 
@@ -23,6 +23,8 @@ Co-worker Chat可以执行以前仅在Analysis Workspace中才有的高级数据
 同事聊天从Customer Journey Analytics或Adobe Analytics继承权限。 您只能访问Analysis Workspace中可供您访问的数据视图、报表包、维度、量度和区段。
 
 在同事聊天中创建可视化图表时，您可以随时在Analysis Workspace中打开该可视化图表，以便进行更多手动控制。 请参阅[在Analysis Workspace中打开可视化图表](/help/chat/use-cases/data-insights/analytics-chat.md#open-a-visualization-in-analysis-workspace)。
+
+在Customer Journey Analytics中，您还可以在Analysis Workspace的聊天面板中使用同事。 在那里，Co-worker使用打开的项目作为上下文，并可以将面板、表格和组件直接添加到项目中。 要决定使用哪个应用程序，请参阅Customer Journey Analytics指南中的[在Workspace中的同事和同事应用程序之间选择](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/coworker#choose-between-coworker-in-workspace-and-the-coworker-application)。
 
 ## 快速解答和深思熟虑
 
