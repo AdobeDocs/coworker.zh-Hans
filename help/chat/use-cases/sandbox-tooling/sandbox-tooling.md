@@ -1,9 +1,9 @@
 ---
 title: 沙盒工具代理技能
 description: 了解如何使用沙盒工具代理技能跨沙盒环境复制对象元数据。
-source-git-commit: dbee38135a5491fd21b65fdbb70ba60d949d7560
+source-git-commit: 8e60434a3ede23f916aa57667d1cec9186386e61
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '776'
 ht-degree: 1%
 ---
 
@@ -17,11 +17,7 @@ ht-degree: 1%
 >
 >**Manage-package**：此权限允许您使用Sandbox Tooling Agentic Skills直接在同事中创建包。
 
->[!NOTE]
->
->您当前可以使用沙盒工具代理技能来发现、打包和迁移架构和受众对象。 未来版本中将添加对其他对象类型的支持。
-
-使用沙盒工具代理技能，通过以自然语言描述要完成的任务来跨Adobe Experience Platform环境移动对象元数据（包括架构和受众）。 使用CX Coworker，您可以发现所需的元数据、自动识别依赖项、创建迁移包并通过对话式体验迁移对象。
+使用沙盒工具代理技能，通过以自然语言描述要完成的任务来跨Adobe Experience Platform环境移动支持的对象类型。 使用协同工作，您可以发现所需的元数据、自动识别依赖项、创建迁移包以及通过对话体验迁移对象。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496716?captions=chi_hans&learn=on)
 
@@ -31,13 +27,13 @@ ht-degree: 1%
 
 - 访问Adobe Experience Platform以及相应的组织和沙盒。
 - 访问要发现或迁移的对象。
-- CX Coworker中安装的Adobe CXO插件。
+- 安装在同事中的Adobe CXO插件。
 
 有关安装插件的说明，请参阅[辅助进程UI指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)。
 
 ## 使用沙盒工具代理技能 {#use-sandbox-tooling-agentic-skills}
 
-使用自然语言通过CX Coworker与沙盒工具代理技能交互。 尽可能清楚地描述您的目标。 特定请求会产生最佳结果，而模糊或过于短暂的提示可能会返回质量较低的结果，或者不会调用代理。
+通过同事使用自然语言与沙盒工具代理技能交互。 尽可能清楚地描述您的目标。 特定请求会产生最佳结果，而模糊或过于短暂的提示可能会返回质量较低的结果，或者不会调用代理。
 
 要使用沙盒工具代理技能，请执行以下操作：
 
@@ -62,7 +58,7 @@ ht-degree: 1%
 
    ![显示请求状态的“传输完成”页面。](./assets/sandbox-tooling/transfer-complete.png)
 
-有关使用CX Coworker的更多信息，请参阅[同事UI指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)。
+有关使用同事的详细信息，请参阅[同事用户界面指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)。
 
 ## 支持的用例 {#supported-use-cases}
 
@@ -72,11 +68,23 @@ ht-degree: 1%
 
 作为管理多个Adobe Experience Platform沙盒的沙盒管理员，您可以使用自然语言请求迁移对象元数据，而不是手动导航用户界面。
 
-使用CX Coworker，您可以通过用自然语言描述迁移过程，将对象元数据（包括架构、受众和相关配置资源）从一个沙盒迁移到另一个沙盒。 沙盒工具代理技能可自动识别并打包所需的依赖项，从而帮助确保可靠的迁移。
+使用同事，您可以通过用自然语言描述迁移过程，将受支持的Adobe Experience Platform对象及其关联的元数据从一个沙盒迁移到另一个沙盒。 沙盒工具代理技能可自动识别依赖项，打包所需对象，并帮助确保跨环境的可靠迁移。
 
 例如：
 
 - “将架构Luma忠诚度会员白金从当前沙盒移动到生产沙盒。”
+
+### 将对象提升到多个沙箱(Beta)
+
+>[!NOTE]
+>
+>多沙盒管理当前位于Beta中，仅支持架构和数据集。
+
+作为沙盒管理员，您可以在单个工作流中将受支持的对象从源沙盒提升到多个目标沙盒。 使用同事选择目标沙盒、审查建议的更改以及在各个环境中以一致的方式部署配置，而不是将包单独导入每个沙盒中。 多沙盒管理会自动解析依赖关系，并在升级开始之前提供更改预览。
+
+例如：
+
+- “将忠诚度成员架构提升到所有区域沙箱。”
 
 ### 在沙盒之间提升受众
 
