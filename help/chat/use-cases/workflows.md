@@ -4,9 +4,9 @@ title: 同事聊天工作流
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 0ef1f562174f53393bab97a0d0c91c666810aa20
+source-git-commit: 98b1c76104cb131ed6c82e4147758921ef66ab40
 workflow-type: tm+mt
-source-wordcount: '8566'
+source-wordcount: '8673'
 ht-degree: 6%
 ---
 # 同事聊天工作流 {#use-cases}
@@ -48,12 +48,14 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | 管理Cloud Manager环境 | 创建、配置和维护AEM Cloud Manager环境，包括RDE、环境变量、日志和备份 | `cloud-manager-environment-management` | Adobe Experience Manager (AEM) | 为程序12345列出我的环境&quot;<br><br>&quot;重置我的RDE&quot; |
 | 管理Cloud Manager程序 | 列出、检查和删除AEM Cloud Manager程序，包括其管道和环境 | `cloud-manager-program-management` | Adobe Experience Manager (AEM) | “列出我的Cloud Manager程序”<br><br>“获取程序12345的详细信息” |
 | 管理AEM版本更新计划 | 为自动维护配置每日免打扰时间和免更新时段，并查看Adobe的全局代码冻结窗口 | `cloud-manager-release-management` | Adobe Experience Manager (AEM) | “我当前的安静时间窗口是什么？”<br><br>“安排12月20日至1月2日的无更新时段” |
+| 检查AEM工作流 | 检查工作流活动，了解什么正在运行、已暂停或失败。 查看您的工作流收件箱，并浏览可用的工作流模型。 | `cloud-manager-release-management` | Adobe Experience Manager (AEM) | “当前运行的工作流是什么？”<br><br>“任何正在运行或暂停的工作流显示错误吗？”<br><br>“我的工作流收件箱中有什么？” |
+| 探索Dispatcher见解 | 分析缓存性能、调查流量和投放问题，以及查看Dispatcher安全配置，而无需手动搜索日志文件。 | `aem-edge-dispatcher-operations` | Adobe Experience Manager (AEM) | “概述今天的Dispatcher生产缓存性能，并将其与昨天进行比较”<br><br>“调查当天10:00到11:00 UTC之间生产环境中间歇性的502和503响应”<br><br>“检查我共享的Dispatcher配置是否存在安全漏洞” |
 
 **相关信息**
 
 * [AEM中的代理功能：Brand Experience — 开发](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
-### 入门
+### 引导
 
 | 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
