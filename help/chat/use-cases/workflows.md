@@ -4,9 +4,9 @@ title: 同事聊天工作流
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 98b1c76104cb131ed6c82e4147758921ef66ab40
+source-git-commit: 4d788223a7746bda4bb2913f19712c6fc6ab6be7
 workflow-type: tm+mt
-source-wordcount: '8673'
+source-wordcount: '8822'
 ht-degree: 6%
 ---
 # 同事聊天工作流 {#use-cases}
@@ -36,9 +36,9 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：Brand Experience - Experience Production - Sites](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [AEM中的代理功能：Brand Experience - Experience Production - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-* [AEM中的代理功能：Brand Experience - Experience Production - Forms](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [AEM中的代理功能：Brand Experience - Experience Production - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### 开发
 
@@ -53,7 +53,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：Brand Experience — 开发](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [AEM中的代理功能：Brand Experience — 开发](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### 引导
 
@@ -66,7 +66,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：品牌体验 — 入门](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [AEM中的代理功能：品牌体验 — 入门](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## 内容审查程序
 
@@ -81,7 +81,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：内容顾问 — 内容发现](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [AEM中的代理功能：内容顾问 — 内容发现](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### 内容优化
 
@@ -93,7 +93,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：内容顾问 — 内容优化](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [AEM中的代理功能：内容顾问 — 内容优化](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## 品牌治理
 
@@ -106,7 +106,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：品牌管理](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [AEM中的代理功能：品牌管理](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## 数据分析
 
@@ -130,53 +130,57 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 | 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| [从自然语言创建受众](audiences/create-audience-from-natural-language.md) | 在每个阶段都通过用户批准来编排受众创建的分步过程 | `audience-creation-flow` | Real-Time CDP (RTCDP) | “创建过去30天内购买的用户受众”<br>“为加利福尼亚州的高价值忠诚度会员构建区段” |
-| 构建PQL定义 | 从XDM属性、行为事件或现有受众收集受众定义；支持聚合和时间窗口 | `segment-definition-assembly` | Real-Time CDP (RTCDP) | “为查看了3个以上产品但未购买的用户创建PQL”<br>“向我的事件条件添加7天时间范围” |
-| 搜索和查找受众 | 按ID、名称、语义搜索查找受众；检测重复项并分析重叠 | `audience-search` | Real-Time CDP (RTCDP) | “查找所有忠诚受众”<br>“我的‘节假日购物者’区段是否存在重复项？” |
-| 估计受众规模 | 使用带有轮询的Adobe Experience Platform预览API估算PQL表达式的配置文件访问范围 | `audience-size-estimate` | Real-Time CDP (RTCDP) | “此受众有多大？”<br> “此PQL表达式的预计范围” |
-| 受众规模瀑布 | 将PQL分解为子谓词，并显示每个条件对最终受众规模的贡献 | `audience-size-waterfall` | Real-Time CDP (RTCDP) | “向我显示此PQL的瀑布图”<br>“细分每个条件如何减少受众” |
-| 发现用于定位的XDM字段 | 按名称、描述或数据值搜索字段；查看字段的生活位置和使用位置 | `field-discovery` | Real-Time CDP (RTCDP) | “我可以使用哪些字段来定位忠诚度客户？”<br> “查找与购买历史记录相关的字段” |
-| 发布/保存受众 | 通过命名约定和合规性检查将受众定义保留到Experience Platform分段服务 | `audience-publish` | Real-Time CDP (RTCDP) | “将此内容另存为草稿”<br>“发布名称为‘春季促销买家’的受众” |
+| [从自然语言创建受众](audiences/create-audience-from-natural-language.md) | 在每个阶段都通过用户批准来编排受众创建的分步过程。 这包括B2C和B2B受众。 | `audience-creation-flow` | Real-Time CDP | “创建过去30天内购买的用户受众”<br>“为加利福尼亚州的高价值忠诚度会员构建区段” |
+| 构建PQL定义 | 从XDM属性、行为事件或现有受众收集受众定义；支持聚合和时间窗口 | `segment-definition-assembly` | Real-Time CDP | “为查看了3个以上产品但未购买的用户创建PQL”<br>“向我的事件条件添加7天时间范围” |
+| 搜索和查找受众 | 按ID、名称、语义搜索查找受众；检测重复项并分析重叠；根据区段定义查找受众 | `audience-search` | Real-Time CDP | “查找所有忠诚度受众”<br>“我的‘假日购物者’受众是否存在重复项？” |
+| 估计受众规模 | 使用带有轮询的Adobe Experience Platform预览API估算PQL表达式的配置文件访问范围 | `audience-size-estimate` | Real-Time CDP | “此受众有多大？”<br> “此PQL表达式的预计范围” |
+| 受众规模瀑布 | 将PQL分解为子谓词，并显示每个条件对最终受众规模的贡献 | `audience-size-waterfall` | Real-Time CDP | “向我显示此PQL的瀑布图”<br>“细分每个条件如何减少受众” |
+| 发现用于定位的XDM字段 | 按名称、描述或数据值搜索字段；查看字段的生活位置和使用位置 | `field-discovery` | Real-Time CDP | “我可以使用哪些字段来定位忠诚度客户？”<br> “查找与购买历史记录相关的字段” |
+| 发布/保存受众 | 通过命名约定和合规性检查将受众定义保留到Experience Platform分段服务 | `audience-publish` | Real-Time CDP | “将此内容另存为草稿”<br>“发布名称为‘春季促销买家’的受众” |
+| 受众库存分布 | 检索有关当前沙盒作为仪表板的受众清单的信息，包括受众总数、受众生命周期、受众评估方法和创建趋势等详细信息。 | `audience-inventory-distribution` | Real-Time CDP | “概述我们的受众”<br>“谁创建的受众最多？” |
+| 受众库存运行状况 | 检查当前沙盒受众库的运行状况，包括激活率、过时受众、重复受众和清理候选项。 | `audience-inventory-health` | Real-Time CDP | “我们的受众库存运行状况如何？”<br> “哪些受众已过时？” |
+| 受众谱系 | 显示受众的历程，同时显示受众的上游和下游使用情况。 | `audience-lineage` | Real-Time CDP | “查找用于下游受众的受众，并向我显示该受众的完整族系。” |
+| 检测重复的受众 | 查找组织内重复的受众。 | `detect-duplicate-audience` | Real-Time CDP | “查找我组织中重复的受众。” |
 
 ## 历程
 
 | 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| [从自然语言创建历程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-create){target="_blank"} | 在AJO中通过文本提示或上传的图像/流程图编排旅程创建 | `journey-create` | Adobe Journey Optimizer (AJO) | “创建一个欢迎历程，注册后发送电子邮件，等待3天，然后发送跟进”<br>“从此上传的流程图图像构建历程” |
-| [分析历程冲突](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 检测活动历程之间的受众重叠、计划冲突和重复数据删除问题 | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | “我的购物车放弃历程是否与任何其他历程冲突？” <br> “检查我的活动历程之间的受众重叠” |
-| [分析历程流失](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 识别客户在旅程中的流失位置和原因，并检测导致脱离接触的行为模式 | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | “在我的重新参与历程中，客户从哪里流失？”<br> “历程X中的哪些节点的流失率最高？” |
-| [分析自定义操作错误](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 识别历程中的自定义操作何时失败或错误率何时激增。<br> 在故障导致更广泛中断之前诊断根本原因。 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | “为什么自定义操作在我的忠诚度注册历程中失败？” <br> “在我的欢迎历程中向我显示自定义操作ExternalPush的错误率。” |
-| [检测历程异常](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 检测并确认历程的进入、退出或发送计数中相对于历史基线的意外峰值、下降或平线。<br> 揭示可能的根本原因。 | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | “为什么昨天我的欢迎历程的条目减少了？” <br> “本周购物车放弃历程的退出次数是否激增？” |
-| [业务绩效分析](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 分析历程表现并识别表现不佳的历程的具体优化机会。<br> 显示趋势、瓶颈和可能驱动因素导致结果降低，这样您就可以提高参与度和转化率。<br> 获取可操作的建议，以根据业务绩效见解调整历程设计、定位或消息传递策略。 | 历程分析 | Adobe Journey Optimizer (AJO) | “分析历程[历程名称]的性能并建议优化。”<br> “为什么历程[历程名称]与上个月相比表现不佳？” <br> “我应更改哪些内容以提高历程[历程名称]的性能？”<br> “历程[历程名称]的哪些部分可能会限制转化或参与？” |
-| [分析历程卫生](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 审核历程清单中的配置卫生问题。<br> 查找缺失或通用名称、过时的草稿或实时历程、超大历程、长期存在的已关闭历程以及类似的操作和事件名称。<br> 获取有关清理和稳定配置的建议。 | 历程分析 | Adobe Journey Optimizer (AJO) | “审核我的历程配置。”<br> “我的哪些旅程已经过时或需要清理？” |
-| [比较历程版本](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 比较两个历程版本并查看节点、连接和历程级别属性更改的结构化差异 | `journey-analyze-version-comparison` | Adobe Journey Optimizer (AJO) | “比较我的欢迎历程的版本2和3”<br>“这两个历程版本之间发生了什么变化？” |
-| [通过历程跟踪用户档案](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#trace-journey-profile){target="_blank"} | 获取已发布历程的个人资料级只读执行数据。<br> 查看进入每个节点的用户档案数以及它们在分支中的拆分。<br> 查找哪些配置文件出错及原因，或遵循单个配置文件的逐节点路径。 | 跟踪历程配置文件 | Adobe Journey Optimizer (AJO) | “通过[历程名称]跟踪配置文件。”<br> “过去7天内[历程名称]中哪些配置文件出错？在哪个节点？为什么？” <br> “通过[历程名称]显示配置文件[ID或电子邮件]的路径。” |
-| [分析历程执行时间线](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-execution-timeline){target="_blank"} | 获取读取受众历程批次的端到端时间线。<br> 查看受众导出、历程执行和交付开始和结束的时间。<br> 获取配置文件级别的P95和P99的进入、退出或执行时间。 | 历程执行时间线 | Adobe Journey Optimizer (AJO) | “读取受众历程[历程名称]执行了多长时间？”<br> “按批次显示[历程名称]的受众导出、历程执行和投放时间线。”<br> “哪批[历程名称]耗时最长，哪个阶段导致了延迟？” |
+| [从自然语言创建历程](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-create){target="_blank"} | 在AJO中通过文本提示或上传的图像/流程图编排旅程创建 | `journey-create` | Adobe Journey Optimizer (AJO) | “创建一个欢迎历程，注册后发送电子邮件，等待3天，然后发送跟进”<br>“从此上传的流程图图像构建历程” |
+| [分析历程冲突](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 检测活动历程之间的受众重叠、计划冲突和重复数据删除问题 | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | “我的购物车放弃历程是否与任何其他历程冲突？” <br> “检查我的活动历程之间的受众重叠” |
+| [分析历程流失](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 识别客户在旅程中的流失位置和原因，并检测导致脱离接触的行为模式 | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | “在我的重新参与历程中，客户从哪里流失？”<br> “历程X中的哪些节点的流失率最高？” |
+| [分析自定义操作错误](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 识别历程中的自定义操作何时失败或错误率何时激增。<br> 在故障导致更广泛中断之前诊断根本原因。 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | “为什么自定义操作在我的忠诚度注册历程中失败？” <br> “在我的欢迎历程中向我显示自定义操作ExternalPush的错误率。” |
+| [检测历程异常](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 检测并确认历程的进入、退出或发送计数中相对于历史基线的意外峰值、下降或平线。<br> 揭示可能的根本原因。 | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | “为什么昨天我的欢迎历程的条目减少了？” <br> “本周购物车放弃历程的退出次数是否激增？” |
+| [业务绩效分析](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 分析历程表现并识别表现不佳的历程的具体优化机会。<br> 显示趋势、瓶颈和可能驱动因素导致结果降低，这样您就可以提高参与度和转化率。<br> 获取可操作的建议，以根据业务绩效见解调整历程设计、定位或消息传递策略。 | 历程分析 | Adobe Journey Optimizer (AJO) | “分析历程[历程名称]的性能并建议优化。”<br> “为什么历程[历程名称]与上个月相比表现不佳？” <br> “我应更改哪些内容以提高历程[历程名称]的性能？”<br> “历程[历程名称]的哪些部分可能会限制转化或参与？” |
+| [分析历程卫生](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 审核历程清单中的配置卫生问题。<br> 查找缺失或通用名称、过时的草稿或实时历程、超大历程、长期存在的已关闭历程以及类似的操作和事件名称。<br> 获取有关清理和稳定配置的建议。 | 历程分析 | Adobe Journey Optimizer (AJO) | “审核我的历程配置。”<br> “我的哪些旅程已经过时或需要清理？” |
+| [比较历程版本](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 比较两个历程版本并查看节点、连接和历程级别属性更改的结构化差异 | `journey-analyze-version-comparison` | Adobe Journey Optimizer (AJO) | “比较我的欢迎历程的版本2和3”<br>“这两个历程版本之间发生了什么变化？” |
+| [通过历程跟踪用户档案](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#trace-journey-profile){target="_blank"} | 获取已发布历程的个人资料级只读执行数据。<br> 查看进入每个节点的用户档案数以及它们在分支中的拆分。<br> 查找哪些配置文件出错及原因，或遵循单个配置文件的逐节点路径。 | 跟踪历程配置文件 | Adobe Journey Optimizer (AJO) | “通过[历程名称]跟踪配置文件。”<br> “过去7天内[历程名称]中哪些配置文件出错？在哪个节点？为什么？” <br> “通过[历程名称]显示配置文件[ID或电子邮件]的路径。” |
+| [分析历程执行时间线](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-execution-timeline){target="_blank"} | 获取读取受众历程批次的端到端时间线。<br> 查看受众导出、历程执行和交付开始和结束的时间。<br> 获取配置文件级别的P95和P99的进入、退出或执行时间。 | 历程执行时间线 | Adobe Journey Optimizer (AJO) | “读取受众历程[历程名称]执行了多长时间？”<br> “按批次显示[历程名称]的受众导出、历程执行和投放时间线。”<br> “哪批[历程名称]耗时最长，哪个阶段导致了延迟？” |
 
 **相关信息**
 
-* [使用AI](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}概述Adobe Journey Optimizer中的同事和可用技能。
+* [使用AI](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}概述Adobe Journey Optimizer中的同事和可用技能。
 
 ## Journey Optimizer内容管理
 
 
 | 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| [应用品牌指南](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 查找、选择并应用适用于营销活动语音、书写、图像、术语和法律指南的已批准品牌指南。 | `brand-lookup` | Adobe Journey Optimizer (AJO) | “拉出我们Acme品牌的文字和视觉指南。” |
-| [检查内容准备情况](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 审查营销活动内容，了解品牌声音、编辑质量、参与度、清晰度和准备情况。 | `check-content-readiness` | Adobe Journey Optimizer (AJO) | “此电子邮件副本是否已准备就绪，可以发送？ 检查品牌声音、清晰度、可访问性和合规性。” |
-| [编排内容创作](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 跨支持的渠道规划、创建、审查、分析和保存营销活动内容。 | `orchestrate-content-authoring` | Adobe Journey Optimizer (AJO) | “根据此简短的介绍，为我们的秋季销售电子邮件促销活动运行完整的内容创作，然后查看并保存最终的HTML。” |
-| [评估内容设计](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 分析可视化实施，确定布局和设计差距，并推荐层级、间距、图像和行动动员方面的改进。 | `assess-content-design` | Adobe Journey Optimizer (AJO) | “这封电子邮件的视觉效果如何？ 检查层级、间距、密度、图像和CTA。” |
-| [从Figma生成电子邮件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 当副本可供发送时，从实时图形框架中生成最终电子邮件HTML；不需要单独的布局计划。 | `build-email-from-figma` | Adobe Journey Optimizer (AJO) | “从这张图框构建最终的电子邮件HTML；设计中的副本是应该送出的内容。” |
-| [浏览内容策略](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 比较接触点、渠道、受众和消息主题之间的营销活动策略，并在编写之前规划每条消息。 | `explore-content-strategy` | Adobe Journey Optimizer (AJO) | “比较一个回送电子邮件与三点式电子邮件和短信程序。” |
-| [生成内容](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 为受支持的渠道（包括电子邮件、短信、推送、WhatsApp和登陆页面）编写或草稿新的受限营销消息。 | `generate-content` | Adobe Journey Optimizer (AJO) | “从批准的营销活动方向为电子邮件、推送和短信创建品牌内启动副本。” |
-| [创建内容简介](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 将批准的营销活动方向转换为对选件、音调、关键消息、渠道、区域设置、变体和所需内容的需求。 | `content-brief` | Adobe Journey Optimizer (AJO) | “将这份简报转变为向已失效的美国订阅者发送温暖回信的要求：到星期日将有20%的折扣，以CTR作为KPI。” |
-| [生成图像](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 创建或转换已批准投放位置的Campaign可视化图表，包括主页图像、裁剪、叠加、变体和签名资产。 | `generate-image` | Adobe Journey Optimizer (AJO) | “使用批准的品牌方向生成此春季销售电子邮件的优质主页图像。” |
-| [保存渠道内容](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 将批准的营销活动内容另存为草稿资源，或将其填写到AJO或其他支持的操作解决方案中的源模板。 | `save-channel-content` | Adobe Journey Optimizer (AJO) | “将批准的内容填写到源模板中，并准备对其进行审查。” |
-| [修改并重新生成内容](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 将确认的更改应用于现有促销活动内容，包括措辞、语气、翻译、主题行、行动要求和审核结果。 | `revise-regenerate-content` | Adobe Journey Optimizer (AJO) | “在保留已批准的报价和CTA的同时，让气氛更加温暖。” |
+| [应用品牌指南](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 查找、选择并应用适用于营销活动语音、书写、图像、术语和法律指南的已批准品牌指南。 | `brand-lookup` | Adobe Journey Optimizer (AJO) | “拉出我们Acme品牌的文字和视觉指南。” |
+| [检查内容准备情况](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 审查营销活动内容，了解品牌声音、编辑质量、参与度、清晰度和准备情况。 | `check-content-readiness` | Adobe Journey Optimizer (AJO) | “此电子邮件副本是否已准备就绪，可以发送？ 检查品牌声音、清晰度、可访问性和合规性。” |
+| [编排内容创作](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 跨支持的渠道规划、创建、审查、分析和保存营销活动内容。 | `orchestrate-content-authoring` | Adobe Journey Optimizer (AJO) | “根据此简短的介绍，为我们的秋季销售电子邮件促销活动运行完整的内容创作，然后查看并保存最终的HTML。” |
+| [评估内容设计](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 分析可视化实施，确定布局和设计差距，并推荐层级、间距、图像和行动动员方面的改进。 | `assess-content-design` | Adobe Journey Optimizer (AJO) | “这封电子邮件的视觉效果如何？ 检查层级、间距、密度、图像和CTA。” |
+| [从Figma生成电子邮件](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 当副本可供发送时，从实时图形框架中生成最终电子邮件HTML；不需要单独的布局计划。 | `build-email-from-figma` | Adobe Journey Optimizer (AJO) | “从这张图框构建最终的电子邮件HTML；设计中的副本是应该送出的内容。” |
+| [浏览内容策略](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 比较接触点、渠道、受众和消息主题之间的营销活动策略，并在编写之前规划每条消息。 | `explore-content-strategy` | Adobe Journey Optimizer (AJO) | “比较一个回送电子邮件与三点式电子邮件和短信程序。” |
+| [生成内容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 为受支持的渠道（包括电子邮件、短信、推送、WhatsApp和登陆页面）编写或草稿新的受限营销消息。 | `generate-content` | Adobe Journey Optimizer (AJO) | “从批准的营销活动方向为电子邮件、推送和短信创建品牌内启动副本。” |
+| [创建内容简介](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 将批准的营销活动方向转换为对选件、音调、关键消息、渠道、区域设置、变体和所需内容的需求。 | `content-brief` | Adobe Journey Optimizer (AJO) | “将这份简报转变为向已失效的美国订阅者发送温暖回信的要求：到星期日将有20%的折扣，以CTR作为KPI。” |
+| [生成图像](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 创建或转换已批准投放位置的Campaign可视化图表，包括主页图像、裁剪、叠加、变体和签名资产。 | `generate-image` | Adobe Journey Optimizer (AJO) | “使用批准的品牌方向生成此春季销售电子邮件的优质主页图像。” |
+| [保存渠道内容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 将批准的营销活动内容另存为草稿资源，或将其填写到AJO或其他支持的操作解决方案中的源模板。 | `save-channel-content` | Adobe Journey Optimizer (AJO) | “将批准的内容填写到源模板中，并准备对其进行审查。” |
+| [修改并重新生成内容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | 将确认的更改应用于现有促销活动内容，包括措辞、语气、翻译、主题行、行动要求和审核结果。 | `revise-regenerate-content` | Adobe Journey Optimizer (AJO) | “在保留已批准的报价和CTA的同时，让气氛更加温暖。” |
 
 **相关信息**
 
-* [使用AI](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}概述Adobe Journey Optimizer中的同事和可用技能。
+* [使用AI](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}概述Adobe Journey Optimizer中的同事和可用技能。
 
 ## 营销计划
 
@@ -191,34 +195,34 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 | 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| [创建、编辑和管理忠诚度挑战](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-challenge-management){target="_blank"} | 简化并加快忠诚度计划管理 | `loyalty` | Adobe Journey Optimizer (AJO) | “创建挑战，鼓励会员尝试新的季节性饮品”<br>“向我展示会员流失率最高的忠诚度挑战。” |
-| [分析忠诚度计划绩效](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-data-insight){target="_blank"} | 使用自然语言查询和分析忠诚度积分、成员层、赎回和收入指标 | `loyalty-insights` | Adobe Journey Optimizer (AJO) | “2026年8月期间授予了多少忠诚度积分？” <br> “显示2026年8月按天划分的忠诚度计划总收入。” |
-| [查找忠诚度机会](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-opportunities){target="_blank"} | 根据忠诚度计划趋势和绩效数据请求基于具体情况的挑战机会，然后将其转化为实时挑战 | 忠诚度机会 | Adobe Journey Optimizer (AJO) | “哪些忠诚度机会可能会增加成员支出？”<br> “向我展示赢回非活跃成员的机会。” |
+| [创建、编辑和管理忠诚度挑战](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-challenge-management){target="_blank"} | 简化并加快忠诚度计划管理 | `loyalty` | Adobe Journey Optimizer (AJO) | “创建挑战，鼓励会员尝试新的季节性饮品”<br>“向我展示会员流失率最高的忠诚度挑战。” |
+| [分析忠诚度计划绩效](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-data-insight){target="_blank"} | 使用自然语言查询和分析忠诚度积分、成员层、赎回和收入指标 | `loyalty-insights` | Adobe Journey Optimizer (AJO) | “2026年8月期间授予了多少忠诚度积分？” <br> “显示2026年8月按天划分的忠诚度计划总收入。” |
+| [查找忠诚度机会](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-opportunities){target="_blank"} | 根据忠诚度计划趋势和绩效数据请求基于具体情况的挑战机会，然后将其转化为实时挑战 | 忠诚度机会 | Adobe Journey Optimizer (AJO) | “哪些忠诚度机会可能会增加成员支出？”<br> “向我展示赢回非活跃成员的机会。” |
 
 **相关信息**
 
-* [使用AI](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}概述Adobe Journey Optimizer中的同事和可用技能。
+* [使用AI](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}概述Adobe Journey Optimizer中的同事和可用技能。
 
 ## 决策
 
 | 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| [生成、解释、模拟和优化决策规则](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills#rules-ranking){target="_blank"} | 使用自然语言创建资格规则和排名公式，并获取简单的英语解释。<br> 针对最多三个配置文件对其进行测试。<br> 重写它们以符合PQL大小限制，而无需手动编写PQL语法。 | 决策规则工作流程 | Adobe Journey Optimizer (AJO) | “创建针对第2层或以上忠诚度会员的资格规则。”<br><br>“用自然语言向我说明此规则。”<br><br>“使用测试配置文件模拟此规则。”<br><br>“为我优化此PQL规则。” |
+| [生成、解释、模拟和优化决策规则](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills#rules-ranking){target="_blank"} | 使用自然语言创建资格规则和排名公式，并获取简单的英语解释。<br> 针对最多三个配置文件对其进行测试。<br> 重写它们以符合PQL大小限制，而无需手动编写PQL语法。 | 决策规则工作流程 | Adobe Journey Optimizer (AJO) | “创建针对第2层或以上忠诚度会员的资格规则。”<br><br>“用自然语言向我说明此规则。”<br><br>“使用测试配置文件模拟此规则。”<br><br>“为我优化此PQL规则。” |
 
 **相关信息**
 
-* [Co-worker for Decisioning](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills){target="_blank"}针对Adobe Journey Optimizer中的决策技能提供了详细的指南、用例和提示最佳实践。
+* [Co-worker for Decisioning](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills){target="_blank"}针对Adobe Journey Optimizer中的决策技能提供了详细的指南、用例和提示最佳实践。
 
 ## 渠道
 
 | 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| [检查通道配置](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/channels-coworker-skills#channel-operation){target="_blank"} | 查看、列出、搜索和检查标准渠道（如电子邮件、短信、推送、直邮、应用程序内和Web）的只读渠道配置（预设）和凭据。<br> 还可浏览相关资源，例如推送凭据、电子邮件子域、短信和WhatsApp凭据、文件路由、LINE渠道设置以及Live Activity注册表。 | 渠道操作 | Adobe Journey Optimizer (AJO) | “我的沙盒中有哪些渠道预设可用？” <br> “显示我的所有电子邮件渠道配置。”<br> “我的营销电子邮件配置配置了哪些发件人地址和回复？” |
-| [创建和管理自定义渠道](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/channels-coworker-skills#channel-builder){target="_blank"} | 通过手动设置、curl命令或API文档链接创建、测试、更新、列出、获取和删除自定义出站渠道。<br> 引导您完成渠道配置、身份验证、限制和有效负载定义 | 渠道生成器 | Adobe Journey Optimizer (AJO) | “帮助我为短信提供商创建新的自定义渠道。”<br> “从此API引用创建自定义渠道：[链接]。”<br> “列出我的自定义渠道。” |
+| [检查通道配置](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/channels-coworker-skills#channel-operation){target="_blank"} | 查看、列出、搜索和检查标准渠道（如电子邮件、短信、推送、直邮、应用程序内和Web）的只读渠道配置（预设）和凭据。<br> 还可浏览相关资源，例如推送凭据、电子邮件子域、短信和WhatsApp凭据、文件路由、LINE渠道设置以及Live Activity注册表。 | 渠道操作 | Adobe Journey Optimizer (AJO) | “我的沙盒中有哪些渠道预设可用？” <br> “显示我的所有电子邮件渠道配置。”<br> “我的营销电子邮件配置配置了哪些发件人地址和回复？” |
+| [创建和管理自定义渠道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/channels-coworker-skills#channel-builder){target="_blank"} | 通过手动设置、curl命令或API文档链接创建、测试、更新、列出、获取和删除自定义出站渠道。<br> 引导您完成渠道配置、身份验证、限制和有效负载定义 | 渠道生成器 | Adobe Journey Optimizer (AJO) | “帮助我为短信提供商创建新的自定义渠道。”<br> “从此API引用创建自定义渠道：[链接]。”<br> “列出我的自定义渠道。” |
 
 **相关信息**
 
-* [渠道的协作者](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/channels-coworker-skills){target="_blank"}提供了有关Adobe Journey Optimizer中的渠道操作和渠道生成器技能的详细指导、用例和示例提示。
+* [渠道的协作者](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/channels-coworker-skills){target="_blank"}提供了有关Adobe Journey Optimizer中的渠道操作和渠道生成器技能的详细指导、用例和示例提示。
 
 ## Journey Optimizer中的内容创建
 
@@ -228,32 +232,32 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 | 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| [捕获营销简报](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 捕获营销活动策略并播种创意摘要。 | `capture-marketing-brief` | Adobe Journey Optimizer (AJO) | “为季节性产品发布创建营销简报”<br>“将此营销活动策略转变为营销简报” |
-| [捕获创意摘要](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 构建复制执行规范并构建内容计划矩阵。 | `capture-creative-brief` | Adobe Journey Optimizer (AJO) | “根据此批准的营销简报创建创意简报”<br>“为我们的电子邮件和短信营销活动构建内容计划矩阵” |
-| [计划内容策略](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 在生成副本之前头脑风暴式消息地图、叙述弧和渠道角色。 | `plan-content-strategy` | Adobe Journey Optimizer (AJO) | “通过电子邮件和推送为我们的产品发布计划消息策略”<br>“为我们的欢迎活动提供叙述弧线” |
-| [生成副本](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 为电子邮件、短信、推送、WhatsApp、社交和横幅生成全新的品牌内副本。 | `generate-copy` | Adobe Journey Optimizer (AJO) | “撰写品牌内电子邮件，宣布我们新的季节性系列”<br>“为那些使用废弃购物车的客户草拟短信提醒” |
-| [生成图像](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 使用Firefly生成、裁切、覆盖、更改和标记营销活动图像。 | `generate-image` | Adobe Journey Optimizer (AJO) | “为我们的季节性促销活动电子邮件生成主页图像” <br>“从此批准的促销活动图像创建横幅变体” |
-| [评估副本](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 根据品牌和渠道标准评估现有文案并打分。 | `evaluate-copy` | Adobe Journey Optimizer (AJO) | “根据我们的品牌指南评估此电子邮件副本” <br>“检查此推送消息是否符合我们的渠道标准” |
-| [编辑副本](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 对现有副本进行就地编辑 — 评估修复、重新措辞调整、翻译和定向修订。 | `edit-copy` | Adobe Journey Optimizer (AJO) | &quot;修订此电子邮件副本以处理评估反馈&quot; <br>&quot;将此已批准的SMS副本翻译为法语&quot; |
-| [展开促销活动内容](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 跨渠道、区域设置、受众和变体将批准的内容计划矩阵按单位压缩为副本。 | `expand-campaign` | Adobe Journey Optimizer (AJO) | “为此批准的内容计划中的每个渠道生成副本”<br>“将此营销活动扩展到每个受众的英语和法语变体” |
-| [分析可视化HTML](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 将HTML副本渲染到屏幕快照以进行可视检查。 | `analyze-visual-html` | Adobe Journey Optimizer (AJO) | “在HTML中呈现此电子邮件，以便我检查布局”<br>“向我显示此营销活动HTML的屏幕截图” |
-| [保存内容](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 将批准的内容保存回Adobe Journey Optimizer、Adobe Campaign v8或Marketo。 | `save-content` | Adobe Journey Optimizer (AJO) | “将此批准的电子邮件内容保存到Journey Optimizer”<br>“将批准的短信副本保存到Journey Optimizer” |
+| [捕获营销简报](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 捕获营销活动策略并播种创意摘要。 | `capture-marketing-brief` | Adobe Journey Optimizer (AJO) | “为季节性产品发布创建营销简报”<br>“将此营销活动策略转变为营销简报” |
+| [捕获创意摘要](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 构建复制执行规范并构建内容计划矩阵。 | `capture-creative-brief` | Adobe Journey Optimizer (AJO) | “根据此批准的营销简报创建创意简报”<br>“为我们的电子邮件和短信营销活动构建内容计划矩阵” |
+| [计划内容策略](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 在生成副本之前头脑风暴式消息地图、叙述弧和渠道角色。 | `plan-content-strategy` | Adobe Journey Optimizer (AJO) | “通过电子邮件和推送为我们的产品发布计划消息策略”<br>“为我们的欢迎活动提供叙述弧线” |
+| [生成副本](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 为电子邮件、短信、推送、WhatsApp、社交和横幅生成全新的品牌内副本。 | `generate-copy` | Adobe Journey Optimizer (AJO) | “撰写品牌内电子邮件，宣布我们新的季节性系列”<br>“为那些使用废弃购物车的客户草拟短信提醒” |
+| [生成图像](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 使用Firefly生成、裁切、覆盖、更改和标记营销活动图像。 | `generate-image` | Adobe Journey Optimizer (AJO) | “为我们的季节性促销活动电子邮件生成主页图像” <br>“从此批准的促销活动图像创建横幅变体” |
+| [评估副本](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 根据品牌和渠道标准评估现有文案并打分。 | `evaluate-copy` | Adobe Journey Optimizer (AJO) | “根据我们的品牌指南评估此电子邮件副本” <br>“检查此推送消息是否符合我们的渠道标准” |
+| [编辑副本](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 对现有副本进行就地编辑 — 评估修复、重新措辞调整、翻译和定向修订。 | `edit-copy` | Adobe Journey Optimizer (AJO) | &quot;修订此电子邮件副本以处理评估反馈&quot; <br>&quot;将此已批准的SMS副本翻译为法语&quot; |
+| [展开促销活动内容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 跨渠道、区域设置、受众和变体将批准的内容计划矩阵按单位压缩为副本。 | `expand-campaign` | Adobe Journey Optimizer (AJO) | “为此批准的内容计划中的每个渠道生成副本”<br>“将此营销活动扩展到每个受众的英语和法语变体” |
+| [分析可视化HTML](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 将HTML副本渲染到屏幕快照以进行可视检查。 | `analyze-visual-html` | Adobe Journey Optimizer (AJO) | “在HTML中呈现此电子邮件，以便我检查布局”<br>“向我显示此营销活动HTML的屏幕截图” |
+| [保存内容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 将批准的内容保存回Adobe Journey Optimizer、Adobe Campaign v8或Marketo。 | `save-content` | Adobe Journey Optimizer (AJO) | “将此批准的电子邮件内容保存到Journey Optimizer”<br>“将批准的短信副本保存到Journey Optimizer” |
 
 ### 电子邮件设计
 
 | 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| [撰写电子邮件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 计划从营销目标和品牌投入中阻止结构和样式。 | `compose-email` | Adobe Journey Optimizer (AJO) | “使用我们的品牌指南为我们的产品发布计划电子邮件布局”<br>“使用主页部分、产品亮点和call to action撰写欢迎电子邮件” |
-| [生成电子邮件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 从布局计划、屏幕快照或Figma设计链接构建、调整、编辑和优化电子邮件HTML。 | `build-email` | Adobe Journey Optimizer (AJO) | “从此批准的布局计划生成电子邮件HTML”<br>“从此Figma设计链接创建电子邮件” |
-| [维护设计系统](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 维护品牌的可重用电子邮件设计系统 — 令牌、布局模式和品牌语言。 | `maintain-design-system` | Adobe Journey Optimizer (AJO) | “使用这些批准的品牌颜色更新我们的电子邮件设计系统”<br>“将此可重复使用的产品布局添加到我们的电子邮件设计系统” |
-| [审核合规性](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 根据品牌和渠道准则以及可投放性标准审核组合电子邮件。 | `review-compliance` | Adobe Journey Optimizer (AJO) | “对照我们的品牌和渠道准则查看此电子邮件”<br>“在移交前审核此电子邮件中的可投放性问题” |
-| [审核设计](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 提供关于层级、间距、叙述流程和品牌契合度的主观设计反馈。 | `review-design` | Adobe Journey Optimizer (AJO) | “查看此电子邮件的视觉层次结构和间距”<br>“评估此电子邮件设计是否符合我们的品牌” |
-| [查看辅助功能](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 运行WCAG 2.1 AA辅助功能审核。 | `review-accessibility` | Adobe Journey Optimizer (AJO) | “审核此电子邮件是否存在WCAG 2.1 AA辅助功能问题”<br>“检查此电子邮件的颜色对比度和图像替换文本” |
-| [发送电子邮件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 将获得批准的HTML导出并发送到Adobe Journey Optimizer或Adobe Campaign。 | `handoff-email` | Adobe Journey Optimizer (AJO) | “将此批准的电子邮件导出到HTML Journey Optimizer”<br>“将批准的电子邮件提交到Journey Optimizer” |
+| [撰写电子邮件](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 计划从营销目标和品牌投入中阻止结构和样式。 | `compose-email` | Adobe Journey Optimizer (AJO) | “使用我们的品牌指南为我们的产品发布计划电子邮件布局”<br>“使用主页部分、产品亮点和call to action撰写欢迎电子邮件” |
+| [生成电子邮件](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 从布局计划、屏幕快照或Figma设计链接构建、调整、编辑和优化电子邮件HTML。 | `build-email` | Adobe Journey Optimizer (AJO) | “从此批准的布局计划生成电子邮件HTML”<br>“从此Figma设计链接创建电子邮件” |
+| [维护设计系统](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 维护品牌的可重用电子邮件设计系统 — 令牌、布局模式和品牌语言。 | `maintain-design-system` | Adobe Journey Optimizer (AJO) | “使用这些批准的品牌颜色更新我们的电子邮件设计系统”<br>“将此可重复使用的产品布局添加到我们的电子邮件设计系统” |
+| [审核合规性](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 根据品牌和渠道准则以及可投放性标准审核组合电子邮件。 | `review-compliance` | Adobe Journey Optimizer (AJO) | “对照我们的品牌和渠道准则查看此电子邮件”<br>“在移交前审核此电子邮件中的可投放性问题” |
+| [审核设计](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 提供关于层级、间距、叙述流程和品牌契合度的主观设计反馈。 | `review-design` | Adobe Journey Optimizer (AJO) | “查看此电子邮件的视觉层次结构和间距”<br>“评估此电子邮件设计是否符合我们的品牌” |
+| [查看辅助功能](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 运行WCAG 2.1 AA辅助功能审核。 | `review-accessibility` | Adobe Journey Optimizer (AJO) | “审核此电子邮件是否存在WCAG 2.1 AA辅助功能问题”<br>“检查此电子邮件的颜色对比度和图像替换文本” |
+| [发送电子邮件](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 将获得批准的HTML导出并发送到Adobe Journey Optimizer或Adobe Campaign。 | `handoff-email` | Adobe Journey Optimizer (AJO) | “将此批准的电子邮件导出到HTML Journey Optimizer”<br>“将批准的电子邮件提交到Journey Optimizer” |
 
 **相关信息**
 
-* [内容管理的同事](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"}提供了有关Adobe Journey Optimizer中的内容管理工具和可用技能的详细信息。
+* [内容管理的同事](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"}提供了有关Adobe Journey Optimizer中的内容管理工具和可用技能的详细信息。
 
 ## Campaign v8
 
@@ -274,7 +278,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [Adobe Campaign入门](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/new/get-started){target="_blank"}提供了Adobe Campaign v8的概述。
+* [Adobe Campaign入门](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/get-started){target="_blank"}提供了Adobe Campaign v8的概述。
 
 ## 优化
 
@@ -324,7 +328,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | 实体解析和链接 | 使用语义和词法搜索将实体提及解析为实际的Experience Platform实体并发现XDM字段 | `entity-linking` | Adobe Experience Platform | “将‘假日购物者’解析为实际受众”<br>“查找与购买历史记录相关的字段” |
 | 管理自定义技能 | 保存、修改或删除跨会话保留的用户拥有的可重用技能 | `manage-skill` | 所有符合条件的应用程序 | “将该工作流另存为技能” <br>“删除我的每周报告技能” <br>“将此技能转换为可重复使用的技能” |
 | 监控流容量和违规情况 | 检查沙盒中的当前和历史流使用情况、容量和违规状态 | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | “我的当前沙盒中的当前流容量是多少？” <br> “我当前的沙盒在上周是否超出了容量限制？” |
-| [查看运行状况检查评估结果](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/run-and-operate/health-checks/overview) | 查看沙盒的最新运行状况检查评估，深入研究未通过检查，并查看受影响的实体 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | “我的沙盒有什么问题？” <br> “告诉我关于我最新的运行状况检查评估的信息” <br> “自定义命名空间描述检查有哪些问题？” |
+| [查看运行状况检查评估结果](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | 查看沙盒的最新运行状况检查评估，深入研究未通过检查，并查看受影响的实体 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | “我的沙盒有什么问题？” <br> “告诉我关于我最新的运行状况检查评估的信息” <br> “自定义命名空间描述检查有哪些问题？” |
 | 修复运行状况检查问题 | 在进行任何更改之前，经您批准，可直接从聊天中修复标记的身份命名空间、合并策略和架构问题 | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | “修复身份命名空间描述”<br>“修复重复的合并策略名称”<br>“修复缺少审核字段组的架构”<br>“修复默认合并策略命名” |
 
 ## 数据管理

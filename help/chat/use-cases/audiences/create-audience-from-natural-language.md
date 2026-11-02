@@ -11,14 +11,14 @@ jira: KT-22080
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
+source-git-commit: e8af933a3be8a5a2a6a007c0bba8a0b2bc36bcb2
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '97'
 ht-degree: 0%
 ---
 
 # 与同事一起评估Experience Platform的运行状况并根据自然语言构建受众
 
-审核受众、历程、数据集和目标如何连接通常是手动且耗时的过程。 在此视频中，了解同事如何完整地从运营角度了解您的Adobe Experience Platform (AEP)环境，根据行业最佳实践对其进行基准测试，并利用这些发现构建新受众 — 所有这些都在单个对话中完成。
+审核受众、历程、数据集和目标如何连接通常是手动且耗时的过程。 在此视频中，了解同事如何完整地从运营角度了解您的Adobe Experience Platform环境，根据行业最佳实践对其进行基准测试，并利用这些发现构建新的受众 — 所有这些都在单个对话中完成。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496875/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496848/?learn=on&enablevpops)
