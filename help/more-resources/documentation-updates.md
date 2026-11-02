@@ -4,16 +4,22 @@ description: 请参阅CX Enterprise Coworker文档中的新增文章和更新视
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 1ab2ef6014d3e64e264b46e5a0c43653fe36bbea
+source-git-commit: 81e7de5e1b3b322fc74fa7bab8cb16841d627349
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 0%
+source-wordcount: '295'
+ht-degree: 1%
 ---
 # 文档更新 {#documentation-updates}
 
 使用本页可在CX Enterprise Coworker文档中查找新增的和显着更新的内容。 按月列出更新，最新更新排在首位。 有关团队同事的产品更改，请参阅[团队同事发行说明](../coworker-for-teams/release-notes.md)。
 
-## 2026年10 {#oct-2026}
+## 2026年11 {#nov-2026}
+
+**2026年11月2日**
+
+* 已更新：[CX Enterprise Coworker概述](../home.md)和[同事聊天入门](../chat/ui-guide.md)。 Adobe Analytics现已作为提供同事聊天功能的应用程序列出。
+
+## 2026 年 10 月 {#oct-2026}
 
 **2026年10月29日**
 
