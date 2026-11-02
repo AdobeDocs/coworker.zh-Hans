@@ -11,9 +11,9 @@ jira: KT-22082
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
+source-git-commit: 81e7de5e1b3b322fc74fa7bab8cb16841d627349
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '155'
 ht-degree: 0%
 ---
 
@@ -23,4 +23,6 @@ ht-degree: 0%
  
 使用自然语言，分析师和营销人员可以就数据提出问题、获得可视化结果、识别有意义的趋势并揭示驱动性能的因素，所有这些都可以在一条对话中完成。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496860/?captions=chi_hans&learn=on&enablevpops)
+此视频使用Customer Journey Analytics数据，但您可以按相同方式浏览Adobe Analytics报表包中的趋势和根本原因。 同事使用`cja-root-cause-analysis`技能处理数据视图，使用`aa-root-cause-analysis`技能处理报表包。 有关详细信息，请参阅[使用同事聊天分析数据](/help/chat/use-cases/data-insights/analytics-overview.md)。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496847/?learn=on&enablevpops)
