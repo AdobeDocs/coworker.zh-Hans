@@ -6,9 +6,9 @@ description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中�
 solution: Coworker
 role: Admin,User,Developer,Leader
 nudge: true
-source-git-commit: ee1ca012668a5800e6a653d64700f7a732a111b0
+source-git-commit: ab937d4c1139a9f60cae1f8411f1797e04bf36be
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '340'
 ht-degree: 14%
 ---
 
@@ -92,6 +92,8 @@ ht-degree: 14%
   - 外部连接器 {#external-connectors}
     - {hide-from-toc}[数据库精灵](./customizations/external-connectors/databricks-genie.md)
     - {hide-from-toc}[Google广告](./customizations/external-connectors/google-ads.md)
+    - {hide-from-toc}[Meta广告](./customizations/external-connectors/meta-ads.md)
+    - {hide-from-toc}[Microsoft工作IQ](./customizations/external-connectors/microsoft-work-iq.md)
     - {hide-from-toc}[Snowflake Cortex AI](./customizations/external-connectors/snowflake.md)
   - 记忆 {#memory}
     - [什么是记忆？](./customizations/memory/what-is-memory.md)
