@@ -20,4 +20,4 @@ ht-degree: 0%
 
 使用CX Enterprise Coworker从纯语言提示符构建跨渠道历程并生成电子邮件和短信内容。 在此视频中，了解如何模拟分支路径并查看诊断以识别配置问题。
 
->[!VIDEO](https://video.tv.adobe.com/v/3504706?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3504714?captions=chi_hans&learn=on)
