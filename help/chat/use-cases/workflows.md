@@ -4,9 +4,9 @@ title: 同事聊天工作流
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 98b1c76104cb131ed6c82e4147758921ef66ab40
+source-git-commit: 4d788223a7746bda4bb2913f19712c6fc6ab6be7
 workflow-type: tm+mt
-source-wordcount: '8673'
+source-wordcount: '8822'
 ht-degree: 6%
 ---
 # 同事聊天工作流 {#use-cases}
@@ -130,13 +130,17 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 | 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| [从自然语言创建受众](audiences/create-audience-from-natural-language.md) | 在每个阶段都通过用户批准来编排受众创建的分步过程 | `audience-creation-flow` | Real-Time CDP (RTCDP) | “创建过去30天内购买的用户受众”<br>“为加利福尼亚州的高价值忠诚度会员构建区段” |
-| 构建PQL定义 | 从XDM属性、行为事件或现有受众收集受众定义；支持聚合和时间窗口 | `segment-definition-assembly` | Real-Time CDP (RTCDP) | “为查看了3个以上产品但未购买的用户创建PQL”<br>“向我的事件条件添加7天时间范围” |
-| 搜索和查找受众 | 按ID、名称、语义搜索查找受众；检测重复项并分析重叠 | `audience-search` | Real-Time CDP (RTCDP) | “查找所有忠诚受众”<br>“我的‘节假日购物者’区段是否存在重复项？” |
-| 估计受众规模 | 使用带有轮询的Adobe Experience Platform预览API估算PQL表达式的配置文件访问范围 | `audience-size-estimate` | Real-Time CDP (RTCDP) | “此受众有多大？”<br> “此PQL表达式的预计范围” |
-| 受众规模瀑布 | 将PQL分解为子谓词，并显示每个条件对最终受众规模的贡献 | `audience-size-waterfall` | Real-Time CDP (RTCDP) | “向我显示此PQL的瀑布图”<br>“细分每个条件如何减少受众” |
-| 发现用于定位的XDM字段 | 按名称、描述或数据值搜索字段；查看字段的生活位置和使用位置 | `field-discovery` | Real-Time CDP (RTCDP) | “我可以使用哪些字段来定位忠诚度客户？”<br> “查找与购买历史记录相关的字段” |
-| 发布/保存受众 | 通过命名约定和合规性检查将受众定义保留到Experience Platform分段服务 | `audience-publish` | Real-Time CDP (RTCDP) | “将此内容另存为草稿”<br>“发布名称为‘春季促销买家’的受众” |
+| [从自然语言创建受众](audiences/create-audience-from-natural-language.md) | 在每个阶段都通过用户批准来编排受众创建的分步过程。 这包括B2C和B2B受众。 | `audience-creation-flow` | Real-Time CDP | “创建过去30天内购买的用户受众”<br>“为加利福尼亚州的高价值忠诚度会员构建区段” |
+| 构建PQL定义 | 从XDM属性、行为事件或现有受众收集受众定义；支持聚合和时间窗口 | `segment-definition-assembly` | Real-Time CDP | “为查看了3个以上产品但未购买的用户创建PQL”<br>“向我的事件条件添加7天时间范围” |
+| 搜索和查找受众 | 按ID、名称、语义搜索查找受众；检测重复项并分析重叠；根据区段定义查找受众 | `audience-search` | Real-Time CDP | “查找所有忠诚度受众”<br>“我的‘假日购物者’受众是否存在重复项？” |
+| 估计受众规模 | 使用带有轮询的Adobe Experience Platform预览API估算PQL表达式的配置文件访问范围 | `audience-size-estimate` | Real-Time CDP | “此受众有多大？”<br> “此PQL表达式的预计范围” |
+| 受众规模瀑布 | 将PQL分解为子谓词，并显示每个条件对最终受众规模的贡献 | `audience-size-waterfall` | Real-Time CDP | “向我显示此PQL的瀑布图”<br>“细分每个条件如何减少受众” |
+| 发现用于定位的XDM字段 | 按名称、描述或数据值搜索字段；查看字段的生活位置和使用位置 | `field-discovery` | Real-Time CDP | “我可以使用哪些字段来定位忠诚度客户？”<br> “查找与购买历史记录相关的字段” |
+| 发布/保存受众 | 通过命名约定和合规性检查将受众定义保留到Experience Platform分段服务 | `audience-publish` | Real-Time CDP | “将此内容另存为草稿”<br>“发布名称为‘春季促销买家’的受众” |
+| 受众库存分布 | 检索有关当前沙盒作为仪表板的受众清单的信息，包括受众总数、受众生命周期、受众评估方法和创建趋势等详细信息。 | `audience-inventory-distribution` | Real-Time CDP | “概述我们的受众”<br>“谁创建的受众最多？” |
+| 受众库存运行状况 | 检查当前沙盒受众库的运行状况，包括激活率、过时受众、重复受众和清理候选项。 | `audience-inventory-health` | Real-Time CDP | “我们的受众库存运行状况如何？”<br> “哪些受众已过时？” |
+| 受众谱系 | 显示受众的历程，同时显示受众的上游和下游使用情况。 | `audience-lineage` | Real-Time CDP | “查找用于下游受众的受众，并向我显示该受众的完整族系。” |
+| 检测重复的受众 | 查找组织内重复的受众。 | `detect-duplicate-audience` | Real-Time CDP | “查找我组织中重复的受众。” |
 
 ## 历程
 
