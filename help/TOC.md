@@ -6,10 +6,10 @@ description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中�
 solution: Coworker
 role: Admin,User,Developer,Leader
 nudge: true
-source-git-commit: 34422092afceef569f2797f6f54d7fe133734e97
+source-git-commit: ee1ca012668a5800e6a653d64700f7a732a111b0
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 15%
+source-wordcount: '335'
+ht-degree: 14%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -89,6 +89,10 @@ ht-degree: 15%
   - 插件 {#plugins}
     - [什么是插件？](./customizations/plugins/what-are-plugins.md)
     - [管理组织的插件](./customizations/plugins/manage-plugins-for-your-org.md)
+  - 外部连接器 {#external-connectors}
+    - {hide-from-toc}[数据库精灵](./customizations/external-connectors/databricks-genie.md)
+    - {hide-from-toc}[Google广告](./customizations/external-connectors/google-ads.md)
+    - {hide-from-toc}[Snowflake Cortex AI](./customizations/external-connectors/snowflake.md)
   - 记忆 {#memory}
     - [什么是记忆？](./customizations/memory/what-is-memory.md)
 - 团队同事 {#coworker-for-teams}
