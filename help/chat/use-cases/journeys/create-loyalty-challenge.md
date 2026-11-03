@@ -1,6 +1,6 @@
 ---
 title: 创建忠诚度挑战和见解
-description: 了解同事如何帮助创建和管理忠诚度挑战、自动化受众选择以及提供见解。
+description: 了解如何使用CX Enterprise Coworker在Adobe Journey Optimizer中创建和启动忠诚度挑战。
 role: User
 level: Beginner
 doc-type: Feature Video
@@ -10,9 +10,9 @@ jira: KT-22312
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
+source-git-commit: d7f1f470a99880d46f518b42f4e766066c6fa52e
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '163'
 ht-degree: 1%
 ---
 
@@ -22,14 +22,12 @@ ht-degree: 1%
 >
 >忠诚度插件及其“挑战管理”技能仅在您的组织拥有Adobe Journey Optimizer Loyalty权利时才可用。 如果您需要访问权限，请联系您的Adobe客户团队以请求必要的授权。
 
-在本演示中，您将了解如何在同事中使用Adobe Journey Optimizer (AJO)忠诚度来简化和加快忠诚度计划管理。
- 
-此视频展示了忠诚度插件及其挑战管理技能，这是一项AI支持的功能，可帮助营销人员使用自然语言而不是手动配置用户界面中的每个设置来创建、编辑和管理忠诚度挑战。
+使用纯语言提示来创建、配置和启动CX Enterprise Coworker的忠诚度挑战。 在此视频中，了解如何设置受众、奖励和计划，自动设置历程以及查看挑战见解。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496546/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496528/?learn=on&enablevpops)
 
 ## 另请参阅
 
-- [Journey Agent](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent)，用于通过同事聊天提供的其他AJO AI功能，例如历程创建、分析和模拟。
+- [Journey Agent](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent)，用于通过同事聊天提供的其他AJO AI功能，例如历程创建、分析和模拟。
 - Adobe Journey Optimizer文档中的[忠诚度挑战管理](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#loyalty-challenge-management){target="_blank"}。
 - [更多同事聊天工作流](../workflows.md#journeys)

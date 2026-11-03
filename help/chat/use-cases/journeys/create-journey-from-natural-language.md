@@ -1,6 +1,6 @@
 ---
 title: Journey Optimizer与同事 — 生成历程
-description: 了解如何与同事一起根据自然语言提示创建Adobe Journey Optimizer历程。
+description: 了解如何使用同事从纯语言提示中草稿Adobe Journey Optimizer历程。
 feature: AI Tools
 role: User
 level: Beginner
@@ -11,21 +11,19 @@ jira: KT-22081
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
+source-git-commit: d7f1f470a99880d46f518b42f4e766066c6fa52e
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '101'
 ht-degree: 1%
 ---
 
 # 从自然语言提示生成Adobe Journey Optimizer历程
 
-传统上，构建客户历程需要跨触发器、时间规则、渠道、决策逻辑和消息传送步骤进行广泛配置。 在此视频中，您将了解Co-worker如何通过将纯语言描述转换为Adobe Journey Optimizer中完全草稿的历程来简化该过程。
- 
-通过自动化初始设置过程，团队可以花更少的时间从头开始构建历程，花更多时间优化客户体验和业务成果。
+描述您要创建的历程，并在Adobe Journey Optimizer中由同事起草该历程。 在此视频中，了解同事如何配置触发器、计时、渠道和决策逻辑，以便您能够专注于查看和优化历程。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496884/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
 
 ## 另请参阅
 
-- [Journey Agent](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent#journey-create)，在同事聊天中支持历程创建的基础AI功能。
+- [Journey Agent](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent#journey-create)，在同事聊天中支持历程创建的基础AI功能。
 - [更多同事聊天工作流](../workflows.md#journeys)

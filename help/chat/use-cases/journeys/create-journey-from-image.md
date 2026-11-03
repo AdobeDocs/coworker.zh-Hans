@@ -1,6 +1,6 @@
 ---
 title: 从图像创建历程
-description: 了解CX Enterprise Coworker如何在Adobe Journey Optimizer (AJO)中将流程图图像（例如营销团队的幻灯片）转换为准备编辑历程。
+description: 了解如何使用CX Enterprise Coworker从流程图图像创建草稿Adobe Journey Optimizer历程。
 role: User
 level: Beginner
 doc-type: Feature Video
@@ -28,14 +28,14 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: da31900f-0b2e-4267-a5f8-69290b954752
     internal-label: Customer experience management
-source-git-commit: 0ef1f562174f53393bab97a0d0c91c666810aa20
+source-git-commit: d7f1f470a99880d46f518b42f4e766066c6fa52e
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '71'
 ht-degree: 0%
 ---
 
 # 从图像创建历程
 
-了解CX Enterprise Coworker如何在Adobe Journey Optimizer中将流程图图像（例如营销团队的PowerPoint幻灯片）转换为准备编辑历程。 您将看到Co-worker如何从图像中提取提示，允许您查看和调整提示，请求触发事件，并将结果保存为与原始设计匹配的草稿。
+将流程图图像（如PowerPoint幻灯片）上传到CX Enterprise Coworker。 在此视频中，了解如何在Adobe Journey Optimizer中查看从图像提取的提示、指定触发器事件以及保存可编辑的历程草稿。
 
->[!VIDEO](https://video.tv.adobe.com/v/3504873/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3504865/?learn=on&enablevpops)

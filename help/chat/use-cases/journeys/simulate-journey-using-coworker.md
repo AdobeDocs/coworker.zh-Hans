@@ -1,6 +1,6 @@
 ---
 title: 使用同事模拟Adobe Journey Optimizer历程
-description: 了解如何使用同事模拟Adobe Journey Optimizer历程，以在发布之前测试路径、接收验证消息和审查路径覆盖范围。
+description: 了解如何使用同事模拟Adobe Journey Optimizer历程并在发布之前查看结果。
 role: User
 level: Beginner, Intermediate
 doc-type: Feature Video
@@ -20,16 +20,14 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: f3401377d82e09d194d5130458c7b86866899c11
+source-git-commit: d7f1f470a99880d46f518b42f4e766066c6fa52e
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '70'
 ht-degree: 0%
 ---
 
 # 使用同事模拟Adobe Journey Optimizer历程
 
-了解如何使用同事通过自动生成的测试配置文件和事件模拟Adobe Journey Optimizer历程。
-
-在此视频中，了解如何在发布之前测试旅程路径、接收验证消息以及查看路径覆盖率和模拟结果。
+使用同事通过自动生成测试配置文件和事件来模拟Adobe Journey Optimizer历程。 在此视频中，了解如何在发布之前测试旅程路径、接收验证消息以及查看路径覆盖率和模拟结果。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3507004?learn=on)
