@@ -4,9 +4,9 @@ description: 使用同事聊天功能查找入选内容的共同之处，将收�
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
+source-git-commit: 3cfee4503efc246c105156e3b99260912eb74d49
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '608'
 ht-degree: 1%
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 * 同事聊天已连接到您的Customer Journey Analytics数据视图或Adobe Analytics报表包。 查看[开始使用同事聊天](/help/chat/use-cases/data-insights/analytics-chat.md)分析数据。
 * 查看对要分析的数据视图或报表包的访问权限。 同事聊天从Customer Journey Analytics或Adobe Analytics继承您的权限。
-* 为Content Analytics配置的数据视图。 请参阅Customer Journey Analytics指南中的[配置Content Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/content-analytics/configuration/configuration)。
+* 为Content Analytics配置的数据视图。 请参阅Customer Journey Analytics指南中的[配置Content Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/configuration/configuration)。
 
 ## 用例
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 | 技能 | 用于 |
 | --- | --- |
-| `cja`，`analyze-content` <br/> （有限可用性） | 查找获胜内容中哪些共同点<br>将收入归因于客户看到的内容<br>跨Web和移动比较创意<br>了解哪些视觉效果可移动每个受众<p>有关详细信息，请参阅[询问有关您内容的问题](/help/chat/use-cases/data-insights/ask-content-questions.md)。</p> |
+| `cja`,`analyze-content` | 查找获胜内容中哪些共同点<br>将收入归因于客户看到的内容<br>跨Web和移动比较创意<br>了解哪些视觉效果可移动每个受众<p>有关详细信息，请参阅[询问有关您内容的问题](/help/chat/use-cases/data-insights/ask-content-questions.md)。</p> |
 
 ## 获得更好结果的提示
 
@@ -60,6 +60,6 @@ ht-degree: 1%
 
 ## 后续步骤
 
-* 要了解同事如何回答内容问题，请参阅[询问有关您内容的问题](/help/chat/use-cases/data-insights/ask-content-questions.md)（限量发布）。
+* 要了解同事如何回答内容问题，请参阅[询问有关您内容的问题](/help/chat/use-cases/data-insights/ask-content-questions.md)。
 * 有关使用同事聊天进行数据分析的概述，包括其他分析域和最佳实践，请参阅[使用同事聊天分析数据](/help/chat/use-cases/data-insights/analytics-overview.md)。
 * 若要设置同事聊天并浏览工作示例，请参阅[开始使用同事聊天分析数据](/help/chat/use-cases/data-insights/analytics-chat.md)。
