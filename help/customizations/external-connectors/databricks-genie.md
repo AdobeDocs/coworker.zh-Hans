@@ -8,9 +8,9 @@ product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 hide: true
-source-git-commit: d0099a2e082b15db77876039604d4d37e77255e2
+source-git-commit: 39953e05bb5c7fede783fa344bcc846eaaa9b933
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1577'
 ht-degree: 1%
 ---
 
@@ -66,8 +66,6 @@ ht-degree: 1%
 
 1. 打开&#x200B;**[!UICONTROL 自定义项]**，选择&#x200B;**[!UICONTROL 组织]**，然后选择&#x200B;**[!UICONTROL 外部连接器]**。 在&#x200B;**[!UICONTROL Databricks Genie]**&#x200B;卡上，选择&#x200B;**[!UICONTROL 配置]**。
 
-   ![组织外部连接器页面显示Databricks Genie卡的状态为“未配置”。](./assets/databricks-genie/org-connectors.png){width="700" zoomable="yes"}
-
 1. 在&#x200B;**[!UICONTROL Connect Databricks Genie]**&#x200B;对话框中，在&#x200B;**[!UICONTROL 服务器URL]**&#x200B;中输入工作区URL或[!DNL Genie One] MCP URL。 同事将源保存为以下格式：
 
    ```text
@@ -118,8 +116,6 @@ ht-degree: 1%
 
 1. 查看&#x200B;**[!UICONTROL 访问和权限]**，然后选择&#x200B;**[!UICONTROL 保存连接]**。 **[!UICONTROL Databricks Genie]**&#x200B;卡显示已保存&#x200B;**[!UICONTROL 配置]**。
 
-   ![组织External Connectors页面显示Databricks Genie卡片，该卡片具有配置保存状态和查看配置按钮。](./assets/databricks-genie/org-saved.png){width="700" zoomable="yes"}
-
    选择&#x200B;**[!UICONTROL 查看配置]**&#x200B;以查看工作区、身份验证、启用的工具和工具超时。 然后选择&#x200B;**[!UICONTROL 测试]**&#x200B;以检查连接。
 
    ![已保存数据库连接器详细信息，其中显示源、身份验证、具有四个允许工具的工具策略、工具超时和工具列表。](./assets/databricks-genie/org-details.png){width="700" zoomable="yes"}
@@ -133,8 +129,6 @@ ht-degree: 1%
 1. 打开&#x200B;**[!UICONTROL 自定义项]**，选择&#x200B;**[!UICONTROL 用户]**，然后选择&#x200B;**[!UICONTROL 外部连接器]**。
 
 1. 查找&#x200B;**[!UICONTROL 数据库精灵]**&#x200B;卡。 如果您的组织尚未配置连接器，则卡会显示&#x200B;**[!UICONTROL 未配置]**&#x200B;和&#x200B;**[!UICONTROL 尚不可用。 您的管理员需要设置此项。]** 成员没有&#x200B;**[!UICONTROL 配置]**&#x200B;按钮，因此请要求您的管理员[配置连接器](#configure-organization)。
-
-   ![用户外部连接器页面显示Databricks Genie卡的“未配置”状态以及管理员需要设置该卡的消息。](./assets/databricks-genie/member-not-configured.png){width="700" zoomable="yes"}
 
 1. 如果您的组织使用服务主体，则卡片显示&#x200B;**[!UICONTROL 可通过您的组织使用]**。 您无需登录。 要检查连接，请打开连接器详细信息并选择&#x200B;**[!UICONTROL 测试连接]**。
 
