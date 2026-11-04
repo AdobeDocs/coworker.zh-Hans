@@ -4,7 +4,7 @@ description: 请参阅CX Enterprise Coworker文档中的新增文章和更新视
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: e5fad76b20f2d10d32fc03131b4c18d220ed8e1e
+source-git-commit: bdee1fbac171345d41a0bcdfdaaadb025f860a55
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 1%
@@ -52,7 +52,7 @@ ht-degree: 1%
 
 **2026年10月16日**
 
-* 新： [创建、模拟和分析跨渠道历程](../chat/use-cases/journeys/create-simulate-and-analyze-a-cross-channel-journey-with-cx-enterprise-coworker-feature-video.md)
+* 新： [创建、模拟和分析跨渠道历程](../chat/use-cases/journeys/create-simulate-and-analyze-a-cross-channel-journey-with-cx-enterprise-coworker.md)
 * 新：[历程分析概述](../chat/use-cases/data-insights/journey-analysis.md)
 * 新文档：[受众和区段分析概述](../chat/use-cases/data-insights/audience-and-segment-analysis.md)
 * 新：[业务绩效概览](../chat/use-cases/data-insights/business-performance.md)
