@@ -4,9 +4,9 @@ description: 了解适用于AI平台的Adobe CX Enterprise Coworker。 探索支
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 386b8d2ef4c6f36577300b4bcfbf4c82a40292b3
+source-git-commit: b9c3e1915b1f3f182cc91452e60eea13b05f12fa
 workflow-type: tm+mt
-source-wordcount: '2028'
+source-wordcount: '2104'
 ht-degree: 1%
 ---
 
@@ -349,9 +349,10 @@ ChatGPT中的![Adobe CX Enterprise Coworker详细信息及“安装插件”按�
 
 ## 已知限制 {#known-limitations}
 
-AI平台中的同事不支持每种集成模式。
+AI平台中的Co-worker不支持Co-worker界面中的所有可用功能。
 
-* 无法使用MCP将同事连接到您自己的代理配线。
+* 您无法将Co-worker连接到本文档中列出的受支持AI平台之外的自定义代理工具。 要通过MCP请求对其他AI平台或代理功能提供支持，请联系您的Adobe代表。
+* 通过Claude访问同事时，无法使用Firefly图像生成技能。 该技能在协同工作界面中以及本文档中描述的其他受支持AI平台中仍然可用。 要使用Firefly图像生成技能，请通过同事界面或其他受支持的AI平台访问同事。
 
 ## 对AI平台中的同事进行故障诊断 {#troubleshoot}
 
