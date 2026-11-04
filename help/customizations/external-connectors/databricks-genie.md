@@ -8,9 +8,9 @@ product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 hide: true
-source-git-commit: 39953e05bb5c7fede783fa344bcc846eaaa9b933
+source-git-commit: 4f03df081c098fb1dc1044cb022663ce4d9b3d86
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1557'
 ht-degree: 1%
 ---
 
@@ -131,8 +131,6 @@ ht-degree: 1%
 1. 查找&#x200B;**[!UICONTROL 数据库精灵]**&#x200B;卡。 如果您的组织尚未配置连接器，则卡会显示&#x200B;**[!UICONTROL 未配置]**&#x200B;和&#x200B;**[!UICONTROL 尚不可用。 您的管理员需要设置此项。]** 成员没有&#x200B;**[!UICONTROL 配置]**&#x200B;按钮，因此请要求您的管理员[配置连接器](#configure-organization)。
 
 1. 如果您的组织使用服务主体，则卡片显示&#x200B;**[!UICONTROL 可通过您的组织使用]**。 您无需登录。 要检查连接，请打开连接器详细信息并选择&#x200B;**[!UICONTROL 测试连接]**。
-
-   ![用户外部连接器页面显示Databricks Genie卡，该卡可通过您的组织状态和测试按钮使用。](./assets/databricks-genie/member-connectors.png){width="700" zoomable="yes"}
 
    成功的测试显示&#x200B;**[!UICONTROL 连接成功]**&#x200B;以及可用的工具数量。
 

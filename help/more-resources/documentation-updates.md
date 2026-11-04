@@ -4,9 +4,9 @@ description: 请参阅CX Enterprise Coworker文档中的新增文章和更新视
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: df0cae9a0151501dad78527ba15fb06c57a9f9f4
+source-git-commit: e5fad76b20f2d10d32fc03131b4c18d220ed8e1e
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '363'
 ht-degree: 1%
 ---
 # 文档更新 {#documentation-updates}
@@ -14,6 +14,10 @@ ht-degree: 1%
 使用本页可在CX Enterprise Coworker文档中查找新增的和显着更新的内容。 按月列出更新，最新更新排在首位。 有关团队同事的产品更改，请参阅[团队同事发行说明](../coworker-for-teams/release-notes.md)。
 
 ## 2026年11 {#nov-2026}
+
+**2026年11月4日**
+
+* 已更新：[询问有关您内容的问题](../chat/use-cases/data-insights/ask-content-questions.md)。 具有`analyze-content`技能的内容分析现已正式推出。
 
 **2026年11月3日**
 
