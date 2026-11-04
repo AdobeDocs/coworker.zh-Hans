@@ -23,7 +23,7 @@ ht-degree: 1%
 
 描述您要创建的历程，并在Adobe Journey Optimizer中由同事起草该历程。 在此视频中，了解同事如何配置触发器、计时、渠道和决策逻辑，以便您能够专注于查看和优化历程。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496884/?captions=chi_hans&learn=on&enablevpops)
 
 ## 另请参阅
 

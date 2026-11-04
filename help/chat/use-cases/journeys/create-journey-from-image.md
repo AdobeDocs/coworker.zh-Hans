@@ -33,4 +33,4 @@ ht-degree: 0%
 
 将流程图图像（如PowerPoint幻灯片）上传到CX Enterprise Coworker。 在此视频中，了解如何在Adobe Journey Optimizer中查看从图像提取的提示、指定触发器事件以及保存可编辑的历程草稿。
 
->[!VIDEO](https://video.tv.adobe.com/v/3504865/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3504873/?captions=chi_hans&learn=on&enablevpops)
