@@ -25,7 +25,7 @@ ht-degree: 0%
 
 以下视频演示了同事如何将对话式人工智能与Customer Journey Analytics相结合。 了解如何使用自然语言提出问题、可视化结果、识别有意义的趋势以及揭示无需构建手动查询即可提高性能的因素。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496847/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496860/?captions=chi_hans&learn=on&enablevpops)
 
 ### 先决条件
 
