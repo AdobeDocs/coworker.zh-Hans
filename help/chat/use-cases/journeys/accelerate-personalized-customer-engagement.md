@@ -18,4 +18,4 @@ ht-degree: 0%
 
 了解Adobe CX Enterprise Coworker如何帮助将营销目标转化为跨Adobe应用程序的个性化客户参与历程。 了解同事如何识别相关访客受众、帮助在Adobe Journey Optimizer中创建历程以及准备促销消息，同时构建Adobe Experience Manager (AEM)和Adobe Experience Platform (AEP)中的现有功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3507060/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3507086/?captions=chi_hans&learn=on&enablevpops)
