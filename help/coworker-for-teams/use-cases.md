@@ -4,9 +4,7 @@ title: 团队协作用例
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-  - id: a17f56ef-32e3-5ef7-b044-4479a09ffbc1
-    internal-label: Coworker for teams
-source-git-commit: d786b58a4a88126d0875c504e1a8e5d6b39150e6
+source-git-commit: c016088569c32dce8357ce56f6783cd7ef84b145
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -161,4 +159,4 @@ ht-degree: 0%
 
 ## 准备好进行构建了吗？
 
-选择上面的用例，访问[创建电子邮件促销活动] (./)以进行完整的分步说明，然后再试一次。
+选择上面的用例，访问[创建电子邮件促销活动](./)以进行完整的分步说明，然后再试一次。
