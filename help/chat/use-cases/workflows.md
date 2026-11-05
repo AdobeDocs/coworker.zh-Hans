@@ -4,7 +4,7 @@ title: 同事聊天工作流
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 3cfee4503efc246c105156e3b99260912eb74d49
+source-git-commit: 41216c2254d4c98f05c608f02bc6da31da3dd3c6
 workflow-type: tm+mt
 source-wordcount: '8820'
 ht-degree: 6%
@@ -123,7 +123,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | [AA ↔ CJA数据验证](data-insights/data-validation-aa-cja.md) | 在Adobe Analytics和Customer Journey Analytics之间比较、审核和协调数据，尤其是在从Adobe Analytics升级到Customer Journey Analytics时 | `aa-cja-validation`, `cja`, `aa`, `dx-api` | ADOBE ANALYTICS + CJA | “将我的AA报表包与CJA数据视图进行比较”<br>“验证AA和CJA之间的页面视图” |
 | [将AA项目迁移到CJA](data-insights/migrate-projects-aa-cja.md)（有限可用） | 验证、映射Adobe Analytics项目及其关联的组件并将其迁移到Customer Journey Analytics，然后检查迁移状态<!-- FLAG: No dedicated skill yet; the tools run through the aa-mcp integration. Update the Skills column when a skill is released. --> | 无<br/>（使用`aa-mcp`集成） | ADOBE ANALYTICS + CJA | “我想将组件从AA迁移到CJA”<br>“我的报表包中的哪些维度和量度未映射到我的数据视图？” |
 | [验证数据集和字段质量](data-insights/data-validation-aep.md) | 对Experience Platform数据集和字段运行统计和语义验证，以在执行后或持续进行<!--TODO: confirm skill ID(s) with engineering before publishing-->时捕获数据质量问题 | `data-validation` | Adobe Experience Platform | “验证数据集Electronics Sample 1000” <br>“验证Customers_2024数据集中的电子邮件字段” |
-| 运行时间序列和因果分析 | 查询和分析受众、数据集和具有因果归因的历程的历史时间序列数据 | `operational-stats-causal-analysis` | 所有符合条件的应用程序 | “显示过去90天的受众规模趋势” <br>“为什么我的数据集行数在3月3日激增？” |
+| [运行时间序列和因果分析](audiences/why-your-audience-size-changed.md) | 查询和分析受众、数据集和具有因果归因的历程的历史时间序列数据 | `operational-stats-causal-analysis` | 所有符合条件的应用程序 | “显示过去90天的受众规模趋势” <br>“为什么我的数据集行数在3月3日激增？” |
 | 创建自定义CJA技能 | 将分析模式转变为可重用、可重复的技能，这些技能可在不同会话间持续保留 | `cja-skill-creator` | Customer Journey Analytics (CJA) | “将此每周收入分析转换为可重复使用的技能”<br>“将此技能另存为每月funnel报告的技能” |
 
 ## 受众
