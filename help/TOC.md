@@ -6,9 +6,9 @@ description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中�
 solution: Coworker
 role: Admin,User,Developer,Leader
 nudge: true
-source-git-commit: 41216c2254d4c98f05c608f02bc6da31da3dd3c6
+source-git-commit: b7d069b0ebd8fb68e3ffae62cc57d4b91dd248f5
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '359'
 ht-degree: 13%
 ---
 
@@ -59,6 +59,7 @@ ht-degree: 13%
       - [使用自然语言创建旅程](./chat/use-cases/journeys/create-journey-from-natural-language.md)
       - [从图像创建历程](./chat/use-cases/journeys/create-journey-from-image.md)
       - [使用同事模拟历程](./chat/use-cases/journeys/simulate-journey-using-coworker.md)
+      - [加快客户参与](./chat/use-cases/journeys/accelerate-personalized-customer-engagement.md)
       - [使用同事比较历程版本](./chat/use-cases/journeys/journey-version-comparison.md)
       - [创建、模拟和分析跨渠道历程](./chat/use-cases/journeys/create-simulate-and-analyze-a-cross-channel-journey-with-cx-enterprise-coworker.md)
     - 忠诚度 {#loyalty}
