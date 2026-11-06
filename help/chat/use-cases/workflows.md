@@ -4,9 +4,9 @@ title: 同事聊天工作流
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 41216c2254d4c98f05c608f02bc6da31da3dd3c6
+source-git-commit: 0d2b1c7e146114fac57a894ce1b61727456d263f
 workflow-type: tm+mt
-source-wordcount: '8820'
+source-wordcount: '9190'
 ht-degree: 6%
 ---
 # 同事聊天工作流 {#use-cases}
@@ -258,6 +258,20 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 **相关信息**
 
 * [内容管理的同事](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"}提供了有关Adobe Journey Optimizer中的内容管理工具和可用技能的详细信息。
+
+## 编排的营销活动
+
+在Adobe Journey Optimizer中，使用同事聊天功能查找和检查编排的营销活动，并呈现工作流图形。 这些技能是只读的：当前工具集不支持创建或编辑编排的营销活动，并且不支持编排的营销活动分析和性能报表。
+
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
+| --- | --- | --- | --- | --- |
+| [查找和浏览编排的营销活动](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrated/orchestrated-campaigns-coworker-skills#orchestrated-campaign-list){target="_blank"} | 列出、浏览、筛选、搜索、计数或获取编排的活动的概览，这些活动呈现为包含量度卡片、图表和活动表的仪表板 | 编排的活动列表 | Adobe Journey Optimizer (AJO) | “列出我所有编排的营销活动。”<br> “向我显示实时编排的营销活动。”<br> “有多少协调的活动使用电子邮件？” <br> “显示由Xavier创建的编排营销活动。”<br> “在生产沙盒中浏览编排的营销活动。”<br> “按状态草稿筛选编排的营销活动。” |
+| [检查编排的营销活动](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrated/orchestrated-campaigns-coworker-skills#orchestrated-campaign-get){target="_blank"} | 获取有关单个命名或标识的编排活动的所有信息：其详细信息、状态、元数据、生命周期历史记录和执行历史记录，并可视化其活动图 | 编排的营销活动获取 | Adobe Journey Optimizer (AJO) | “向我显示夏季重新参与编排的营销活动的详细信息。”<br> “谁发布了欢迎系列OC？” <br> “显示我的第3季度营销活动的生命周期历史记录。”<br> “假日促销活动编排了多少次？” <br> “为入门培训OC绘制/可视化图形。”<br> “放弃购物车计划的活动失败了吗？” |
+| [呈现工作流图](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrated/orchestrated-campaigns-coworker-skills#orchestrated-campaign-workflow-renderer){target="_blank"} | 将作为JSON有效负荷提供的工作流或业务流程图呈现为可视化图表，其中包含节点和边缘。<br> 仅当图形有效负载已存在于对话中时才使用它。<br> 要按名称或ID绘制营销活动图，请使用编排的营销活动获取。 | 编排的活动工作流渲染器 | Adobe Journey Optimizer (AJO) | “将此工作流图形呈现为图表。”<br> “将此编排图可视化。” |
+
+**相关信息**
+
+* [协调营销活动的同事](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrated/orchestrated-campaigns-coworker-skills){target="_blank"}在Adobe Journey Optimizer中为协调营销活动列表、协调营销活动获取以及协调营销活动工作流呈现器技能提供了详细指导、用例和示例提示。
 
 ## Campaign v8
 
