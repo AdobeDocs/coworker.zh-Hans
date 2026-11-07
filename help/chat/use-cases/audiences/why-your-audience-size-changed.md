@@ -30,7 +30,7 @@ ht-degree: 0%
 
 在此视频中，您将了解如何在同事中使用纯语言提示来调查Adobe Experience Platform受众在营销活动启动前的意外增长。 演练展示了因果分析如何将受众规模的变化与运营数据联系起来、排除配置变化以及提供可能的解释，而无需等待工程部门调查。
 
->[!VIDEO](https://video.tv.adobe.com/v/3507342/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3507351/?captions=chi_hans&learn=on&enablevpops)
 
 您将学习如何：
 
