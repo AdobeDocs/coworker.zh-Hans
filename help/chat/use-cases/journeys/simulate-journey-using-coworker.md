@@ -30,4 +30,4 @@ ht-degree: 0%
 
 使用同事通过自动生成测试配置文件和事件来模拟Adobe Journey Optimizer历程。 在此视频中，了解如何在发布之前测试旅程路径、接收验证消息以及查看路径覆盖率和模拟结果。
 
->[!VIDEO](https://video.tv.adobe.com/v/3507004?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3507039?captions=chi_hans&learn=on)

@@ -17,4 +17,4 @@ ht-degree: 0%
 
 了解如何使用协同工作程序比较Adobe Journey Optimizer历程的版本。 浏览可视比较和详细摘要，以识别对活动、分支和历程属性的更改，并跟踪特定更新的时间。
 
->[!VIDEO](https://video.tv.adobe.com/v/3507163/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3507254/?captions=chi_hans&learn=on&enablevpops)
