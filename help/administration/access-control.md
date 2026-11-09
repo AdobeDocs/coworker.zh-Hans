@@ -8,9 +8,9 @@ jira: KT-22980
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 96c54754b978ac1be0fc5bb0741e9ed073017953
+source-git-commit: 11db1488d950f39ccb8c8019f644e54e1f3b8fa6
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '522'
 ht-degree: 0%
 ---
 # 同事的访问控制 {#access-control}
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ## 添加同事管理员 {#add-coworker-admins}
 
-同事管理员是在[!DNL Adobe Admin Console]中为[!DNL Adobe Experience Platform]分配&#x200B;**[!UICONTROL 产品管理员]**&#x200B;角色的用户。
+同事管理员是分配了[!DNL Adobe Admin Console]中[!DNL Adobe Experience Platform]的&#x200B;**[!UICONTROL 产品管理员]**&#x200B;或&#x200B;**[!UICONTROL 系统管理员]**&#x200B;的用户。
 
 请观看本视频，了解如何添加同事管理员。
 
