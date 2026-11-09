@@ -8,9 +8,9 @@ jira: KT-22980
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 96c54754b978ac1be0fc5bb0741e9ed073017953
+source-git-commit: 11db1488d950f39ccb8c8019f644e54e1f3b8fa6
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '522'
 ht-degree: 0%
 ---
 # 同事的访问控制 {#access-control}
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您的组织必须启用才能让同事使用此功能。 有关详细信息，请参阅[同事聊天概述](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/overview)。
+>您的组织必须启用才能让同事使用此功能。 有关详细信息，请参阅[同事聊天概述](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)。
 
 ## 如何确定访问权限 {#how-access-is-determined}
 
@@ -34,11 +34,11 @@ ht-degree: 0%
 
 ## 添加同事管理员 {#add-coworker-admins}
 
-同事管理员是在[!DNL Adobe Admin Console]中为[!DNL Adobe Experience Platform]分配&#x200B;**[!UICONTROL 产品管理员]**&#x200B;角色的用户。
+同事管理员是分配了[!DNL Adobe Admin Console]中[!DNL Adobe Experience Platform]的&#x200B;**[!UICONTROL 产品管理员]**&#x200B;或&#x200B;**[!UICONTROL 系统管理员]**&#x200B;的用户。
 
 请观看本视频，了解如何添加同事管理员。
 
->[!VIDEO](https://video.tv.adobe.com/v/3507049?captions=chi_hans&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3507041?learn=on){transcript=true}
 
 ## 管理用户访问权限 {#manage-user-access}
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
    使用本视频了解如何管理同事用户。
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3507159?captions=chi_hans&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3507151?learn=on){transcript=true}
 
 4. 在同事中，使用&#x200B;**[!UICONTROL 用户]**&#x200B;管理个人的访问权限，或使用&#x200B;**[!UICONTROL 用户组]**&#x200B;管理用户组的同事访问权限。 用户组设置适用于其成员。
 
