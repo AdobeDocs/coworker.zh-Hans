@@ -4,10 +4,10 @@ title: Adobe CX Enterprise Coworker Chat概述
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
+source-git-commit: 4d1a45924304a21da9f23287c307e7616bb86219
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 6%
+source-wordcount: '546'
+ht-degree: 8%
 ---
 # 关于同事聊天 {#overview}
 
@@ -27,7 +27,7 @@ ht-degree: 6%
 
 ## AI助理的演变
 
-同事聊天是[AI助手](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/ai-assistant/ai-assistant-ui)和Adobe Experience Platform Agent Orchestrator之后的下一步。 目前，您在AI Assistant中可执行的所有操作（包括产品知识以及操作和数据洞察）均继续可用。 同事聊天添加了[构建基块](#building-blocks)，以允许对话完成工作，而不只是回答问题。
+同事聊天是[AI助手](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/ai-assistant/ai-assistant-ui)和Adobe Experience Platform Agent Orchestrator之后的下一步。 目前，您在AI Assistant中可执行的所有操作（包括产品知识以及操作和数据洞察）均继续可用。 同事聊天使用共享的[同事构建基块](/help/home.md#building-blocks)来完成对话工作，而不仅仅是回答问题。
 
 ## 聊天体验
 
@@ -54,16 +54,6 @@ ht-degree: 6%
 * _Adobe Journey Optimizer B2B Edition（即将推出）_
 * _Customer Journey Analytics B2B edition（即将推出）_
 
-## 构建基块
-
-同事聊天由同事构建块提供支持。 以下构建基块现已可用。
-
-* **企业工具：**&#x200B;将目标转换为已完成工作的引擎。 它运行一个连续的、自我纠正的循环（原因、选择技能、执行、验证、重复），从错误中恢复并并行工作，直到完成作业，而不仅仅是尝试完成。
-* **技能：**&#x200B;可重复使用的行动手册，使用纯Markdown语言轻松完成每项任务。 “同事聊天”提供当前最常见客户体验任务的技能，目标是涵盖一段时间内所有Adobe CX Enterprise应用程序的工作。
-* **MCP连接器：**&#x200B;管理跨Adobe和第三方系统操作的访问权限，并提供开箱即用的连接器和自带选项。
-* **治理：**&#x200B;审批审核、从Adobe组织继承的权限、执行操作前运行的检查以及完整的审核跟踪。
-* **内存：**&#x200B;同事聊天会跨会话学习您的偏好、决策和更正内容，范围从组织范围的规则到您的个人偏好设置，因此您使用它的次数越多，聊天就越清晰。
-
 ## 视频概述
 
->[!VIDEO](https://video.tv.adobe.com/v/3495975?captions=chi_hans&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}
