@@ -6,9 +6,9 @@ description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中�
 solution: Coworker
 role: Admin,User,Developer,Leader
 auto-video-transcripts: true
-source-git-commit: 3c5387c838bedf96b9f3a3c826b39b6f3414c229
+source-git-commit: 5377963a32db6b195349a198c4158ffb99eaeeec
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '367'
 ht-degree: 13%
 ---
 
@@ -18,6 +18,7 @@ ht-degree: 13%
 - [适用于AI平台的Adobe CX Enterprise Coworker](/help/ai-platforms.md)
 - 管理 {#administration}
   - [同事的访问控制](./administration/access-control.md)
+  - [审核同事事件](./administration/audit.md)
 - 同事聊天 {#chat}
   - [关于同事聊天](./chat/overview.md)
   - [开始使用同事聊天](./chat/ui-guide.md)
