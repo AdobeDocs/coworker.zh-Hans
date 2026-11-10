@@ -8,18 +8,20 @@ jira: KT-22980
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 756748b585685de6cd0544a46014bc44a4cddc63
+source-git-commit: d9dae093a2a6366154366a9da320f07a891114f2
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '535'
 ht-degree: 0%
 ---
 # 同事的访问控制 {#access-control}
 
 使用Adobe CX Enterprise Coworker访问控制来管理谁可以使用同事以及他们可以使用哪些功能。
 
+访问控制适用于右边栏和全屏体验中的同事。
+
 >[!NOTE]
 >
->访问控制正在逐步推广到所有具有同事访问权限的客户。 您可能尚未在组织中看到[!UICONTROL 访问控制]。 有关详细信息，请参阅[同事聊天概述](/help/chat/overview.md)。
+>访问控制正在逐步推广到所有具有同事访问权限的客户。 您可能尚未在组织中看到[!UICONTROL 访问控制]。 有关详细信息，请参阅[获取有关访问权限的帮助](#get-help-with-access)。
 
 ## 如何确定访问权限 {#how-access-is-determined}
 
@@ -34,7 +36,7 @@ ht-degree: 0%
 
 ## 同事管理员 {#add-coworker-admins}
 
-同事管理员是作为组织的系统管理员&#x200B;**[!UICONTROL 或作为[!DNL Adobe Admin Console]中[!DNL Adobe Experience Platform]的**&#x200B;[!UICONTROL &#x200B;产品管理员&#x200B;]&#x200B;**分配的用户。]**
+同事管理员是作为组织的系统管理员&#x200B;**[!UICONTROL 或作为[!DNL Adobe Admin Console]中[!DNL Adobe Experience Platform]的**[!UICONTROL &#x200B;产品管理员&#x200B;]**分配的用户。]**
 
 ## 管理用户访问权限 {#manage-user-access}
 
@@ -51,7 +53,7 @@ ht-degree: 0%
 
    使用本视频了解如何管理同事用户。
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3507159?captions=chi_hans&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3507151?learn=on){transcript=true}
 
 4. 在同事中，使用&#x200B;**[!UICONTROL 用户]**&#x200B;管理个人的访问权限，或使用&#x200B;**[!UICONTROL 用户组]**&#x200B;管理用户组的同事访问权限。 用户组设置适用于其成员。
 
