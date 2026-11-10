@@ -22,4 +22,4 @@ ht-degree: 0%
 >您的组织必须启用才能让同事使用此功能。 审计将逐步可用，并且在启动时可能没有为所有同事组织启用。 有关详细信息，请参阅[同事聊天概述](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/overview)。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3508073?learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3508100?captions=chi_hans&learn=on){transcript=true}
