@@ -8,7 +8,7 @@ jira: KT-23097
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 9a02e6d68364af452b69da12bbbe0028eaeeb4cf
+source-git-commit: 1ef0292caf8def8dcd19512eef1b7950f308d2f5
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您的组织必须启用才能让同事使用此功能。 审计将逐步可用，并且在启动时可能没有为所有同事组织启用。 有关详细信息，请参阅[同事聊天概述](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/overview)。
+>您的组织必须启用才能让同事使用此功能。 审计将逐步可用，并且在启动时可能没有为所有同事组织启用。 有关详细信息，请参阅[同事聊天概述](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3507049?captions=chi_hans&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3508073?learn=on){transcript=true}
