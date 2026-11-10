@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## 同事管理员 {#add-coworker-admins}
 
-同事管理员是作为组织的系统管理员&#x200B;**[!UICONTROL 或作为[!DNL Adobe Admin Console]中[!DNL Adobe Experience Platform]的**[!UICONTROL &#x200B;产品管理员&#x200B;]**分配的用户。]**
+同事管理员是作为组织的系统管理员&#x200B;**[!UICONTROL 或作为[!DNL Adobe Admin Console]中[!DNL Adobe Experience Platform]的**&#x200B;[!UICONTROL &#x200B;产品管理员&#x200B;]&#x200B;**分配的用户。]**
 
 ## 管理用户访问权限 {#manage-user-access}
 
