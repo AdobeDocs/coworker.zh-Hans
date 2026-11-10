@@ -8,9 +8,9 @@ jira: KT-22980
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: a14bd350d7259294368acdcb08549ea6e084f1c1
+source-git-commit: 756748b585685de6cd0544a46014bc44a4cddc63
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '520'
 ht-degree: 0%
 ---
 # 同事的访问控制 {#access-control}
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您的组织必须启用才能让同事使用此功能。 访问控制将逐步可用，并且可能不会在启动时为所有同事组织启用。 有关详细信息，请参阅[同事聊天概述](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/overview)。
+>访问控制正在逐步推广到所有具有同事访问权限的客户。 您可能尚未在组织中看到[!UICONTROL 访问控制]。 有关详细信息，请参阅[同事聊天概述](/help/chat/overview.md)。
 
 ## 如何确定访问权限 {#how-access-is-determined}
 
