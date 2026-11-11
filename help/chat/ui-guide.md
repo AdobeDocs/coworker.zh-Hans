@@ -5,7 +5,7 @@ jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 52a5bd4f877300cb0ee6b7acbb7d0d0e4fddd3db
+source-git-commit: b2a8aa48302c80efa48416dede5f5d66005b8e7c
 workflow-type: tm+mt
 source-wordcount: '2116'
 ht-degree: 3%
@@ -27,7 +27,7 @@ ht-degree: 3%
 | Customer Journey Analytics | 现在可用 | 现在可用 |
 | Customer Journey Analytics B2B edition | 现在可用 | 现在可用 |
 | Content Analytics | 现在可用 | 现在可用 |
-| Marketing Campaign Analytics | 现在可用 | 现在可用 |
+| Marketing Campaign Analytics | 现在可用 | 即将推出 |
 | Adobe Analytics | 现在可用 | 即将推出 |
 | Workfront | 现在可用 | 现在可用 |
 | 目标 | 现在可用 | 现在可用 |
