@@ -8,9 +8,9 @@ jira: KT-22980
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: d9dae093a2a6366154366a9da320f07a891114f2
+source-git-commit: ef8141ff251a2900b9f10b77942e1c9097cba59f
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '562'
 ht-degree: 0%
 ---
 # 同事的访问控制 {#access-control}
@@ -40,14 +40,20 @@ ht-degree: 0%
 
 ## 管理用户访问权限 {#manage-user-access}
 
+在同事中使用[!UICONTROL 访问控制]来管理个人或用户组的访问权限。
+
+>[!NOTE]
+>
+>每个批量操作最多选择100个用户或用户组。 导出用户时，导出仅包含已加载的用户。
+
 1. 打开同事体验。 有关说明，请参阅[登录到同事](/help/chat/ui-guide.md#sign-in)。
-2. 打开配置文件菜单，然后选择&#x200B;**[!UICONTROL 管理员设置]**。
+1. 打开配置文件菜单，然后选择&#x200B;**[!UICONTROL 管理员设置]**。
 
    ![突出显示配置文件菜单控件的同事主页。](./assets/access-control/coworker-home.png)
 
    ![突出显示管理员设置的“同事配置文件”菜单。](./assets/access-control/admin-settings.png)
 
-3. 选择&#x200B;**[!UICONTROL 访问控制]**。
+1. 选择&#x200B;**[!UICONTROL 访问控制]**。
 
    ![访问控制卡突出显示的管理员设置。](./assets/access-control/access-control.png)
 
@@ -55,7 +61,7 @@ ht-degree: 0%
 
    >[!VIDEO](https://video.tv.adobe.com/v/3507159?captions=chi_hans&learn=on){transcript=true}
 
-4. 在同事中，使用&#x200B;**[!UICONTROL 用户]**&#x200B;管理个人的访问权限，或使用&#x200B;**[!UICONTROL 用户组]**&#x200B;管理用户组的同事访问权限。 用户组设置适用于其成员。
+1. 选择&#x200B;**[!UICONTROL 用户]**&#x200B;管理个人访问权限，或选择&#x200B;**[!UICONTROL 用户组]**&#x200B;管理组访问权限。 用户组设置适用于其成员。
 
    辅助用户组与[!DNL Adobe Admin Console]组不同。 即将从[!DNL Adobe Admin Console]将用户组同步到同事。
 

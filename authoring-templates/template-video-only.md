@@ -4,14 +4,14 @@ title: 以标题大小写表示的视频页面的标题
 description: 了解如何使用Adobe CX Enterprise Coworker [执行任务]。 [要求采取行动的第二句。]
 doc-type: Feature Video
 duration: 180
-last-substantial-update: 2026-01-01T00:00:00.000Z
+last-substantial-update: 2026-01-01
 jira: KT-00000
 role: User
 level: Beginner
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
+source-git-commit: a08e1d51d2c8aec7b558b0c72efb39961b64dd6f
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -47,6 +47,13 @@ KEEP THE PAGE A SUMMARY, NOT A SECOND SET OF STEPS
   last-substantial-update together, and re-check the summary against the new video.
 - Give every H2 an explicit anchor, such as {#in-this-video}, so links stay
   stable when a heading is reworded.
+
+SUGGESTED PROMPTS TO CREATE OR UPDATE
+
+In VSC, attach a template to Github Chat (or Claude), then use these prompts (or create your own):
+
+- Update `pagename.md` to align with the layout of this template. For additional editorial guidance, see `https://experienceleague.adobe.com/en/docs/authoring-guide/using/style-guide/basic-editorial-guidance`.
+- Use this template to create a page based on source information (wiki, transcript, jira, etc.).
 -->
 
 # 句子大小写中视频页面的标题 {#page-id}
