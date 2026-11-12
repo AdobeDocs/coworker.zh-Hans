@@ -6,9 +6,9 @@ description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中�
 solution: Coworker
 role: Admin,User,Developer,Leader
 auto-video-transcripts: true
-source-git-commit: 5377963a32db6b195349a198c4158ffb99eaeeec
+source-git-commit: bafd318fee6017f992d4feab453058b5332005ce
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '373'
 ht-degree: 13%
 ---
 
@@ -57,6 +57,7 @@ ht-degree: 13%
       - [管理数据湖保留](./chat/use-cases/data-management/manage-data-lake-retention.md)
     - 受众 {#audiences}
       - [评估平台运行状况并构建受众](./chat/use-cases/audiences/create-audience-from-natural-language.md)
+      - [从构思到激活就绪的受众](./chat/use-cases/audiences/from-idea-to-activation-ready-audience-with-coworker.md)
       - [为什么我的受众会激增/减少？](./chat/use-cases/audiences/why-your-audience-size-changed.md)
     - 历程 {#journeys}
       - [使用自然语言创建旅程](./chat/use-cases/journeys/create-journey-from-natural-language.md)
