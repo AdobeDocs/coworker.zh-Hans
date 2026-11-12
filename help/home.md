@@ -4,7 +4,7 @@ description: 了解Adobe CX Enterprise Coworker，它是一个AI支持的团队�
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 4d1a45924304a21da9f23287c307e7616bb86219
+source-git-commit: abb341180786a0d250db4313ad1719a1947151ca
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 14%
@@ -13,7 +13,9 @@ ht-degree: 14%
 
 [!DNL Coworker]是一个由AI提供支持的团队成员，可重新想象组织、团队和个人的工作性质。 它自动化了客户体验和营销工作流程，使组织能够专注于实现业务目标和改善成果，而不是协调任务。 作为代理引擎， Co-worker采用了一种创新的方法来实现业务流程自动化。 它通过将企业上下文、数据、智能、协作和执行代理技能结合在一起，并内置治理和人为监督，提高了AI模型的性能和准确性。
 
-Co-worker专为运行复杂、跨职能客户体验工作流的组织而构建。 它将同事聊天和同事项目结合到一起，使从业人员能够在同事体验中从单个任务移动到完整的多团队工作流。 治理、批准和人力监督从一开始就集成在一起。 了解有关[Adobe for Business](https://business.adobe.com/cn/products/cx-enterprise-coworker.html)的更多信息。
+Co-worker专为运行复杂、跨职能客户体验工作流的组织而构建。 它将同事聊天和同事项目结合到一起，使从业人员能够在同事体验中从单个任务移动到完整的多团队工作流。 治理、批准和人力监督从一开始就集成在一起。 了解有关[Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker.html)的更多信息。
+
+<div id="recs-overview-body-1"></div>
 
 ## 构建基块 {#building-blocks}
 
@@ -101,16 +103,16 @@ Co-worker for Teams是一款独立的应用程序，适用于希望快速站起�
 
 <!--
 CARDS
-* https://experienceleague.adobe.com/zh-hans/playlists/coworker-get-started-with-chat
+* https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat
    {title = Get started with CX Enterprise Coworker Chat}
    {description = Learn the value of CX Enterprise Coworker Chat and start executing use cases.}
    {cta = Watch}
-   {image = https://video.tv.adobe.com/v/3498575?captions=chi_hans&format=jpeg}    
-*  https://experienceleague.adobe.com/zh-hans/playlists/coworker-customize-chat
+   {image = https://video.tv.adobe.com/v/3498558?format=jpeg}    
+*  https://experienceleague.adobe.com/en/playlists/coworker-customize-chat
     {title = Customize CX Enterprise Coworker Chat}
     {description = Learn how Coworker can be customized with reusable skills, enterprise integrations, plugins, and memory to deliver context-aware, personalized, and business-specific AI experiences that fits how your team works.}
     {cta = Watch}
-    {image = https://video.tv.adobe.com/v/3502340?captions=chi_hans&format=jpeg}
+    {image = https://video.tv.adobe.com/v/3502323?format=jpeg}
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
@@ -118,8 +120,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-get-started-with-chat" title="CX Enterprise Coworker Chat入门" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498575?captions=chi_hans&format=jpeg" alt="CX Enterprise Coworker Chat入门"
+                    <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" title="CX Enterprise Coworker Chat入门" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498558?format=jpeg" alt="CX Enterprise Coworker Chat入门"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -127,11 +129,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker Chat入门">开始使用CX Enterprise Coworker Chat</a>
+                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker Chat入门">开始使用CX Enterprise Coworker Chat</a>
                     </p>
                     <p class="is-size-6">了解CX Enterprise Coworker Chat的价值并开始执行用例。</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">观看</span>
                 </a>
             </div>
@@ -141,8 +143,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-customize-chat" title="自定义CX Enterprise Coworker Chat" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502340?captions=chi_hans&format=jpeg" alt="自定义CX Enterprise Coworker Chat"
+                    <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" title="自定义CX Enterprise Coworker Chat" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502323?format=jpeg" alt="自定义CX Enterprise Coworker Chat"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -150,11 +152,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="自定义CX Enterprise Coworker Chat">自定义CX Enterprise Coworker Chat</a>
+                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="自定义CX Enterprise Coworker Chat">自定义CX Enterprise Coworker Chat</a>
                     </p>
                     <p class="is-size-6">了解如何使用可重用技能、企业集成、插件和内存自定义同事，以提供适合您团队工作方式的上下文感知、个性化和特定于业务的AI体验。</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">观看</span>
                 </a>
             </div>
@@ -163,17 +165,24 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
+
+<div id="recs-overview-body-2"></div>
+<div id="recs-overview-body-3"></div>
+<div id="recs-overview-body-4"></div>
+<div id="recs-overview-body-5"></div>
+<div id="recs-overview-body-6"></div>
+
 ### 加入Experience League LIVE
 
 观看“同事解锁”系列的按需视频，了解组织如何使用同事简化客户体验工作。 每个会议都包括关于加速工作流、寻找见解和自动化任务的实用用例、实时演示和专家指导。
 
 <!--
 CARDS
-* https://experienceleague.adobe.com/zh-hans/on-demand-events/exl-live-episode-09-24-26
+* https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-09-24-26
   {title = Transforming CX Workflows with Adobe CX Enterprise Coworker}
   {description = Explore real-world use cases that demonstrate how organizations can put Coworker to work to uncover insights, create audiences, optimize journeys, and deliver customer experiences faster and more efficiently.}
   {cta = Watch}
-*  https://experienceleague.adobe.com/zh-hans/on-demand-events/exl-live-episode-10-08-26
+*  https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26
   {title = Audience and Journey B2C capabilities in Coworker}
   {description = See how Coworker can execute end-to-end workflows for customer experience orchestration, increasing productivity and simplifying otherwise technical or complex tasks.}
   {cta = Watch}
@@ -184,7 +193,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/zh-hans/on-demand-events/exl-live-episode-09-24-26" title="用Adobe CX Enterprise Coworker转换CX工作流" target="_blank" rel="referrer">
+                    <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-09-24-26" title="用Adobe CX Enterprise Coworker转换CX工作流" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3503884/?format=jpeg&nocache=1791907736815" alt="用Adobe CX Enterprise Coworker转换CX工作流"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -193,11 +202,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/zh-hans/on-demand-events/exl-live-episode-09-24-26" target="_blank" rel="referrer" title="用Adobe CX Enterprise Coworker转换CX工作流">使用Adobe CX Enterprise Coworker转换CX工作流</a>
+                        <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-09-24-26" target="_blank" rel="referrer" title="用Adobe CX Enterprise Coworker转换CX工作流">使用Adobe CX Enterprise Coworker转换CX工作流</a>
                     </p>
                     <p class="is-size-6">探索真实用例，这些用例演示组织如何让同事努力发掘见解、创建受众、优化历程以及更快、更高效地提供客户体验。</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/zh-hans/on-demand-events/exl-live-episode-09-24-26" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-09-24-26" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">观看</span>
                 </a>
             </div>
@@ -207,7 +216,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/zh-hans/on-demand-events/exl-live-episode-10-08-26" title="Co-worker中的受众和历程B2C功能" target="_blank" rel="referrer">
+                    <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26" title="Co-worker中的受众和历程B2C功能" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3504278/?format=jpeg&nocache=1791907736813" alt="Co-worker中的受众和历程B2C功能"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -216,11 +225,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/zh-hans/on-demand-events/exl-live-episode-10-08-26" target="_blank" rel="referrer" title="Co-worker中的受众和历程B2C功能">同事中的受众和历程B2C功能</a>
+                        <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26" target="_blank" rel="referrer" title="Co-worker中的受众和历程B2C功能">同事中的受众和历程B2C功能</a>
                     </p>
                     <p class="is-size-6">了解同事如何执行端到端工作流程以实现客户体验编排，从而提高生产效率并简化其他技术性或复杂的任务。</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/zh-hans/on-demand-events/exl-live-episode-10-08-26" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">观看</span>
                 </a>
             </div>
