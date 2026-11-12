@@ -59,7 +59,7 @@ ht-degree: 0%
 
    使用本视频了解如何管理同事用户。
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3507151?learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3507159?captions=chi_hans&learn=on){transcript=true}
 
 1. 选择&#x200B;**[!UICONTROL 用户]**&#x200B;管理个人访问权限，或选择&#x200B;**[!UICONTROL 用户组]**&#x200B;管理组访问权限。 用户组设置适用于其成员。
 
