@@ -6,9 +6,9 @@ description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中�
 solution: Coworker
 role: Admin,User,Developer,Leader
 auto-video-transcripts: true
-source-git-commit: bafd318fee6017f992d4feab453058b5332005ce
+source-git-commit: 3a1fbd2a3ed69c47fd4450c0c1e07bb7398f2dbe
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '380'
 ht-degree: 13%
 ---
 
@@ -82,6 +82,7 @@ ht-degree: 13%
       - [品牌合规性检查](./chat/use-cases/brand-visibility/brand-compliance.md)
       - [创作AEM Sites页面](./chat/use-cases/brand-visibility/author-web-pages.md)
       - [载入AEM Assets](./chat/use-cases/brand-visibility/onboard-aem-assets.md)
+      - [与同事一起构建资产源门户](./chat/use-cases/brand-visibility/set-up-asset-sourcing-portal.md)
       - [生成营销资产](./chat/use-cases/brand-visibility/generate-assets.md)
     - 工作流程和规划 {#workflow-and-planning}
       - [规划数字营销活动发布](./chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
