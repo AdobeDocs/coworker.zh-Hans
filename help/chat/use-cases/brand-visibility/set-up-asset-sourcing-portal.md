@@ -20,4 +20,4 @@ ht-degree: 0%
 
 了解如何与同事一起配置适用于AEM Assets的Adobe资源获取门户，并授予供应商访问限定范围的门户的权限。 在摄取资源时，映射Adobe Experience Manager Assets中的自定义元数据字段并自动同步元数据。
 
->[!VIDEO](https://video.tv.adobe.com/v/3508276/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3508284/?captions=chi_hans&learn=on&enablevpops)
