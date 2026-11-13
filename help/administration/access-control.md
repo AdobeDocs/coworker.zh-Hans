@@ -8,9 +8,9 @@ jira: KT-22980
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: ef8141ff251a2900b9f10b77942e1c9097cba59f
+source-git-commit: d3438a28430c6c845cea881e28ab8e22a636edbb
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '571'
 ht-degree: 0%
 ---
 # 同事的访问控制 {#access-control}
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## 如何确定访问权限 {#how-access-is-determined}
 
-同事访问权限由组织范围的设置和可选的用户或组覆盖控制。 组织范围的设置可启用或禁用组织中用户的同事访问权限。 默认情况下，为每个人启用访问权限。
+同事访问权限由组织范围的设置和可选的用户或组覆盖控制。 组织范围的设置可启用或禁用组织中用户的同事访问权限。 默认情况下，您的组织可能会启用或禁用访问。
 
 | 设置 | 它如何影响访问 |
 | --- | --- |
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## 同事管理员 {#add-coworker-admins}
 
-同事管理员是作为组织的系统管理员&#x200B;**[!UICONTROL 或作为[!DNL Adobe Admin Console]中[!DNL Adobe Experience Platform]的**&#x200B;[!UICONTROL &#x200B;产品管理员&#x200B;]&#x200B;**分配的用户。]**
+同事管理员是作为组织的系统管理员&#x200B;**[!UICONTROL 或作为[!DNL Adobe Admin Console]中[!DNL Adobe Experience Platform]的**[!UICONTROL &#x200B;产品管理员&#x200B;]**分配的用户。]**
 
 ## 管理用户访问权限 {#manage-user-access}
 
@@ -59,13 +59,13 @@ ht-degree: 0%
 
    使用本视频了解如何管理同事用户。
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3507159?captions=chi_hans&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3507151?learn=on){transcript=true}
 
 1. 选择&#x200B;**[!UICONTROL 用户]**&#x200B;管理个人访问权限，或选择&#x200B;**[!UICONTROL 用户组]**&#x200B;管理组访问权限。 用户组设置适用于其成员。
 
    辅助用户组与[!DNL Adobe Admin Console]组不同。 即将从[!DNL Adobe Admin Console]将用户组同步到同事。
 
-   “用户”列表包括您组织中的用户。 默认情况下，为这些用户启用了同事访问。
+   “用户”列表包括您组织中的用户。 他们的访问权限取决于贵组织的默认设置和任何用户或组覆盖。
 
    * **已启用：**&#x200B;用户或用户组处于活动状态。
    * **已禁用：**&#x200B;用户或用户组处于非活动状态。
