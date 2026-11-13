@@ -4,9 +4,9 @@ title: 同事聊天工作流
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 0d2b1c7e146114fac57a894ce1b61727456d263f
+source-git-commit: e8010a31192b717a762510d189f3a8a344b3e2fe
 workflow-type: tm+mt
-source-wordcount: '9190'
+source-wordcount: '9318'
 ht-degree: 6%
 ---
 # 同事聊天工作流 {#use-cases}
@@ -212,6 +212,18 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 **相关信息**
 
 * [Co-worker for Decisioning](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills){target="_blank"}针对Adobe Journey Optimizer中的决策技能提供了详细的指南、用例和提示最佳实践。
+
+## 进程管理器
+
+>[!AVAILABILITY]
+>
+>进程管理器处于&#x200B;**测试版**&#x200B;中。 若要了解有关进程管理器的更多信息，请阅读[进程管理器概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/process-manager/home)。
+
+| 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
+| --- | --- | --- | --- | --- |
+| Process Manager生成器 | 在“进程管理器”中设计、创建、更新、重命名和删除进程。 列出“流程管理器”的可用任务类型。 | `process-manager-builder` | 进程管理器 | “列出可在Process Manager中使用的所有进程。” |
+| 进程管理器运行操作员 | 启动运行，检查运行的状态和历史记录，了解运行失败的原因，重新运行现有运行，取消正在进行的运行。 | `process-manager-run-operator` | 进程管理器 | “检查示例流程中的运行历史记录。” |
+| 进程管理器计划程序 | 创建、更改、暂停、恢复、列出和删除Process Manager计划 | `process-manager-scheduler` | 进程管理器 | “列出示例流程的计划。” |
 
 ## 渠道
 
