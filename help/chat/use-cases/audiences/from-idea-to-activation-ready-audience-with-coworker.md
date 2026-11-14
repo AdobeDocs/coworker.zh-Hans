@@ -25,4 +25,4 @@ ht-degree: 0%
 
 了解如何使用同事将纯语言请求转换为目标营销受众。 回答澄清问题以优化受众，然后让同事直接在平台上创建受众，并准备好跨目标激活。
 
->[!VIDEO](https://video.tv.adobe.com/v/3508216/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3508224/?captions=chi_hans&learn=on&enablevpops)
