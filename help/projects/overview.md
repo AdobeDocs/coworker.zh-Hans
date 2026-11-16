@@ -82,6 +82,6 @@ ht-degree: 0%
 
 在此视频中了解同事项目。
 
->[!VIDEO](https://video.tv.adobe.com/v/3508234?learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3508243?captions=chi_hans&learn=on){transcript=true}
 
 
