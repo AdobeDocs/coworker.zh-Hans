@@ -4,10 +4,10 @@ title: Adobe CX Enterprise Coworker Chat概述
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 69468cabd86925ee6a7f3f86022ffefb26ffa66c
+source-git-commit: f2c2de80ebe4026b736463626ee8122ac88bd5c5
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 8%
+source-wordcount: '515'
+ht-degree: 10%
 ---
 # 关于同事聊天 {#overview}
 
@@ -44,7 +44,10 @@ ht-degree: 8%
 
 * Real-Time CDP B2C Edition
 * Adobe Journey Optimizer B2C Edition
-* Customer Journey Analytics B2C版
+* Customer Journey Analytics
+* Customer Journey Analytics B2B edition
+* Content Analytics
+* Marketing Campaign Analytics
 * Adobe Analytics
 * Adobe Target
 * AEM
@@ -52,8 +55,7 @@ ht-degree: 8%
 * Marketo Engage
 * _Real-Time CDP B2B edition（即将推出）_
 * _Adobe Journey Optimizer B2B Edition（即将推出）_
-* _Customer Journey Analytics B2B edition（即将推出）_
 
 ## 视频概述
 
->[!VIDEO](https://video.tv.adobe.com/v/3495975?captions=chi_hans&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}
