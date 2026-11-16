@@ -6,10 +6,10 @@ description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中�
 solution: Coworker
 role: Admin,User,Developer,Leader
 auto-video-transcripts: true
-source-git-commit: 3a1fbd2a3ed69c47fd4450c0c1e07bb7398f2dbe
+source-git-commit: 69468cabd86925ee6a7f3f86022ffefb26ffa66c
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 13%
+source-wordcount: '385'
+ht-degree: 12%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -86,6 +86,8 @@ ht-degree: 13%
       - [生成营销资产](./chat/use-cases/brand-visibility/generate-assets.md)
     - 工作流程和规划 {#workflow-and-planning}
       - [规划数字营销活动发布](./chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
+- 同事项目 {#projects}
+  - [关于同事项目](./projects/overview.md)
 - 自定义 {#customizations}
   - [自定义概述](./customizations/overview.md)
   - 技能 {#skills}
