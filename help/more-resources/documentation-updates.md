@@ -4,19 +4,38 @@ description: 请参阅CX Enterprise Coworker文档中的新增文章和更新视
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: b2a8aa48302c80efa48416dede5f5d66005b8e7c
+source-git-commit: c29ae8ac2b69dd3d5e52529875a9224cb697ebee
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 0%
+source-wordcount: '539'
+ht-degree: 1%
 ---
 # 文档更新 {#documentation-updates}
 
 使用本页可在CX Enterprise Coworker文档中查找新增的和显着更新的内容。 按月列出更新，最新更新排在首位。 有关团队同事的产品更改，请参阅[团队同事发行说明](../coworker-for-teams/release-notes.md)。
 
-## 2026年11 {#nov-2026}
+## 2026 年 11 月 {#nov-2026}
+
+**2026年11月16日**
+
+* 新： [关于同事项目](../projects/overview.md)。 同事项目处于有限可用状态。
+* 已更新：[关于同事聊天](../chat/overview.md)。 兼容的应用程序列表现在包括Customer Journey Analytics B2B edition、Content Analytics和Marketing Campaign Analytics。 该文章还链接到同事项目。
+
+**2026年11月13日**
+
+* 新：[与同事一起构建资产源门户](../chat/use-cases/brand-visibility/set-up-asset-sourcing-portal.md)
+* 已更新：[协同工作进程的访问控制](../administration/access-control.md)。 现在，该文章规定了批量操作（最多100个用户或用户组）的限制，并阐明了默认的同事访问设置。
+
+**2026年11月12日**
+
+* 已更新：[同事聊天工作流](../chat/use-cases/workflows.md)。 本文现在列出了Process Manager构建、运行和计划流程的技能。 Process Manager处于测试阶段。
+
+**2026年11月11日**
+
+* 新受众：[从创意到激活就绪的受众](../chat/use-cases/audiences/from-idea-to-activation-ready-audience-with-coworker.md)
 
 **2026年11月10日**
 
+* 新： [审核同事事件](../administration/audit.md)
 * 已更新：[开始使用同事聊天](../chat/ui-guide.md)。 可用性表现在列出了Customer Journey Analytics B2B edition、Content Analytics和Marketing Campaign Analytics。 身临其境的体验适用于这三种。 Customer Journey Analytics B2B edition和Content Analytics中提供了产品内体验，Marketing Campaign Analytics即将提供该体验。
 
 **2026年11月4日**
