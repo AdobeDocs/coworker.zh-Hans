@@ -12,9 +12,9 @@ product_v2:
     internal-label: Coworker
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
     internal-label: Journey Optimizer
-source-git-commit: b5b8b4188aaa1c81c63a2b089c5dd12b408dbcda
+source-git-commit: 195ec9f05a901294bbd3631ef91435e58f016cd0
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '162'
 ht-degree: 1%
 ---
 
@@ -31,5 +31,5 @@ ht-degree: 1%
 ## 另请参阅
 
 - [Journey Agent](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent)，用于通过同事聊天提供的其他AJO AI功能，例如历程创建、分析和模拟。
-- Adobe Journey Optimizer文档中的[忠诚度挑战管理](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#loyalty-challenge-management){target="_blank"}。
+- Adobe Journey Optimizer文档中的[忠诚度挑战管理](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-challenge-management){target="_blank"}。
 - [更多同事聊天工作流](../workflows.md#journeys)
