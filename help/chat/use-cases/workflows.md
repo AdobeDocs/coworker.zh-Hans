@@ -4,9 +4,9 @@ title: 同事聊天工作流
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 195ec9f05a901294bbd3631ef91435e58f016cd0
+source-git-commit: 0089deb08fffb7ff7318d3b8ad0d89d465999793
 workflow-type: tm+mt
-source-wordcount: '9326'
+source-wordcount: '9483'
 ht-degree: 6%
 ---
 # 同事聊天工作流 {#use-cases}
@@ -205,13 +205,16 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 ## 决策
 
+使用同事聊天管理Adobe Journey Optimizer中的决策对象：通过自然语言提示创建和维护资格规则、排名公式、频率上限表达式和决策项目。
+
 | 工作流 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| [生成、解释、模拟和优化决策规则](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills#rules-ranking){target="_blank"} | 使用自然语言创建资格规则和排名公式，并获取简单的英语解释。<br> 针对最多三个配置文件对其进行测试。<br> 重写它们以符合PQL大小限制，而无需手动编写PQL语法。 | 决策规则工作流程 | Adobe Journey Optimizer (AJO) | “创建针对第2层或以上忠诚度会员的资格规则。”<br><br>“用自然语言向我说明此规则。”<br><br>“使用测试配置文件模拟此规则。”<br><br>“为我优化此PQL规则。” |
+| [创建、管理、模拟和优化决策规则](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills#rules-ranking){target="_blank"} | 使用自然语言创建、查找、修复和删除资格规则、排名公式和优惠项频率上限表达式，并获取纯英语解释。<br> 针对最多三个配置文件验证和测试它们。<br> 重写它们以符合PQL大小限制，而无需手动编写PQL语法。 | 决策规则工作流程 | Adobe Journey Optimizer (AJO) | “创建针对第2层或以上忠诚度成员的资格规则。”<br><br>“用自然语言向我解释此规则。”<br><br>“使用测试配置文件模拟此规则。”<br><br>“为我优化此PQL规则。”<br><br>“列出排名公式。”<br><br>“创建计算点击事件的上限规则。” |
+| [创建和管理决策项](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills#decisioning-offer-item-workflow){target="_blank"} | 通过在聊天中描述决策项目（选件）来创建决策项目（选件），包括标签或标记、资格、计划、频率封顶、内容片段和自定义属性。<br> 更新、批准、取消批准、存档或永久删除项目。<br> 从CSV文件或列表同时创建或更新多个项目。 | 决策优惠项目工作流 | Adobe Journey Optimizer (AJO) | “创建以类似drc这样的名称放置的优惠上限。”<br><br>“从此CSV文件创建决策项。”<br><br>“批准夏季销售项目。”<br><br>“存档此优惠。” |
 
 **相关信息**
 
-* [Co-worker for Decisioning](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills){target="_blank"}针对Adobe Journey Optimizer中的决策技能提供了详细的指南、用例和提示最佳实践。
+* [Co-worker for Decisioning](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills){target="_blank"}针对Adobe Journey Optimizer中的决策规则工作流和决策优惠项目工作流技能提供了详细的指导、用例和提示最佳实践。
 
 ## 进程管理器
 
