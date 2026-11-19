@@ -25,7 +25,7 @@ ht-degree: 1%
 在AI平台中使用同事之前，请确认您具备以下条件。
 
 * 为您的组织配置的Adobe CX Enterprise Coworker，以及您在Adobe中拥有的对它的访问权限。
-* [Adobe CX Enterprise](https://business.adobe.com/solutions/customer-experience-orchestration.html)应用程序之一。
+* [Adobe CX Enterprise](https://business.adobe.com/cn/solutions/customer-experience-orchestration.html)应用程序之一。
 * 访问[设置同事](#set-up-coworker)中列出的AI平台。
 
 ## 数据访问和权限 {#data-access-and-permissions}
