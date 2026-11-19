@@ -6,10 +6,10 @@ description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中�
 solution: Coworker
 role: Admin,User,Developer,Leader
 auto-video-transcripts: true
-source-git-commit: 69468cabd86925ee6a7f3f86022ffefb26ffa66c
+source-git-commit: e80cad8019c00fdf6bf101f113e9bbef780d5923
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 12%
+source-wordcount: '389'
+ht-degree: 20%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -62,12 +62,12 @@ ht-degree: 12%
     - 历程 {#journeys}
       - [使用自然语言创建旅程](./chat/use-cases/journeys/create-journey-from-natural-language.md)
       - [从图像创建历程](./chat/use-cases/journeys/create-journey-from-image.md)
-      - [使用同事模拟历程](./chat/use-cases/journeys/simulate-journey-using-coworker.md)
+      - [使用 Coworker 模拟历程](./chat/use-cases/journeys/simulate-journey-using-coworker.md)
       - [加快客户参与](./chat/use-cases/journeys/accelerate-personalized-customer-engagement.md)
-      - [使用同事比较历程版本](./chat/use-cases/journeys/journey-version-comparison.md)
+      - [使用 Coworker 比较历程版本](./chat/use-cases/journeys/journey-version-comparison.md)
       - [创建、模拟和分析跨渠道历程](./chat/use-cases/journeys/create-simulate-and-analyze-a-cross-channel-journey-with-cx-enterprise-coworker.md)
     - 忠诚度 {#loyalty}
-      - [创建忠诚度挑战并显示见解](./chat/use-cases/journeys/create-loyalty-challenge.md)
+      - [创建忠诚度挑战并显示洞察](./chat/use-cases/journeys/create-loyalty-challenge.md)
     - 优化 {#optimization}
       - [启动Target活动](./chat/use-cases/optimization/target.md)
       - [加速试验](./chat/use-cases/optimization/accelerate-experimentation.md)
@@ -97,6 +97,7 @@ ht-degree: 12%
     - [管理和迭代技能](./customizations/skills/manage-and-iterate-on-skills.md)
   - 集成 {#integrations}
     - [什么是集成？](./customizations/integrations/understanding-integrations-in-coworker.md)
+    - [启用您的第一个集成](./customizations/integrations/enable-your-first-integration.md)
   - 插件 {#plugins}
     - [什么是插件？](./customizations/plugins/what-are-plugins.md)
     - [管理组织的插件](./customizations/plugins/manage-plugins-for-your-org.md)
