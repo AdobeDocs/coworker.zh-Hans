@@ -21,6 +21,6 @@ ht-degree: 8%
 
 ## 另请参阅
 
-- [历程的辅助进程：历程工具](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-tools){target="_blank"}，用于版本比较用例和示例提示。
-- [Journey Optimizer的同事技能](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}，整个Journey Optimizer的同事技能概览。
+- [历程的辅助进程：历程工具](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-tools){target="_blank"}，用于版本比较用例和示例提示。
+- [Journey Optimizer的同事技能](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}，整个Journey Optimizer的同事技能概览。
 - [更多同事聊天工作流](../workflows.md#journeys)

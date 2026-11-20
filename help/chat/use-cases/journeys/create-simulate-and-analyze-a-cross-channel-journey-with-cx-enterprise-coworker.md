@@ -26,8 +26,8 @@ ht-degree: 4%
 
 ## 另请参阅
 
-- [历程的协作者：历程创建](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-create){target="_blank"}，其中包含关键用例、提示最佳实践以及用于在Adobe Journey Optimizer中创建历程的超出范围的技能。
-- [历程的辅助进程：渠道内容创建](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#channel-content-create){target="_blank"}，用于在Adobe Journey Optimizer中生成特定于渠道的消息内容。
-- [历程的协作者：历程模拟](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-simulation){target="_blank"}，具有使用协作者模拟历程的关键用例和限制。
-- [Journey Optimizer的同事技能](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}，整个Journey Optimizer的同事技能概览。
+- [历程的协作者：历程创建](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-create){target="_blank"}，其中包含关键用例、提示最佳实践以及用于在Adobe Journey Optimizer中创建历程的超出范围的技能。
+- [历程的辅助进程：渠道内容创建](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#channel-content-create){target="_blank"}，用于在Adobe Journey Optimizer中生成特定于渠道的消息内容。
+- [历程的协作者：历程模拟](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-simulation){target="_blank"}，具有使用协作者模拟历程的关键用例和限制。
+- [Journey Optimizer的同事技能](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}，整个Journey Optimizer的同事技能概览。
 - [更多同事聊天工作流](../workflows.md#journeys)

@@ -30,8 +30,8 @@ ht-degree: 0%
 
 ## 另请参阅
 
-- [Journey Agent](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent)，用于通过同事聊天提供的其他AJO AI功能，例如历程创建、分析和模拟。
-- Adobe Journey Optimizer文档中的[忠诚度挑战管理](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-challenge-management){target="_blank"}。
-- Adobe Journey Optimizer文档中的[忠诚度分析](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-data-insight){target="_blank"}，用于查询忠诚度积分、层级和收入指标。
-- [Journey Optimizer的同事技能](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}，整个Journey Optimizer的同事技能概览。
+- [Journey Agent](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent)，用于通过同事聊天提供的其他AJO AI功能，例如历程创建、分析和模拟。
+- Adobe Journey Optimizer文档中的[忠诚度挑战管理](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-challenge-management){target="_blank"}。
+- Adobe Journey Optimizer文档中的[忠诚度分析](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-data-insight){target="_blank"}，用于查询忠诚度积分、层级和收入指标。
+- [Journey Optimizer的同事技能](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}，整个Journey Optimizer的同事技能概览。
 - [更多同事聊天工作流](../workflows.md#loyalty)

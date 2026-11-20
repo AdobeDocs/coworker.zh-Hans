@@ -27,7 +27,7 @@ ht-degree: 1%
 
 ## 另请参阅
 
-- [历程的协作者：历程创建](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-create){target="_blank"}，其中包含关键用例、提示最佳实践以及用于在Adobe Journey Optimizer中创建历程的超出范围的技能。
-- [Journey Optimizer的同事技能](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}，整个Journey Optimizer的同事技能概览。
-- [Journey Agent](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent#journey-create)，在同事聊天中支持历程创建的基础AI功能。
+- [历程的协作者：历程创建](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-create){target="_blank"}，其中包含关键用例、提示最佳实践以及用于在Adobe Journey Optimizer中创建历程的超出范围的技能。
+- [Journey Optimizer的同事技能](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}，整个Journey Optimizer的同事技能概览。
+- [Journey Agent](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent#journey-create)，在同事聊天中支持历程创建的基础AI功能。
 - [更多同事聊天工作流](../workflows.md#journeys)
