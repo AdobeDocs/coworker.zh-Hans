@@ -4,9 +4,9 @@ description: 了解适用于AI平台的Adobe CX Enterprise Coworker。 探索支
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 9210150fc17e1d10484e5aff3997dc0cfbc429de
+source-git-commit: 86f96b905c83d202ba5adbc0781582e96f61883e
 workflow-type: tm+mt
-source-wordcount: '2161'
+source-wordcount: '2157'
 ht-degree: 1%
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 1%
 在AI平台中使用同事之前，请确认您具备以下条件。
 
 * 为您的组织配置的Adobe CX Enterprise Coworker，以及您在Adobe中拥有的对它的访问权限。
-* [Adobe CX Enterprise](https://business.adobe.com/cn/solutions/customer-experience-orchestration.html)应用程序之一。
+* [Adobe CX Enterprise](https://business.adobe.com/solutions/customer-experience-orchestration.html)应用程序之一。
 * 访问[设置同事](#set-up-coworker)中列出的AI平台。
 
 ## 数据访问和权限 {#data-access-and-permissions}
 
 AI平台中的同事反映的数据和访问级别与您的Adobe身份相同。 您可以查询和查看的内容与您在Experience Platform及其相关解决方案中有权查看的内容相匹配。 同事会继承这些权限，因此AI平台集成不需要单独的权限设置。 Co-worker会返回只读见解，而不会修改您的客户数据。 在使用生成的摘要和分析做出业务决策之前，请对其进行审阅。
 
-<!-- Confirmed by PM (Siddhartha Srivastava) on 2026-09-02 for Microsoft 365 Copilot, Claude, and ChatGPT. Validate this permissions model for each additional platform before adding its setup section. -->
+<!-- Confirmed by PM (Siddhartha Srivastava) on 2026-09-02 for Microsoft Copilot, Claude, and ChatGPT. Validate this permissions model for each additional platform before adding its setup section. -->
 
 ## 主要用例 {#key-use-cases}
 
@@ -46,13 +46,13 @@ AI平台中的同事反映的数据和访问级别与您的Adobe身份相同。 
 | 优化工作流和内容 | 优化工作流并确定CX促销活动的资源和内容需求。 生成有关营销活动效果的可视化报告，而无需手动构建查询或功能板。 |
 | 更快速地协作并做出决策 | 使用建议的提示浏览受众、营销活动和Web流量。 在规划会议期间与您的团队分享见解，并在查看计划或平台时实时回答临时问题。 |
 
-<!-- Use cases approved by PM Siddhartha Srivastava on 2026-08-31 and confirmed for Microsoft 365 Copilot, Claude, and ChatGPT on 2026-09-02. Validate applicability for each additional platform before adding its setup section. -->
+<!-- Use cases approved by PM Siddhartha Srivastava on 2026-08-31 and confirmed for Microsoft Copilot, Claude, and ChatGPT on 2026-09-02. Validate applicability for each additional platform before adding its setup section. -->
 
 ## 设置同事 {#set-up-coworker}
 
 选择可用的平台获取设置说明。 安装后，请尝试[示例提示](#example-prompts)。
 
-* [Microsoft 365 Copilot](#microsoft-365-copilot)
+* [Microsoft Copilot](#microsoft-365-copilot)
 * [ChatGPT](#chatgpt)
 * [克劳德](#claude)
 * [Gemini企业版](#gemini-enterprise)
@@ -60,15 +60,15 @@ AI平台中的同事反映的数据和访问级别与您的Adobe身份相同。 
 * [IBM Watsonx Orchestrate](#ibm-watsonx-orchestrate)
 * [数据块](#databricks)
 
-### [!DNL Microsoft 365 Copilot] {#microsoft-365-copilot}
+### [!DNL Microsoft Copilot] {#microsoft-365-copilot}
 
-使用[!DNL Adobe CX Enterprise Coworker for Copilot]获取[!DNL Microsoft 365 Copilot]中的营销见解。
+使用[!DNL Adobe CX Enterprise Coworker for Copilot]获取[!DNL Microsoft Copilot]中的营销见解。
 
-在开始之前，请确认您有权访问[!DNL Microsoft 365 Copilot]。
+在开始之前，请确认您有权访问[!DNL Microsoft Copilot]。
 
 #### 设置组织访问权限 {#copilot-organization-setup}
 
-管理员必须先完成这些步骤，最终用户才能在[!DNL Microsoft 365 Copilot]中访问同事。
+管理员必须先完成这些步骤，最终用户才能在[!DNL Microsoft Copilot]中访问同事。
 
 1. 在[!DNL Microsoft 365 admin center]中，确认您的租户设置允许外部发布者构建的应用和代理。
 1. 在[!DNL Microsoft 365 admin center]和[!DNL Teams admin center]中批准&#x200B;**[!UICONTROL Adobe CX Enterprise Coworker]**。 您通常可以通过[!DNL Microsoft Commercial Marketplace]或您组织的&#x200B;**[!UICONTROL 集成应用程序]**&#x200B;列表找到代理。
@@ -80,19 +80,19 @@ AI平台中的同事反映的数据和访问级别与您的Adobe身份相同。 
 
 #### 访问同事 {#copilot-access}
 
-管理员启用同事后，您可以在[!DNL Microsoft 365 Copilot]界面（包括[!DNL Teams]、[!DNL Word]、[!DNL Excel]、[!DNL PowerPoint]和Web聊天）中访问它。
+管理员启用同事后，您可以在[!DNL Microsoft Copilot]界面（包括[!DNL Teams]、[!DNL Word]、[!DNL Excel]、[!DNL PowerPoint]和Web聊天）中访问它。
 
-在[!DNL Microsoft 365 Copilot]中，选择&#x200B;**[!UICONTROL 代理]**，然后选择&#x200B;**[!UICONTROL 更多代理]**。
+在[!DNL Microsoft Copilot]中，选择&#x200B;**[!UICONTROL 代理]**，然后选择&#x200B;**[!UICONTROL 更多代理]**。
 
-![打开Microsoft 365 Copilot的“代理”菜单并突出显示“更多代理”。](./assets/ai-platforms/copilot/copilot-agents.png)
+![打开Microsoft Copilot的“代理”菜单并突出显示“更多代理”。](./assets/ai-platforms/copilot/copilot-agents.png)
 
 接下来，在代理目录中选择&#x200B;**[!UICONTROL Adobe CX Enterprise Coworker]**。
 
-![Adobe CX Enterprise Coworker列表突出显示的Microsoft 365 Copilot代理目录。](./assets/ai-platforms/copilot/copilot-select-agent.png)
+![Microsoft Copilot代理目录中的Adobe CX Enterprise Coworker列表突出显示。](./assets/ai-platforms/copilot/copilot-select-agent.png)
 
 最后，选择&#x200B;**[!UICONTROL 添加]**&#x200B;以将同事添加到代理。
 
-![Microsoft 365 Copilot中的Adobe CX Enterprise Coworker详细信息突出显示了“添加”按钮。](./assets/ai-platforms/copilot/copilot-add-coworker.png)
+![Microsoft Copilot中的Adobe CX Enterprise Coworker详细信息，突出显示了“添加”按钮。](./assets/ai-platforms/copilot/copilot-add-coworker.png)
 
 ### [!DNL ChatGPT] {#chatgpt}
 
@@ -182,7 +182,7 @@ ChatGPT中的![Adobe CX Enterprise Coworker详细信息及“安装插件”按�
 
 1. 在[!DNL Gemini Enterprise]中，转到&#x200B;**[!UICONTROL 代理]**&#x200B;目录。
 1. 搜索Adobe CX Enterprise Coworker。
-1. Select **[!UICONTROL Adobe CX Enterprise Coworker]**，并输入提示以开始操作。
+1. 选择&#x200B;**[!UICONTROL Adobe CX Enterprise Coworker]**&#x200B;并输入提示以开始。
 
 有关想法，请探索[主要用例](#key-use-cases)和[示例提示](#example-prompts)。
 
@@ -248,8 +248,8 @@ ChatGPT中的![Adobe CX Enterprise Coworker详细信息及“安装插件”按�
 添加成员凭据以验证与您的Adobe身份的连接。
 
 1. 转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 成员凭据]**，然后选择&#x200B;**[!UICONTROL 添加成员凭据]**。
-1. Select您的同事连接，然后继续&#x200B;**[!UICONTROL 设置凭据]**。
-1. Select **[!UICONTROL 连接并保存]**，然后在出现提示时使用您的Adobe凭据登录。
+1. 选择您的同事连接并继续&#x200B;**[!UICONTROL 设置凭据]**。
+1. 选择&#x200B;**[!UICONTROL 连接并保存]**，然后在出现提示时使用您的Adobe凭据登录。
 1. 返回到[!DNL IBM watsonx Orchestrate]并确认您的凭据已成功添加。
 
 #### 注册MCP服务器 {#ibm-register-server}
@@ -266,7 +266,7 @@ ChatGPT中的![Adobe CX Enterprise Coworker详细信息及“安装插件”按�
    | [!UICONTROL MCP服务器URL] | `https://mcp.coworker.experience.adobe.io` |
    | [!UICONTROL Connection] | 您已验证的同事连接。 |
 
-1. Select **[!UICONTROL 注册]**&#x200B;并等待服务器注册和工具导入完成。
+1. 选择&#x200B;**[!UICONTROL 注册]**&#x200B;并等待服务器注册和工具导入完成。
 
    ![IBM watsonx Orchestrate使用Streamable HTTP传输和经过身份验证的连接注册协作服务器。](./assets/ai-platforms/ibm/ibm-register-mcp.png){width="700"}
 
@@ -276,8 +276,8 @@ ChatGPT中的![Adobe CX Enterprise Coworker详细信息及“安装插件”按�
 
 1. 转到&#x200B;**[!UICONTROL 活动清单]** > **[!UICONTROL 代理]**&#x200B;并打开要配置的代理。
 1. 在&#x200B;**[!UICONTROL 生成]**&#x200B;中，选择&#x200B;**[!UICONTROL 工具]**，然后选择&#x200B;**[!UICONTROL 添加工具]**。
-1. Select **[!UICONTROL MCP服务器]**，并从已注册的Co-worker服务器中查找工具。
-1. Select所需的辅助工具，然后选择&#x200B;**[!UICONTROL 添加到代理]**。
+1. 选择&#x200B;**[!UICONTROL MCP服务器]**&#x200B;并从已注册的Co-worker服务器中查找工具。
+1. 选择您需要的同事工具，然后选择&#x200B;**[!UICONTROL 添加到代理]**。
 1. 在&#x200B;**[!UICONTROL 草稿预览]**&#x200B;中输入提示并查看响应以确认连接是否正常工作。
 
 有关想法，请探索[主要用例](#key-use-cases)和[示例提示](#example-prompts)。
@@ -295,8 +295,8 @@ ChatGPT中的![Adobe CX Enterprise Coworker详细信息及“安装插件”按�
 从[!DNL Databricks Marketplace]安装协同MCP服务。
 
 1. 在[!DNL Databricks]中，转到&#x200B;**[!UICONTROL Marketplace]**&#x200B;并搜索Adobe同事。
-1. 选择&#x200B;**[!UICONTROL Adobe CX Enterprise Coworker]**，然后选择&#x200B;**[!UICONTROL 安装]**。
-1. 选择&#x200B;**[!UICONTROL 目录]**&#x200B;和&#x200B;**[!UICONTROL 架构]**，然后输入&#x200B;**[!UICONTROL MCP服务名称]**。
+1. Select **[!UICONTROL Adobe CX Enterprise Coworker]**，然后选择&#x200B;**[!UICONTROL 安装]**。
+1. Select **[!UICONTROL 目录]**&#x200B;和&#x200B;**[!UICONTROL 架构]**，然后输入&#x200B;**[!UICONTROL MCP服务名称]**。
 1. 保留由列表提供的连接设置，包括以下值。
 
    | 字段 | 值 |
@@ -334,7 +334,7 @@ ChatGPT中的![Adobe CX Enterprise Coworker详细信息及“安装插件”按�
 
 有关想法，请探索[主要用例](#key-use-cases)和[示例提示](#example-prompts)。
 
-<!-- Setup steps for Microsoft 365 Copilot, ChatGPT, and Claude reflect the real customer-facing flow confirmed by PM (Siddhartha Srivastava) on 2026-09-02: an org admin approves the connector or plugin, then end users find and add it in their platform's catalog and sign in. The previous version of this file described a manual MCP-connector setup for ChatGPT (Settings > Connectors > paste server URL) -- PM clarified that flow is for internal testing only, not the customer path, so it was removed here. -->
+<!-- Setup steps for Microsoft Copilot, ChatGPT, and Claude reflect the real customer-facing flow confirmed by PM (Siddhartha Srivastava) on 2026-09-02: an org admin approves the connector or plugin, then end users find and add it in their platform's catalog and sign in. The previous version of this file described a manual MCP-connector setup for ChatGPT (Settings > Connectors > paste server URL) -- PM clarified that flow is for internal testing only, not the customer path, so it was removed here. -->
 
 <!-- AWS Quick setup follows PM guidance from the October 28, 2026 email, "Coworker in AI Platforms screenshots - Gemini / Amazon Quick." End users connect through MCP and sign in with Adobe credentials. -->
 
