@@ -6,9 +6,9 @@ description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中�
 solution: Coworker
 role: Admin,User,Developer,Leader
 auto-video-transcripts: true
-source-git-commit: 98439066e28b43d6f97f1ac769dfb9d45e698ea9
+source-git-commit: 4c82db341547bf3009009a3fea4a88e294ce6c24
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '408'
 ht-degree: 20%
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 20%
         - [生成实施核对清单](./chat/use-cases/data-insights/intelligent-checklist.md)
         - [升级时验证AA到CJA的数据](./chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [将AA项目迁移到CJA](./chat/use-cases/data-insights/migrate-projects-aa-cja.md)
+        - [创建Content Analytics计划](./chat/use-cases/data-insights/content-analytics-implementation-plan.md)
         - [验证流媒体实施](./chat/use-cases/data-insights/streaming-media-validation.md)
         - [验证CJA报表的数据集质量](./chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
         - [验证Experience Platform数据](./chat/use-cases/data-insights/data-validation-aep.md)
