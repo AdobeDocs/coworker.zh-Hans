@@ -125,7 +125,7 @@ ht-degree: 1%
 
      1. 确保在您的应用程序中注册了&#x200B;**[!UICONTROL 重定向URL]**。 有关详细信息，请参阅[注册重定向URL](#register-redirect-url)。
      1. 输入&#x200B;**[!UICONTROL Amazon应用程序ID]**&#x200B;和&#x200B;**[!UICONTROL Amazon应用程序密钥]**。 **[!UICONTROL Amazon应用程序ID]**&#x200B;字段采用OAuth客户端ID，而不是广告商ID、经理帐户ID或[!DNL Amazon]应用程序ID。 同事将您输入的值存储为组织密钥。
-     1. 要改用已保存的凭据，请选择&#x200B;**[!UICONTROL 使用现有密码]**。 然后选择包含应用程序ID ]**的**[!UICONTROL &#x200B;密码和包含应用程序密码&#x200B;]**的**[!UICONTROL &#x200B;密码。 如果您的组织还没有密钥，请在&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 密钥]**&#x200B;中添加密钥。
+     1. 要改用已保存的凭据，请选择&#x200B;**[!UICONTROL 使用现有密码]**。 然后选择包含应用程序ID **的**&#x200B;[!UICONTROL &#x200B;密码和包含应用程序密码&#x200B;]&#x200B;**的**&#x200B;密码。 如果您的组织还没有密钥，请在&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 密钥]**&#x200B;中添加密钥。
 
      需要两个凭据。 仅在安全字段中输入凭据值。 请勿在纯值字段中输入机密引用。
 
