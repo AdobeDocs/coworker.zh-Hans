@@ -59,7 +59,7 @@ ht-degree: 0%
 
    使用本视频了解如何管理同事用户。
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3507151?learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3507159?captions=chi_hans&learn=on){transcript=true}
 
 1. 在&#x200B;**[!UICONTROL 设置默认访问权限]**&#x200B;中，打开或关闭组织的访问权限：
 
