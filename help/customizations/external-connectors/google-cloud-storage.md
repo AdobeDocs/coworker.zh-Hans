@@ -99,7 +99,7 @@ Co-worker使用以下连接设置。 请不要在“设置”对话框中输入�
 
    1. 为您的组织配置&#x200B;**[!UICONTROL 品牌]**&#x200B;和&#x200B;**[!UICONTROL 受众]**。 对于测试中的外部应用程序，将预期成员添加为测试用户。 请先完成适用的[!DNL Google]发布和验证要求，然后再进行更广泛的使用。
    1. 在&#x200B;**[!UICONTROL 数据访问]**&#x200B;中，包括`https://www.googleapis.com/auth/devstorage.read_only`作用域。 连接器不需要读写或完全控制范围。
-   1. 在&#x200B;**[!UICONTROL 客户端]**&#x200B;下，创建或选择应用程序类型&#x200B;**[!UICONTROL 设置为**[!UICONTROL  Web应用程序&#x200B;]**的OAuth客户端。]**
+   1. 在&#x200B;**[!UICONTROL 客户端]**&#x200B;下，创建或选择应用程序类型&#x200B;**[!UICONTROL 设置为**&#x200B;[!UICONTROL &#x200B; Web应用程序&#x200B;]&#x200B;**的OAuth客户端。]**
    1. 添加您复制到&#x200B;**[!UICONTROL 授权的重定向URI]**&#x200B;的重定向URL。 如果一个客户端提供多个环境，请注册每个环境的重定向URL。
    1. 通过贵组织的批准密钥处理过程获取&#x200B;**[!UICONTROL 客户端ID]**&#x200B;和&#x200B;**[!UICONTROL 客户端密钥]**。
 
