@@ -70,7 +70,7 @@ ht-degree: 0%
 | [!UICONTROL BigQuery作业用户] (`roles/bigquery.jobUser`) | 查询项目 | 运行查询作业。 |
 | [!UICONTROL BigQuery数据查看器] (`roles/bigquery.dataViewer`) | 授权的数据集或数据项目 | 读取数据和元数据。 |
 
-请勿仅授予[!UICONTROL BigQuery数据编辑器]、[!UICONTROL BigQuery数据所有者]或[!UICONTROL BigQuery管理员]使用此只读连接器。 作为附加保护，请考虑针对读写MCP工具](https://docs.cloud.google.com/mcp/prevent-read-write-tool-use)的[拒绝策略。 要求您的[!DNL Google Cloud]管理员首先查看拒绝策略的范围，因为它可能会影响其他[!DNL Google]个MCP客户端和服务。 有关详细信息，请参阅[BigQuery IAM角色和权限](https://docs.cloud.google.com/bigquery/docs/access-control)。
+请勿仅授予[!UICONTROL BigQuery数据编辑器]、[!UICONTROL BigQuery数据所有者]或[!UICONTROL BigQuery管理员]使用此只读连接器。 作为附加保护，请考虑针对读写MCP工具[&#128279;](https://docs.cloud.google.com/mcp/prevent-read-write-tool-use)的拒绝策略。 要求您的[!DNL Google Cloud]管理员首先查看拒绝策略的范围，因为它可能会影响其他[!DNL Google]个MCP客户端和服务。 有关详细信息，请参阅[BigQuery IAM角色和权限](https://docs.cloud.google.com/bigquery/docs/access-control)。
 
 ## 为您的组织配置连接器 {#configure-organization}
 
