@@ -12,10 +12,10 @@ product_v2:
     internal-label: Coworker
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
     internal-label: Journey Optimizer
-source-git-commit: 195ec9f05a901294bbd3631ef91435e58f016cd0
+source-git-commit: 44d80cde607adc9f8c688f85489dba2b932f0fbe
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 1%
+source-wordcount: '220'
+ht-degree: 0%
 ---
 
 # Adobe Journey Optimizer与同事 — 提出忠诚度挑战并显示见解
@@ -26,10 +26,12 @@ ht-degree: 1%
 
 使用纯语言提示来创建、配置和启动CX Enterprise Coworker的忠诚度挑战。 在此视频中，了解如何设置受众、奖励和计划，自动设置历程以及查看挑战见解。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496546/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496528/?learn=on&enablevpops)
 
 ## 另请参阅
 
-- [Journey Agent](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent)，用于通过同事聊天提供的其他AJO AI功能，例如历程创建、分析和模拟。
-- Adobe Journey Optimizer文档中的[忠诚度挑战管理](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-challenge-management){target="_blank"}。
-- [更多同事聊天工作流](../workflows.md#journeys)
+- [Journey Agent](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent)，用于通过同事聊天提供的其他AJO AI功能，例如历程创建、分析和模拟。
+- Adobe Journey Optimizer文档中的[忠诚度挑战管理](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-challenge-management){target="_blank"}。
+- Adobe Journey Optimizer文档中的[忠诚度分析](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-data-insight){target="_blank"}，用于查询忠诚度积分、层级和收入指标。
+- [Journey Optimizer的同事技能](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}，整个Journey Optimizer的同事技能概览。
+- [更多同事聊天工作流](../workflows.md#loyalty)

@@ -13,9 +13,9 @@ product_v2:
     internal-label: Coworker
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
     internal-label: Journey Optimizer
-source-git-commit: b5b8b4188aaa1c81c63a2b089c5dd12b408dbcda
+source-git-commit: da823df94cfeb096cfa02fd939e3025c54e6372b
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '166'
 ht-degree: 1%
 ---
 
@@ -23,9 +23,11 @@ ht-degree: 1%
 
 描述您要创建的历程，并在Adobe Journey Optimizer中由同事起草该历程。 在此视频中，了解同事如何配置触发器、计时、渠道和决策逻辑，以便您能够专注于查看和优化历程。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496884/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
 
 ## 另请参阅
 
-- [Journey Agent](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent#journey-create)，在同事聊天中支持历程创建的基础AI功能。
+- [历程的协作者：历程创建](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-create){target="_blank"}，其中包含关键用例、提示最佳实践以及用于在Adobe Journey Optimizer中创建历程的超出范围的技能。
+- [Journey Optimizer的同事技能](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}，整个Journey Optimizer的同事技能概览。
+- [Journey Agent](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent#journey-create)，在同事聊天中支持历程创建的基础AI功能。
 - [更多同事聊天工作流](../workflows.md#journeys)
