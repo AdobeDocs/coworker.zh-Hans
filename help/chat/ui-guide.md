@@ -63,7 +63,7 @@ ht-degree: 3%
 | 设置/选项 | 使用它可以 |
 | --- | --- |
 | 帐户名称和电子邮件 | 确认用于登录的Adobe帐户。 |
-| **[!UICONTROL 通知]** （铃铛图标） | 查看您的[通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-notifications-in-experience-cloud)。 |
+| **[!UICONTROL 通知]** （铃铛图标） | 查看您的[通知](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/account-preferences#subscribe-to-notifications-in-experience-cloud)。 |
 | **[!UICONTROL 主题]** | 在浅色和深色主题之间切换。 |
 | **[!UICONTROL 应用设置]** | 查看帐户详细信息和工作区设置。 |
 | **[!UICONTROL 首选项]** | 打开您的帐户[首选项](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/account-preferences)。 箭头指示页面在Co-worker外部打开。 |
