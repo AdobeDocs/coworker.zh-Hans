@@ -6,9 +6,9 @@ description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中�
 solution: Coworker
 role: Admin,User,Developer,Leader
 auto-video-transcripts: true
-source-git-commit: e80cad8019c00fdf6bf101f113e9bbef780d5923
+source-git-commit: 98439066e28b43d6f97f1ac769dfb9d45e698ea9
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '403'
 ht-degree: 20%
 ---
 
@@ -102,10 +102,17 @@ ht-degree: 20%
     - [什么是插件？](./customizations/plugins/what-are-plugins.md)
     - [管理组织的插件](./customizations/plugins/manage-plugins-for-your-org.md)
   - 外部连接器 {#external-connectors}
+    - {hide-from-toc}[Amazon 广告](./customizations/external-connectors/amazon-ads.md)
     - {hide-from-toc}[数据库精灵](./customizations/external-connectors/databricks-genie.md)
     - {hide-from-toc}[Google广告](./customizations/external-connectors/google-ads.md)
+    - {hide-from-toc}[Google BigQuery](./customizations/external-connectors/google-bigquery.md)
+    - {hide-from-toc}[Google云存储](./customizations/external-connectors/google-cloud-storage.md)
+    - {hide-from-toc}[Infobip观察者](./customizations/external-connectors/infobip-observe.md)
+    - {hide-from-toc}[Jira / Atlassian Rovo](./customizations/external-connectors/jira-atlassian-rovo.md)
     - {hide-from-toc}[Meta广告](./customizations/external-connectors/meta-ads.md)
     - {hide-from-toc}[Microsoft工作IQ](./customizations/external-connectors/microsoft-work-iq.md)
+    - {hide-from-toc}[RainFocus](./customizations/external-connectors/rainfocus.md)
+    - {hide-from-toc}[Slack](./customizations/external-connectors/slack.md)
     - {hide-from-toc}[Snowflake Cortex AI](./customizations/external-connectors/snowflake.md)
   - 记忆 {#memory}
     - [什么是记忆？](./customizations/memory/what-is-memory.md)
