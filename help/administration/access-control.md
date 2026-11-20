@@ -8,9 +8,9 @@ jira: KT-22980
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: d3438a28430c6c845cea881e28ab8e22a636edbb
+source-git-commit: 386a24a7a52efce2e36f8391b55fd044e4f44a71
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '622'
 ht-degree: 0%
 ---
 # 同事的访问控制 {#access-control}
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## 如何确定访问权限 {#how-access-is-determined}
 
-同事访问权限由组织范围的设置和可选的用户或组覆盖控制。 组织范围的设置可启用或禁用组织中用户的同事访问权限。 默认情况下，您的组织可能会启用或禁用访问。
+作为同事管理员，请使用[!UICONTROL 设置默认访问权限]来打开或关闭整个组织的同事访问权限。 您还可以为特定用户或用户组配置访问覆盖。 默认情况下，您的组织可能会启用或禁用访问。
 
 | 设置 | 它如何影响访问 |
 | --- | --- |
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## 同事管理员 {#add-coworker-admins}
 
-同事管理员是作为组织的系统管理员&#x200B;**[!UICONTROL 或作为[!DNL Adobe Admin Console]中[!DNL Adobe Experience Platform]的**&#x200B;[!UICONTROL &#x200B;产品管理员&#x200B;]&#x200B;**分配的用户。]**
+同事管理员是作为组织的系统管理员&#x200B;**[!UICONTROL 或作为[!DNL Adobe Admin Console]中[!DNL Adobe Experience Platform]的**[!UICONTROL &#x200B;产品管理员&#x200B;]**分配的用户。]**
 
 ## 管理用户访问权限 {#manage-user-access}
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->每个批量操作最多选择100个用户或用户组。 导出用户时，导出仅包含已加载的用户。
+>Select每次批量操作最多支持100个用户或用户组。 导出用户时，导出仅包含已加载的用户。
 
 1. 打开同事体验。 有关说明，请参阅[登录到同事](/help/chat/ui-guide.md#sign-in)。
 1. 打开配置文件菜单，然后选择&#x200B;**[!UICONTROL 管理员设置]**。
@@ -59,9 +59,16 @@ ht-degree: 0%
 
    使用本视频了解如何管理同事用户。
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3507159?captions=chi_hans&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3507151?learn=on){transcript=true}
 
-1. 选择&#x200B;**[!UICONTROL 用户]**&#x200B;管理个人访问权限，或选择&#x200B;**[!UICONTROL 用户组]**&#x200B;管理组访问权限。 用户组设置适用于其成员。
+1. 在&#x200B;**[!UICONTROL 设置默认访问权限]**&#x200B;中，打开或关闭组织的访问权限：
+
+   * **日期：**&#x200B;启用组织中每个人的同事访问权限，受用户或组覆盖的限制。
+   * **关闭：**&#x200B;禁用组织中每个人的协同工作访问权限，除非您允许用户或组覆盖。
+
+   要在组织访问权限关闭时向特定用户或组授予访问权限，请打开&#x200B;**[!UICONTROL 允许覆盖]**。 Select **[!UICONTROL 添加覆盖]**&#x200B;以添加应具有访问权限的用户或组。
+
+1. Select **[!UICONTROL 用户]**&#x200B;管理个人访问权限，或&#x200B;**[!UICONTROL 用户组]**&#x200B;管理组访问权限。 用户组设置适用于其成员。
 
    辅助用户组与[!DNL Adobe Admin Console]组不同。 即将从[!DNL Adobe Admin Console]将用户组同步到同事。
 
@@ -69,8 +76,6 @@ ht-degree: 0%
 
    * **已启用：**&#x200B;用户或用户组处于活动状态。
    * **已禁用：**&#x200B;用户或用户组处于非活动状态。
-
-   禁用每个人的访问权限后，打开&#x200B;**[!UICONTROL 允许覆盖]**&#x200B;并选择&#x200B;**[!UICONTROL 添加覆盖]**&#x200B;以添加仍应具有访问权限的用户或组。
 
 ## 与同事兼容的CX Enterprise应用程序中的权限 {#permissions-in-compatible-applications}
 
