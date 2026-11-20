@@ -4,9 +4,9 @@ description: 了解适用于AI平台的Adobe CX Enterprise Coworker。 探索支
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: b9c3e1915b1f3f182cc91452e60eea13b05f12fa
+source-git-commit: 9210150fc17e1d10484e5aff3997dc0cfbc429de
 workflow-type: tm+mt
-source-wordcount: '2104'
+source-wordcount: '2161'
 ht-degree: 1%
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 在AI平台中使用同事之前，请确认您具备以下条件。
 
 * 为您的组织配置的Adobe CX Enterprise Coworker，以及您在Adobe中拥有的对它的访问权限。
-* Adobe Experience Platform以及Adobe Real-Time CDP、Adobe Journey Optimizer或Adobe Customer Journey Analytics中的至少一个。
+* [Adobe CX Enterprise](https://business.adobe.com/cn/solutions/customer-experience-orchestration.html)应用程序之一。
 * 访问[设置同事](#set-up-coworker)中列出的AI平台。
 
 ## 数据访问和权限 {#data-access-and-permissions}
@@ -56,7 +56,7 @@ AI平台中的同事反映的数据和访问级别与您的Adobe身份相同。 
 * [ChatGPT](#chatgpt)
 * [克劳德](#claude)
 * [Gemini企业版](#gemini-enterprise)
-* [Amazon快速](#amazon-quick)
+* [AWS快速](#amazon-quick)
 * [IBM Watsonx Orchestrate](#ibm-watsonx-orchestrate)
 * [数据块](#databricks)
 
@@ -182,21 +182,21 @@ ChatGPT中的![Adobe CX Enterprise Coworker详细信息及“安装插件”按�
 
 1. 在[!DNL Gemini Enterprise]中，转到&#x200B;**[!UICONTROL 代理]**&#x200B;目录。
 1. 搜索Adobe CX Enterprise Coworker。
-1. 选择&#x200B;**[!UICONTROL Adobe CX Enterprise Coworker]**&#x200B;并输入提示以开始。
+1. Select **[!UICONTROL Adobe CX Enterprise Coworker]**，并输入提示以开始操作。
 
 有关想法，请探索[主要用例](#key-use-cases)和[示例提示](#example-prompts)。
 
-### [!DNL Amazon Quick] {#amazon-quick}
+### [!DNL AWS Quick] {#amazon-quick}
 
-使用同事获取[!DNL Amazon Quick]中的营销见解。
+使用同事获取[!DNL AWS Quick]中的营销见解。
 
-在开始之前，请确认您有权访问[!DNL Amazon Quick]和您的Adobe帐户。
+在开始之前，请确认您有权访问[!DNL AWS Quick]和您的Adobe帐户。
 
 #### 连接同事 {#amazon-quick-connection}
 
-使用模型上下文协议(MCP)连接[!DNL Amazon Quick]中的辅助进程。 Adobe已为此连接批准[!DNL Amazon Quick]。
+使用模型上下文协议(MCP)连接[!DNL AWS Quick]中的辅助进程。 Adobe已为此连接批准[!DNL AWS Quick]。
 
-1. 在[!DNL Amazon Quick]中，转到&#x200B;**[!UICONTROL 连接器]**。
+1. 在[!DNL AWS Quick]中，转到&#x200B;**[!UICONTROL 连接器]**。
 1. 搜索MCP并打开连接器设置。
 1. 输入`https://mcp.coworker.experience.adobe.io`作为MCP服务器URL。
 
@@ -207,7 +207,7 @@ ChatGPT中的![Adobe CX Enterprise Coworker详细信息及“安装插件”按�
 
 #### 访问同事 {#amazon-quick-access}
 
-连接同事后，在[!DNL Amazon Quick]中使用它来询问有关Adobe数据的问题。
+连接同事后，在[!DNL AWS Quick]中使用它来询问有关Adobe数据的问题。
 
 有关想法，请探索[主要用例](#key-use-cases)和[示例提示](#example-prompts)。
 
@@ -248,8 +248,8 @@ ChatGPT中的![Adobe CX Enterprise Coworker详细信息及“安装插件”按�
 添加成员凭据以验证与您的Adobe身份的连接。
 
 1. 转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 成员凭据]**，然后选择&#x200B;**[!UICONTROL 添加成员凭据]**。
-1. 选择您的同事连接并继续&#x200B;**[!UICONTROL 设置凭据]**。
-1. 选择&#x200B;**[!UICONTROL 连接并保存]**，然后在出现提示时使用您的Adobe凭据登录。
+1. Select您的同事连接，然后继续&#x200B;**[!UICONTROL 设置凭据]**。
+1. Select **[!UICONTROL 连接并保存]**，然后在出现提示时使用您的Adobe凭据登录。
 1. 返回到[!DNL IBM watsonx Orchestrate]并确认您的凭据已成功添加。
 
 #### 注册MCP服务器 {#ibm-register-server}
@@ -266,7 +266,7 @@ ChatGPT中的![Adobe CX Enterprise Coworker详细信息及“安装插件”按�
    | [!UICONTROL MCP服务器URL] | `https://mcp.coworker.experience.adobe.io` |
    | [!UICONTROL Connection] | 您已验证的同事连接。 |
 
-1. 选择&#x200B;**[!UICONTROL 注册]**&#x200B;并等待服务器注册和工具导入完成。
+1. Select **[!UICONTROL 注册]**&#x200B;并等待服务器注册和工具导入完成。
 
    ![IBM watsonx Orchestrate使用Streamable HTTP传输和经过身份验证的连接注册协作服务器。](./assets/ai-platforms/ibm/ibm-register-mcp.png){width="700"}
 
@@ -276,8 +276,8 @@ ChatGPT中的![Adobe CX Enterprise Coworker详细信息及“安装插件”按�
 
 1. 转到&#x200B;**[!UICONTROL 活动清单]** > **[!UICONTROL 代理]**&#x200B;并打开要配置的代理。
 1. 在&#x200B;**[!UICONTROL 生成]**&#x200B;中，选择&#x200B;**[!UICONTROL 工具]**，然后选择&#x200B;**[!UICONTROL 添加工具]**。
-1. 选择&#x200B;**[!UICONTROL MCP服务器]**&#x200B;并从已注册的Co-worker服务器中查找工具。
-1. 选择您需要的同事工具，然后选择&#x200B;**[!UICONTROL 添加到代理]**。
+1. Select **[!UICONTROL MCP服务器]**，并从已注册的Co-worker服务器中查找工具。
+1. Select所需的辅助工具，然后选择&#x200B;**[!UICONTROL 添加到代理]**。
 1. 在&#x200B;**[!UICONTROL 草稿预览]**&#x200B;中输入提示并查看响应以确认连接是否正常工作。
 
 有关想法，请探索[主要用例](#key-use-cases)和[示例提示](#example-prompts)。
@@ -336,7 +336,7 @@ ChatGPT中的![Adobe CX Enterprise Coworker详细信息及“安装插件”按�
 
 <!-- Setup steps for Microsoft 365 Copilot, ChatGPT, and Claude reflect the real customer-facing flow confirmed by PM (Siddhartha Srivastava) on 2026-09-02: an org admin approves the connector or plugin, then end users find and add it in their platform's catalog and sign in. The previous version of this file described a manual MCP-connector setup for ChatGPT (Settings > Connectors > paste server URL) -- PM clarified that flow is for internal testing only, not the customer path, so it was removed here. -->
 
-<!-- Amazon Quick setup follows PM guidance from the October 28, 2026 email, "Coworker in AI Platforms screenshots - Gemini / Amazon Quick." End users connect through MCP and sign in with Adobe credentials. -->
+<!-- AWS Quick setup follows PM guidance from the October 28, 2026 email, "Coworker in AI Platforms screenshots - Gemini / Amazon Quick." End users connect through MCP and sign in with Adobe credentials. -->
 
 ## 示例提示 {#example-prompts}
 
@@ -346,6 +346,17 @@ ChatGPT中的![Adobe CX Enterprise Coworker详细信息及“安装插件”按�
 * 显示上个月的量度。
 * 显示您活动的Workfront项目。
 * 显示具有忠诚度受众的历程。
+
+## 身份验证和信息源 {#authentication-and-information-sources}
+
+使用Adobe凭据登录时，选择您的组织。 Co-worker使用您的默认沙盒和数据视图作为信息源。
+
+要更改信息源，请输入以下提示之一。 将占位符替换为要使用的数据视图或沙盒的名称。
+
+* `switch dataview to <dataview>`
+* `switch sandbox to <sandbox>`
+
+同事做出响应以确认更改。 确认因AI平台而异。
 
 ## 已知限制 {#known-limitations}
 
