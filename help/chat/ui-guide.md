@@ -40,7 +40,7 @@ ht-degree: 3%
 
 使用您的Adobe凭据登录到[!DNL Coworker]。
 
-1. 使用您的Adobe ID [登录](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud#sign-in-to-cx-enterprise)到CX Enterprise。
+1. 使用您的Adobe ID [登录](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/experience-cloud#sign-in-to-cx-enterprise)到CX Enterprise。
 
    登录后，您可以从[!DNL CX Enterprise]应用程序菜单或使用直接链接打开[!DNL Coworker]：
 
